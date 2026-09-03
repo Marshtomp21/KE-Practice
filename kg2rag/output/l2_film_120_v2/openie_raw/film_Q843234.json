@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q843234",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"卧虎藏龙\",\"relation\":\"作者\",\"object\":\"王度庐\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"类型\",\"object\":\"武侠小说\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"连载开始时间\",\"object\":\"1941年3月16日\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"连载结束时间\",\"object\":\"1942年3月6日\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"连载于\",\"object\":\"青岛新民报\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"原名\",\"object\":\"卧虎藏龙传\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"出版时间\",\"object\":\"1948年3月\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"出版机构\",\"object\":\"上海励力出版社\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"册数\",\"object\":\"五册\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"所属系列\",\"object\":\"鹤铁五部\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"系列位置\",\"object\":\"第四部\"},{\"subject\":\"鹤惊昆仑\",\"relation\":\"系列前作\",\"object\":\"卧虎藏龙\"},{\"subject\":\"宝剑金钗\",\"relation\":\"系列前作\",\"object\":\"卧虎藏龙\"},{\"subject\":\"剑气珠光\",\"relation\":\"系列前作\",\"object\":\"卧虎藏龙\"},{\"subject\":\"铁骑银瓶\",\"relation\":\"系列后作\",\"object\":\"卧虎藏龙\"},{\"subject\":\"卧虎藏龙\",\"relation\":\"背景时代\",\"object\":\"清代末叶\"},{\"subject\":\"玉娇龙\",\"relation\":\"身份\",\"object\":\"九门提督之女\"},{\"subject\":\"罗小虎\",\"relation\":\"身份\",\"object\":\"沙漠大盗\"},{\"subject\":\"玉娇龙\",\"relation\":\"与罗小虎关系\",\"object\":\"因情生恋\"},{\"subject\":\"玉娇龙和罗小虎\",\"relation\":\"结局\",\"object\":\"悲剧之路\"}]}",
+      "parsed_triples": 20
+    }
+  ]
+}

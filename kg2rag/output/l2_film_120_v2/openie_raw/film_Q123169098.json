@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123169098",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"查克的一生\",\"relation\":\"导演\",\"object\":\"麦可·弗拉纳根\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"汤姆·希德勒斯顿\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"切瓦特·艾乔福\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"凯伦·吉兰\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"雅各·特伦布雷\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"马克·汉米尔\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"马修·里沃德\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"欧琳卡·乔彻\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"大卫·达斯马齐连\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"安娜丽丝·巴索\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"迈克·特鲁科\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"莫莉·奎恩\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"希瑟·兰坚坎普\"},{\"subject\":\"查克的一生\",\"relation\":\"演员\",\"object\":\"尼克·奥佛曼\"},{\"subject\":\"查克的一生\",\"relation\":\"编剧\",\"object\":\"麦可·弗拉纳根\"},{\"subject\":\"查克的一生\",\"relation\":\"制片公司\",\"object\":\"QWGmire\"},{\"subject\":\"查克的一生\",\"relation\":\"制片公司\",\"object\":\"Red Room Pictures\"},{\"subject\":\"查克的一生\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"查克的一生\",\"relation\":\"类型\",\"object\":\"科幻\"},{\"subject\":\"查克的一生\",\"relation\":\"改编自\",\"object\":\"斯蒂芬·金\"},{\"subject\":\"查克的一生\",\"relation\":\"上映年份\",\"object\":\"2024\"},{\"subject\":\"查克的一生\",\"relation\":\"首映地点\",\"object\":\"多伦多国际电影节\"},{\"subject\":\"查克的一生\",\"relation\":\"首映日期\",\"object\":\"2024年9月6日\"},{\"subject\":\"查克的一生\",\"relation\":\"获奖\",\"object\":\"大奖观众票选奖\"},{\"subject\":\"查克的一生\",\"relation\":\"美国上映日期\",\"object\":\"2025年6月6日\"}]}",
+      "parsed_triples": 25
+    }
+  ]
+}

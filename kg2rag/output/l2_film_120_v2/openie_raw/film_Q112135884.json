@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q112135884",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"仇谜小镇追缉令\",\"relation\":\"导演\",\"object\":\"迈克尔·仔哥·霍尔\"},{\"subject\":\"仇谜小镇追缉令\",\"relation\":\"编剧\",\"object\":\"迈克尔·仔哥·霍尔\"},{\"subject\":\"仇谜小镇追缉令\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"仇谜小镇追缉令\",\"relation\":\"上映年份\",\"object\":\"2024\"},{\"subject\":\"仇谜小镇追缉令\",\"relation\":\"制片国家\",\"object\":\"美国\"},{\"subject\":\"仇谜小镇追缉令\",\"relation\":\"主演\",\"object\":\"凯文·史派西\"}]}",
+      "parsed_triples": 6
+    }
+  ]
+}

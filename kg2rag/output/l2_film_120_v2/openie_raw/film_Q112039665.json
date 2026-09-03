@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q112039665",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"《厄灵镇》\",\"relation\":\"是一部\",\"object\":\"2024年美国超自然恐怖推理片\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"编剧\",\"object\":\"克里斯·斯塔克曼\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"导演\",\"object\":\"克里斯·斯塔克曼\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"执行制片人\",\"object\":\"麦可·弗拉纳根\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"主演\",\"object\":\"卡蜜儿·苏利文\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"主演\",\"object\":\"布伦丹·塞克斯顿三世\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"主演\",\"object\":\"凯斯·大卫\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"主演\",\"object\":\"罗宾·巴特利特\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"主演\",\"object\":\"麦可·贝奇\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"类型\",\"object\":\"悬疑\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"制片公司\",\"object\":\"纸街影业\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"故事创作者\",\"object\":\"克里斯·斯塔克曼\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"故事创作者\",\"object\":\"莎曼珊·伊丽莎白\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"通过平台筹集资金\",\"object\":\"Kickstarter\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"筹集金额\",\"object\":\"65万美元\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"拍摄地点\",\"object\":\"俄亥俄州\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"全球首映日期\",\"object\":\"2024年7月20日\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"首映电影节\",\"object\":\"第28届奇幻国际影展\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"定档上映日期\",\"object\":\"2025年10月24日\"},{\"subject\":\"《厄灵镇》\",\"relation\":\"发行公司\",\"object\":\"霓虹\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

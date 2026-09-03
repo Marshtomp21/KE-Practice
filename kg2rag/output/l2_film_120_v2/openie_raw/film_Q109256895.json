@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q109256895",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"来都来了\",\"relation\":\"导演\",\"object\":\"刘奋斗\"},{\"subject\":\"来都来了\",\"relation\":\"主演\",\"object\":\"廖凡\"},{\"subject\":\"来都来了\",\"relation\":\"主演\",\"object\":\"范伟\"},{\"subject\":\"来都来了\",\"relation\":\"主演\",\"object\":\"佟丽娅\"},{\"subject\":\"来都来了\",\"relation\":\"类型\",\"object\":\"喜剧\"}]}",
+      "parsed_triples": 5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q114876737",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"红色一号\",\"relation\":\"导演\",\"object\":\"杰克·卡斯丹\"},{\"subject\":\"红色一号\",\"relation\":\"演员\",\"object\":\"克里斯·埃文斯\"},{\"subject\":\"红色一号\",\"relation\":\"演员\",\"object\":\"琪兰·席普卡\"},{\"subject\":\"红色一号\",\"relation\":\"演员\",\"object\":\"刘玉玲\"},{\"subject\":\"红色一号\",\"relation\":\"演员\",\"object\":\"J·K·西蒙斯\"},{\"subject\":\"红色一号\",\"relation\":\"演员\",\"object\":\"克里斯多佛·希夫哲\"},{\"subject\":\"红色一号\",\"relation\":\"演员\",\"object\":\"邦妮·亨特\"},{\"subject\":\"红色一号\",\"relation\":\"编剧\",\"object\":\"克里斯·摩根\"},{\"subject\":\"红色一号\",\"relation\":\"制片公司\",\"object\":\"亚马逊工作室\"},{\"subject\":\"红色一号\",\"relation\":\"制片公司\",\"object\":\"侦探社公司\"},{\"subject\":\"红色一号\",\"relation\":\"制片公司\",\"object\":\"克里斯·摩根制片公司\"},{\"subject\":\"红色一号\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"红色一号\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"红色一号\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"红色一号\",\"relation\":\"上映日期\",\"object\":\"2024年11月15日\"},{\"subject\":\"红色一号\",\"relation\":\"上映平台\",\"object\":\"美国院线\"},{\"subject\":\"红色一号\",\"relation\":\"上线日期\",\"object\":\"2024年12月12日\"},{\"subject\":\"红色一号\",\"relation\":\"上线平台\",\"object\":\"Amazon Prime Video\"}]}",
+      "parsed_triples": 18
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123354208",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"网军部队\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"网军部队\",\"relation\":\"国家\",\"object\":\"韩国\"},{\"subject\":\"网军部队\",\"relation\":\"类型\",\"object\":\"犯罪剧情片\"},{\"subject\":\"网军部队\",\"relation\":\"改编自\",\"object\":\"张康明创作的同名长篇小说\"},{\"subject\":\"网军部队\",\"relation\":\"导演\",\"object\":\"安国镇\"},{\"subject\":\"网军部队\",\"relation\":\"主演\",\"object\":\"孙锡久\"},{\"subject\":\"网军部队\",\"relation\":\"主演\",\"object\":\"金圣喆\"},{\"subject\":\"网军部队\",\"relation\":\"主演\",\"object\":\"金东辉\"},{\"subject\":\"网军部队\",\"relation\":\"主演\",\"object\":\"洪庆\"},{\"subject\":\"安国镇\",\"relation\":\"凭借电影\",\"object\":\"诚实国度的爱丽丝\"},{\"subject\":\"诚实国度的爱丽丝\",\"relation\":\"获得奖项\",\"object\":\"第16届韩国全州国际电影节韩国竞赛部门大奖\"}]}",
+      "parsed_triples": 11
+    }
+  ]
+}

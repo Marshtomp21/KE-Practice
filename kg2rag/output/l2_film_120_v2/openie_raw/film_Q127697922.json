@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q127697922",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"焚城\",\"relation\":\"导演\",\"object\":\"潘耀明\"},{\"subject\":\"焚城\",\"relation\":\"演员\",\"object\":\"莫文蔚\"},{\"subject\":\"焚城\",\"relation\":\"演员\",\"object\":\"白宇\"},{\"subject\":\"焚城\",\"relation\":\"编剧\",\"object\":\"麦天枢\"},{\"subject\":\"焚城\",\"relation\":\"类型\",\"object\":\"灾难\"},{\"subject\":\"焚城\",\"relation\":\"获奖\",\"object\":\"第43届香港电影金像奖\"},{\"subject\":\"焚城\",\"relation\":\"提名\",\"object\":\"华鼎奖\"},{\"subject\":\"焚城\",\"relation\":\"提名\",\"object\":\"第43届香港电影金像奖\"},{\"subject\":\"焚城\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"焚城\",\"relation\":\"上映地区\",\"object\":\"香港\"},{\"subject\":\"焚城\",\"relation\":\"上映地区\",\"object\":\"澳门\"},{\"subject\":\"焚城\",\"relation\":\"上映地区\",\"object\":\"中国大陆\"},{\"subject\":\"焚城\",\"relation\":\"上映日期\",\"object\":\"2024年11月1日\"},{\"subject\":\"焚城\",\"relation\":\"监制\",\"object\":\"江志强\"},{\"subject\":\"焚城\",\"relation\":\"监制\",\"object\":\"刘德华\"},{\"subject\":\"焚城\",\"relation\":\"领衔主演\",\"object\":\"刘德华\"},{\"subject\":\"焚城\",\"relation\":\"领衔主演\",\"object\":\"白宇\"},{\"subject\":\"焚城\",\"relation\":\"领衔主演\",\"object\":\"莫文蔚\"}]}",
+      "parsed_triples": 18
+    }
+  ]
+}

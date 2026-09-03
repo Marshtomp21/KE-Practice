@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q190908",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"七宗罪 (电影)\",\"relation\":\"导演\",\"object\":\"大卫·芬奇\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"演员\",\"object\":\"毕·彼特\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"演员\",\"object\":\"摩根·弗里曼\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"演员\",\"object\":\"格温妮丝·帕特罗\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"演员\",\"object\":\"凯文·史贝西\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"演员\",\"object\":\"罗纳德·李·艾尔米\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"编剧\",\"object\":\"安德鲁·凯文·沃克\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"类型\",\"object\":\"悬疑\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"获奖\",\"object\":\"帝国奖最佳电影\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"提名\",\"object\":\"第68届奥斯卡金像奖\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"提名\",\"object\":\"英国电影学院奖\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"拍摄年份\",\"object\":\"1995年\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"别名\",\"object\":\"Seven\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"新加坡译名\",\"object\":\"罚七奇案\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"台湾译名\",\"object\":\"火线追缉令\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"北美票房\",\"object\":\"1亿美元\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"全球票房\",\"object\":\"3.27亿美元\"},{\"subject\":\"七宗罪 (电影)\",\"relation\":\"票房排名\",\"object\":\"95年票房第七高\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

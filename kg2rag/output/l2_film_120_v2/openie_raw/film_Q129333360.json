@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q129333360",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"公开试当真\",\"relation\":\"导演\",\"object\":\"梁奕豪\"},{\"subject\":\"公开试当真\",\"relation\":\"演员\",\"object\":\"许贤\"},{\"subject\":\"公开试当真\",\"relation\":\"演员\",\"object\":\"滕毅康\"},{\"subject\":\"公开试当真\",\"relation\":\"制片公司\",\"object\":\"试当真\"},{\"subject\":\"公开试当真\",\"relation\":\"类型\",\"object\":\"纪录\"},{\"subject\":\"公开试当真\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"公开试当真\",\"relation\":\"地区\",\"object\":\"香港\"},{\"subject\":\"公开试当真\",\"relation\":\"英语名称\",\"object\":\"Once Upon a Time in HKDSE\"},{\"subject\":\"公开试当真\",\"relation\":\"特别演出\",\"object\":\"林溢欣\"},{\"subject\":\"公开试当真\",\"relation\":\"拍摄目的\",\"object\":\"纪录一名香港学生参与2023年香港中学文凭考试（DSE）的经历及成长故事\"}]}",
+      "parsed_triples": 10
+    }
+  ]
+}

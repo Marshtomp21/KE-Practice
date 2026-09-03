@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124337179",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"琳赛·萝涵\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"伊恩·哈丁\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"克莉丝汀·钱诺维斯\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"丹·布卡廷斯基\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"编剧\",\"object\":\"海莉·德多米尼西斯\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"制片公司\",\"object\":\"好娱乐公司\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"类型\",\"object\":\"爱情\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"导演\",\"object\":\"史蒂芬·哈瑞克\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"上映日期\",\"object\":\"2024年11月27日\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"上映平台\",\"object\":\"Netflix\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"剧情\",\"object\":\"一对情侣分手多年后，在聚会上发现彼此的现任交往对象是同一家人\"},{\"subject\":\"琳赛·萝涵\",\"relation\":\"担任\",\"object\":\"执行制作人\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"强·鲁尼斯基\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"凯蒂·贝克\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"提姆·麦道斯\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"茱蒂·雷耶斯\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"演员\",\"object\":\"克里斯·帕内尔\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"属于\",\"object\":\"Netflix原创电影\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"国家\",\"object\":\"美国\"},{\"subject\":\"我瞒的圣诞\",\"relation\":\"类型\",\"object\":\"圣诞浪漫喜剧\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

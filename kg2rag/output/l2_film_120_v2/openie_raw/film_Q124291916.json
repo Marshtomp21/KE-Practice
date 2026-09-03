@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124291916",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"巴黎深渊\",\"relation\":\"导演\",\"object\":\"哈维尔·根斯\"},{\"subject\":\"巴黎深渊\",\"relation\":\"演员\",\"object\":\"贝热尼丝·贝乔\"},{\"subject\":\"巴黎深渊\",\"relation\":\"编剧\",\"object\":\"雅尼克·达汉\"},{\"subject\":\"巴黎深渊\",\"relation\":\"编剧\",\"object\":\"哈维尔·根斯\"},{\"subject\":\"巴黎深渊\",\"relation\":\"编剧\",\"object\":\"莫德·海杨格\"},{\"subject\":\"巴黎深渊\",\"relation\":\"编剧\",\"object\":\"雅尔·朗曼\"},{\"subject\":\"巴黎深渊\",\"relation\":\"制片公司\",\"object\":\"Let Me Be\"},{\"subject\":\"巴黎深渊\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"巴黎深渊\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"巴黎深渊\",\"relation\":\"上映时间\",\"object\":\"2024年6月3日\"},{\"subject\":\"巴黎深渊\",\"relation\":\"上映平台\",\"object\":\"Netflix\"},{\"subject\":\"巴黎深渊\",\"relation\":\"预算\",\"object\":\"1960万欧元\"},{\"subject\":\"贝热尼丝·贝乔\",\"relation\":\"饰演角色\",\"object\":\"悲痛的海洋生物学家\"}]}",
+      "parsed_triples": 13
+    }
+  ]
+}

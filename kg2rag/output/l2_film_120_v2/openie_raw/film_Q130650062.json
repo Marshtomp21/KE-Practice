@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q130650062",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"国有器官\",\"relation\":\"导演\",\"object\":\"章勇进\"},{\"subject\":\"国有器官\",\"relation\":\"编剧\",\"object\":\"Cindy Song\"},{\"subject\":\"国有器官\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"国有器官\",\"relation\":\"类型\",\"object\":\"纪录\"},{\"subject\":\"国有器官\",\"relation\":\"是\",\"object\":\"加拿大纪录片\"},{\"subject\":\"国有器官\",\"relation\":\"描述\",\"object\":\"中华人民共和国器官移植事件\"},{\"subject\":\"国有器官\",\"relation\":\"拍摄时长\",\"object\":\"七年\"},{\"subject\":\"国有器官\",\"relation\":\"受害者\",\"object\":\"被拘禁的中国法轮功信徒\"},{\"subject\":\"国有器官\",\"relation\":\"在台湾播出平台\",\"object\":\"friDay影音\"},{\"subject\":\"国有器官\",\"relation\":\"在台湾播出平台\",\"object\":\"LINE TV\"},{\"subject\":\"国有器官\",\"relation\":\"在台湾播出平台\",\"object\":\"MyVideo\"},{\"subject\":\"国有器官\",\"relation\":\"在台湾播出平台\",\"object\":\"LiTV 线上影视\"},{\"subject\":\"国有器官\",\"relation\":\"在台湾播出平台\",\"object\":\"Hami Video\"},{\"subject\":\"国有器官\",\"relation\":\"在台湾播出平台\",\"object\":\"CATCHPLAY+\"},{\"subject\":\"国有器官\",\"relation\":\"台湾播出日期\",\"object\":\"2025年5月16日\"}]}",
+      "parsed_triples": 15
+    }
+  ]
+}

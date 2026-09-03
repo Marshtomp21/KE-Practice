@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124485988",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"童心列车\",\"relation\":\"导演\",\"object\":\"克里斯蒂娜·科门奇尼\"},{\"subject\":\"童心列车\",\"relation\":\"演员\",\"object\":\"巴巴拉·龙基\"},{\"subject\":\"童心列车\",\"relation\":\"演员\",\"object\":\"塞雷娜·罗西\"},{\"subject\":\"童心列车\",\"relation\":\"演员\",\"object\":\"斯特凡诺·阿科尔西\"},{\"subject\":\"童心列车\",\"relation\":\"演员\",\"object\":\"弗朗切斯科·迪莱瓦\"},{\"subject\":\"童心列车\",\"relation\":\"演员\",\"object\":\"安托尼娅·特鲁波\"},{\"subject\":\"童心列车\",\"relation\":\"编剧\",\"object\":\"富里奥·安德烈奥蒂\"},{\"subject\":\"童心列车\",\"relation\":\"编剧\",\"object\":\"朱莉娅·卡伦达\"},{\"subject\":\"童心列车\",\"relation\":\"编剧\",\"object\":\"克里斯蒂娜·科门奇尼\"},{\"subject\":\"童心列车\",\"relation\":\"编剧\",\"object\":\"卡米耶·迪盖\"},{\"subject\":\"童心列车\",\"relation\":\"制片公司\",\"object\":\"Palomar\"},{\"subject\":\"童心列车\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"童心列车\",\"relation\":\"改编自\",\"object\":\"维奥拉·阿尔多内\"},{\"subject\":\"童心列车\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"童心列车\",\"relation\":\"国家\",\"object\":\"意大利\"},{\"subject\":\"童心列车\",\"relation\":\"首映日期\",\"object\":\"2024年10月20日\"},{\"subject\":\"童心列车\",\"relation\":\"首映地点\",\"object\":\"第19届罗马电影节\"},{\"subject\":\"童心列车\",\"relation\":\"播放日期\",\"object\":\"2024年12月4日\"},{\"subject\":\"童心列车\",\"relation\":\"播放平台\",\"object\":\"Netflix\"}]}",
+      "parsed_triples": 19
+    }
+  ]
+}

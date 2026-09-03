@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q190050",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"斗阵俱乐部\",\"relation\":\"导演\",\"object\":\"大卫·芬奇\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"演员\",\"object\":\"毕·彼特\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"演员\",\"object\":\"爱德华·诺顿\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"演员\",\"object\":\"海伦娜·博纳姆·卡特\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"演员\",\"object\":\"肉卷 (歌手)\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"演员\",\"object\":\"杰瑞德·莱托\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"制片公司\",\"object\":\"福斯2000 电影公司\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"制片公司\",\"object\":\"摄政企业\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"奖项\",\"object\":\"奥斯卡最佳音效剪辑奖\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"奖项\",\"object\":\"线上影评人协会\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"奖项\",\"object\":\"全英音乐奖\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"提名\",\"object\":\"奥斯卡最佳音效剪辑奖\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"提名\",\"object\":\"线上影评人协会\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"提名\",\"object\":\"全英音乐奖\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"改编自\",\"object\":\"斗阵俱乐部\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"改编自\",\"object\":\"恰克·帕拉尼克\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"上映年份\",\"object\":\"1999年\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"发行公司\",\"object\":\"二十世纪福斯\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"编剧\",\"object\":\"吉姆·乌尔斯\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"首映地点\",\"object\":\"第56届威尼斯影展\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"首映日期\",\"object\":\"1999年9月10日\"},{\"subject\":\"斗阵俱乐部\",\"relation\":\"美国发行日期\",\"object\":\"1999年10月15日\"}]}",
+      "parsed_triples": 26
+    }
+  ]
+}

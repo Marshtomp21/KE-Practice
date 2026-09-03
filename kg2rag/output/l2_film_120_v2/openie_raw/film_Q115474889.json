@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q115474889",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"异星战境\",\"relation\":\"导演\",\"object\":\"布拉德·佩顿\"},{\"subject\":\"异星战境\",\"relation\":\"演员\",\"object\":\"詹妮弗·洛佩兹\"},{\"subject\":\"异星战境\",\"relation\":\"演员\",\"object\":\"刘思慕\"},{\"subject\":\"异星战境\",\"relation\":\"演员\",\"object\":\"斯特林·K·布朗\"},{\"subject\":\"异星战境\",\"relation\":\"演员\",\"object\":\"马克·史壮\"},{\"subject\":\"异星战境\",\"relation\":\"编剧\",\"object\":\"里欧·萨达里安\"},{\"subject\":\"异星战境\",\"relation\":\"制片公司\",\"object\":\"安全屋影业\"},{\"subject\":\"异星战境\",\"relation\":\"制片公司\",\"object\":\"ASAP娱乐\"},{\"subject\":\"异星战境\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"异星战境\",\"relation\":\"类型\",\"object\":\"科幻\"},{\"subject\":\"异星战境\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"异星战境\",\"relation\":\"上映日期\",\"object\":\"2024年5月24日\"},{\"subject\":\"异星战境\",\"relation\":\"上映平台\",\"object\":\"Netflix\"}]}",
+      "parsed_triples": 13
+    }
+  ]
+}

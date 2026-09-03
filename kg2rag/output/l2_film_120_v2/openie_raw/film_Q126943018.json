@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q126943018",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"默杀\",\"relation\":\"导演\",\"object\":\"柯汶利\"},{\"subject\":\"默杀\",\"relation\":\"编剧\",\"object\":\"柯汶利\"},{\"subject\":\"默杀\",\"relation\":\"编剧\",\"object\":\"王吱吱\"},{\"subject\":\"默杀\",\"relation\":\"编剧\",\"object\":\"王祎梦\"},{\"subject\":\"默杀\",\"relation\":\"主演\",\"object\":\"王传君\"},{\"subject\":\"默杀\",\"relation\":\"主演\",\"object\":\"张钧宁\"},{\"subject\":\"默杀\",\"relation\":\"主演\",\"object\":\"吴镇宇\"},{\"subject\":\"默杀\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"默杀\",\"relation\":\"类型\",\"object\":\"悬疑\"},{\"subject\":\"默杀\",\"relation\":\"上映年份\",\"object\":\"2024\"},{\"subject\":\"默杀\",\"relation\":\"制片地区\",\"object\":\"中国大陆\"},{\"subject\":\"默杀\",\"relation\":\"获奖\",\"object\":\"中国长春电影节\"},{\"subject\":\"默杀\",\"relation\":\"特邀主演\",\"object\":\"蔡明\"},{\"subject\":\"默杀\",\"relation\":\"特邀主演\",\"object\":\"金士杰\"}]}",
+      "parsed_triples": 14
+    }
+  ]
+}

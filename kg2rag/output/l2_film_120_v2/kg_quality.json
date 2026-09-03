@@ -1,0 +1,15 @@
+{
+  "documents": 120,
+  "raw_response_documents": 120,
+  "raw_response_coverage": 1.0,
+  "nonempty_documents": 119,
+  "nonempty_document_ratio": 0.991667,
+  "total_triples": 2471,
+  "thresholds": {
+    "raw_response_coverage": 1.0,
+    "nonempty_document_ratio": 0.8,
+    "total_triples": 120
+  },
+  "passed": true,
+  "index_seconds": 12.591
+}

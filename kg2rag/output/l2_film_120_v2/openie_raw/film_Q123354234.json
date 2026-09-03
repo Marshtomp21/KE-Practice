@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123354234",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"黑带出勤中\",\"relation\":\"演员\",\"object\":\"金宇彬\"},{\"subject\":\"黑带出勤中\",\"relation\":\"演员\",\"object\":\"金成均\"},{\"subject\":\"黑带出勤中\",\"relation\":\"编剧\",\"object\":\"金周焕\"},{\"subject\":\"黑带出勤中\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"黑带出勤中\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"黑带出勤中\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"黑带出勤中\",\"relation\":\"导演\",\"object\":\"金周焕\"},{\"subject\":\"黑带出勤中\",\"relation\":\"播出平台\",\"object\":\"Netflix\"},{\"subject\":\"黑带出勤中\",\"relation\":\"播出日期\",\"object\":\"2024年9月13日\"},{\"subject\":\"黑带出勤中\",\"relation\":\"别名\",\"object\":\"武道事务官\"},{\"subject\":\"黑带出勤中\",\"relation\":\"韩语名称\",\"object\":\"무도실무관\"},{\"subject\":\"黑带出勤中\",\"relation\":\"英语名称\",\"object\":\"Officer Black Belt\"}]}",
+      "parsed_triples": 12
+    }
+  ]
+}

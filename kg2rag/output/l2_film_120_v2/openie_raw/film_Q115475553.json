@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q115475553",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"夜母\",\"relation\":\"导演\",\"object\":\"玛丽艾·海勒\"},{\"subject\":\"夜母\",\"relation\":\"演员\",\"object\":\"艾美·亚当斯\"},{\"subject\":\"夜母\",\"relation\":\"演员\",\"object\":\"史考特·麦奈利\"},{\"subject\":\"夜母\",\"relation\":\"编剧\",\"object\":\"玛丽艾·海勒\"},{\"subject\":\"夜母\",\"relation\":\"制片公司\",\"object\":\"安纳布尔纳影业\"},{\"subject\":\"夜母\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"夜母\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"夜母\",\"relation\":\"类型\",\"object\":\"家庭\"},{\"subject\":\"狂母夜\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"狂母夜\",\"relation\":\"国家\",\"object\":\"美国\"},{\"subject\":\"狂母夜\",\"relation\":\"类型\",\"object\":\"黑色喜剧\"},{\"subject\":\"狂母夜\",\"relation\":\"类型\",\"object\":\"肉体恐怖电影\"},{\"subject\":\"狂母夜\",\"relation\":\"导演\",\"object\":\"玛丽艾·海勒\"},{\"subject\":\"狂母夜\",\"relation\":\"编剧\",\"object\":\"玛丽艾·海勒\"},{\"subject\":\"狂母夜\",\"relation\":\"改编自\",\"object\":\"蕾切尔·约德尔2021年出版的同名小说\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"艾美·亚当斯\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"史考特·麦奈利\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"阿莉·帕特里克·斯诺登\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"埃米特·詹姆斯·斯诺登\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"佐伊·赵\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"玛丽·霍兰德\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"埃拉·托马斯\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"阿查纳·拉詹\"},{\"subject\":\"狂母夜\",\"relation\":\"演员\",\"object\":\"杰西卡·哈珀\"},{\"subject\":\"狂母夜\",\"relation\":\"首映日期\",\"object\":\"2024年9月7日\"},{\"subject\":\"狂母夜\",\"relation\":\"首映地点\",\"object\":\"多伦多国际电影节\"},{\"subject\":\"狂母夜\",\"relation\":\"上映日期\",\"object\":\"2024年12月6日\"},{\"subject\":\"狂母夜\",\"relation\":\"上映地点\",\"object\":\"美国\"},{\"subject\":\"狂母夜\",\"relation\":\"发行公司\",\"object\":\"探照灯影业\"}]}",
+      "parsed_triples": 29
+    }
+  ]
+}

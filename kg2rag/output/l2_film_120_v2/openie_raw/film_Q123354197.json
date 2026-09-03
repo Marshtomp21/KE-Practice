@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123354197",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"超烦特工\",\"relation\":\"导演\",\"object\":\"王崇霖\"},{\"subject\":\"超烦特工\",\"relation\":\"演员\",\"object\":\"黄冠智\"},{\"subject\":\"超烦特工\",\"relation\":\"演员\",\"object\":\"廖钦亮\"},{\"subject\":\"超烦特工\",\"relation\":\"演员\",\"object\":\"萧永裕\"},{\"subject\":\"超烦特工\",\"relation\":\"演员\",\"object\":\"何裕天\"},{\"subject\":\"超烦特工\",\"relation\":\"编剧\",\"object\":\"游智杰\"},{\"subject\":\"超烦特工\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"超烦特工\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"超烦特工\",\"relation\":\"英文名\",\"object\":\"Agent Beyond Budget\"},{\"subject\":\"超烦特工\",\"relation\":\"类型\",\"object\":\"黑色幽默的动作喜剧\"},{\"subject\":\"超烦特工\",\"relation\":\"呈现方式\",\"object\":\"剧中剧\"},{\"subject\":\"超烦特工\",\"relation\":\"导演饰演者\",\"object\":\"黄冠智\"},{\"subject\":\"超烦特工\",\"relation\":\"动作指导\",\"object\":\"洪昰颢\"},{\"subject\":\"超烦特工\",\"relation\":\"获得补助\",\"object\":\"文化部2022年积极性艺文纾困补助\"},{\"subject\":\"超烦特工\",\"relation\":\"最高补助金额\",\"object\":\"新台币250万元\"}]}",
+      "parsed_triples": 15
+    }
+  ]
+}

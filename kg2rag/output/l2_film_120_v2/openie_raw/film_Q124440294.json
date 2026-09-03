@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124440294",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"唯一的家园\",\"relation\":\"导演\",\"object\":\"哈姆丹·比拉勒\"},{\"subject\":\"唯一的家园\",\"relation\":\"导演\",\"object\":\"拉谢尔·瑟尔\"},{\"subject\":\"唯一的家园\",\"relation\":\"编剧\",\"object\":\"巴西勒·阿德拉\"},{\"subject\":\"唯一的家园\",\"relation\":\"编剧\",\"object\":\"哈姆丹·比拉勒\"},{\"subject\":\"唯一的家园\",\"relation\":\"编剧\",\"object\":\"尤瓦尔·亚伯拉罕\"},{\"subject\":\"唯一的家园\",\"relation\":\"编剧\",\"object\":\"拉谢尔·瑟尔\"},{\"subject\":\"唯一的家园\",\"relation\":\"制片公司\",\"object\":\"Yabayay Media\"},{\"subject\":\"唯一的家园\",\"relation\":\"制片公司\",\"object\":\"Antipode Films\"},{\"subject\":\"唯一的家园\",\"relation\":\"类型\",\"object\":\"纪录\"},{\"subject\":\"唯一的家园\",\"relation\":\"奖项\",\"object\":\"奥斯卡最佳纪录片获奖电影\"},{\"subject\":\"唯一的家园\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"唯一的家园\",\"relation\":\"导演\",\"object\":\"巴西勒·阿德拉\"},{\"subject\":\"唯一的家园\",\"relation\":\"导演\",\"object\":\"尤瓦尔·亚伯拉罕\"},{\"subject\":\"唯一的家园\",\"relation\":\"导演身份\",\"object\":\"首部作品\"},{\"subject\":\"巴西勒·阿德拉\",\"relation\":\"来自\",\"object\":\"巴勒斯坦\"},{\"subject\":\"哈姆丹·比拉勒\",\"relation\":\"来自\",\"object\":\"巴勒斯坦\"},{\"subject\":\"尤瓦尔·亚伯拉罕\",\"relation\":\"来自\",\"object\":\"以色列\"},{\"subject\":\"拉谢尔·瑟尔\",\"relation\":\"来自\",\"object\":\"以色列\"}]}",
+      "parsed_triples": 18
+    }
+  ]
+}

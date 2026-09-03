@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q138874633",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"诡屋\",\"relation\":\"导演\",\"object\":\"石川淳一\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"间宫祥太朗\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"佐藤二朗\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"川荣李奈\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"长田成哉\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"DJ松永\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"泷本美织\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"根岸季衣\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"高岛政伸\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"齐藤由贵\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"石坂浩二\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"长井短\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"髙嶋政伸\"},{\"subject\":\"诡屋\",\"relation\":\"演员\",\"object\":\"斉藤由贵\"},{\"subject\":\"诡屋\",\"relation\":\"编剧\",\"object\":\"丑尾健太郎\"},{\"subject\":\"诡屋\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"诡屋\",\"relation\":\"类型\",\"object\":\"悬疑\"},{\"subject\":\"诡屋\",\"relation\":\"作者\",\"object\":\"雨穴\"},{\"subject\":\"诡屋\",\"relation\":\"出版日期\",\"object\":\"2021年7月20日\"},{\"subject\":\"诡屋2：11张平面图\",\"relation\":\"出版日期\",\"object\":\"2023年12月19日\"},{\"subject\":\"诡屋\",\"relation\":\"改编真人电影上映日期\",\"object\":\"2024年3月15日\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

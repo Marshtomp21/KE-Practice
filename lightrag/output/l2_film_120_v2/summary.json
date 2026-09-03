@@ -1,0 +1,549 @@
+{
+  "method": "LightRAG v1.5.7 API-adapted L2 v2",
+  "corpus": "l2_film_120_v2",
+  "documents": 120,
+  "questions": 20,
+  "mode": "hybrid",
+  "index_seconds": 450.0,
+  "evaluation": {
+    "count": 20,
+    "mean_score": 1.0,
+    "exact_match_rate": 1.0,
+    "by_type": {
+      "fact": {
+        "count": 8,
+        "mean_score": 1.0
+      },
+      "list": {
+        "count": 5,
+        "mean_score": 1.0
+      },
+      "multi_hop": {
+        "count": 5,
+        "mean_score": 1.0
+      },
+      "no_answer": {
+        "count": 2,
+        "mean_score": 1.0
+      }
+    }
+  },
+  "mean_query_seconds": 3.042,
+  "models": {
+    "llm": "deepseek-v4-flash",
+    "embedding": "BAAI/bge-m3"
+  },
+  "results": [
+    {
+      "id": "test-fact-01",
+      "type": "fact",
+      "question": "《巴黎深渊》是由谁执导的？",
+      "reference_answer": "哈维尔·根斯",
+      "answer": "根据资料，《巴黎深渊》（法语：Sous la Seine，英语：Under Paris）是由**哈维尔·根斯**执导的。他不仅是该片的导演，还参与了该片的编剧工作，与雅尼克·达汉、莫德·海杨格和雅尔·朗曼共同编写了剧本。\n\n### References\n\n* [1] 影片：巴黎深渊",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q935646"
+        ],
+        "predicted_entity_ids": [
+          "Q935646"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 2.017
+    },
+    {
+      "id": "test-fact-02",
+      "type": "fact",
+      "question": "《小丑：双重疯狂》是由谁执导的？",
+      "reference_answer": "陶德·菲利普斯",
+      "answer": "根据提供的资料，《小丑：双重疯狂》（英语：Joker: Folie à Deux）是由**陶德·菲利普斯**执导，并由他与史考特·席佛共同编剧。该电影是一部2024年美国点唱机歌舞心理惊悚片，故事改编自DC漫画旗下角色，为2019年电影《小丑》的续集。\n\n### References\n\n- [1] 小丑：双重疯狂",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q362824"
+        ],
+        "predicted_entity_ids": [
+          "Q362824"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 3.808
+    },
+    {
+      "id": "test-fact-03",
+      "type": "fact",
+      "question": "《熊猫计划》是由谁执导的？",
+      "reference_answer": "张栾",
+      "answer": "根据现有信息，《熊猫计划》是由**张栾**执导的。\n\n### References\n\n- [1] 影片：熊猫计划",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q45696134"
+        ],
+        "predicted_entity_ids": [
+          "Q45696134"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 2.327
+    },
+    {
+      "id": "test-fact-04",
+      "type": "fact",
+      "question": "《第二幕》是由谁执导的？",
+      "reference_answer": "昆汀·杜皮尔",
+      "answer": "根据现有信息，《第二幕》是由昆汀·杜皮尔执导的。此外，昆汀·杜皮尔不仅担任该片的导演，还亲自参与了编剧工作并担任摄影指导。\n\n### References\n\n- [1] 影片：第二幕",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q453691"
+        ],
+        "predicted_entity_ids": [
+          "Q453691"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 2.409
+    },
+    {
+      "id": "test-fact-05",
+      "type": "fact",
+      "question": "《意外 (韩国电影)》是由谁执导的？",
+      "reference_answer": "李耀燮",
+      "answer": "根据所提供的资料，《意外 (韩国电影)》是由**李耀燮**编剧并执导的。该片翻拍自2009年的香港电影《意外》，由姜栋元、李茂生、李美淑、金洪发、金信禄、李贤旭、李东辉、郑恩彩及陈俊翔主演，于2024年5月29日在韩国正式上映。\n\n影片类型为动作、犯罪、悬疑。\n\n### References\n\n- [1] 影片：意外 (韩国电影)",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "NAME:李耀燮"
+        ],
+        "predicted_entity_ids": [
+          "NAME:李耀燮"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 3.58
+    },
+    {
+      "id": "test-fact-06",
+      "type": "fact",
+      "question": "《饭戏攻心》是由谁执导的？",
+      "reference_answer": "陈咏燊",
+      "answer": "根据提供的知识库信息，《饭戏攻心》由**陈咏燊**执导并担任编剧。该片是一部2022年上映的香港喜剧电影，演员阵容包括黄子华、邓丽欣、张继聪、王菀之、林明祯、陈湛文等。该片原定于2022年2月1日作为贺岁片上映，但因香港爆发第五波新冠疫情而延期，最终于2022年9月7日在香港正式公映。\n\n此外，《饭戏攻心》的续集《饭戏攻心2》同样由陈咏燊编剧及执导，于2024年2月9日上映。\n\n### References\n\n- [1] 饭戏攻心影片信息\n- [2] 饭戏攻心2影片信息",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q15919819"
+        ],
+        "predicted_entity_ids": [
+          "Q15919819"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 4.163
+    },
+    {
+      "id": "test-fact-07",
+      "type": "fact",
+      "question": "《749局》是由谁执导的？",
+      "reference_answer": "陆川 (导演)",
+      "answer": "根据提供的资料，《749局》是由**陆川**执导的。\n\n影片《749局》的导演是陆川，他也担任了该片的编剧。影片灵感源于导演陆川军校毕业后在749局的工作经历。\n\n### References\n\n- [1] 影片：749局",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q1856626"
+        ],
+        "predicted_entity_ids": [
+          "Q1856626"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 3.19
+    },
+    {
+      "id": "test-fact-08",
+      "type": "fact",
+      "question": "《特技玩家》是由谁执导的？",
+      "reference_answer": "大卫·雷奇",
+      "answer": "根据提供的知识库信息，电影《特技玩家》由大卫·雷奇执导。\n\n知识图谱中明确指出“大卫·雷奇”执导了电影《特技玩家》。此外，影片信息中亦记载，《特技狂人》（即《特技玩家》的片名）的导演为大卫·雷奇。\n\n### References\n\n- [1] 特技玩家",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q5236475"
+        ],
+        "predicted_entity_ids": [
+          "Q5236475"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 3.287
+    },
+    {
+      "id": "test-path-01",
+      "type": "multi_hop",
+      "question": "王俊凯与苗苗 (演员)通过哪部影片产生关联？",
+      "reference_answer": "749局",
+      "answer": "根据提供的知识库信息，**王俊凯**与**苗苗 (演员)** 是通过影片**《749局》**产生关联的。\n\n《749局》（英语：Bureau 749）是2024年上映的中国大陆科幻冒险动作片，由陆川执导。知识图谱明确指出，**王俊凯**和**苗苗**均为该影片的**领衔主演**之一。影片的其他领衔主演还包括郑恺、任敏、辛柏青与张钧宁。\n\n该片灵感源于导演陆川军校毕业后在749局的工作经历，于2024年10月1日国庆档在中国大陆上映。\n\n### References\n\n- [1] 影片：749局",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q109345157"
+        ],
+        "predicted_entity_ids": [
+          "Q109345157"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 4.163
+    },
+    {
+      "id": "test-path-02",
+      "type": "multi_hop",
+      "question": "佐伊·索尔达娜与卡拉·索菲亚·贾斯康通过哪部影片产生关联？",
+      "reference_answer": "璀璨女人梦",
+      "answer": "根据提供的知识图谱信息，佐伊·索尔达娜与卡拉·索菲亚·贾斯康通过影片《璀璨女人梦》（西班牙语：Emilia Pérez）产生关联。\n\n**关联详情：**\n\n- 两人均为该片的主演，佐伊·索尔达娜、卡拉·索菲亚·贾斯康分别担任影片主演之一。\n- 《璀璨女人梦》是2024年上映的法墨合拍歌舞犯罪片，由贾克·欧迪亚执导并编剧，其他主演还包括赛琳娜·戈麦斯、艾格·拉米瑞兹、亚德莲娜·帕兹等。影片于2024年5月18日在第77届坎城影展全球首映，Netflix取得全球发行权，于2024年11月13日在该平台上映。该片获奖众多，包括凯撒电影奖最佳影片、金球奖最佳外语片、金球奖最佳音乐或喜剧片等。\n\n### References\n\n- [1] 璀璨女人梦",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q123928072"
+        ],
+        "predicted_entity_ids": [
+          "Q123928072"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 3.582
+    },
+    {
+      "id": "test-path-03",
+      "type": "multi_hop",
+      "question": "吴君如与张天赋通过哪部影片产生关联？",
+      "reference_answer": "我谈的那场恋爱",
+      "answer": "根据提供的上下文信息，吴君如与张天赋都是影片《我谈的那场恋爱》的演员。该影片由何妙祺执导，吴君如和张天赋分别担任主演。\n\n### References\n\n- [1] 影片：我谈的那场恋爱",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q130288104"
+        ],
+        "predicted_entity_ids": [
+          "Q130288104"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 2.251
+    },
+    {
+      "id": "test-path-04",
+      "type": "multi_hop",
+      "question": "游学修与钟雪莹通过哪部影片产生关联？",
+      "reference_answer": "看我今天怎么说",
+      "answer": "根据提供的资料，游学修与钟雪莹是通过影片《看我今天怎么说》产生关联的。在该影片中，游学修与钟雪莹均为领衔主演。\n\n《看我今天怎么说》是一部2024年的香港剧情片，由黄修平执导，游学修、钟雪莹、吴祉昊主演。钟雪莹凭借在该片中的演出获得了第61届金马奖最佳女主角奖项。\n\n### References\n\n- [1] 影片：看我今天怎么说",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q131311712"
+        ],
+        "predicted_entity_ids": [
+          "Q131311712"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 2.255
+    },
+    {
+      "id": "test-path-05",
+      "type": "multi_hop",
+      "question": "许贤与滕毅康通过哪部影片产生关联？",
+      "reference_answer": "公开试当真",
+      "answer": "根据提供的知识图谱信息，许贤与滕毅康均作为演员出演了同一部纪录片《公开试当真》。\n\n### 关联影片\n\n*   **影片名称**：《公开试当真》（英语：Once Upon a Time in HKDSE）\n*   **影片类型**：2024年香港纪录片\n*   **关联方式**：许贤与滕毅康（阿康）是这部影片的主演。\n\n该片由试当真制作，梁奕豪导演，旨在纪录一名香港学生参与2023年香港中学文凭考试（DSE）的经历及成长故事。\n\n### References\n\n- [1] 公开试当真",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q129333360"
+        ],
+        "predicted_entity_ids": [
+          "Q129333360"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 2.503
+    },
+    {
+      "id": "test-aggregate-01",
+      "type": "list",
+      "question": "哪些演员在陈咏燊执导的影片中出现过不止一次？",
+      "reference_answer": "张继聪；林明祯；王菀之；邓丽欣；陈湛文",
+      "answer": "根据提供的知识库信息，陈咏燊执导的影片包括《饭戏攻心》和其续集《饭戏攻心2》。通过对比两部影片的演员名单，可以确定以下演员在陈咏燊执导的这两部影片中均出现过，因此出现了不止一次：\n\n- **邓丽欣**：在《饭戏攻心》和《饭戏攻心2》的演员名单中均有出现。\n- **张继聪**：在《饭戏攻心》和《饭戏攻心2》的演员名单中均有出现。\n- **王菀之**：在《饭戏攻心》和《饭戏攻心2》的演员名单中均有出现。\n- **林明祯**：在《饭戏攻心》和《饭戏攻心2》的演员名单中均有出现。\n- **陈湛文**：在《饭戏攻心》和《饭戏攻心2》的演员名单中均有出现。\n\n其中，《饭戏攻心》由黄子华、邓丽欣、张继聪、王菀之、林明祯、陈湛文主演，而续集《饭戏攻心2》的演员阵容包括邓丽欣、张继聪、王菀之、林明祯、陈湛文、谢君豪、魏浚笙、何启华。两部影片均由陈咏燊编剧并执导。\n\n### References\n\n- [1] 影片：饭戏攻心2\n- [2] 影片：饭戏攻心",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q21652196",
+          "Q468707",
+          "Q64015319",
+          "Q6686900",
+          "Q717579"
+        ],
+        "predicted_entity_ids": [
+          "Q21652196",
+          "Q468707",
+          "Q64015319",
+          "Q6686900",
+          "Q717579"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: first markdown bullet block"
+      },
+      "latency_seconds": 3.337
+    },
+    {
+      "id": "test-aggregate-02",
+      "type": "list",
+      "question": "哪些演员在宫崎骏执导的影片中出现过不止一次？",
+      "reference_answer": "神木隆之介；美轮明宏",
+      "answer": "根据现有资料，可以确认有演员在宫崎骏执导的不同影片中多次出演。\n\n**神木隆之介**是其中之一，他曾在《千与千寻》和《哈尔的移动城堡》两部影片中参与配音。\n\n**美轮明宏**也出演了多部宫崎骏的作品，包括《哈尔的移动城堡》和《魔法公主》。\n\n此外，虽然没有明确列出同一演员参演超过两部宫崎骏影片的记录，但以上两位演员均确认在至少两部宫崎骏执导的电影中出现过。\n\n### References\n\n- [1] Document: 千与千寻\n- [2] Document: 哈尔的移动城堡\n- [3] Document: 魔法公主",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q1041546",
+          "Q1076203"
+        ],
+        "predicted_entity_ids": [
+          "Q1041546",
+          "Q1076203"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "latency_seconds": 2.555
+    },
+    {
+      "id": "test-aggregate-03",
+      "type": "list",
+      "question": "哪些演员在宁浩执导的影片中出现过不止一次？",
+      "reference_answer": "徐峥；黄渤",
+      "answer": "根据所提供的知识图谱和文档信息，可以确定演员**徐峥**和**黄渤**出演了宁浩执导的多部影片。\n\n*   **徐峥**：在宁浩执导的影片《无人区 (电影)》中担任主演，同时也在影片《疯狂的石头》的演员阵容中。\n*   **黄渤**：同样出演了宁浩执导的《无人区 (电影)》和《疯狂的石头》。\n\n此外，宁浩执导的其他影片，如《爆款好人》和《我和我的家乡》，虽然其演员表中未包含徐峥或黄渤，但导演宁浩与这些影片关联。依据现有信息，**徐峥**与**黄渤**是明确在宁浩执导的多部影片中出现的演员。\n\n### References\n\n- [1] 无人区 (电影)\n- [2] 疯狂的石头\n- [3] 爆款好人",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q704130",
+          "Q893129"
+        ],
+        "predicted_entity_ids": [
+          "Q704130",
+          "Q893129"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: first markdown bullet block"
+      },
+      "latency_seconds": 3.984
+    },
+    {
+      "id": "test-aggregate-04",
+      "type": "list",
+      "question": "哪些演员在大卫·芬奇执导的影片中出现过不止一次？",
+      "reference_answer": "毕·彼特",
+      "answer": "根据提供的知识库信息，我可以整理出大卫·芬奇执导的影片及演员名单。\n\n知识库中显示，大卫·芬奇执导的影片包括《七宗罪》、《社群网战》和《斗阵俱乐部》。\n\n具体演员阵容如下：\n\n- **《七宗罪》**：演员包括毕·彼特、摩根·弗里曼、格温妮丝·帕特罗、凯文·史贝西和罗纳德·李·艾尔米。\n- **《社群网战》**：演员包括杰西·艾森柏格、安德鲁·加菲尔德、贾斯汀·提姆布莱克、布兰达·宋、鲁妮·玛拉、艾米·汉莫、麦克思·明格拉、乔希·潘斯和达珂塔·强生。\n- **《斗阵俱乐部》**：演员包括毕·彼特、爱德华·诺顿、海伦娜·博纳姆·卡特、肉卷 (歌手)和杰瑞德·莱托。\n\n**结论**：通过对比上述三部影片的演员名单，可以发现演员**毕·彼特**出演了大卫·芬奇执导的《七宗罪》和《斗阵俱乐部》两部影片。因此，毕·彼特是在大卫·芬奇执导的影片中出现过不止一次的演员。知识库中并未提及有其他演员参演过大卫·芬奇的两部或以上影片。\n\n### References\n\n- [1] 影片：七宗罪 (电影)\n- [2] 影片：社群网战\n- [3] 影片：斗阵俱乐部",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q35332"
+        ],
+        "predicted_entity_ids": [
+          "Q35332"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: labelled conclusion"
+      },
+      "latency_seconds": 4.211
+    },
+    {
+      "id": "test-aggregate-05",
+      "type": "list",
+      "question": "哪些演员在王家卫执导的影片中出现过不止一次？",
+      "reference_answer": "张曼玉；张震；梁朝伟；章子怡",
+      "answer": "根据提供的资料，我可以梳理出以下演员曾在王家卫执导的影片中出现过不止一次：\n\n### 梁朝伟\n- 在《花样年华》中担任主演。\n- 在《2046》中担任主演。\n- 在《一代宗师》中领衔主演。\n\n### 章子怡\n- 在《2046》中担任主演。\n- 在《一代宗师》中领衔主演。\n\n### 张震\n- 在《2046》中担任主演。\n- 在《一代宗师》中参与领衔主演。\n\n### 张曼玉\n- 在《花样年华》中担任主演。\n- 在《2046》中出演。\n\n以上信息显示，梁朝伟、章子怡、张震和张曼玉均至少出演过两部由王家卫执导的影片。\n\n### References\n\n- [1] 花样年华\n- [2] 2046 (电影)\n- [3] 一代宗师",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q180852",
+          "Q234778",
+          "Q319001",
+          "Q717432"
+        ],
+        "predicted_entity_ids": [
+          "Q180852",
+          "Q234778",
+          "Q319001",
+          "Q717432"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: explicit summary sentence"
+      },
+      "latency_seconds": 2.941
+    },
+    {
+      "id": "test-no-answer-01",
+      "type": "no_answer",
+      "question": "《知识工程测试片：不存在的回声》由谁执导？",
+      "reference_answer": "无法根据冻结语料确定",
+      "answer": "我无法回答您的问题，因为所提供的**Context**中没有任何关于《知识工程测试片：不存在的回声》这部电影的信息。根据现有资料，我无法确认该影片的导演。\n\n### References\n\n（无相关引用文档）",
+      "score": 1.0,
+      "metrics": {
+        "metric": "abstention_accuracy",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": true,
+        "matched_gold_ids": [],
+        "predicted_entity_ids": [],
+        "reason": "explicit abstention detected"
+      },
+      "latency_seconds": 1.766
+    },
+    {
+      "id": "test-no-answer-02",
+      "type": "no_answer",
+      "question": "林海舟与周云岚通过哪部影片产生关联？",
+      "reference_answer": "无法根据冻结语料确定",
+      "answer": "我目前没有足够的信息来回答您的问题。根据提供的知识库数据，我没有找到关于\"林海舟\"或\"周云岚\"这两位人物的任何信息，也没有找到他们之间通过哪部影片产生关联的相关数据。\n\n### References\n\n（无可用参考文档）",
+      "score": 1.0,
+      "metrics": {
+        "metric": "abstention_accuracy",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": true,
+        "matched_gold_ids": [],
+        "predicted_entity_ids": [],
+        "reason": "explicit abstention detected"
+      },
+      "latency_seconds": 2.519
+    }
+  ],
+  "scorer": "shared/scripts/benchmark_utils.py:v2"
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123910753",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"绝命塔罗牌\",\"relation\":\"导演\",\"object\":\"安娜·哈贝格\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"演员\",\"object\":\"雅各布·贝塔隆\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"编剧\",\"object\":\"史宾赛·柯恩\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"编剧\",\"object\":\"安娜·哈贝格\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"制片公司\",\"object\":\"幕宝电影公司\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"上映日期\",\"object\":\"2024年5月3日\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"改编自\",\"object\":\"小说《占星术》\"},{\"subject\":\"小说《占星术》\",\"relation\":\"作者\",\"object\":\"尼可拉斯·亚当斯\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"主演\",\"object\":\"哈丽特·斯莱特\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"主演\",\"object\":\"阿丹·布拉德利\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"主演\",\"object\":\"艾凡蒂卡·范达努普\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"主演\",\"object\":\"沃夫冈·诺沃葛拉兹\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"主演\",\"object\":\"亨柏莉·冈萨雷斯\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"主演\",\"object\":\"拉森·汤普森\"},{\"subject\":\"绝命塔罗牌\",\"relation\":\"主演\",\"object\":\"雅各布·贝塔隆\"}]}",
+      "parsed_triples": 16
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "l2_film_120_v2",
+  "documents": 120,
+  "required_evidence_documents": 29,
+  "dev_questions": 5,
+  "test_questions": 20,
+  "output": "/Users/zouyanze/Documents/TJUCourses/26271/KE Practice/code/reproductions/shared/benchmarks/l2_film_120_v2",
+  "seed": 20260903,
+  "source": "/Users/zouyanze/Documents/TJUCourses/26271/KE Practice/code/KE-Practice/data/source/wikipedia_300_films_final",
+  "rendering": "Wikipedia intro + deduplicated explicit metadata facts",
+  "manual_review": "curated question targets; deterministic evidence/ID/path validation",
+  "known_limitations": [
+    "Wikipedia-oriented rather than reviewer-attributed opinion corpus",
+    "no-answer items use synthetic absent names"
+  ]
+}

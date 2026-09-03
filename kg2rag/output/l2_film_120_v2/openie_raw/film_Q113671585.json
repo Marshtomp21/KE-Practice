@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q113671585",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"特技玩家\",\"relation\":\"导演\",\"object\":\"大卫·雷奇\"},{\"subject\":\"特技玩家\",\"relation\":\"演员\",\"object\":\"艾美莉·宾特\"},{\"subject\":\"特技玩家\",\"relation\":\"演员\",\"object\":\"温斯顿·杜克\"},{\"subject\":\"特技玩家\",\"relation\":\"演员\",\"object\":\"亚伦·泰勒-强森\"},{\"subject\":\"特技玩家\",\"relation\":\"演员\",\"object\":\"汉娜·沃丁厄姆\"},{\"subject\":\"特技玩家\",\"relation\":\"演员\",\"object\":\"史蒂芬妮·许\"},{\"subject\":\"特技玩家\",\"relation\":\"演员\",\"object\":\"雷恩·葛斯林\"},{\"subject\":\"特技玩家\",\"relation\":\"演员\",\"object\":\"亚伦·强森\"},{\"subject\":\"特技玩家\",\"relation\":\"演员\",\"object\":\"泰瑞莎·帕玛\"},{\"subject\":\"特技玩家\",\"relation\":\"编剧\",\"object\":\"德鲁·皮尔斯\"},{\"subject\":\"特技玩家\",\"relation\":\"制片公司\",\"object\":\"87North制片公司\"},{\"subject\":\"特技玩家\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"特技玩家\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"特技玩家\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"特技狂人\",\"relation\":\"导演\",\"object\":\"大卫·雷奇\"},{\"subject\":\"特技狂人\",\"relation\":\"编剧\",\"object\":\"德鲁·皮尔斯\"},{\"subject\":\"特技狂人\",\"relation\":\"改编自\",\"object\":\"1980年代同名电视剧\"},{\"subject\":\"1980年代同名电视剧\",\"relation\":\"开创者\",\"object\":\"葛伦·A·拉森\"},{\"subject\":\"特技狂人\",\"relation\":\"主演\",\"object\":\"雷恩·葛斯林\"},{\"subject\":\"特技狂人\",\"relation\":\"主演\",\"object\":\"艾蜜莉·布朗\"},{\"subject\":\"特技狂人\",\"relation\":\"主演\",\"object\":\"亚伦·强森\"},{\"subject\":\"特技狂人\",\"relation\":\"主演\",\"object\":\"温斯顿·杜克\"},{\"subject\":\"特技狂人\",\"relation\":\"主演\",\"object\":\"汉娜·沃丁厄姆\"},{\"subject\":\"特技狂人\",\"relation\":\"主演\",\"object\":\"史蒂芬妮·许\"},{\"subject\":\"特技狂人\",\"relation\":\"发行公司\",\"object\":\"环球影业\"},{\"subject\":\"特技狂人\",\"relation\":\"上映日期\",\"object\":\"2024年5月3日\"},{\"subject\":\"特技狂人\",\"relation\":\"上映地点\",\"object\":\"美国\"}]}",
+      "parsed_triples": 27
+    }
+  ]
+}

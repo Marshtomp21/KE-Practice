@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q116361132",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"导演\",\"object\":\"罗柏·艾格斯\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"演员\",\"object\":\"比尔·斯卡斯加德\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"演员\",\"object\":\"尼古拉斯·霍尔特\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"演员\",\"object\":\"莉莉-萝丝·戴普\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"演员\",\"object\":\"亚伦·泰勒-强森\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"演员\",\"object\":\"艾玛·科林\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"演员\",\"object\":\"威廉·达佛\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"演员\",\"object\":\"赛门·麦克伯尼\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"演员\",\"object\":\"拉尔夫·尹爱森\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"编剧\",\"object\":\"罗柏·艾格斯\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"改编自\",\"object\":\"不死僵尸—恐栗交响曲\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"改编自\",\"object\":\"德古拉\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"改编自\",\"object\":\"布拉姆·斯托克\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"上映日期\",\"object\":\"2024年12月25日\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"上映地点\",\"object\":\"美国\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"发行公司\",\"object\":\"焦点影业\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"语言\",\"object\":\"英语\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"国家\",\"object\":\"美国\"},{\"subject\":\"吸血鬼：诺斯费拉图\",\"relation\":\"年份\",\"object\":\"2024\"}]}",
+      "parsed_triples": 20
+    }
+  ]
+}

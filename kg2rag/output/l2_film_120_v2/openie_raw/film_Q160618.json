@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q160618",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"断背山\",\"relation\":\"导演\",\"object\":\"李安\"},{\"subject\":\"断背山\",\"relation\":\"演员\",\"object\":\"希斯·莱杰\"},{\"subject\":\"断背山\",\"relation\":\"演员\",\"object\":\"杰克·吉林哈尔\"},{\"subject\":\"断背山\",\"relation\":\"演员\",\"object\":\"蜜雪儿·威廉丝\"},{\"subject\":\"断背山\",\"relation\":\"演员\",\"object\":\"安妮·海瑟薇\"},{\"subject\":\"断背山\",\"relation\":\"编剧\",\"object\":\"赖瑞·麦可莫特瑞\"},{\"subject\":\"断背山\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"断背山\",\"relation\":\"类型\",\"object\":\"爱情\"},{\"subject\":\"断背山\",\"relation\":\"改编自\",\"object\":\"断背山\"},{\"subject\":\"断背山\",\"relation\":\"改编自\",\"object\":\"安妮·普露\"},{\"subject\":\"断背山\",\"relation\":\"上映年份\",\"object\":\"2005年\"},{\"subject\":\"断背山\",\"relation\":\"制片国家\",\"object\":\"美国\"},{\"subject\":\"断背山\",\"relation\":\"监制\",\"object\":\"戴安娜·奥萨娜\"},{\"subject\":\"断背山\",\"relation\":\"监制\",\"object\":\"詹姆斯·夏慕斯\"},{\"subject\":\"断背山\",\"relation\":\"剧本编写\",\"object\":\"戴安娜·奥萨纳\"},{\"subject\":\"断背山\",\"relation\":\"剧本编写\",\"object\":\"拉里·麦克默特里\"},{\"subject\":\"断背山\",\"relation\":\"拍摄地点\",\"object\":\"加拿大艾伯塔省\"},{\"subject\":\"断背山\",\"relation\":\"拍摄年份\",\"object\":\"2004年\"},{\"subject\":\"断背山\",\"relation\":\"故事时间跨度\",\"object\":\"1963年到1983年间\"},{\"subject\":\"断背山\",\"relation\":\"故事背景\",\"object\":\"美国西部\"},{\"subject\":\"断背山\",\"relation\":\"获奖\",\"object\":\"金狮奖\"},{\"subject\":\"断背山\",\"relation\":\"获奖\",\"object\":\"奥斯卡最佳导演奖\"},{\"subject\":\"断背山\",\"relation\":\"获奖\",\"object\":\"奥斯卡最佳改编剧本奖\"},{\"subject\":\"断背山\",\"relation\":\"获奖\",\"object\":\"奥斯卡最佳电影配乐奖\"},{\"subject\":\"断背山\",\"relation\":\"提名\",\"object\":\"奥斯卡最佳影片奖\"},{\"subject\":\"断背山\",\"relation\":\"票房排名\",\"object\":\"史上爱情/剧情片中第八\"}]}",
+      "parsed_triples": 26
+    }
+  ]
+}

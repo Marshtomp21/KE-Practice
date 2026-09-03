@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_WP:9583695",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"私刑母亲\",\"relation\":\"导演\",\"object\":\"李芝胜\"},{\"subject\":\"私刑母亲\",\"relation\":\"编剧\",\"object\":\"李芝胜\"},{\"subject\":\"私刑母亲\",\"relation\":\"编剧\",\"object\":\"金贤宇\"},{\"subject\":\"私刑母亲\",\"relation\":\"提名\",\"object\":\"大钟奖\"},{\"subject\":\"私刑母亲\",\"relation\":\"上映日期\",\"object\":\"2013年4月18日\"},{\"subject\":\"私刑母亲\",\"relation\":\"上映地点\",\"object\":\"韩国\"},{\"subject\":\"私刑母亲\",\"relation\":\"类型\",\"object\":\"犯罪剧情复仇电影\"},{\"subject\":\"私刑母亲\",\"relation\":\"主演\",\"object\":\"张荣男\"},{\"subject\":\"私刑母亲\",\"relation\":\"主演\",\"object\":\"马东石\"},{\"subject\":\"私刑母亲\",\"relation\":\"主演\",\"object\":\"黄泰光\"},{\"subject\":\"私刑母亲\",\"relation\":\"主演\",\"object\":\"裴晟佑\"},{\"subject\":\"私刑母亲\",\"relation\":\"入围奖项\",\"object\":\"第17届釜山国际影展韩国电影导演工会奖最佳女演员\"},{\"subject\":\"张荣男\",\"relation\":\"入围\",\"object\":\"第17届釜山国际影展韩国电影导演工会奖最佳女演员\"}]}",
+      "parsed_triples": 13
+    }
+  ]
+}

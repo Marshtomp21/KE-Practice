@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q130396871",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"余烬 (电影)\",\"relation\":\"导演\",\"object\":\"钟孟宏\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"张震 (演员)\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"莫子仪\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"许玮宁\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"金士杰\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"刘冠廷\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"鲍起静\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"陈以文\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"王柏杰\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"李铭忠\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"演员\",\"object\":\"郑平君\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"编剧\",\"object\":\"钟孟宏\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"编剧\",\"object\":\"朱嘉汉\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"地区\",\"object\":\"台湾\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"上映日期\",\"object\":\"2024年11月15日\"},{\"subject\":\"余烬 (电影)\",\"relation\":\"获得提名\",\"object\":\"第61届金马奖五项提名\"}]}",
+      "parsed_triples": 20
+    }
+  ]
+}

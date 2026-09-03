@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124619782",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"绝不放手\",\"relation\":\"导演\",\"object\":\"亚历山大·阿甲\"},{\"subject\":\"绝不放手\",\"relation\":\"演员\",\"object\":\"荷莉·贝瑞\"},{\"subject\":\"绝不放手\",\"relation\":\"编剧\",\"object\":\"凯文·考夫林\"},{\"subject\":\"绝不放手\",\"relation\":\"编剧\",\"object\":\"莱恩·格拉斯比\"},{\"subject\":\"绝不放手\",\"relation\":\"制片公司\",\"object\":\"HalleHolly\"},{\"subject\":\"绝不放手\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"绝不放手\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"绝不放手\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"绝不放手\",\"relation\":\"上映地区\",\"object\":\"美国\"},{\"subject\":\"绝不放手\",\"relation\":\"发行公司\",\"object\":\"狮门影视公司\"},{\"subject\":\"绝不放手\",\"relation\":\"主演\",\"object\":\"珀西·达格斯四世\"},{\"subject\":\"绝不放手\",\"relation\":\"主演\",\"object\":\"安东尼·B·詹金斯\"},{\"subject\":\"绝不放手\",\"relation\":\"主演\",\"object\":\"马修·凯文·安德森\"},{\"subject\":\"绝不放手\",\"relation\":\"主演\",\"object\":\"克莉丝汀·朴\"},{\"subject\":\"绝不放手\",\"relation\":\"主演\",\"object\":\"斯蒂芬妮·拉维尼\"}]}",
+      "parsed_triples": 15
+    }
+  ]
+}

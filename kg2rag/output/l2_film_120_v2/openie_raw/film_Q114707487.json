@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q114707487",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"功夫熊猫4\",\"relation\":\"演员\",\"object\":\"杰克·布莱克\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"演员\",\"object\":\"奥卡菲娜\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"演员\",\"object\":\"布莱恩·科兰斯顿\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"演员\",\"object\":\"吴汉章 (演员)\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"演员\",\"object\":\"伊恩·麦克夏恩\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"演员\",\"object\":\"关继威\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"演员\",\"object\":\"德斯汀·荷夫曼\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"演员\",\"object\":\"维奥拉·戴维斯\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"编剧\",\"object\":\"PR Newswire\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"制片公司\",\"object\":\"梦工厂动画\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"前作\",\"object\":\"功夫熊猫3\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"导演\",\"object\":\"麦克·米契\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"编剧\",\"object\":\"强纳森·艾柏\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"编剧\",\"object\":\"葛伦·柏格\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"编剧\",\"object\":\"戴伦·连可\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"上映日期\",\"object\":\"2024年3月8日\"},{\"subject\":\"功夫熊猫4\",\"relation\":\"上映地点\",\"object\":\"美国\"}]}",
+      "parsed_triples": 22
+    }
+  ]
+}

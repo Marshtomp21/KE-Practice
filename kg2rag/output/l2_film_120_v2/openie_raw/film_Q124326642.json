@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124326642",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"飞驰人生2\",\"relation\":\"导演\",\"object\":\"韩寒\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"沈腾\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"范丞丞\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"尹正\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"张本煜\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"孙艺洲\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"魏翔\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"贾冰\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"郑恺\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"冯绍峰\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"黄景瑜\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"刘昊然\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"于适\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"胡先煦\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"阎鹤祥\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"高华阳\"},{\"subject\":\"飞驰人生2\",\"relation\":\"演员\",\"object\":\"郝瀚\"},{\"subject\":\"飞驰人生2\",\"relation\":\"编剧\",\"object\":\"韩寒\"},{\"subject\":\"飞驰人生2\",\"relation\":\"编剧\",\"object\":\"周运海\"},{\"subject\":\"飞驰人生2\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"飞驰人生2\",\"relation\":\"获奖\",\"object\":\"金鸡奖最佳录音获奖电影\"},{\"subject\":\"飞驰人生2\",\"relation\":\"获奖\",\"object\":\"金鸡奖最佳美术获奖电影\"},{\"subject\":\"飞驰人生2\",\"relation\":\"前作\",\"object\":\"飞驰人生\"},{\"subject\":\"飞驰人生2\",\"relation\":\"续作\",\"object\":\"飞驰人生3\"},{\"subject\":\"飞驰人生2\",\"relation\":\"上映日期\",\"object\":\"2024年2月10日\"},{\"subject\":\"飞驰人生2\",\"relation\":\"上映地区\",\"object\":\"中国大陆\"},{\"subject\":\"飞驰人生2\",\"relation\":\"语言\",\"object\":\"英语\"},{\"subject\":\"飞驰人生2\",\"relation\":\"片名\",\"object\":\"Pegasus 2\"}]}",
+      "parsed_triples": 28
+    }
+  ]
+}

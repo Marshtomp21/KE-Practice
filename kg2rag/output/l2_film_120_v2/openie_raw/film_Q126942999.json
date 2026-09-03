@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q126942999",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"野孩子 (电影)\",\"relation\":\"导演\",\"object\":\"殷若昕\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"主演\",\"object\":\"王俊凯\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"主演\",\"object\":\"邓家佳\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"主演\",\"object\":\"陈永胜\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"主演\",\"object\":\"潘斌龙\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"取材自\",\"object\":\"流浪兄弟真实事件\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"上映日期\",\"object\":\"2024年9月13日\"},{\"subject\":\"野孩子 (电影)\",\"relation\":\"上映地区\",\"object\":\"中国大陆\"}]}",
+      "parsed_triples": 10
+    }
+  ]
+}

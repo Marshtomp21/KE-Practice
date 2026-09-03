@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q129497832",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"她杀之心\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"她杀之心\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"她杀之心\",\"relation\":\"类型\",\"object\":\"历史\"},{\"subject\":\"她杀之心\",\"relation\":\"是2024年Netflix原创智利历史犯罪剧情电影\",\"object\":\"是\"},{\"subject\":\"她杀之心\",\"relation\":\"导演\",\"object\":\"梅特·阿尔贝蒂\"},{\"subject\":\"她杀之心\",\"relation\":\"主演\",\"object\":\"艾莉莎·祖鲁艾塔\"},{\"subject\":\"她杀之心\",\"relation\":\"主演\",\"object\":\"法兰西丝卡·勒温\"},{\"subject\":\"她杀之心\",\"relation\":\"改编自小说\",\"object\":\"《杀手》（Las Homicidas）\"},{\"subject\":\"《杀手》（Las Homicidas）\",\"relation\":\"作者\",\"object\":\"阿莉亚·特拉布科·泽兰\"},{\"subject\":\"她杀之心\",\"relation\":\"剧情背景设定于\",\"object\":\"1950年代\"},{\"subject\":\"她杀之心\",\"relation\":\"讲述谋杀案\",\"object\":\"玛丽亚·卡洛琳娜·格尔在圣地牙哥克里隆饭店犯下的谋杀案\"},{\"subject\":\"玛丽亚·卡洛琳娜·格尔\",\"relation\":\"是智利女作家\",\"object\":\"是\"},{\"subject\":\"她杀之心\",\"relation\":\"于2024年9月23日在第72届圣赛巴斯提安国际影展首映\",\"object\":\"是\"},{\"subject\":\"她杀之心\",\"relation\":\"被选为代表智利角逐第97届奥斯卡金像奖最佳国际影片奖\",\"object\":\"是\"}]}",
+      "parsed_triples": 14
+    }
+  ]
+}

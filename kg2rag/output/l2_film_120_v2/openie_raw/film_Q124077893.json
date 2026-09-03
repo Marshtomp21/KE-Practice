@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124077893",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"导演\",\"object\":\"奈特·沙马兰\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"演员\",\"object\":\"乔许·哈奈特\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"演员\",\"object\":\"海莉·米尔斯\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"演员\",\"object\":\"艾莉森·皮尔\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"演员\",\"object\":\"卡迪小子\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"编剧\",\"object\":\"奈特·沙马兰\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"类型\",\"object\":\"悬疑\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"类型\",\"object\":\"音乐\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"上映日期\",\"object\":\"2024年8月2日\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"发行公司\",\"object\":\"华纳兄弟影业\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"别名\",\"object\":\"圈套\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"制片地区\",\"object\":\"美国\"},{\"subject\":\"陷阱 (2024年电影)\",\"relation\":\"剧情简介\",\"object\":\"一名连环杀人犯和女儿去听演唱会，结果这个演唱会是警方追捕他的圈套\"}]}",
+      "parsed_triples": 14
+    }
+  ]
+}

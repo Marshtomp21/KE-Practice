@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q126921922",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"导演\",\"object\":\"吴胜旭\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"演员\",\"object\":\"全道嬿\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"演员\",\"object\":\"池昌旭\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"演员\",\"object\":\"林智妍\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"编剧\",\"object\":\"吴胜旭\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"编剧\",\"object\":\"周星\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"奖项\",\"object\":\"釜山电影评论家协会奖获得者\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"奖项\",\"object\":\"釜日电影奖获奖电影\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"国家\",\"object\":\"韩国\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"类型\",\"object\":\"犯罪悬疑电影\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"导演\",\"object\":\"《无赖汉》的导演吴胜旭\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"主演\",\"object\":\"全道嬿、池昌旭、林智妍\"},{\"subject\":\"左轮手枪 (电影)\",\"relation\":\"剧情简介\",\"object\":\"讲述的是一名前职警察只为一个目的和目标直奔的故事\"}]}",
+      "parsed_triples": 16
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q115707860",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"要命劫案\",\"relation\":\"导演\",\"object\":\"蓝道尔·艾米特\"},{\"subject\":\"要命劫案\",\"relation\":\"演员\",\"object\":\"约翰·特拉沃尔塔\"},{\"subject\":\"要命劫案\",\"relation\":\"演员\",\"object\":\"克莉丝汀·戴维斯\"},{\"subject\":\"要命劫案\",\"relation\":\"演员\",\"object\":\"卢卡斯·哈斯\"},{\"subject\":\"要命劫案\",\"relation\":\"演员\",\"object\":\"Quavo\"},{\"subject\":\"要命劫案\",\"relation\":\"编剧\",\"object\":\"迪波·奥塞尼\"},{\"subject\":\"要命劫案\",\"relation\":\"制片公司\",\"object\":\"融合娱乐集团\"},{\"subject\":\"要命劫案\",\"relation\":\"制片公司\",\"object\":\"高地电影集团\"},{\"subject\":\"要命劫案\",\"relation\":\"制片公司\",\"object\":\"透明传媒\"},{\"subject\":\"要命劫案\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"要命劫案\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"要命劫案\",\"relation\":\"续作\",\"object\":\"神鬼劫案：瞒天过海\"},{\"subject\":\"要命劫案\",\"relation\":\"上映日期\",\"object\":\"2024年4月26日\"},{\"subject\":\"要命劫案\",\"relation\":\"上映地区\",\"object\":\"美国\"},{\"subject\":\"要命劫案\",\"relation\":\"发行方式\",\"object\":\"有限上映并数位发行\"},{\"subject\":\"神鬼劫案：瞒天过海\",\"relation\":\"上映年份\",\"object\":\"2025年\"}]}",
+      "parsed_triples": 16
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q114242678",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"狮子王：木法沙\",\"relation\":\"导演\",\"object\":\"巴里·杰金斯\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"演员\",\"object\":\"亚伦·皮埃尔\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"演员\",\"object\":\"塞斯·罗根\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"演员\",\"object\":\"唐纳·葛洛佛\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"演员\",\"object\":\"麦斯·米科尔森\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"演员\",\"object\":\"谭蒂·纽顿\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"演员\",\"object\":\"碧昂丝\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"编剧\",\"object\":\"杰夫·内桑森\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"制片公司\",\"object\":\"华特迪士尼影业\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"类型\",\"object\":\"音乐\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"改编自\",\"object\":\"狮子王\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"改编自\",\"object\":\"琳达·沃尔夫顿\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"前作\",\"object\":\"狮子王\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"上映日期\",\"object\":\"2024年12月20日\"},{\"subject\":\"狮子王：木法沙\",\"relation\":\"上映地点\",\"object\":\"美国\"}]}",
+      "parsed_triples": 19
+    }
+  ]
+}

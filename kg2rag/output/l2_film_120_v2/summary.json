@@ -1,0 +1,1518 @@
+{
+  "method": "KG²RAG API-adapted L2 v2",
+  "corpus": "l2_film_120_v2",
+  "documents": 120,
+  "questions_target": 20,
+  "kg_quality": {
+    "documents": 120,
+    "raw_response_documents": 120,
+    "raw_response_coverage": 1.0,
+    "nonempty_documents": 119,
+    "nonempty_document_ratio": 0.991667,
+    "total_triples": 2471,
+    "thresholds": {
+      "raw_response_coverage": 1.0,
+      "nonempty_document_ratio": 0.8,
+      "total_triples": 120
+    },
+    "passed": true,
+    "index_seconds": 12.591
+  },
+  "evaluation": {
+    "count": 20,
+    "mean_score": 1.0,
+    "exact_match_rate": 1.0,
+    "by_type": {
+      "fact": {
+        "count": 8,
+        "mean_score": 1.0
+      },
+      "list": {
+        "count": 5,
+        "mean_score": 1.0
+      },
+      "multi_hop": {
+        "count": 5,
+        "mean_score": 1.0
+      },
+      "no_answer": {
+        "count": 2,
+        "mean_score": 1.0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "test-fact-01",
+      "type": "fact",
+      "question": "《巴黎深渊》是由谁执导的？",
+      "answer": "《巴黎深渊》由哈维尔·根斯执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q935646"
+        ],
+        "predicted_entity_ids": [
+          "Q935646"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q124291916",
+          "vector_score": 0.714986
+        },
+        {
+          "doc_id": "film_Q124472773",
+          "vector_score": 0.493147
+        },
+        {
+          "doc_id": "film_Q123928072",
+          "vector_score": 0.483599
+        },
+        {
+          "doc_id": "film_Q124077893",
+          "vector_score": 0.472622
+        },
+        {
+          "doc_id": "film_Q130396871",
+          "vector_score": 0.471214
+        }
+      ],
+      "expanded_document_count": 111,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q124291916",
+          "rerank_score": 0.9984825253486633
+        },
+        {
+          "doc_id": "film_Q483941",
+          "rerank_score": 0.008898161351680756
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.008535820059478283
+        },
+        {
+          "doc_id": "film_Q123185887",
+          "rerank_score": 0.007852429524064064
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "rerank_score": 0.00769580714404583
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.007611215580254793
+        }
+      ],
+      "query_seconds": 3.045
+    },
+    {
+      "id": "test-fact-02",
+      "type": "fact",
+      "question": "《小丑：双重疯狂》是由谁执导的？",
+      "answer": "根据现有材料，《小丑：双重疯狂》由陶德·菲利普斯执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q362824"
+        ],
+        "predicted_entity_ids": [
+          "Q362824"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q108628759",
+          "vector_score": 0.728905
+        },
+        {
+          "doc_id": "film_Q111945633",
+          "vector_score": 0.566527
+        },
+        {
+          "doc_id": "film_Q117272474",
+          "vector_score": 0.492359
+        },
+        {
+          "doc_id": "film_Q113300586",
+          "vector_score": 0.491773
+        },
+        {
+          "doc_id": "film_Q1392744",
+          "vector_score": 0.487728
+        }
+      ],
+      "expanded_document_count": 113,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q108628759",
+          "rerank_score": 0.9996492862701416
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "rerank_score": 0.012754695490002632
+        },
+        {
+          "doc_id": "film_Q11085495",
+          "rerank_score": 0.011363048106431961
+        },
+        {
+          "doc_id": "film_Q186572",
+          "rerank_score": 0.008693074807524681
+        },
+        {
+          "doc_id": "film_Q124570438",
+          "rerank_score": 0.008620933629572392
+        },
+        {
+          "doc_id": "film_Q39571",
+          "rerank_score": 0.008565425872802734
+        }
+      ],
+      "query_seconds": 3.761
+    },
+    {
+      "id": "test-fact-03",
+      "type": "fact",
+      "question": "《熊猫计划》是由谁执导的？",
+      "answer": "根据现有材料，《熊猫计划》由张栾执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q45696134"
+        ],
+        "predicted_entity_ids": [
+          "Q45696134"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q131690947",
+          "vector_score": 0.663367
+        },
+        {
+          "doc_id": "film_Q39571",
+          "vector_score": 0.575599
+        },
+        {
+          "doc_id": "film_Q114707487",
+          "vector_score": 0.556085
+        },
+        {
+          "doc_id": "film_Q121076570",
+          "vector_score": 0.522117
+        },
+        {
+          "doc_id": "film_Q124650330",
+          "vector_score": 0.522012
+        }
+      ],
+      "expanded_document_count": 96,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q131690947",
+          "rerank_score": 0.9950820207595825
+        },
+        {
+          "doc_id": "film_Q114707487",
+          "rerank_score": 0.0529259592294693
+        },
+        {
+          "doc_id": "film_Q483941",
+          "rerank_score": 0.008014731109142303
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "rerank_score": 0.006988130509853363
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.006487230304628611
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.0056558228097856045
+        }
+      ],
+      "query_seconds": 3.267
+    },
+    {
+      "id": "test-fact-04",
+      "type": "fact",
+      "question": "《第二幕》是由谁执导的？",
+      "answer": "根据现有材料，《第二幕》由昆汀·杜皮尔执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q453691"
+        ],
+        "predicted_entity_ids": [
+          "Q453691"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q124472773",
+          "vector_score": 0.679956
+        },
+        {
+          "doc_id": "film_Q119680224",
+          "vector_score": 0.505307
+        },
+        {
+          "doc_id": "film_Q124570438",
+          "vector_score": 0.490112
+        },
+        {
+          "doc_id": "film_Q124326642",
+          "vector_score": 0.489467
+        },
+        {
+          "doc_id": "film_Q115707860",
+          "vector_score": 0.47656
+        }
+      ],
+      "expanded_document_count": 109,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q124472773",
+          "rerank_score": 0.9953138828277588
+        },
+        {
+          "doc_id": "film_Q114707487",
+          "rerank_score": 0.015925906598567963
+        },
+        {
+          "doc_id": "film_Q483941",
+          "rerank_score": 0.013506056740880013
+        },
+        {
+          "doc_id": "film_Q536299",
+          "rerank_score": 0.012702934443950653
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "rerank_score": 0.012003188021481037
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.010988227091729641
+        }
+      ],
+      "query_seconds": 2.996
+    },
+    {
+      "id": "test-fact-05",
+      "type": "fact",
+      "question": "《意外 (韩国电影)》是由谁执导的？",
+      "answer": "根据现有材料，《意外 (韩国电影)》由李耀燮执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "NAME:李耀燮"
+        ],
+        "predicted_entity_ids": [
+          "NAME:李耀燮"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q126209959",
+          "vector_score": 0.687992
+        },
+        {
+          "doc_id": "film_WP:9583695",
+          "vector_score": 0.519025
+        },
+        {
+          "doc_id": "film_Q124499929",
+          "vector_score": 0.51833
+        },
+        {
+          "doc_id": "film_Q126921922",
+          "vector_score": 0.517918
+        },
+        {
+          "doc_id": "film_Q123354234",
+          "vector_score": 0.495709
+        }
+      ],
+      "expanded_document_count": 105,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q126209959",
+          "rerank_score": 0.9984884262084961
+        },
+        {
+          "doc_id": "film_Q115283311",
+          "rerank_score": 0.004365736618638039
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "rerank_score": 0.003880356438457966
+        },
+        {
+          "doc_id": "film_Q126921922",
+          "rerank_score": 0.0038252577651292086
+        },
+        {
+          "doc_id": "film_Q121323115",
+          "rerank_score": 0.003694667248055339
+        },
+        {
+          "doc_id": "film_Q119680224",
+          "rerank_score": 0.0036278367042541504
+        }
+      ],
+      "query_seconds": 3.277
+    },
+    {
+      "id": "test-fact-06",
+      "type": "fact",
+      "question": "《饭戏攻心》是由谁执导的？",
+      "answer": "根据现有材料，《饭戏攻心》由陈咏燊执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q15919819"
+        ],
+        "predicted_entity_ids": [
+          "Q15919819"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q108003049",
+          "vector_score": 0.658457
+        },
+        {
+          "doc_id": "film_Q123330658",
+          "vector_score": 0.641905
+        },
+        {
+          "doc_id": "film_Q128559322",
+          "vector_score": 0.490159
+        },
+        {
+          "doc_id": "film_Q130397318",
+          "vector_score": 0.489285
+        },
+        {
+          "doc_id": "film_Q536299",
+          "vector_score": 0.488346
+        }
+      ],
+      "expanded_document_count": 99,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q108003049",
+          "rerank_score": 0.9962693452835083
+        },
+        {
+          "doc_id": "film_Q123330658",
+          "rerank_score": 0.9402676224708557
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "rerank_score": 0.005537897814065218
+        },
+        {
+          "doc_id": "film_Q164702",
+          "rerank_score": 0.005416159518063068
+        },
+        {
+          "doc_id": "film_Q536299",
+          "rerank_score": 0.005211357492953539
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.004989661742001772
+        }
+      ],
+      "query_seconds": 2.849
+    },
+    {
+      "id": "test-fact-07",
+      "type": "fact",
+      "question": "《749局》是由谁执导的？",
+      "answer": "根据现有材料，《749局》由陆川执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q1856626"
+        ],
+        "predicted_entity_ids": [
+          "Q1856626"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q109345157",
+          "vector_score": 0.667957
+        },
+        {
+          "doc_id": "film_Q190908",
+          "vector_score": 0.443421
+        },
+        {
+          "doc_id": "film_Q108749226",
+          "vector_score": 0.415208
+        },
+        {
+          "doc_id": "film_Q189540",
+          "vector_score": 0.413868
+        },
+        {
+          "doc_id": "film_Q123185887",
+          "vector_score": 0.412321
+        }
+      ],
+      "expanded_document_count": 113,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q109345157",
+          "rerank_score": 0.9969961643218994
+        },
+        {
+          "doc_id": "film_Q483941",
+          "rerank_score": 0.007824701257050037
+        },
+        {
+          "doc_id": "film_Q536299",
+          "rerank_score": 0.006489207502454519
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.006446440704166889
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "rerank_score": 0.006311959121376276
+        },
+        {
+          "doc_id": "film_Q186572",
+          "rerank_score": 0.005503479856997728
+        }
+      ],
+      "query_seconds": 3.373
+    },
+    {
+      "id": "test-fact-08",
+      "type": "fact",
+      "question": "《特技玩家》是由谁执导的？",
+      "answer": "根据现有材料，《特技玩家》由大卫·雷奇执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q5236475"
+        ],
+        "predicted_entity_ids": [
+          "Q5236475"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q113671585",
+          "vector_score": 0.687024
+        },
+        {
+          "doc_id": "film_Q123354197",
+          "vector_score": 0.534106
+        },
+        {
+          "doc_id": "film_Q117014906",
+          "vector_score": 0.498521
+        },
+        {
+          "doc_id": "film_Q126209959",
+          "vector_score": 0.491631
+        },
+        {
+          "doc_id": "film_Q115474889",
+          "vector_score": 0.490626
+        }
+      ],
+      "expanded_document_count": 110,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q113671585",
+          "rerank_score": 0.9962412118911743
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "rerank_score": 0.009154432453215122
+        },
+        {
+          "doc_id": "film_Q123185887",
+          "rerank_score": 0.007847352884709835
+        },
+        {
+          "doc_id": "film_Q11085495",
+          "rerank_score": 0.007205356378108263
+        },
+        {
+          "doc_id": "film_Q483941",
+          "rerank_score": 0.006784068886190653
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.006446892861276865
+        }
+      ],
+      "query_seconds": 3.096
+    },
+    {
+      "id": "test-path-01",
+      "type": "multi_hop",
+      "question": "王俊凯与苗苗 (演员)通过哪部影片产生关联？",
+      "answer": "王俊凯与苗苗（演员）通过影片《749局》产生关联。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q109345157"
+        ],
+        "predicted_entity_ids": [
+          "Q109345157"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q109345157",
+          "vector_score": 0.631687
+        },
+        {
+          "doc_id": "film_Q126942999",
+          "vector_score": 0.567528
+        },
+        {
+          "doc_id": "film_Q128153011",
+          "vector_score": 0.439435
+        },
+        {
+          "doc_id": "film_Q136691861",
+          "vector_score": 0.43598
+        },
+        {
+          "doc_id": "film_Q123823141",
+          "vector_score": 0.432286
+        }
+      ],
+      "expanded_document_count": 100,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q109345157",
+          "rerank_score": 0.8289085030555725
+        },
+        {
+          "doc_id": "film_Q126942999",
+          "rerank_score": 0.05817216634750366
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.006662641651928425
+        },
+        {
+          "doc_id": "film_Q129759798",
+          "rerank_score": 0.005462307017296553
+        },
+        {
+          "doc_id": "film_Q189540",
+          "rerank_score": 0.00481921061873436
+        },
+        {
+          "doc_id": "film_Q124650330",
+          "rerank_score": 0.004752104636281729
+        }
+      ],
+      "query_seconds": 3.576
+    },
+    {
+      "id": "test-path-02",
+      "type": "multi_hop",
+      "question": "佐伊·索尔达娜与卡拉·索菲亚·贾斯康通过哪部影片产生关联？",
+      "answer": "根据现有材料，佐伊·索尔达娜与卡拉·索菲亚·贾斯康通过影片《璀璨女人梦》产生关联。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q123928072"
+        ],
+        "predicted_entity_ids": [
+          "Q123928072"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q123928072",
+          "vector_score": 0.552365
+        },
+        {
+          "doc_id": "film_Q128153011",
+          "vector_score": 0.423962
+        },
+        {
+          "doc_id": "film_Q112182515",
+          "vector_score": 0.407999
+        },
+        {
+          "doc_id": "film_Q185888",
+          "vector_score": 0.388051
+        },
+        {
+          "doc_id": "film_Q124485988",
+          "vector_score": 0.383465
+        }
+      ],
+      "expanded_document_count": 108,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q123928072",
+          "rerank_score": 0.9584762454032898
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.002293455647304654
+        },
+        {
+          "doc_id": "film_Q123185887",
+          "rerank_score": 0.001502459985204041
+        },
+        {
+          "doc_id": "film_Q3521099",
+          "rerank_score": 0.0015023055020719767
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "rerank_score": 0.0013683373108506203
+        },
+        {
+          "doc_id": "film_Q165325",
+          "rerank_score": 0.0010882102651521564
+        }
+      ],
+      "query_seconds": 3.578
+    },
+    {
+      "id": "test-path-03",
+      "type": "multi_hop",
+      "question": "吴君如与张天赋通过哪部影片产生关联？",
+      "answer": "吴君如与张天赋通过影片《我谈的那场恋爱》产生关联。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q130288104"
+        ],
+        "predicted_entity_ids": [
+          "Q130288104"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q130288104",
+          "vector_score": 0.587183
+        },
+        {
+          "doc_id": "film_Q128153011",
+          "vector_score": 0.480927
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "vector_score": 0.445831
+        },
+        {
+          "doc_id": "film_Q164702",
+          "vector_score": 0.433238
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "vector_score": 0.432961
+        }
+      ],
+      "expanded_document_count": 101,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q130288104",
+          "rerank_score": 0.8554514050483704
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.005143193993717432
+        },
+        {
+          "doc_id": "film_Q124650330",
+          "rerank_score": 0.003506175009533763
+        },
+        {
+          "doc_id": "film_Q129759798",
+          "rerank_score": 0.0031273539643734694
+        },
+        {
+          "doc_id": "film_Q123823141",
+          "rerank_score": 0.003090568818151951
+        },
+        {
+          "doc_id": "film_Q102351060",
+          "rerank_score": 0.0030101914890110493
+        }
+      ],
+      "query_seconds": 2.957
+    },
+    {
+      "id": "test-path-04",
+      "type": "multi_hop",
+      "question": "游学修与钟雪莹通过哪部影片产生关联？",
+      "answer": "根据现有材料，游学修与钟雪莹通过影片《看我今天怎么说》产生关联，该片由两人共同主演。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q131311712"
+        ],
+        "predicted_entity_ids": [
+          "Q131311712"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q131311712",
+          "vector_score": 0.519309
+        },
+        {
+          "doc_id": "film_Q128153011",
+          "vector_score": 0.462428
+        },
+        {
+          "doc_id": "film_Q126943012",
+          "vector_score": 0.441823
+        },
+        {
+          "doc_id": "film_Q123823141",
+          "vector_score": 0.439783
+        },
+        {
+          "doc_id": "film_Q130397318",
+          "vector_score": 0.420247
+        }
+      ],
+      "expanded_document_count": 96,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q131311712",
+          "rerank_score": 0.9280024766921997
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.006799180060625076
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.0037483752239495516
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.0032053689938038588
+        },
+        {
+          "doc_id": "film_Q124650330",
+          "rerank_score": 0.0030986126512289047
+        },
+        {
+          "doc_id": "film_Q129759798",
+          "rerank_score": 0.0028417378198355436
+        }
+      ],
+      "query_seconds": 3.294
+    },
+    {
+      "id": "test-path-05",
+      "type": "multi_hop",
+      "question": "许贤与滕毅康通过哪部影片产生关联？",
+      "answer": "根据现有材料，许贤与滕毅康通过影片《公开试当真》产生关联，两人均为该片主演。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q129333360"
+        ],
+        "predicted_entity_ids": [
+          "Q129333360"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q129333360",
+          "vector_score": 0.507317
+        },
+        {
+          "doc_id": "film_Q123823141",
+          "vector_score": 0.458807
+        },
+        {
+          "doc_id": "film_Q130288104",
+          "vector_score": 0.4573
+        },
+        {
+          "doc_id": "film_Q128153011",
+          "vector_score": 0.452924
+        },
+        {
+          "doc_id": "film_Q126942999",
+          "vector_score": 0.433876
+        }
+      ],
+      "expanded_document_count": 95,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q129333360",
+          "rerank_score": 0.8793074488639832
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.004527496639639139
+        },
+        {
+          "doc_id": "film_Q129759798",
+          "rerank_score": 0.002652716124430299
+        },
+        {
+          "doc_id": "film_Q536299",
+          "rerank_score": 0.002484868746250868
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.002424810314550996
+        },
+        {
+          "doc_id": "film_Q124650330",
+          "rerank_score": 0.002393389353528619
+        }
+      ],
+      "query_seconds": 2.727
+    },
+    {
+      "id": "test-aggregate-01",
+      "type": "list",
+      "question": "哪些演员在陈咏燊执导的影片中出现过不止一次？",
+      "answer": "根据证据，在陈咏燊执导的影片中出现过不止一次的演员有：邓丽欣、张继聪、王菀之、林明祯、陈湛文。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q21652196",
+          "Q468707",
+          "Q64015319",
+          "Q6686900",
+          "Q717579"
+        ],
+        "predicted_entity_ids": [
+          "Q21652196",
+          "Q468707",
+          "Q64015319",
+          "Q6686900",
+          "Q717579"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q123330658",
+          "vector_score": 0.563628
+        },
+        {
+          "doc_id": "film_Q108003049",
+          "vector_score": 0.538074
+        },
+        {
+          "doc_id": "film_Q123354210",
+          "vector_score": 0.480597
+        },
+        {
+          "doc_id": "film_Q128559322",
+          "vector_score": 0.479896
+        },
+        {
+          "doc_id": "film_Q536299",
+          "vector_score": 0.477657
+        }
+      ],
+      "expanded_document_count": 105,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q108003049",
+          "rerank_score": 0.8373286724090576
+        },
+        {
+          "doc_id": "film_Q123330658",
+          "rerank_score": 0.7952494025230408
+        },
+        {
+          "doc_id": "film_Q115396783",
+          "rerank_score": 0.014582077972590923
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.00784581620246172
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.007146651856601238
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.0069661010056734085
+        }
+      ],
+      "query_seconds": 3.044
+    },
+    {
+      "id": "test-aggregate-02",
+      "type": "list",
+      "question": "哪些演员在宫崎骏执导的影片中出现过不止一次？",
+      "answer": "根据证据，在宫崎骏执导的影片中出现过不止一次的演员是：**美轮明宏**（《魔法公主》和《哈尔的移动城堡》）和**神木隆之介**（《千与千寻》和《哈尔的移动城堡》）。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q1041546",
+          "Q1076203"
+        ],
+        "predicted_entity_ids": [
+          "Q1041546",
+          "Q1076203"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q155653",
+          "vector_score": 0.549248
+        },
+        {
+          "doc_id": "film_Q39571",
+          "vector_score": 0.546113
+        },
+        {
+          "doc_id": "film_Q29011",
+          "vector_score": 0.533745
+        },
+        {
+          "doc_id": "film_Q186572",
+          "vector_score": 0.51326
+        },
+        {
+          "doc_id": "film_Q130397318",
+          "vector_score": 0.450044
+        }
+      ],
+      "expanded_document_count": 86,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.6242293119430542
+        },
+        {
+          "doc_id": "film_Q39571",
+          "rerank_score": 0.6232662200927734
+        },
+        {
+          "doc_id": "film_Q186572",
+          "rerank_score": 0.4773332178592682
+        },
+        {
+          "doc_id": "film_Q29011",
+          "rerank_score": 0.4714644253253937
+        },
+        {
+          "doc_id": "film_Q22126305",
+          "rerank_score": 0.020030442625284195
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.007841470651328564
+        }
+      ],
+      "query_seconds": 2.826
+    },
+    {
+      "id": "test-aggregate-03",
+      "type": "list",
+      "question": "哪些演员在宁浩执导的影片中出现过不止一次？",
+      "answer": "根据证据，在宁浩执导的影片中出现过不止一次的演员是：**徐峥**（《疯狂的石头》《无人区》）和**黄渤**（《疯狂的石头》《无人区》）。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q704130",
+          "Q893129"
+        ],
+        "predicted_entity_ids": [
+          "Q704130",
+          "Q893129"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q11085495",
+          "vector_score": 0.557766
+        },
+        {
+          "doc_id": "film_Q130397318",
+          "vector_score": 0.542631
+        },
+        {
+          "doc_id": "film_Q855284",
+          "vector_score": 0.53022
+        },
+        {
+          "doc_id": "film_Q136691861",
+          "vector_score": 0.458714
+        },
+        {
+          "doc_id": "film_Q115778970",
+          "vector_score": 0.457315
+        }
+      ],
+      "expanded_document_count": 95,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q855284",
+          "rerank_score": 0.8772715330123901
+        },
+        {
+          "doc_id": "film_Q11085495",
+          "rerank_score": 0.7313437461853027
+        },
+        {
+          "doc_id": "film_Q130397318",
+          "rerank_score": 0.63862544298172
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.0039004909340292215
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.0036381417885422707
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.0035906757693737745
+        }
+      ],
+      "query_seconds": 3.701
+    },
+    {
+      "id": "test-aggregate-04",
+      "type": "list",
+      "question": "哪些演员在大卫·芬奇执导的影片中出现过不止一次？",
+      "answer": "根据现有证据，在大卫·芬奇执导的影片中，演员**毕·彼特**出现于《斗阵俱乐部》和《七宗罪》，共两次。其他演员均未在芬奇执导的不同影片中重复出现。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q35332"
+        ],
+        "predicted_entity_ids": [
+          "Q35332"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q190908",
+          "vector_score": 0.547989
+        },
+        {
+          "doc_id": "film_Q185888",
+          "vector_score": 0.48798
+        },
+        {
+          "doc_id": "film_Q190050",
+          "vector_score": 0.483619
+        },
+        {
+          "doc_id": "film_Q113671585",
+          "vector_score": 0.482778
+        },
+        {
+          "doc_id": "film_Q117272474",
+          "vector_score": 0.445424
+        }
+      ],
+      "expanded_document_count": 112,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q185888",
+          "rerank_score": 0.8751099705696106
+        },
+        {
+          "doc_id": "film_Q190050",
+          "rerank_score": 0.7665280699729919
+        },
+        {
+          "doc_id": "film_Q190908",
+          "rerank_score": 0.7143899202346802
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.017353730276226997
+        },
+        {
+          "doc_id": "film_Q113671585",
+          "rerank_score": 0.01144327037036419
+        },
+        {
+          "doc_id": "film_Q114707487",
+          "rerank_score": 0.00875716470181942
+        }
+      ],
+      "query_seconds": 4.05
+    },
+    {
+      "id": "test-aggregate-05",
+      "type": "list",
+      "question": "哪些演员在王家卫执导的影片中出现过不止一次？",
+      "answer": "根据现有材料，在王家卫执导的影片中出现过不止一次的演员有：**梁朝伟**（《2046》《花样年华》《一代宗师》）、**张曼玉**（《2046》《花样年华》）、**章子怡**（《2046》《一代宗师》）、**张震**（《2046》《一代宗师》）。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q180852",
+          "Q234778",
+          "Q319001",
+          "Q717432"
+        ],
+        "predicted_entity_ids": [
+          "Q180852",
+          "Q234778",
+          "Q319001",
+          "Q717432"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q1056853",
+          "vector_score": 0.569573
+        },
+        {
+          "doc_id": "film_Q164702",
+          "vector_score": 0.567877
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "vector_score": 0.558137
+        },
+        {
+          "doc_id": "film_Q108749226",
+          "vector_score": 0.486952
+        },
+        {
+          "doc_id": "film_Q536299",
+          "vector_score": 0.476599
+        }
+      ],
+      "expanded_document_count": 97,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q164702",
+          "rerank_score": 0.5796974301338196
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.5373223423957825
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "rerank_score": 0.5107824206352234
+        },
+        {
+          "doc_id": "film_Q114707487",
+          "rerank_score": 0.0075895036570727825
+        },
+        {
+          "doc_id": "film_Q123823141",
+          "rerank_score": 0.006639741361141205
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.006543301977217197
+        }
+      ],
+      "query_seconds": 3.222
+    },
+    {
+      "id": "test-no-answer-01",
+      "type": "no_answer",
+      "question": "《知识工程测试片：不存在的回声》由谁执导？",
+      "answer": "根据现有材料，无法确定《知识工程测试片：不存在的回声》的导演。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "abstention_accuracy",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": true,
+        "matched_gold_ids": [],
+        "predicted_entity_ids": [],
+        "reason": "explicit abstention detected"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q129333360",
+          "vector_score": 0.511283
+        },
+        {
+          "doc_id": "film_Q160618",
+          "vector_score": 0.500785
+        },
+        {
+          "doc_id": "film_Q11085495",
+          "vector_score": 0.49682
+        },
+        {
+          "doc_id": "film_Q124472773",
+          "vector_score": 0.477972
+        },
+        {
+          "doc_id": "film_Q131311712",
+          "vector_score": 0.475327
+        }
+      ],
+      "expanded_document_count": 103,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.002408393891528249
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "rerank_score": 0.0023321094922721386
+        },
+        {
+          "doc_id": "film_Q123185887",
+          "rerank_score": 0.0020535080693662167
+        },
+        {
+          "doc_id": "film_Q483941",
+          "rerank_score": 0.001974651822820306
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.0018074887339025736
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.001796695520170033
+        }
+      ],
+      "query_seconds": 3.346
+    },
+    {
+      "id": "test-no-answer-02",
+      "type": "no_answer",
+      "question": "林海舟与周云岚通过哪部影片产生关联？",
+      "answer": "无法根据现有材料确定。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "abstention_accuracy",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": true,
+        "matched_gold_ids": [],
+        "predicted_entity_ids": [],
+        "reason": "explicit abstention detected"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q128153011",
+          "vector_score": 0.455711
+        },
+        {
+          "doc_id": "film_Q164702",
+          "vector_score": 0.443615
+        },
+        {
+          "doc_id": "film_Q536299",
+          "vector_score": 0.441261
+        },
+        {
+          "doc_id": "film_Q108749226",
+          "vector_score": 0.434313
+        },
+        {
+          "doc_id": "film_Q155653",
+          "vector_score": 0.415635
+        }
+      ],
+      "expanded_document_count": 108,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q22126305",
+          "rerank_score": 0.008263962343335152
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.005709571298211813
+        },
+        {
+          "doc_id": "film_Q3521099",
+          "rerank_score": 0.0039548794738948345
+        },
+        {
+          "doc_id": "film_Q123185887",
+          "rerank_score": 0.0034598226193338633
+        },
+        {
+          "doc_id": "film_Q39571",
+          "rerank_score": 0.0031489143148064613
+        },
+        {
+          "doc_id": "film_Q189540",
+          "rerank_score": 0.0031159755308181047
+        }
+      ],
+      "query_seconds": 3.315
+    }
+  ],
+  "scorer": "shared/scripts/benchmark_utils.py:v2",
+  "mean_query_seconds": 3.265
+}

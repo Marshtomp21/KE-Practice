@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123330658",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"饭戏攻心2\",\"relation\":\"导演\",\"object\":\"陈咏燊\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"演员\",\"object\":\"邓丽欣\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"演员\",\"object\":\"张继聪\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"演员\",\"object\":\"王菀之\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"演员\",\"object\":\"林明祯\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"演员\",\"object\":\"陈湛文\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"演员\",\"object\":\"谢君豪\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"演员\",\"object\":\"魏浚笙\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"演员\",\"object\":\"何启华\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"编剧\",\"object\":\"陈咏燊\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"上映地区\",\"object\":\"香港\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"上映日期\",\"object\":\"2024年2月9日\"},{\"subject\":\"饭戏攻心2\",\"relation\":\"是续集\",\"object\":\"饭戏攻心\"}]}",
+      "parsed_triples": 15
+    }
+  ]
+}

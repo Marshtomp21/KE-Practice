@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124670101",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"导演\",\"object\":\"凯文·科斯特纳\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"施安娜·米勒\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"山姆·沃辛顿\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"吉娜·玛隆\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"艾比·丽·科肖\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"迈克尔·鲁克\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"丹尼·休斯顿\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"卢克·威尔逊\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"伊莎贝拉·弗尔曼\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"演员\",\"object\":\"杰夫·法赫\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"编剧\",\"object\":\"凯文·科斯特纳\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"编剧\",\"object\":\"Jon Baird\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"制片公司\",\"object\":\"新线影业\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"类型\",\"object\":\"战争\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"类型\",\"object\":\"西部\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"续作\",\"object\":\"地平线：美国传奇 第二部\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"上映日期\",\"object\":\"2024年6月28日\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"上映地点\",\"object\":\"美国\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"剧情设定时间\",\"object\":\"南北战争时\"},{\"subject\":\"地平线：美国传奇 第一部\",\"relation\":\"剧情设定地点\",\"object\":\"美国西部\"}]}",
+      "parsed_triples": 20
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q117272474",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"不同的男人\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"不同的男人\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"不同的男人\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"不同的男人\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"不同的男人\",\"relation\":\"导演\",\"object\":\"亚伦·施密伯格\"},{\"subject\":\"不同的男人\",\"relation\":\"编剧\",\"object\":\"亚伦·施密伯格\"},{\"subject\":\"不同的男人\",\"relation\":\"制片公司\",\"object\":\"A24\"},{\"subject\":\"不同的男人\",\"relation\":\"主演\",\"object\":\"赛巴斯汀·斯坦\"},{\"subject\":\"不同的男人\",\"relation\":\"主演\",\"object\":\"雷娜特·赖因斯夫\"},{\"subject\":\"不同的男人\",\"relation\":\"主演\",\"object\":\"亚当·皮尔森\"},{\"subject\":\"不同的男人\",\"relation\":\"发行公司\",\"object\":\"A24\"},{\"subject\":\"不同的男人\",\"relation\":\"全球首映电影节\",\"object\":\"圣丹斯电影节\"},{\"subject\":\"不同的男人\",\"relation\":\"全球首映日期\",\"object\":\"2024年1月21日\"},{\"subject\":\"不同的男人\",\"relation\":\"柏林影展亮相日期\",\"object\":\"2024年2月16日\"},{\"subject\":\"不同的男人\",\"relation\":\"美国上映日期\",\"object\":\"2024年9月20日\"},{\"subject\":\"赛巴斯汀·斯坦\",\"relation\":\"获奖\",\"object\":\"第74届柏林影展最佳主角银熊奖\"},{\"subject\":\"不同的男人\",\"relation\":\"获得提名\",\"object\":\"第97届奥斯卡金像奖最佳化妆与发型设计奖\"},{\"subject\":\"赛巴斯汀·斯坦\",\"relation\":\"获得提名\",\"object\":\"第82届金球奖最佳音乐及喜剧类电影男主角奖\"}]}",
+      "parsed_triples": 18
+    }
+  ]
+}

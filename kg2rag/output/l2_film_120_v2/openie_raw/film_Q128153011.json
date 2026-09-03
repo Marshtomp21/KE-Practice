@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q128153011",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"捆绑上天堂\",\"relation\":\"导演\",\"object\":\"霍昕\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"演员\",\"object\":\"倪妮\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"演员\",\"object\":\"周游 (1991年)\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"类型\",\"object\":\"爱情\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"计划上映年份\",\"object\":\"2024年\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"改编自\",\"object\":\"李修文的同名小说\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"领衔主演\",\"object\":\"倪妮\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"领衔主演\",\"object\":\"周游\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"特别出演\",\"object\":\"廖凡\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"入选电影节单元\",\"object\":\"第72届圣塞巴斯蒂安国际电影节主竞赛单元\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"获得奖项\",\"object\":\"费比西国际影评人奖\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"获得奖项\",\"object\":\"最佳摄影奖\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"首映地点\",\"object\":\"多伦多国际电影节\"},{\"subject\":\"捆绑上天堂\",\"relation\":\"首映日期\",\"object\":\"2024年9月6日\"}]}",
+      "parsed_triples": 14
+    }
+  ]
+}

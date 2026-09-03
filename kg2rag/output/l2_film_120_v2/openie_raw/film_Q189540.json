@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q189540",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"七武士\",\"relation\":\"导演\",\"object\":\"黑泽明\"},{\"subject\":\"七武士\",\"relation\":\"演员\",\"object\":\"三船敏郎\"},{\"subject\":\"七武士\",\"relation\":\"演员\",\"object\":\"志村乔\"},{\"subject\":\"七武士\",\"relation\":\"演员\",\"object\":\"津岛惠子\"},{\"subject\":\"七武士\",\"relation\":\"演员\",\"object\":\"千秋实\"},{\"subject\":\"七武士\",\"relation\":\"演员\",\"object\":\"土屋嘉男\"},{\"subject\":\"七武士\",\"relation\":\"编剧\",\"object\":\"桥本忍\"},{\"subject\":\"七武士\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"七武士\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"七武士\",\"relation\":\"上映年份\",\"object\":\"1954年\"},{\"subject\":\"七武士\",\"relation\":\"制片公司\",\"object\":\"东宝\"},{\"subject\":\"七武士\",\"relation\":\"片长\",\"object\":\"207分钟\"},{\"subject\":\"七武士\",\"relation\":\"日本票房\",\"object\":\"2.9亿日元\"},{\"subject\":\"七武士\",\"relation\":\"制作成本\",\"object\":\"2.1亿日元\"},{\"subject\":\"七武士\",\"relation\":\"获得奖项\",\"object\":\"威尼斯电影节最佳导演银狮奖\"},{\"subject\":\"七武士\",\"relation\":\"改编自\",\"object\":\"豪勇七蛟龙\"}]}",
+      "parsed_triples": 16
+    }
+  ]
+}

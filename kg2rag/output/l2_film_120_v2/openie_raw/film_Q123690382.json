@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123690382",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"感应 (电影)\",\"relation\":\"导演\",\"object\":\"史蒂文·索德伯格\"},{\"subject\":\"感应 (电影)\",\"relation\":\"演员\",\"object\":\"刘玉玲\"},{\"subject\":\"感应 (电影)\",\"relation\":\"演员\",\"object\":\"克里斯·苏利文 (演员)\"},{\"subject\":\"感应 (电影)\",\"relation\":\"演员\",\"object\":\"卡莉娜·梁\"},{\"subject\":\"感应 (电影)\",\"relation\":\"演员\",\"object\":\"茱莉亚·福克斯\"},{\"subject\":\"感应 (电影)\",\"relation\":\"编剧\",\"object\":\"大卫·柯普\"},{\"subject\":\"感应 (电影)\",\"relation\":\"制片公司\",\"object\":\"分机765\"},{\"subject\":\"感应 (电影)\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"感应 (电影)\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"感应 (电影)\",\"relation\":\"类型\",\"object\":\"悬疑\"},{\"subject\":\"感应 (电影)\",\"relation\":\"类型\",\"object\":\"家庭\"},{\"subject\":\"感应 (电影)\",\"relation\":\"上映日期\",\"object\":\"2024年1月19日\"},{\"subject\":\"感应 (电影)\",\"relation\":\"首映活动\",\"object\":\"日舞影展\"},{\"subject\":\"感应 (电影)\",\"relation\":\"上映日期\",\"object\":\"2025年1月24日\"},{\"subject\":\"感应 (电影)\",\"relation\":\"发行公司\",\"object\":\"霓虹\"}]}",
+      "parsed_triples": 15
+    }
+  ]
+}

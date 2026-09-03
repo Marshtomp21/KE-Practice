@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q126943012",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"乔妍的心事\",\"relation\":\"导演\",\"object\":\"赵德胤\"},{\"subject\":\"乔妍的心事\",\"relation\":\"演员\",\"object\":\"赵丽颖\"},{\"subject\":\"乔妍的心事\",\"relation\":\"演员\",\"object\":\"辛芷蕾\"},{\"subject\":\"乔妍的心事\",\"relation\":\"演员\",\"object\":\"黄觉\"},{\"subject\":\"乔妍的心事\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"乔妍的心事\",\"relation\":\"类型\",\"object\":\"悬疑\"},{\"subject\":\"乔妍的心事\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"乔妍的心事\",\"relation\":\"改编自\",\"object\":\"《大乔小乔》\"},{\"subject\":\"《大乔小乔》\",\"relation\":\"作者\",\"object\":\"张悦然\"},{\"subject\":\"乔妍的心事\",\"relation\":\"入围电影节\",\"object\":\"第37届东京国际电影节主竞赛单元\"},{\"subject\":\"乔妍的心事\",\"relation\":\"入围电影节\",\"object\":\"第35届新加坡国际影展“特别呈献电影”单元\"},{\"subject\":\"乔妍的心事\",\"relation\":\"上映日期\",\"object\":\"2024年10月26日\"},{\"subject\":\"乔妍的心事\",\"relation\":\"上映地区\",\"object\":\"中国大陆\"}]}",
+      "parsed_triples": 13
+    }
+  ]
+}

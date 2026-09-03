@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q116030637",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"五分钱男孩\",\"relation\":\"上映时间\",\"object\":\"2024年\"},{\"subject\":\"五分钱男孩\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"五分钱男孩\",\"relation\":\"类型\",\"object\":\"历史\"},{\"subject\":\"五分钱男孩\",\"relation\":\"改编自\",\"object\":\"科尔森·怀特黑德\"},{\"subject\":\"五分钱男孩\",\"relation\":\"编剧\",\"object\":\"拉梅尔·罗斯\"},{\"subject\":\"五分钱男孩\",\"relation\":\"制片公司\",\"object\":\"猎户座影业\"},{\"subject\":\"五分钱男孩\",\"relation\":\"制片公司\",\"object\":\"B计划娱乐\"},{\"subject\":\"五分钱男孩\",\"relation\":\"演员\",\"object\":\"哈米什·林克莱特\"},{\"subject\":\"五分钱男孩\",\"relation\":\"演员\",\"object\":\"佛列德·海辛尔\"},{\"subject\":\"五分钱男孩\",\"relation\":\"演员\",\"object\":\"戴维德·迪格斯\"},{\"subject\":\"五分钱男孩\",\"relation\":\"演员\",\"object\":\"安洁纽·艾莉丝\"},{\"subject\":\"五分钱男孩\",\"relation\":\"奖项\",\"object\":\"国家影评人协会奖最佳影片\"},{\"subject\":\"五分钱男孩\",\"relation\":\"改编自小说\",\"object\":\"科尔森·怀特黑德2019年出版的同名小说\"},{\"subject\":\"五分钱男孩\",\"relation\":\"导演\",\"object\":\"拉梅尔·罗斯\"},{\"subject\":\"五分钱男孩\",\"relation\":\"编剧\",\"object\":\"乔斯琳·巴尼斯\"},{\"subject\":\"五分钱男孩\",\"relation\":\"演员\",\"object\":\"伊桑·赫里斯\"},{\"subject\":\"五分钱男孩\",\"relation\":\"演员\",\"object\":\"布兰登·威尔逊\"},{\"subject\":\"五分钱男孩\",\"relation\":\"演员\",\"object\":\"吉米·费尔斯\"},{\"subject\":\"五分钱男孩\",\"relation\":\"故事背景\",\"object\":\"1960年代的佛罗里达州\"},{\"subject\":\"五分钱男孩\",\"relation\":\"故事原型\",\"object\":\"多齐尔男子学校\"},{\"subject\":\"五分钱男孩\",\"relation\":\"拍摄地点\",\"object\":\"路易斯安那州\"},{\"subject\":\"五分钱男孩\",\"relation\":\"首映\",\"object\":\"第51届特柳赖德电影节\"},{\"subject\":\"五分钱男孩\",\"relation\":\"上映日期\",\"object\":\"2024年12月13日\"},{\"subject\":\"五分钱男孩\",\"relation\":\"发行公司\",\"object\":\"亚马逊米高梅工作室\"},{\"subject\":\"五分钱男孩\",\"relation\":\"入选\",\"object\":\"2024年美国电影学会奖年度10大电影\"},{\"subject\":\"五分钱男孩\",\"relation\":\"提名\",\"object\":\"第82届金球奖最佳戏剧类影片奖\"},{\"subject\":\"五分钱男孩\",\"relation\":\"提名\",\"object\":\"第97届奥斯卡金像奖最佳影片奖\"},{\"subject\":\"五分钱男孩\",\"relation\":\"提名\",\"object\":\"第97届奥斯卡金像奖最佳改编剧本奖\"}]}",
+      "parsed_triples": 28
+    }
+  ]
+}

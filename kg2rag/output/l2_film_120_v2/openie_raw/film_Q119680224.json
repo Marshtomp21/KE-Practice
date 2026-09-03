@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q119680224",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"老手2\",\"relation\":\"导演\",\"object\":\"柳承完\"},{\"subject\":\"老手2\",\"relation\":\"演员\",\"object\":\"黄晸珉\"},{\"subject\":\"老手2\",\"relation\":\"演员\",\"object\":\"丁海寅\"},{\"subject\":\"老手2\",\"relation\":\"编剧\",\"object\":\"柳承完\"},{\"subject\":\"老手2\",\"relation\":\"编剧\",\"object\":\"李元宰\"},{\"subject\":\"老手2\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"老手2\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"老手2\",\"relation\":\"上映年份\",\"object\":\"2024\"},{\"subject\":\"老手2\",\"relation\":\"国家/地区\",\"object\":\"韩国\"},{\"subject\":\"老手2\",\"relation\":\"是续集\",\"object\":\"辣手警探\"},{\"subject\":\"老手2\",\"relation\":\"入选影展单元\",\"object\":\"第77届坎城影展午夜展映单元\"},{\"subject\":\"老手2\",\"relation\":\"世界首映日期\",\"object\":\"2024年5月20日\"},{\"subject\":\"老手2\",\"relation\":\"韩国上映日期\",\"object\":\"2024年9月13日\"},{\"subject\":\"老手2\",\"relation\":\"香港上映日期\",\"object\":\"2024年9月26日\"},{\"subject\":\"老手2\",\"relation\":\"台湾上映日期\",\"object\":\"2024年10月18日\"},{\"subject\":\"老手2\",\"relation\":\"观影人次突破损益平衡点\",\"object\":\"400万\"}]}",
+      "parsed_triples": 16
+    }
+  ]
+}

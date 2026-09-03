@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q22126305",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"获奖\",\"object\":\"Crunchyroll动画奖得主\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"获奖\",\"object\":\"Newtype动画奖\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"获奖\",\"object\":\"神户动画奖\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"获奖\",\"object\":\"东京动画奖\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"改编自\",\"object\":\"谏山创的同名漫画\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"第一季到第三季制作方\",\"object\":\"WIT STUDIO\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"第四季兼最终季制作方\",\"object\":\"MAPPA\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"首播时间\",\"object\":\"2013年4月7日\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"首播平台\",\"object\":\"每日放送\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"第三季起播出平台\",\"object\":\"NHK\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"亚太地区播映方\",\"object\":\"Aniplex Asia\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"北美地区播映方\",\"object\":\"Adult Swim\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"故事发生地\",\"object\":\"虚构世界\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"主人公\",\"object\":\"艾连·叶卡\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"主人公朋友\",\"object\":\"米卡莎·阿卡曼\"},{\"subject\":\"进击的巨人 (动画)\",\"relation\":\"主人公朋友\",\"object\":\"阿尔敏·亚鲁雷特\"},{\"subject\":\"艾连·叶卡\",\"relation\":\"加入组织\",\"object\":\"调查兵团\"},{\"subject\":\"米卡莎·阿卡曼\",\"relation\":\"加入组织\",\"object\":\"调查兵团\"},{\"subject\":\"阿尔敏·亚鲁雷特\",\"relation\":\"加入组织\",\"object\":\"调查兵团\"},{\"subject\":\"艾连·叶卡\",\"relation\":\"被发现是\",\"object\":\"巨人\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

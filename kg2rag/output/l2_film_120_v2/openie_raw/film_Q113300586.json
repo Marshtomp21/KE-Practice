@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q113300586",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"导演\",\"object\":\"吉尔·基能\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"保罗·路德\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"凯莉·库恩\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"芬恩·伍法德\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"麦肯娜·葛瑞丝\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"库梅尔·南贾尼\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"派顿·奥斯瓦特\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"丹·艾克洛德\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"厄尼·哈德森\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"安妮·波茨\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"帕顿·奥斯瓦尔特\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"比尔·莫瑞\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"威廉·阿瑟顿\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"詹姆斯·阿卡斯特\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"演员\",\"object\":\"艾蜜莉·艾琳·林德\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"编剧\",\"object\":\"杰森·瑞特曼\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"编剧\",\"object\":\"吉尔·基能\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"制片公司\",\"object\":\"哥伦比亚影业\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"捉鬼敢死队：冰封魅来\",\"relation\":\"前作\",\"object\":\"魔鬼克星 未来世\"},{\"subject\":\"魔鬼克星：冰天冻地\",\"relation\":\"导演\",\"object\":\"吉尔·基能\"},{\"subject\":\"魔鬼克星：冰天冻地\",\"relation\":\"编剧\",\"object\":\"吉尔·基能\"},{\"subject\":\"魔鬼克星：冰天冻地\",\"relation\":\"编剧\",\"object\":\"杰森·瑞特曼\"},{\"subject\":\"魔鬼克星：冰天冻地\",\"relation\":\"系列\",\"object\":\"魔鬼克星系列\"},{\"subject\":\"魔鬼克星：冰天冻地\",\"relation\":\"前作\",\"object\":\"魔鬼克星 未来世\"},{\"subject\":\"魔鬼克星：冰天冻地\",\"relation\":\"上映日期\",\"object\":\"2024年3月22日\"},{\"subject\":\"魔鬼克星：冰天冻地\",\"relation\":\"上映地区\",\"object\":\"美国\"}]}",
+      "parsed_triples": 28
+    }
+  ]
+}

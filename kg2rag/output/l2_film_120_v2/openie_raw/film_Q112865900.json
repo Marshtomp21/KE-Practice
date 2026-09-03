@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q112865900",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"导演\",\"object\":\"蒂姆·伯顿\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"演员\",\"object\":\"米高·基顿\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"演员\",\"object\":\"薇诺娜·瑞德\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"演员\",\"object\":\"凯瑟琳·奥哈拉\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"演员\",\"object\":\"贾斯汀·塞洛克斯\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"演员\",\"object\":\"蒙妮卡·贝露琪\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"演员\",\"object\":\"珍娜·奥特嘉\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"演员\",\"object\":\"威廉·达佛\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"演员\",\"object\":\"伯恩·戈曼\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"制片公司\",\"object\":\"B计划娱乐\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"阴间大法师 Beetlejuice\",\"relation\":\"前作\",\"object\":\"阴间大法师\"},{\"subject\":\"阴间大法师 BEETLEJUICE\",\"relation\":\"导演\",\"object\":\"提姆·波顿\"},{\"subject\":\"阴间大法师 BEETLEJUICE\",\"relation\":\"编剧\",\"object\":\"阿尔弗雷德·高福\"},{\"subject\":\"阴间大法师 BEETLEJUICE\",\"relation\":\"编剧\",\"object\":\"麦尔斯·米勒\"},{\"subject\":\"阴间大法师 BEETLEJUICE\",\"relation\":\"故事合作\",\"object\":\"赛斯·葛雷恩·史密斯\"},{\"subject\":\"阴间大法师 BEETLEJUICE\",\"relation\":\"前作\",\"object\":\"1988年电影《阴间大法师》\"},{\"subject\":\"阴间大法师 BEETLEJUICE\",\"relation\":\"上映日期\",\"object\":\"2024年9月6日\"},{\"subject\":\"阴间大法师 BEETLEJUICE\",\"relation\":\"上映地区\",\"object\":\"美国\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

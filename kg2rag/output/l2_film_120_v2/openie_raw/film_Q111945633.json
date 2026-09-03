@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q111945633",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"丑人儿 (电影)\",\"relation\":\"导演\",\"object\":\"乔瑟夫·麦克吉帝·尼克尔\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"演员\",\"object\":\"乔伊·金\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"演员\",\"object\":\"切斯·史多克斯\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"演员\",\"object\":\"拉薇安·考克斯\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"编剧\",\"object\":\"凡妮莎·泰勒\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"制片公司\",\"object\":\"仙境影视\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"类型\",\"object\":\"科幻\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"改编自\",\"object\":\"丑人儿\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"改编自\",\"object\":\"史考特·韦斯特费德\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"上映日期\",\"object\":\"2024年9月13日\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"上映平台\",\"object\":\"Netflix\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"监制\",\"object\":\"约翰·戴维斯\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"编剧\",\"object\":\"雅各·弗尔曼\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"编剧\",\"object\":\"怀特·安德森\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"演员\",\"object\":\"凯斯·鲍尔斯\"},{\"subject\":\"丑人儿 (电影)\",\"relation\":\"演员\",\"object\":\"布莱安妮·特鲁\"}]}",
+      "parsed_triples": 17
+    }
+  ]
+}

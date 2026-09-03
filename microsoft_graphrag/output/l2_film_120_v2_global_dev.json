@@ -1,0 +1,157 @@
+{
+  "method": "Microsoft GraphRAG Global L2 v2",
+  "questions_target": 5,
+  "elapsed_seconds": 27.133,
+  "evaluation": {
+    "count": 5,
+    "mean_score": 0.6667,
+    "exact_match_rate": 0.4,
+    "by_type": {
+      "fact": {
+        "count": 2,
+        "mean_score": 0.5
+      },
+      "list": {
+        "count": 1,
+        "mean_score": 0.6667
+      },
+      "multi_hop": {
+        "count": 1,
+        "mean_score": 0.6667
+      },
+      "no_answer": {
+        "count": 1,
+        "mean_score": 1.0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "dev-fact-01",
+      "type": "fact",
+      "question": "《阿诺拉》是由谁执导的？",
+      "answer": "I am sorry but I am unable to answer this question given the provided data.",
+      "score": 0.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "exact_match": false,
+        "abstained": true,
+        "matched_gold_ids": [],
+        "predicted_entity_ids": [],
+        "reason": "answer begins with an abstention"
+      },
+      "query_seconds": 4.625,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "id": "dev-fact-02",
+      "type": "fact",
+      "question": "《千与千寻》是由谁执导的？",
+      "answer": "《千与千寻》是由日本著名动画导演宫崎骏执导的。宫崎骏是吉卜力工作室的联合创始人之一，以其独特的叙事风格和深刻的人文关怀在全球动画界享有盛誉 [Data: Reports (89)]。这部作品不仅展现了宫崎骏导演的卓越才华，也体现了吉卜力工作室在动画艺术上的深厚造诣 [Data: Reports (89)]。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q55400"
+        ],
+        "predicted_entity_ids": [
+          "Q55400"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "query_seconds": 5.277,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "id": "dev-path-01",
+      "type": "multi_hop",
+      "question": "黄子华与邓丽欣通过哪部影片产生关联？",
+      "answer": "黄子华与邓丽欣通过电影《饭戏攻心》产生关联。该片是2022年上映的香港喜剧电影，由陈咏燊执导并编剧，黄子华与邓丽欣均为该片主演 [Data: Reports (196, 73, 10)]。此外，两人还共同出演了该系列的续集《饭戏攻心2》（2024年上映），该续集同样由陈咏燊编剧并执导 [Data: Reports (73)]。因此，两人通过《饭戏攻心》系列电影建立了明确的合作关系。",
+      "score": 0.666667,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 0.666667,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.666667,
+        "exact_match": false,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q108003049"
+        ],
+        "predicted_entity_ids": [
+          "Q108003049",
+          "Q123330658"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: whole answer"
+      },
+      "query_seconds": 6.302,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "id": "dev-aggregate-01",
+      "type": "list",
+      "question": "哪些演员在魏斯·安德森执导的影片中出现过不止一次？",
+      "answer": "根据现有资料，可以确认以下演员在魏斯·安德森执导的影片中出现过不止一次：\n\n- **比尔·莫瑞（比尔·墨瑞）** 出演了安德森执导的《月升王国》和《欢迎来到布达佩斯大饭店》，表明他至少在两部安德森电影中出现过 [Data: Reports (39, 261)]。\n- **蒂达·史云顿** 同样出演了《月升王国》和《欢迎来到布达佩斯大饭店》，因此她也在安德森的电影中出现过不止一次 [Data: Reports (39, 262)]。\n\n这些信息显示，两位演员均与安德森有多次合作，且都出现在上述两部影片中。若需进一步确认其他演员的重复出演情况，可能需要查阅更完整的演员名单或影片资料。",
+      "score": 0.666667,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 0.666667,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.666667,
+        "exact_match": false,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q200534",
+          "Q29250"
+        ],
+        "predicted_entity_ids": [
+          "Q200534",
+          "Q29250"
+        ],
+        "reason": "canonical entity alias matching; prediction projection: first markdown bullet block"
+      },
+      "query_seconds": 6.258,
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "id": "dev-no-answer-01",
+      "type": "no_answer",
+      "question": "《知识工程测试片：未上映的城市》有哪些主演？",
+      "answer": "I am sorry but I am unable to answer this question given the provided data.",
+      "score": 1.0,
+      "metrics": {
+        "metric": "abstention_accuracy",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": true,
+        "matched_gold_ids": [],
+        "predicted_entity_ids": [],
+        "reason": "explicit abstention detected"
+      },
+      "query_seconds": 4.669,
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "scorer": "shared/scripts/benchmark_utils.py:v2",
+  "mean_query_seconds": 5.426
+}

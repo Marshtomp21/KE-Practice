@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q217112",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"月升王国\",\"relation\":\"导演\",\"object\":\"魏斯·安德森\"},{\"subject\":\"月升王国\",\"relation\":\"演员\",\"object\":\"布鲁斯·威利斯\"},{\"subject\":\"月升王国\",\"relation\":\"演员\",\"object\":\"爱德华·诺顿\"},{\"subject\":\"月升王国\",\"relation\":\"演员\",\"object\":\"比尔·莫瑞\"},{\"subject\":\"月升王国\",\"relation\":\"演员\",\"object\":\"法兰丝·麦杜雯\"},{\"subject\":\"月升王国\",\"relation\":\"演员\",\"object\":\"蒂达·史云顿\"},{\"subject\":\"月升王国\",\"relation\":\"演员\",\"object\":\"积逊·舒华沙曼\"},{\"subject\":\"月升王国\",\"relation\":\"演员\",\"object\":\"卜·巴拉宾\"},{\"subject\":\"月升王国\",\"relation\":\"编剧\",\"object\":\"罗曼·柯波拉\"},{\"subject\":\"月升王国\",\"relation\":\"制片公司\",\"object\":\"American Empirical Pictures\"},{\"subject\":\"月升王国\",\"relation\":\"制片公司\",\"object\":\"Indian Paintbrush\"},{\"subject\":\"月升王国\",\"relation\":\"制片公司\",\"object\":\"Scott Rudin Productions\"},{\"subject\":\"月升王国\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"月升王国\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"月升王国\",\"relation\":\"类型\",\"object\":\"爱情\"},{\"subject\":\"月升王国\",\"relation\":\"上映年份\",\"object\":\"2012\"},{\"subject\":\"月升王国\",\"relation\":\"国家\",\"object\":\"美国\"},{\"subject\":\"月升王国\",\"relation\":\"别名\",\"object\":\"小学鸡私奔记\"},{\"subject\":\"月升王国\",\"relation\":\"英文名\",\"object\":\"Moonrise Kingdom\"}]}",
+      "parsed_triples": 19
+    }
+  ]
+}

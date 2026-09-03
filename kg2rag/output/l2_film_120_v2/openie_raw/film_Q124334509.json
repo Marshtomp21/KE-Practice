@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124334509",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"香巴拉 (电影)\",\"relation\":\"演员\",\"object\":\"天列拉姆\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"演员\",\"object\":\"索南多登\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"演员\",\"object\":\"丹增达拉\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"编剧\",\"object\":\"明·巴哈杜尔·巴姆\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片公司\",\"object\":\"Shooney Films\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片公司\",\"object\":\"CDP\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片公司\",\"object\":\"Ape&Bjørn\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片公司\",\"object\":\"Aaru Production\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片公司\",\"object\":\"ZK Film\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片公司\",\"object\":\"Istanbul\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片公司\",\"object\":\"一条龙虎豹\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片公司\",\"object\":\"Bangdel & Shakya Production\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"导演\",\"object\":\"明·巴哈杜尔·巴姆\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"编剧\",\"object\":\"阿比纳什·比克拉姆·沙阿\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"制片成本\",\"object\":\"1.5亿卢比\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"联合制作国家\",\"object\":\"尼泊尔\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"联合制作国家\",\"object\":\"法国\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"联合制作国家\",\"object\":\"挪威\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"联合制作国家\",\"object\":\"香港\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"联合制作国家\",\"object\":\"台湾\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"联合制作国家\",\"object\":\"土耳其\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"联合制作国家\",\"object\":\"美国\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"联合制作国家\",\"object\":\"卡塔尔\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"入选电影节\",\"object\":\"第74届柏林影展主竞赛单元\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"首映日期\",\"object\":\"2024年2月23日\"},{\"subject\":\"香巴拉 (电影)\",\"relation\":\"代表国家参加奥斯卡\",\"object\":\"第97届奥斯卡金像奖最佳国际影片奖\"}]}",
+      "parsed_triples": 27
+    }
+  ]
+}

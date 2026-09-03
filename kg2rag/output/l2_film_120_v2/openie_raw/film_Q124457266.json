@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124457266",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"海洋奇缘2\",\"relation\":\"导演\",\"object\":\"华特迪士尼公司\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"演员\",\"object\":\"奥莉伊·卡拉瓦尔侯\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"演员\",\"object\":\"巨石强森\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"演员\",\"object\":\"特穆拉·莫里森\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"演员\",\"object\":\"妮可·舒辛格\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"演员\",\"object\":\"艾伦·图克\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"编剧\",\"object\":\"杰瑞·布希\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"制片公司\",\"object\":\"华特迪士尼动画工作室\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"类型\",\"object\":\"音乐\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"类型\",\"object\":\"家庭\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"前作\",\"object\":\"海洋奇缘\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"发行公司\",\"object\":\"华特迪士尼影业\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"导演\",\"object\":\"小大卫·德瑞克\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"导演\",\"object\":\"杰森·汉德\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"导演\",\"object\":\"达纳·勒杜·米勒\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"上映日期\",\"object\":\"2024年11月27日\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"上映地点\",\"object\":\"美国\"},{\"subject\":\"海洋奇缘2\",\"relation\":\"获得提名\",\"object\":\"第82届金球奖长篇动画奖\"}]}",
+      "parsed_triples": 22
+    }
+  ]
+}

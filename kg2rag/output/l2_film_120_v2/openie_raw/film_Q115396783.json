@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q115396783",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"卧底的退隐生活\",\"relation\":\"导演\",\"object\":\"高子彬\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"主演\",\"object\":\"谢安琪\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"主演\",\"object\":\"邓月平\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"主演\",\"object\":\"陈毅燊\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"主演\",\"object\":\"唐诗咏\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"主演\",\"object\":\"郑丹瑞\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"制片公司\",\"object\":\"本地制作\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"制片公司\",\"object\":\"天下一电影制作\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"别名\",\"object\":\"Out of the Shadow\"},{\"subject\":\"卧底的退隐生活\",\"relation\":\"类型\",\"object\":\"黑色喜剧动作电影\"}]}",
+      "parsed_triples": 11
+    }
+  ]
+}

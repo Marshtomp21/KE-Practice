@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q855284",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"疯狂的石头\",\"relation\":\"导演\",\"object\":\"宁浩\"},{\"subject\":\"疯狂的石头\",\"relation\":\"演员\",\"object\":\"郭涛\"},{\"subject\":\"疯狂的石头\",\"relation\":\"演员\",\"object\":\"刘桦\"},{\"subject\":\"疯狂的石头\",\"relation\":\"演员\",\"object\":\"连伟健\"},{\"subject\":\"疯狂的石头\",\"relation\":\"演员\",\"object\":\"徐峥\"},{\"subject\":\"疯狂的石头\",\"relation\":\"演员\",\"object\":\"黄渤\"},{\"subject\":\"疯狂的石头\",\"relation\":\"演员\",\"object\":\"王迅\"},{\"subject\":\"疯狂的石头\",\"relation\":\"演员\",\"object\":\"彭波\"},{\"subject\":\"疯狂的石头\",\"relation\":\"编剧\",\"object\":\"岳小军\"},{\"subject\":\"疯狂的石头\",\"relation\":\"编剧\",\"object\":\"张承\"},{\"subject\":\"疯狂的石头\",\"relation\":\"制片公司\",\"object\":\"映艺娱乐有限公司\"},{\"subject\":\"疯狂的石头\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"疯狂的石头\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"疯狂的石头\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"疯狂的石头\",\"relation\":\"获奖\",\"object\":\"华语电影传媒大奖最佳导演获奖电影\"},{\"subject\":\"疯狂的石头\",\"relation\":\"获奖\",\"object\":\"华语电影传媒大奖最佳电影\"},{\"subject\":\"疯狂的石头\",\"relation\":\"获奖\",\"object\":\"华语电影传媒大奖最佳编剧获奖电影\"},{\"subject\":\"疯狂的石头\",\"relation\":\"获奖\",\"object\":\"金马奖最佳原著剧本获奖电影\"},{\"subject\":\"疯狂的石头\",\"relation\":\"原名\",\"object\":\"贼中贼\"},{\"subject\":\"疯狂的石头\",\"relation\":\"上映年份\",\"object\":\"2006年\"},{\"subject\":\"疯狂的石头\",\"relation\":\"风格\",\"object\":\"黑色幽默\"},{\"subject\":\"疯狂的石头\",\"relation\":\"地区\",\"object\":\"中国大陆\"},{\"subject\":\"疯狂的石头\",\"relation\":\"投资方\",\"object\":\"刘德华\"},{\"subject\":\"疯狂的石头\",\"relation\":\"所属计划\",\"object\":\"亚洲新星导\"},{\"subject\":\"疯狂的石头\",\"relation\":\"投资额\",\"object\":\"三百万\"},{\"subject\":\"疯狂的石头\",\"relation\":\"拍摄地点\",\"object\":\"重庆罗汉寺\"},{\"subject\":\"疯狂的石头\",\"relation\":\"首映地点\",\"object\":\"上海电影节\"},{\"subject\":\"疯狂的石头\",\"relation\":\"首映时间\",\"object\":\"2006年6月底\"},{\"subject\":\"疯狂的石头\",\"relation\":\"首周票房\",\"object\":\"600万人民币\"},{\"subject\":\"疯狂的石头\",\"relation\":\"最终票房\",\"object\":\"2500多万\"},{\"subject\":\"疯狂的石头\",\"relation\":\"香港首周票房\",\"object\":\"13万港币\"}]}",
+      "parsed_triples": 31
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124472773",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"第二幕\",\"relation\":\"导演\",\"object\":\"昆汀·杜皮尔\"},{\"subject\":\"第二幕\",\"relation\":\"演员\",\"object\":\"蕾雅·瑟杜\"},{\"subject\":\"第二幕\",\"relation\":\"演员\",\"object\":\"万桑·蓝东\"},{\"subject\":\"第二幕\",\"relation\":\"演员\",\"object\":\"路易·卡瑞\"},{\"subject\":\"第二幕\",\"relation\":\"编剧\",\"object\":\"昆汀·杜皮尔\"},{\"subject\":\"第二幕\",\"relation\":\"制片公司\",\"object\":\"法国艺术影业\"},{\"subject\":\"第二幕\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"第二幕\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"第二幕\",\"relation\":\"国家\",\"object\":\"法国\"},{\"subject\":\"第二幕\",\"relation\":\"类型\",\"object\":\"黑色喜剧片\"},{\"subject\":\"第二幕\",\"relation\":\"主演\",\"object\":\"蕾雅·瑟杜\"},{\"subject\":\"第二幕\",\"relation\":\"主演\",\"object\":\"万桑·蓝东\"},{\"subject\":\"第二幕\",\"relation\":\"主演\",\"object\":\"路易·卡黑\"},{\"subject\":\"第二幕\",\"relation\":\"主演\",\"object\":\"拉斐尔·奎纳德\"},{\"subject\":\"第二幕\",\"relation\":\"主演\",\"object\":\"曼努埃尔·圭洛特\"},{\"subject\":\"第二幕\",\"relation\":\"讲述内容\",\"object\":\"参演一部注定失败的电影的演员们的故事\"},{\"subject\":\"第二幕\",\"relation\":\"作为\",\"object\":\"第77届坎城影展开幕片\"},{\"subject\":\"第二幕\",\"relation\":\"全球首映日期\",\"object\":\"2024年5月14日\"},{\"subject\":\"第二幕\",\"relation\":\"法国院线发行公司\",\"object\":\"Diaphana Distribution\"}]}",
+      "parsed_triples": 19
+    }
+  ]
+}

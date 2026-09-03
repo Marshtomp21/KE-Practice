@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q121547814",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"窥探者\",\"relation\":\"演员\",\"object\":\"达科塔·芬妮\"},{\"subject\":\"窥探者\",\"relation\":\"演员\",\"object\":\"乔吉娜·坎贝尔\"},{\"subject\":\"窥探者\",\"relation\":\"编剧\",\"object\":\"伊莎娜·奈·沙马兰\"},{\"subject\":\"窥探者\",\"relation\":\"制片公司\",\"object\":\"新线影业\"},{\"subject\":\"窥探者\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"窥探者\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"窥探者\",\"relation\":\"上映日期\",\"object\":\"2024年6月7日\"},{\"subject\":\"窥探者\",\"relation\":\"上映地区\",\"object\":\"美国\"},{\"subject\":\"窥探者\",\"relation\":\"改编自\",\"object\":\"A·M·希恩的同名小说\"},{\"subject\":\"伊莎娜·奈·沙马兰\",\"relation\":\"编导\",\"object\":\"窥探者\"},{\"subject\":\"伊莎娜·奈·沙马兰\",\"relation\":\"长片编导首部作品\",\"object\":\"窥探者\"},{\"subject\":\"奈·沙马兰\",\"relation\":\"监制\",\"object\":\"窥探者\"},{\"subject\":\"达科塔·芬妮\",\"relation\":\"出演角色\",\"object\":\"米娜\"},{\"subject\":\"乔吉娜·坎贝尔\",\"relation\":\"出演角色\",\"object\":\"陌生人之一\"},{\"subject\":\"奥利佛·芬尼根\",\"relation\":\"演员\",\"object\":\"窥探者\"},{\"subject\":\"欧雯·弗勒\",\"relation\":\"演员\",\"object\":\"窥探者\"},{\"subject\":\"米娜\",\"relation\":\"年龄\",\"object\":\"28岁\"},{\"subject\":\"米娜\",\"relation\":\"职业\",\"object\":\"艺术家\"},{\"subject\":\"米娜\",\"relation\":\"受困地点\",\"object\":\"爱尔兰西部森林\"},{\"subject\":\"窥探者\",\"relation\":\"主要拍摄时间\",\"object\":\"2023年7月至9月\"},{\"subject\":\"窥探者\",\"relation\":\"影评界评价\",\"object\":\"负面为主\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

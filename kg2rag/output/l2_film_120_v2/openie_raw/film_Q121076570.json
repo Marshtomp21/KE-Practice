@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q121076570",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"休·博内威利\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"艾蜜莉·摩提默\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"茱莉·华特丝\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"吉姆·布劳德本特\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"奥莉薇雅·柯尔曼\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"安东尼奥·班德拉斯\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"本·惠肖\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"海莉·阿特维尔\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"演员\",\"object\":\"本·米勒\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"编剧\",\"object\":\"强·福斯特\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"制片公司\",\"object\":\"映欧嘉纳\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"制片公司\",\"object\":\"哥伦比亚影业\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"制片公司\",\"object\":\"第六摄影棚电影\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"制片公司\",\"object\":\"盛日影业\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"类型\",\"object\":\"家庭\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"改编自\",\"object\":\"柏灵顿熊\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"改编自\",\"object\":\"米高·邦\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"前作\",\"object\":\"柏灵顿熊熊出任务\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"导演\",\"object\":\"杜加尔·威尔逊\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"编剧\",\"object\":\"马克·伯顿\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"编剧\",\"object\":\"詹姆斯·拉蒙特\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"系列\",\"object\":\"柏灵顿熊系列电影\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"讲述\",\"object\":\"柏灵顿熊返回秘鲁拜访露西姑姑\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"上映日期\",\"object\":\"2024年11月8日\"},{\"subject\":\"柏灵顿：熊熊去秘鲁\",\"relation\":\"上映地点\",\"object\":\"英国\"}]}",
+      "parsed_triples": 28
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q11085495",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"无人区 (电影)\",\"relation\":\"导演\",\"object\":\"宁浩\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"演员\",\"object\":\"徐峥\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"演员\",\"object\":\"黄渤\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"演员\",\"object\":\"余男\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"演员\",\"object\":\"多布杰\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"编剧\",\"object\":\"述平\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"编剧\",\"object\":\"邢爱娜\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"编剧\",\"object\":\"崔斯韦\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"编剧\",\"object\":\"王红卫\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"编剧\",\"object\":\"尚可\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"编剧\",\"object\":\"宁浩\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"制片公司\",\"object\":\"中国电影股份有限公司\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"制片公司\",\"object\":\"北京橙天嘉禾影视制作有限公司\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"制片公司\",\"object\":\"北京小马奔腾影业有限公司\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"获奖\",\"object\":\"亚洲电影大奖最佳男配角获奖电影\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"提名\",\"object\":\"长春电影节\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"拍摄地点\",\"object\":\"新疆\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"公映日期\",\"object\":\"2013年12月3日\"},{\"subject\":\"无人区 (电影)\",\"relation\":\"入围\",\"object\":\"第64届柏林电影节主竞赛单元\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

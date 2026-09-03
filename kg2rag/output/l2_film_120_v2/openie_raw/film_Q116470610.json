@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q116470610",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"长腿\",\"relation\":\"导演\",\"object\":\"奥兹·柏金斯\"},{\"subject\":\"长腿\",\"relation\":\"演员\",\"object\":\"麦卡·门罗\"},{\"subject\":\"长腿\",\"relation\":\"演员\",\"object\":\"艾莉西亚·维特\"},{\"subject\":\"长腿\",\"relation\":\"演员\",\"object\":\"尼可拉斯·凯吉\"},{\"subject\":\"长腿\",\"relation\":\"演员\",\"object\":\"Fangoria\"},{\"subject\":\"长腿\",\"relation\":\"演员\",\"object\":\"琪兰·席普卡\"},{\"subject\":\"长腿\",\"relation\":\"编剧\",\"object\":\"奥兹·柏金斯\"},{\"subject\":\"长腿\",\"relation\":\"制片公司\",\"object\":\"Deadline Hollywood\"},{\"subject\":\"长腿\",\"relation\":\"类型\",\"object\":\"恐怖\"},{\"subject\":\"长腿\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"长腿\",\"relation\":\"上映日期\",\"object\":\"2024年7月12日\"},{\"subject\":\"长腿\",\"relation\":\"上映地点\",\"object\":\"美国\"},{\"subject\":\"长腿\",\"relation\":\"票房\",\"object\":\"超过1.28亿美元\"},{\"subject\":\"长腿\",\"relation\":\"主演\",\"object\":\"玛嘉·梦露\"},{\"subject\":\"长腿\",\"relation\":\"主演\",\"object\":\"尼可拉斯·凯吉\"},{\"subject\":\"长腿\",\"relation\":\"主演\",\"object\":\"布莱尔·安德伍\"},{\"subject\":\"长腿\",\"relation\":\"主演\",\"object\":\"艾莉西亚·维特\"},{\"subject\":\"长腿\",\"relation\":\"主演\",\"object\":\"蜜雪儿·蔡-李\"},{\"subject\":\"长腿\",\"relation\":\"主演\",\"object\":\"达科他·戴尔比\"},{\"subject\":\"长腿\",\"relation\":\"剧情描述\",\"object\":\"一名联邦调查局探员追查神秘的连环杀手\"},{\"subject\":\"连环杀手\",\"relation\":\"犯罪特征\",\"object\":\"在美国各地谋杀多个家庭且不亲自参与犯罪活动\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

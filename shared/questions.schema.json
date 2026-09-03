@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shared GraphRAG benchmark question v2",
+  "type": "object",
+  "required": [
+    "schema_version", "id", "split", "question", "type", "answer_kind",
+    "reference_answer", "gold_answers", "answer_candidates", "answerable",
+    "gold_documents", "gold_evidence", "required_relation_paths"
+  ],
+  "properties": {
+    "schema_version": {"const": 2},
+    "id": {"type": "string"},
+    "split": {"enum": ["dev", "test"]},
+    "question": {"type": "string"},
+    "type": {"enum": ["fact", "multi_hop", "list", "comparison", "global", "no_answer"]},
+    "answer_kind": {"enum": ["entity", "entity_set", "abstention"]},
+    "reference_answer": {"type": "string"},
+    "gold_answers": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+    "answer_candidates": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+    "answerable": {"type": "boolean"},
+    "gold_documents": {"type": "array", "items": {"type": "string"}},
+    "gold_evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+    "required_relation_paths": {"type": "array", "items": {"type": "object"}},
+    "notes": {"type": "string"}
+  },
+  "$defs": {
+    "entity": {
+      "type": "object",
+      "required": ["canonical_id", "type", "name", "aliases"],
+      "properties": {
+        "canonical_id": {"type": "string"},
+        "type": {"enum": ["Movie", "Person", "Company", "Award", "Genre", "Character"]},
+        "name": {"type": "string"},
+        "aliases": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["doc_id", "char_start", "char_end", "quote", "supports"],
+      "properties": {
+        "doc_id": {"type": "string"},
+        "char_start": {"type": "integer", "minimum": 0},
+        "char_end": {"type": "integer", "minimum": 1},
+        "quote": {"type": "string"},
+        "supports": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

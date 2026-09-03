@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q125422231",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"拿针的女孩\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"拿针的女孩\",\"relation\":\"类型\",\"object\":\"黑白历史心理恐怖片\"},{\"subject\":\"拿针的女孩\",\"relation\":\"制片国家\",\"object\":\"丹麦、瑞典、波兰\"},{\"subject\":\"拿针的女孩\",\"relation\":\"导演\",\"object\":\"马格努斯·冯·霍恩\"},{\"subject\":\"拿针的女孩\",\"relation\":\"编剧\",\"object\":\"马格努斯·冯·霍恩\"},{\"subject\":\"拿针的女孩\",\"relation\":\"编剧\",\"object\":\"莉恩·兰格贝克·克努森\"},{\"subject\":\"拿针的女孩\",\"relation\":\"主演\",\"object\":\"维多利亚·卡门·索内\"},{\"subject\":\"拿针的女孩\",\"relation\":\"主演\",\"object\":\"崔娜·蒂虹\"},{\"subject\":\"拿针的女孩\",\"relation\":\"故事背景\",\"object\":\"20世纪的丹麦连环杀人犯达格玛·奥弗比\"},{\"subject\":\"拿针的女孩\",\"relation\":\"故事发生地点\",\"object\":\"1919年的哥本哈根\"},{\"subject\":\"拿针的女孩\",\"relation\":\"首映日期\",\"object\":\"2024年5月15日\"},{\"subject\":\"拿针的女孩\",\"relation\":\"首映地点\",\"object\":\"第77届坎城影展\"},{\"subject\":\"拿针的女孩\",\"relation\":\"入选单元\",\"object\":\"主竞赛单元\"},{\"subject\":\"拿针的女孩\",\"relation\":\"奖项提名\",\"object\":\"金棕榈奖\"},{\"subject\":\"拿针的女孩\",\"relation\":\"入选奖项\",\"object\":\"2024年美国国家评论协会奖年度五大国际电影\"},{\"subject\":\"拿针的女孩\",\"relation\":\"奖项提名\",\"object\":\"第82届金球奖最佳外语片\"},{\"subject\":\"拿针的女孩\",\"relation\":\"奖项提名\",\"object\":\"第97届奥斯卡金像奖最佳国际影片奖\"}]}",
+      "parsed_triples": 17
+    }
+  ]
+}

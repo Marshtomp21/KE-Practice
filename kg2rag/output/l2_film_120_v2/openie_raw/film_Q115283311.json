@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q115283311",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"犯罪都市4\",\"relation\":\"导演\",\"object\":\"许明行\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"马东石\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"金武烈\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"朴智焕\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"李东辉\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"李凡秀\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"金珉才\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"金到建\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"李主傧\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"金伸比\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"玄奉植\"},{\"subject\":\"犯罪都市4\",\"relation\":\"演员\",\"object\":\"金英雄\"},{\"subject\":\"犯罪都市4\",\"relation\":\"编剧\",\"object\":\"吴尚浩\"},{\"subject\":\"犯罪都市4\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"犯罪都市4\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"犯罪都市4\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"犯罪都市4\",\"relation\":\"所属系列\",\"object\":\"犯罪都市系列电影\"},{\"subject\":\"犯罪都市4\",\"relation\":\"入围\",\"object\":\"第74届柏林影展特别展映单元\"},{\"subject\":\"犯罪都市4\",\"relation\":\"世界首映日期\",\"object\":\"2024年2月23日\"},{\"subject\":\"犯罪都市4\",\"relation\":\"韩国上映日期\",\"object\":\"2024年4月24日\"},{\"subject\":\"犯罪都市4\",\"relation\":\"观影人次突破千万\",\"object\":\"上映第22日\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

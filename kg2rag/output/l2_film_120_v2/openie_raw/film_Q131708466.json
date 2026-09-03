@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q131708466",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"小小的我 (电影)\",\"relation\":\"导演\",\"object\":\"杨荔钠\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"演员\",\"object\":\"易烊千玺\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"演员\",\"object\":\"林晓杰\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"演员\",\"object\":\"蒋勤勤\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"演员\",\"object\":\"周雨彤\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"演员\",\"object\":\"李庚酉\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"演员\",\"object\":\"张加丽\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"演员\",\"object\":\"廖学秋\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"编剧\",\"object\":\"游晓颖\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"类型\",\"object\":\"家庭\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"奖项\",\"object\":\"百花奖最佳男主角获奖电影\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"奖项\",\"object\":\"金鸡奖最佳男主角获奖电影\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"上映日期\",\"object\":\"2024年12月27日\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"首映日期\",\"object\":\"2024年11月2日\"},{\"subject\":\"小小的我 (电影)\",\"relation\":\"首映地点\",\"object\":\"第37届东京国际电影节\"},{\"subject\":\"易烊千玺\",\"relation\":\"获得奖项\",\"object\":\"第38届中国电影金鸡奖最佳男主角\"},{\"subject\":\"易烊千玺\",\"relation\":\"获得奖项\",\"object\":\"第38届大众电影百花奖最佳男主角\"}]}",
+      "parsed_triples": 18
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q131611336",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"误杀3\",\"relation\":\"导演\",\"object\":\"甘剑宇\"},{\"subject\":\"误杀3\",\"relation\":\"演员\",\"object\":\"肖央\"},{\"subject\":\"误杀3\",\"relation\":\"演员\",\"object\":\"佟丽娅\"},{\"subject\":\"误杀3\",\"relation\":\"演员\",\"object\":\"段奕宏\"},{\"subject\":\"误杀3\",\"relation\":\"演员\",\"object\":\"刘雅瑟\"},{\"subject\":\"误杀3\",\"relation\":\"编剧\",\"object\":\"陈思诚\"},{\"subject\":\"误杀3\",\"relation\":\"编剧\",\"object\":\"武皮皮\"},{\"subject\":\"误杀3\",\"relation\":\"编剧\",\"object\":\"李鹏\"},{\"subject\":\"误杀3\",\"relation\":\"编剧\",\"object\":\"胡小楠\"},{\"subject\":\"误杀3\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"误杀3\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"误杀3\",\"relation\":\"类型\",\"object\":\"悬疑\"},{\"subject\":\"误杀3\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"误杀3\",\"relation\":\"上映地区\",\"object\":\"中国大陆\"},{\"subject\":\"误杀3\",\"relation\":\"系列\",\"object\":\"误杀系列电影\"},{\"subject\":\"误杀3\",\"relation\":\"是否为原创故事\",\"object\":\"是\"},{\"subject\":\"误杀3\",\"relation\":\"上映日期\",\"object\":\"2024年12月28日\"}]}",
+      "parsed_triples": 17
+    }
+  ]
+}

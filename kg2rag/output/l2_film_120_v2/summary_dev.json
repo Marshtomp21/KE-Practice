@@ -1,0 +1,414 @@
+{
+  "method": "KG²RAG API-adapted L2 v2",
+  "corpus": "l2_film_120_v2",
+  "documents": 120,
+  "questions_target": 5,
+  "kg_quality": {
+    "documents": 120,
+    "raw_response_documents": 120,
+    "raw_response_coverage": 1.0,
+    "nonempty_documents": 119,
+    "nonempty_document_ratio": 0.991667,
+    "total_triples": 2471,
+    "thresholds": {
+      "raw_response_coverage": 1.0,
+      "nonempty_document_ratio": 0.8,
+      "total_triples": 120
+    },
+    "passed": true,
+    "index_seconds": 12.186
+  },
+  "evaluation": {
+    "count": 5,
+    "mean_score": 1.0,
+    "exact_match_rate": 1.0,
+    "by_type": {
+      "fact": {
+        "count": 2,
+        "mean_score": 1.0
+      },
+      "list": {
+        "count": 1,
+        "mean_score": 1.0
+      },
+      "multi_hop": {
+        "count": 1,
+        "mean_score": 1.0
+      },
+      "no_answer": {
+        "count": 1,
+        "mean_score": 1.0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "dev-fact-01",
+      "type": "fact",
+      "question": "《阿诺拉》是由谁执导的？",
+      "answer": "根据证据，《阿诺拉》由西恩·贝克执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q7441419"
+        ],
+        "predicted_entity_ids": [
+          "Q7441419"
+        ],
+        "reason": "canonical entity alias matching"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q123185887",
+          "vector_score": 0.66465
+        },
+        {
+          "doc_id": "film_Q123582987",
+          "vector_score": 0.476269
+        },
+        {
+          "doc_id": "film_Q124334509",
+          "vector_score": 0.474567
+        },
+        {
+          "doc_id": "film_Q115475553",
+          "vector_score": 0.469887
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "vector_score": 0.468733
+        }
+      ],
+      "expanded_document_count": 111,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q123185887",
+          "rerank_score": 0.9988210797309875
+        },
+        {
+          "doc_id": "film_Q483941",
+          "rerank_score": 0.00520696397870779
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.004675134085118771
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "rerank_score": 0.004358706995844841
+        },
+        {
+          "doc_id": "film_Q114707487",
+          "rerank_score": 0.004334167577326298
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.0043135411106050014
+        }
+      ],
+      "query_seconds": 3.233
+    },
+    {
+      "id": "dev-fact-02",
+      "type": "fact",
+      "question": "《千与千寻》是由谁执导的？",
+      "answer": "根据证据，《千与千寻》由宫崎骏执导。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q55400"
+        ],
+        "predicted_entity_ids": [
+          "Q55400"
+        ],
+        "reason": "canonical entity alias matching"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q155653",
+          "vector_score": 0.633334
+        },
+        {
+          "doc_id": "film_Q131708466",
+          "vector_score": 0.507979
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "vector_score": 0.507833
+        },
+        {
+          "doc_id": "film_Q164702",
+          "vector_score": 0.486354
+        },
+        {
+          "doc_id": "film_Q39571",
+          "vector_score": 0.483246
+        }
+      ],
+      "expanded_document_count": 98,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.995307981967926
+        },
+        {
+          "doc_id": "film_Q186572",
+          "rerank_score": 0.007715689484030008
+        },
+        {
+          "doc_id": "film_Q39571",
+          "rerank_score": 0.0070572360418736935
+        },
+        {
+          "doc_id": "film_Q11085495",
+          "rerank_score": 0.006629970856010914
+        },
+        {
+          "doc_id": "film_Q20382729",
+          "rerank_score": 0.0063184411264956
+        },
+        {
+          "doc_id": "film_Q124570438",
+          "rerank_score": 0.005947081372141838
+        }
+      ],
+      "query_seconds": 2.911
+    },
+    {
+      "id": "dev-path-01",
+      "type": "multi_hop",
+      "question": "黄子华与邓丽欣通过哪部影片产生关联？",
+      "answer": "根据现有材料，黄子华与邓丽欣通过影片《饭戏攻心》产生关联，该片演员名单中同时包含两人。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_em_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q108003049"
+        ],
+        "predicted_entity_ids": [
+          "Q108003049"
+        ],
+        "reason": "canonical entity alias matching"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q108003049",
+          "vector_score": 0.567186
+        },
+        {
+          "doc_id": "film_Q108749226",
+          "vector_score": 0.493542
+        },
+        {
+          "doc_id": "film_Q128153011",
+          "vector_score": 0.459032
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "vector_score": 0.450182
+        },
+        {
+          "doc_id": "film_Q123330658",
+          "vector_score": 0.442494
+        }
+      ],
+      "expanded_document_count": 99,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q108003049",
+          "rerank_score": 0.7337897419929504
+        },
+        {
+          "doc_id": "film_Q130288104",
+          "rerank_score": 0.11565458029508591
+        },
+        {
+          "doc_id": "film_Q123330658",
+          "rerank_score": 0.04050688445568085
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.009046359919011593
+        },
+        {
+          "doc_id": "film_Q3521099",
+          "rerank_score": 0.004949530586600304
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "rerank_score": 0.004634506534785032
+        }
+      ],
+      "query_seconds": 3.027
+    },
+    {
+      "id": "dev-aggregate-01",
+      "type": "list",
+      "question": "哪些演员在魏斯·安德森执导的影片中出现过不止一次？",
+      "answer": "根据证据，在魏斯·安德森执导的影片中出现过不止一次的演员有：爱德华·诺顿、比尔·莫瑞、蒂达·史云顿、詹森·舒瓦兹曼（积逊·舒华沙曼）。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "entity_set_f1",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": false,
+        "matched_gold_ids": [
+          "Q125904",
+          "Q200534",
+          "Q29250",
+          "Q313705"
+        ],
+        "predicted_entity_ids": [
+          "Q125904",
+          "Q200534",
+          "Q29250",
+          "Q313705"
+        ],
+        "reason": "canonical entity alias matching"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q3521099",
+          "vector_score": 0.524917
+        },
+        {
+          "doc_id": "film_Q217112",
+          "vector_score": 0.496461
+        },
+        {
+          "doc_id": "film_Q117272474",
+          "vector_score": 0.477692
+        },
+        {
+          "doc_id": "film_Q483941",
+          "vector_score": 0.471712
+        },
+        {
+          "doc_id": "film_Q113671585",
+          "vector_score": 0.461276
+        }
+      ],
+      "expanded_document_count": 107,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q3521099",
+          "rerank_score": 0.9422947764396667
+        },
+        {
+          "doc_id": "film_Q217112",
+          "rerank_score": 0.9029629230499268
+        },
+        {
+          "doc_id": "film_Q111945633",
+          "rerank_score": 0.10998064279556274
+        },
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.010789543390274048
+        },
+        {
+          "doc_id": "film_Q124619782",
+          "rerank_score": 0.01010278332978487
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.008489223197102547
+        }
+      ],
+      "query_seconds": 3.703
+    },
+    {
+      "id": "dev-no-answer-01",
+      "type": "no_answer",
+      "question": "《知识工程测试片：未上映的城市》有哪些主演？",
+      "answer": "根据现有证据，无法确定《知识工程测试片：未上映的城市》的主演，因为证据中未包含该影片的任何信息。",
+      "score": 1.0,
+      "metrics": {
+        "metric": "abstention_accuracy",
+        "score": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "exact_match": true,
+        "abstained": true,
+        "matched_gold_ids": [],
+        "predicted_entity_ids": [],
+        "reason": "explicit abstention detected"
+      },
+      "seed_documents": [
+        {
+          "doc_id": "film_Q11085495",
+          "vector_score": 0.547847
+        },
+        {
+          "doc_id": "film_Q129333360",
+          "vector_score": 0.493653
+        },
+        {
+          "doc_id": "film_Q109345157",
+          "vector_score": 0.480791
+        },
+        {
+          "doc_id": "film_Q130396871",
+          "vector_score": 0.480505
+        },
+        {
+          "doc_id": "film_Q127697922",
+          "vector_score": 0.480067
+        }
+      ],
+      "expanded_document_count": 103,
+      "retrieved_evidence": [
+        {
+          "doc_id": "film_Q124457266",
+          "rerank_score": 0.0020653903484344482
+        },
+        {
+          "doc_id": "film_Q155653",
+          "rerank_score": 0.0020066937431693077
+        },
+        {
+          "doc_id": "film_Q483941",
+          "rerank_score": 0.0018376021180301905
+        },
+        {
+          "doc_id": "film_Q1056853",
+          "rerank_score": 0.0016029122052714229
+        },
+        {
+          "doc_id": "film_Q164702",
+          "rerank_score": 0.0015411671483889222
+        },
+        {
+          "doc_id": "film_Q1155695",
+          "rerank_score": 0.0015160570619627833
+        }
+      ],
+      "query_seconds": 2.995
+    }
+  ],
+  "scorer": "shared/scripts/benchmark_utils.py:v2"
+}

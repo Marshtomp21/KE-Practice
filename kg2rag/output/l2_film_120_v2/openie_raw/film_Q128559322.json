@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q128559322",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"《还钱》\",\"relation\":\"导演\",\"object\":\"王鼎霖\"},{\"subject\":\"《还钱》\",\"relation\":\"编剧\",\"object\":\"王卉竺\"},{\"subject\":\"《还钱》\",\"relation\":\"编剧\",\"object\":\"温郁芳\"},{\"subject\":\"《还钱》\",\"relation\":\"主演\",\"object\":\"陈柏霖\"},{\"subject\":\"《还钱》\",\"relation\":\"主演\",\"object\":\"蔡思韵\"},{\"subject\":\"《还钱》\",\"relation\":\"主演\",\"object\":\"李铭忠\"},{\"subject\":\"《还钱》\",\"relation\":\"主演\",\"object\":\"蔡凡熙\"},{\"subject\":\"《还钱》\",\"relation\":\"主演\",\"object\":\"林哲熹\"},{\"subject\":\"《还钱》\",\"relation\":\"特别演出\",\"object\":\"吴慷仁\"},{\"subject\":\"《还钱》\",\"relation\":\"制片公司\",\"object\":\"华能国际娱乐股份有限公司\"},{\"subject\":\"《还钱》\",\"relation\":\"制片公司\",\"object\":\"华文创股份有限公司\"},{\"subject\":\"《还钱》\",\"relation\":\"制片公司\",\"object\":\"乐到家国际娱乐股份有限公司\"},{\"subject\":\"《还钱》\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"《还钱》\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"《还钱》\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"《还钱》\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"《还钱》\",\"relation\":\"上映地区\",\"object\":\"台湾\"},{\"subject\":\"《还钱》\",\"relation\":\"上映日期\",\"object\":\"2024年2月8日\"},{\"subject\":\"《还钱》\",\"relation\":\"票房\",\"object\":\"超过4,100万元台币\"},{\"subject\":\"《还钱》\",\"relation\":\"拍摄开始时间\",\"object\":\"2023年7月1日\"},{\"subject\":\"《还钱》\",\"relation\":\"取景地\",\"object\":\"台北都会区\"}]}",
+      "parsed_triples": 21
+    }
+  ]
+}

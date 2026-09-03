@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q121323115",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"大都市的爱情法\",\"relation\":\"演员\",\"object\":\"金高银\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"演员\",\"object\":\"鲁尚炫\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"类型\",\"object\":\"爱情\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"改编自\",\"object\":\"朴相映的同名畅销小说\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"导演\",\"object\":\"李彦禧\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"入选单元\",\"object\":\"第49届多伦多国际电影节特别展映单元\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"世界首映日期\",\"object\":\"2024年9月13日\"},{\"subject\":\"大都市的爱情法\",\"relation\":\"韩国上映日期\",\"object\":\"2024年10月1日\"}]}",
+      "parsed_triples": 11
+    }
+  ]
+}

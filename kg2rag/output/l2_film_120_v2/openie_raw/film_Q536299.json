@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q536299",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"少林足球\",\"relation\":\"导演\",\"object\":\"周星驰\"},{\"subject\":\"少林足球\",\"relation\":\"导演\",\"object\":\"李力持\"},{\"subject\":\"少林足球\",\"relation\":\"演员\",\"object\":\"赵薇\"},{\"subject\":\"少林足球\",\"relation\":\"演员\",\"object\":\"吴孟达\"},{\"subject\":\"少林足球\",\"relation\":\"演员\",\"object\":\"谢贤\"},{\"subject\":\"少林足球\",\"relation\":\"编剧\",\"object\":\"曾谨昌\"},{\"subject\":\"少林足球\",\"relation\":\"编剧\",\"object\":\"冯勉恒\"},{\"subject\":\"少林足球\",\"relation\":\"编剧\",\"object\":\"冯志强\"},{\"subject\":\"少林足球\",\"relation\":\"编剧\",\"object\":\"卢薇\"},{\"subject\":\"少林足球\",\"relation\":\"制片公司\",\"object\":\"星辉海外有限公司\"},{\"subject\":\"少林足球\",\"relation\":\"制片公司\",\"object\":\"寰宇娱乐文化\"},{\"subject\":\"少林足球\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"少林足球\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"少林足球\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"蓝丝带奖最佳外语片\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"金马奖最佳视觉效果获奖电影\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"香港电影评论学会大奖最佳电影\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"香港电影金像奖最佳导演获奖电影\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"香港电影金像奖最佳男主角获奖电影\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"香港电影金像奖最佳男配角获奖电影\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"香港电影金像奖最佳视觉效果获奖电影\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"香港电影金像奖最佳电影\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"香港电影金像奖最佳音响效果获奖电影\"},{\"subject\":\"少林足球\",\"relation\":\"获奖\",\"object\":\"香港电影金紫荆奖最佳影片\"},{\"subject\":\"少林足球\",\"relation\":\"续作\",\"object\":\"功夫女足\"},{\"subject\":\"少林足球\",\"relation\":\"上映年份\",\"object\":\"2001年\"},{\"subject\":\"少林足球\",\"relation\":\"地区\",\"object\":\"香港\"},{\"subject\":\"少林足球\",\"relation\":\"全球累计总票房\",\"object\":\"约5000万美元\"},{\"subject\":\"少林足球\",\"relation\":\"意大利最高票房记录\",\"object\":\"1,685,758欧元\"}]}",
+      "parsed_triples": 29
+    }
+  ]
+}

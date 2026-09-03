@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124499929",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"日日好狗日\",\"relation\":\"导演\",\"object\":\"金德敏\"},{\"subject\":\"日日好狗日\",\"relation\":\"演员\",\"object\":\"尹汝贞\"},{\"subject\":\"日日好狗日\",\"relation\":\"演员\",\"object\":\"柳海真\"},{\"subject\":\"日日好狗日\",\"relation\":\"演员\",\"object\":\"金伦珍\"},{\"subject\":\"日日好狗日\",\"relation\":\"演员\",\"object\":\"金瑞亨\"},{\"subject\":\"日日好狗日\",\"relation\":\"演员\",\"object\":\"丹尼尔·海尼\"},{\"subject\":\"日日好狗日\",\"relation\":\"演员\",\"object\":\"李玹雨\"},{\"subject\":\"日日好狗日\",\"relation\":\"演员\",\"object\":\"陈俊翔\"},{\"subject\":\"日日好狗日\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"日日好狗日\",\"relation\":\"上映年份\",\"object\":\"2024\"},{\"subject\":\"日日好狗日\",\"relation\":\"翻拍自\",\"object\":\"与狗狗一起生活\"},{\"subject\":\"与狗狗一起生活\",\"relation\":\"上映年份\",\"object\":\"2018\"}]}",
+      "parsed_triples": 12
+    }
+  ]
+}

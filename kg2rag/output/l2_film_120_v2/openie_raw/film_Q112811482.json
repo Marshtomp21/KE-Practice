@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q112811482",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"少女斗恶龙\",\"relation\":\"演员\",\"object\":\"米莉·芭比·布朗\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"演员\",\"object\":\"安琪拉·贝瑟\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"演员\",\"object\":\"罗苹·莱特\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"演员\",\"object\":\"雷·温斯顿\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"演员\",\"object\":\"尼克·罗宾森\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"演员\",\"object\":\"索瑞·安达斯鲁\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"制片公司\",\"object\":\"PMCA Productions\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"导演\",\"object\":\"胡安·卡洛斯·弗雷斯纳迪洛\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"编剧\",\"object\":\"丹·马索\"},{\"subject\":\"少女斗恶龙\",\"relation\":\"上映日期\",\"object\":\"2024年3月8日\"}]}",
+      "parsed_triples": 12
+    }
+  ]
+}

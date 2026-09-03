@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124570438",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"第二十条\",\"relation\":\"导演\",\"object\":\"张艺谋\"},{\"subject\":\"第二十条\",\"relation\":\"演员\",\"object\":\"雷佳音\"},{\"subject\":\"第二十条\",\"relation\":\"演员\",\"object\":\"马丽\"},{\"subject\":\"第二十条\",\"relation\":\"演员\",\"object\":\"赵丽颖\"},{\"subject\":\"第二十条\",\"relation\":\"演员\",\"object\":\"高叶\"},{\"subject\":\"第二十条\",\"relation\":\"演员\",\"object\":\"刘耀文\"},{\"subject\":\"第二十条\",\"relation\":\"编剧\",\"object\":\"李萌\"},{\"subject\":\"第二十条\",\"relation\":\"制片公司\",\"object\":\"光线影业\"},{\"subject\":\"第二十条\",\"relation\":\"制片公司\",\"object\":\"最高人民检察院影视中心\"},{\"subject\":\"第二十条\",\"relation\":\"制片公司\",\"object\":\"儒意影视\"},{\"subject\":\"第二十条\",\"relation\":\"制片公司\",\"object\":\"中国电影股份有限公司\"},{\"subject\":\"第二十条\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"第二十条\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"第二十条\",\"relation\":\"奖项\",\"object\":\"百花奖最佳女主角获奖电影\"},{\"subject\":\"第二十条\",\"relation\":\"奖项\",\"object\":\"百花奖最佳女配角获奖电影\"},{\"subject\":\"第二十条\",\"relation\":\"奖项\",\"object\":\"百花奖最佳导演获奖电影\"},{\"subject\":\"第二十条\",\"relation\":\"奖项\",\"object\":\"金鸡奖最佳故事片\"},{\"subject\":\"第二十条\",\"relation\":\"奖项\",\"object\":\"金鸡奖最佳男主角获奖电影\"},{\"subject\":\"第二十条\",\"relation\":\"奖项\",\"object\":\"中国长春电影节\"},{\"subject\":\"第二十条\",\"relation\":\"原名\",\"object\":\"正当防卫\"},{\"subject\":\"第二十条\",\"relation\":\"上映日期\",\"object\":\"2024年2月10日\"},{\"subject\":\"第二十条\",\"relation\":\"片名来源\",\"object\":\"《中华人民共和国刑法》第二十条\"}]}",
+      "parsed_triples": 22
+    }
+  ]
+}

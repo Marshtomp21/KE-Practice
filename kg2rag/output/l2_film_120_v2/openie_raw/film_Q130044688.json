@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q130044688",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"我的鬼情人\",\"relation\":\"演员\",\"object\":\"梅拉达·苏斯丽\"},{\"subject\":\"我的鬼情人\",\"relation\":\"演员\",\"object\":\"苏提拉·素维杰拉\"},{\"subject\":\"我的鬼情人\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"我的鬼情人\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"我的鬼情人\",\"relation\":\"类型\",\"object\":\"爱情\"},{\"subject\":\"我的鬼情人\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"我的鬼情人\",\"relation\":\"制作方\",\"object\":\"卡曼线工作室\"},{\"subject\":\"我的鬼情人\",\"relation\":\"作品性质\",\"object\":\"首部作品\"},{\"subject\":\"我的鬼情人\",\"relation\":\"国家/地区\",\"object\":\"泰国\"},{\"subject\":\"我的鬼情人\",\"relation\":\"类型（更具体）\",\"object\":\"恐怖浪漫喜剧片\"}]}",
+      "parsed_triples": 10
+    }
+  ]
+}

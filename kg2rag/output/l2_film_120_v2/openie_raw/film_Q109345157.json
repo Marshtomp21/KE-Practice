@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q109345157",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"749局\",\"relation\":\"导演\",\"object\":\"陆川\"},{\"subject\":\"749局\",\"relation\":\"演员\",\"object\":\"王俊凯\"},{\"subject\":\"749局\",\"relation\":\"演员\",\"object\":\"苗苗\"},{\"subject\":\"749局\",\"relation\":\"演员\",\"object\":\"郑恺\"},{\"subject\":\"749局\",\"relation\":\"演员\",\"object\":\"任敏\"},{\"subject\":\"749局\",\"relation\":\"演员\",\"object\":\"辛柏青\"},{\"subject\":\"749局\",\"relation\":\"演员\",\"object\":\"张钧宁\"},{\"subject\":\"749局\",\"relation\":\"编剧\",\"object\":\"陆川\"},{\"subject\":\"749局\",\"relation\":\"制片公司\",\"object\":\"华谊兄弟电影有限公司\"},{\"subject\":\"749局\",\"relation\":\"制片公司\",\"object\":\"腾讯影业文化传播有限公司\"},{\"subject\":\"749局\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"749局\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"749局\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"749局\",\"relation\":\"上映日期\",\"object\":\"2024年10月1日\"},{\"subject\":\"749局\",\"relation\":\"上映地区\",\"object\":\"中国大陆\"},{\"subject\":\"749局\",\"relation\":\"灵感来源\",\"object\":\"陆川在749局的工作经历\"},{\"subject\":\"749局\",\"relation\":\"口碑\",\"object\":\"票房双败\"}]}",
+      "parsed_triples": 17
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123823141",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"从今以后\",\"relation\":\"导演\",\"object\":\"杨曜恺\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"区嘉雯\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"张嘉年\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"许素莹\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"梁仲恒\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"廖子妤\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"梁雍婷\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"李琳琳\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"太保\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"黎济铭\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"岑乐怡\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"丁羽\"},{\"subject\":\"从今以后\",\"relation\":\"演员\",\"object\":\"梁爱\"},{\"subject\":\"从今以后\",\"relation\":\"编剧\",\"object\":\"杨曜恺\"},{\"subject\":\"从今以后\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"从今以后\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"从今以后\",\"relation\":\"制片地区\",\"object\":\"香港\"},{\"subject\":\"从今以后\",\"relation\":\"语言\",\"object\":\"英语\"},{\"subject\":\"从今以后\",\"relation\":\"别名\",\"object\":\"All Shall Be Well\"},{\"subject\":\"从今以后\",\"relation\":\"入选单元\",\"object\":\"第74届柏林影展电影大观单元\"},{\"subject\":\"从今以后\",\"relation\":\"获得奖项\",\"object\":\"柏林影展泰迪熊奖\"},{\"subject\":\"从今以后\",\"relation\":\"发行权卖到\",\"object\":\"全球多地\"}]}",
+      "parsed_triples": 22
+    }
+  ]
+}

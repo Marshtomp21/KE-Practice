@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q102351060",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"风都侦探\",\"relation\":\"导演\",\"object\":\"椛岛洋介\"},{\"subject\":\"风都侦探\",\"relation\":\"类型\",\"object\":\"科幻\"},{\"subject\":\"风都侦探\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"风都侦探\",\"relation\":\"是\",\"object\":\"日本特摄系列《假面骑士系列》作品《假面骑士W》的续集漫画作品\"},{\"subject\":\"风都侦探\",\"relation\":\"改编电视动画首播时间\",\"object\":\"2022年8月1日\"},{\"subject\":\"风都侦探 The STAGE\",\"relation\":\"公演时间\",\"object\":\"2022年12月至2023年1月\"},{\"subject\":\"风都侦探 The STAGE\",\"relation\":\"公演地点\",\"object\":\"东京和大阪\"},{\"subject\":\"假面骑士Skull的肖像\",\"relation\":\"上映时间\",\"object\":\"2024年11月8日\"},{\"subject\":\"假面骑士Skull的肖像\",\"relation\":\"上映地区\",\"object\":\"日本\"}]}",
+      "parsed_triples": 9
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q131690947",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"熊猫计划\",\"relation\":\"导演\",\"object\":\"张栾\"},{\"subject\":\"熊猫计划\",\"relation\":\"演员\",\"object\":\"成龙\"},{\"subject\":\"熊猫计划\",\"relation\":\"演员\",\"object\":\"魏翔\"},{\"subject\":\"熊猫计划\",\"relation\":\"演员\",\"object\":\"史策\"},{\"subject\":\"熊猫计划\",\"relation\":\"演员\",\"object\":\"韩彦博\"},{\"subject\":\"熊猫计划\",\"relation\":\"编剧\",\"object\":\"孟易达\"},{\"subject\":\"熊猫计划\",\"relation\":\"编剧\",\"object\":\"徐伟\"},{\"subject\":\"熊猫计划\",\"relation\":\"编剧\",\"object\":\"张栾\"},{\"subject\":\"熊猫计划\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"熊猫计划\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"熊猫计划\",\"relation\":\"制片地区\",\"object\":\"香港\"},{\"subject\":\"熊猫计划\",\"relation\":\"制片地区\",\"object\":\"中国大陆\"},{\"subject\":\"熊猫计划\",\"relation\":\"上映年份\",\"object\":\"2024\"},{\"subject\":\"熊猫计划\",\"relation\":\"续集\",\"object\":\"熊猫计划之部落奇遇记\"},{\"subject\":\"熊猫计划之部落奇遇记\",\"relation\":\"上映年份\",\"object\":\"2026\"}]}",
+      "parsed_triples": 15
+    }
+  ]
+}

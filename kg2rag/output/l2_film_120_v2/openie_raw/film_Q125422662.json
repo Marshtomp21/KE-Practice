@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q125422662",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"你是我眼中的那道光\",\"relation\":\"导演\",\"object\":\"帕亚尔·卡帕迪亚\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"演员\",\"object\":\"赫里杜·哈龙\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"编剧\",\"object\":\"帕亚尔·卡帕迪亚\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"制片公司\",\"object\":\"Arte France Cinéma\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"奖项\",\"object\":\"亚洲电影大奖最佳电影\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"制作国家\",\"object\":\"印度\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"制作国家\",\"object\":\"法国\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"制作国家\",\"object\":\"卢森堡\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"制作国家\",\"object\":\"荷兰\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"制作国家\",\"object\":\"意大利\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"主演\",\"object\":\"卡妮·库斯鲁提\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"主演\",\"object\":\"迪芙亚·普拉巴\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"主演\",\"object\":\"查哈·卡达姆\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"主演\",\"object\":\"赫里杜·哈龙\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"首映日期\",\"object\":\"2024年5月23日\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"首映地点\",\"object\":\"第77届坎城影展\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"获奖\",\"object\":\"评审团大奖\"},{\"subject\":\"你是我眼中的那道光\",\"relation\":\"获奖\",\"object\":\"美国哥谭奖最佳国际电影\"}]}",
+      "parsed_triples": 20
+    }
+  ]
+}

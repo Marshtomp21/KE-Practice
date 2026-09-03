@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q96334877",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"逆岭\",\"relation\":\"导演\",\"object\":\"杰瑞米·索尼耶\"},{\"subject\":\"逆岭\",\"relation\":\"演员\",\"object\":\"亚伦·皮埃尔\"},{\"subject\":\"逆岭\",\"relation\":\"演员\",\"object\":\"唐·强生\"},{\"subject\":\"逆岭\",\"relation\":\"演员\",\"object\":\"安娜苏菲亚·罗伯\"},{\"subject\":\"逆岭\",\"relation\":\"演员\",\"object\":\"大卫·丹曼\"},{\"subject\":\"逆岭\",\"relation\":\"演员\",\"object\":\"艾莫瑞·柯恩\"},{\"subject\":\"逆岭\",\"relation\":\"演员\",\"object\":\"詹姆斯·克伦威尔\"},{\"subject\":\"逆岭\",\"relation\":\"编剧\",\"object\":\"杰瑞米·索尼耶\"},{\"subject\":\"逆岭\",\"relation\":\"制片公司\",\"object\":\"电影科学\"},{\"subject\":\"逆岭\",\"relation\":\"制片公司\",\"object\":\"博纳维尔影业\"},{\"subject\":\"逆岭\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"逆岭\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"逆岭\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"逆岭\",\"relation\":\"发行日期\",\"object\":\"2024年9月6日\"},{\"subject\":\"逆岭\",\"relation\":\"发行平台\",\"object\":\"Netflix\"},{\"subject\":\"逆岭\",\"relation\":\"获奖\",\"object\":\"评论家选择电视奖最佳电视电影\"},{\"subject\":\"逆岭\",\"relation\":\"获奖\",\"object\":\"黄金时段艾美奖最佳电视电影\"}]}",
+      "parsed_triples": 17
+    }
+  ]
+}

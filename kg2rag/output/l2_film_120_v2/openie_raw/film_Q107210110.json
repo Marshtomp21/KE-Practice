@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q107210110",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"导演\",\"object\":\"神山健治\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"演员\",\"object\":\"布莱恩·考克斯 (演员)\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"演员\",\"object\":\"米兰达·奥图\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"编剧\",\"object\":\"杰佛瑞·阿迪斯\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"编剧\",\"object\":\"威尔·马修斯\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"编剧\",\"object\":\"菲比·吉廷斯\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"编剧\",\"object\":\"阿提·帕帕乔治\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"制片公司\",\"object\":\"新线影业\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"制片公司\",\"object\":\"华纳兄弟动画公司\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"改编自\",\"object\":\"魔戒\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"改编自\",\"object\":\"J·R·R·托尔金\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"上映日期\",\"object\":\"2024年12月13日\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"上映地区\",\"object\":\"美国\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"制作地区\",\"object\":\"美国\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"制作地区\",\"object\":\"日本\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"前传\",\"object\":\"魔戒电影三部曲\"},{\"subject\":\"魔戒：洛汗人之战\",\"relation\":\"讲述\",\"object\":\"洛汗国王圣盔·锤手的故事\"}]}",
+      "parsed_triples": 20
+    }
+  ]
+}

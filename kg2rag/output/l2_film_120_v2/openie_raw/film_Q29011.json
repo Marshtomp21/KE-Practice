@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q29011",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"哈尔的移动城堡\",\"relation\":\"导演\",\"object\":\"宫崎骏\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"演员\",\"object\":\"倍赏千惠子\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"演员\",\"object\":\"木村拓哉\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"演员\",\"object\":\"美轮明宏\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"演员\",\"object\":\"神木隆之介\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"演员\",\"object\":\"我修院达也\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"编剧\",\"object\":\"宫崎骏\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"制片公司\",\"object\":\"吉卜力工作室\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"获奖\",\"object\":\"JASRAC奖金奖\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"改编自\",\"object\":\"魔幻城堡\"},{\"subject\":\"魔幻城堡\",\"relation\":\"作者\",\"object\":\"戴安娜·韦恩·琼斯\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"首映时间\",\"object\":\"2004年11月20日\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"制作人\",\"object\":\"铃木敏夫\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"发行公司\",\"object\":\"东宝\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"背景国家\",\"object\":\"虚构王国\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"主角\",\"object\":\"苏菲\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"主角\",\"object\":\"霍尔\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"主题\",\"object\":\"反战\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"主题\",\"object\":\"老年\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"主题\",\"object\":\"女权主义\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"主题\",\"object\":\"怜悯\"},{\"subject\":\"宫崎骏\",\"relation\":\"最喜欢的作品\",\"object\":\"哈尔的移动城堡\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"首映地点\",\"object\":\"第61届威尼斯国际电影节\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"日本票房\",\"object\":\"196亿日圆\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"全球票房\",\"object\":\"2.36亿美元\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"提名\",\"object\":\"第78届奥斯卡金像奖最佳动画长片\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"获奖\",\"object\":\"四项东京动画奖\"},{\"subject\":\"哈尔的移动城堡\",\"relation\":\"获奖\",\"object\":\"星云奖最佳剧本奖\"}]}",
+      "parsed_triples": 31
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q130288104",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"我谈的那场恋爱\",\"relation\":\"导演\",\"object\":\"何妙祺\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"演员\",\"object\":\"吴君如\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"演员\",\"object\":\"张天赋\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"演员\",\"object\":\"陈辉虹\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"演员\",\"object\":\"邓丽欣\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"编剧\",\"object\":\"何妙祺\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"编剧\",\"object\":\"陈庆嘉\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"类型\",\"object\":\"爱情\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"国家地区\",\"object\":\"香港\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"获奖\",\"object\":\"香港首部剧情电影计划第六届专业组\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"题材\",\"object\":\"网络情缘\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"题材\",\"object\":\"网络骗案\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"参展\",\"object\":\"第48届香港国际电影节\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"世界首映日期\",\"object\":\"2024年3月29日\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"上映日期\",\"object\":\"2024年9月12日\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"上映地点\",\"object\":\"澳门\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"上映地点\",\"object\":\"香港\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"上映日期\",\"object\":\"2024年11月15日\"},{\"subject\":\"我谈的那场恋爱\",\"relation\":\"上映地点\",\"object\":\"中国内地\"}]}",
+      "parsed_triples": 22
+    }
+  ]
+}

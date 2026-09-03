@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q127688495",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"九月五日 (电影)\",\"relation\":\"演员\",\"object\":\"彼得·赛斯嘉\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"演员\",\"object\":\"莱奥妮·贝内施\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"演员\",\"object\":\"班杰明·沃克\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"编剧\",\"object\":\"蒂姆·菲尔巴姆\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"制片公司\",\"object\":\"康斯坦丁影业\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"合拍国家\",\"object\":\"美国\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"合拍国家\",\"object\":\"德国\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"导演\",\"object\":\"蒂姆·菲尔巴姆\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"主演\",\"object\":\"彼得·赛斯嘉\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"主演\",\"object\":\"约翰·马加罗\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"主演\",\"object\":\"本·卓别林\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"主演\",\"object\":\"莱奥妮·贝内施\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"展现事件\",\"object\":\"慕尼黑惨案\"},{\"subject\":\"慕尼黑惨案\",\"relation\":\"发生时间\",\"object\":\"1972年夏季奥运会期间\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"视角\",\"object\":\"美国广播公司体育报道团队\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"全球首映地点\",\"object\":\"第81届威尼斯影展\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"全球首映日期\",\"object\":\"2024年8月29日\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"美国有限上映日期\",\"object\":\"2024年12月13日\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"全美公映日期\",\"object\":\"2025年1月17日\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"发行公司\",\"object\":\"派拉蒙影业\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"发行公司\",\"object\":\"共和影业\"},{\"subject\":\"九月五日 (电影)\",\"relation\":\"获得提名\",\"object\":\"第97届奥斯卡金像奖最佳原创剧本奖\"}]}",
+      "parsed_triples": 25
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Secrets and local environments
+.env
+.env.*
+api.env
+**/api.env
+!.env.example
+!**/api.env.example
+.venv-*/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Cloned upstream repositories are version-locked in the record table instead
+*/upstream/
+
+# Generated indexes, caches and workspaces
+*.lock
+*/logs/
+*/outputs/
+hipporag2/.cache/
+hipporag2/output/*/deepseek-*/
+hipporag2/output/*/llm_cache/
+kg2rag/output/*/document_embeddings.json
+lightrag/output/*/storage/
+microsoft_graphrag/workspace_*/

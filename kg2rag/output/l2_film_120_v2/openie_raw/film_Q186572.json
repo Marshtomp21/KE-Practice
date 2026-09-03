@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q186572",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"魔法公主\",\"relation\":\"导演\",\"object\":\"宫崎骏\"},{\"subject\":\"魔法公主\",\"relation\":\"演员\",\"object\":\"松田洋治\"},{\"subject\":\"魔法公主\",\"relation\":\"演员\",\"object\":\"石田百合子\"},{\"subject\":\"魔法公主\",\"relation\":\"演员\",\"object\":\"田中裕子\"},{\"subject\":\"魔法公主\",\"relation\":\"演员\",\"object\":\"美轮明宏\"},{\"subject\":\"魔法公主\",\"relation\":\"演员\",\"object\":\"小林薰\"},{\"subject\":\"魔法公主\",\"relation\":\"编剧\",\"object\":\"宫崎骏\"},{\"subject\":\"魔法公主\",\"relation\":\"制片公司\",\"object\":\"吉卜力工作室\"},{\"subject\":\"魔法公主\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"魔法公主\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"魔法公主\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"魔法公主\",\"relation\":\"获奖\",\"object\":\"日本电影学院奖最佳影片\"},{\"subject\":\"魔法公主\",\"relation\":\"获奖\",\"object\":\"每日电影奖日本电影大奖\"},{\"subject\":\"魔法公主\",\"relation\":\"获奖\",\"object\":\"石原裕次郎奖\"},{\"subject\":\"魔法公主\",\"relation\":\"提名\",\"object\":\"日本电影金像奖\"},{\"subject\":\"魔法公主\",\"relation\":\"提名\",\"object\":\"第70届奥斯卡金像奖\"},{\"subject\":\"魔法公主\",\"relation\":\"提名\",\"object\":\"奥斯卡金像奖\"},{\"subject\":\"魔法公主\",\"relation\":\"首映日期\",\"object\":\"1997年7月12日\"},{\"subject\":\"魔法公主\",\"relation\":\"故事背景时代\",\"object\":\"室町时代\"},{\"subject\":\"魔法公主\",\"relation\":\"票房\",\"object\":\"193亿日圆\"}]}",
+      "parsed_triples": 20
+    }
+  ]
+}

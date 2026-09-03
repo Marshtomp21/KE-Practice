@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q125188483",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"导演\",\"object\":\"项秋良\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"导演\",\"object\":\"项河生\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"演员\",\"object\":\"尹子维\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"演员\",\"object\":\"雷瑟琳\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"演员\",\"object\":\"王星辰\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"演员\",\"object\":\"骆达华\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"演员\",\"object\":\"车保罗\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"编剧\",\"object\":\"项秋良\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"编剧\",\"object\":\"项河生\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"制片公司\",\"object\":\"项氏兄弟电影\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"类型\",\"object\":\"惊悚\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"翻拍自\",\"object\":\"1997年美国电影《狂蟒之灾》\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"备案时间\",\"object\":\"2023年2月\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"发行时间\",\"object\":\"2024年3月1日\"},{\"subject\":\"狂蟒之灾 (2024年电影)\",\"relation\":\"发行平台\",\"object\":\"中国网络\"}]}",
+      "parsed_triples": 16
+    }
+  ]
+}

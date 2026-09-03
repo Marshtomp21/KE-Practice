@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q124650330",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"熊出没·逆转时空\",\"relation\":\"导演\",\"object\":\"林汇达\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"编剧\",\"object\":\"徐芸\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"编剧\",\"object\":\"万秦\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"编剧\",\"object\":\"蒋琳\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"制片公司\",\"object\":\"华强方特\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"类型\",\"object\":\"科幻\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"类型\",\"object\":\"冒险\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"前作\",\"object\":\"熊出没·伴我“熊芯”\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"续作\",\"object\":\"熊出没·重启未来\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"上映日期\",\"object\":\"2024年2月10日\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"上映地区\",\"object\":\"中国内地\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"系列\",\"object\":\"熊出没系列电影\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"作品序号\",\"object\":\"第十部\"},{\"subject\":\"熊出没·逆转时空\",\"relation\":\"剧情设定\",\"object\":\"新时间线\"},{\"subject\":\"光头强\",\"relation\":\"职业\",\"object\":\"程序员\"},{\"subject\":\"光头强\",\"relation\":\"回忆身份\",\"object\":\"伐木工\"},{\"subject\":\"光头强\",\"relation\":\"同伴\",\"object\":\"两头狗熊\"}]}",
+      "parsed_triples": 19
+    }
+  ]
+}

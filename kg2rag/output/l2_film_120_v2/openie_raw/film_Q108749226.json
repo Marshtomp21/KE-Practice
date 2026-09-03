@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q108749226",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"危机航线\",\"relation\":\"导演\",\"object\":\"彭氏兄弟\"},{\"subject\":\"危机航线\",\"relation\":\"演员\",\"object\":\"刘德华\"},{\"subject\":\"危机航线\",\"relation\":\"演员\",\"object\":\"张子枫\"},{\"subject\":\"危机航线\",\"relation\":\"演员\",\"object\":\"屈楚萧\"},{\"subject\":\"危机航线\",\"relation\":\"演员\",\"object\":\"刘涛\"},{\"subject\":\"危机航线\",\"relation\":\"编剧\",\"object\":\"陈迅\"},{\"subject\":\"危机航线\",\"relation\":\"制片公司\",\"object\":\"寰宇电影\"},{\"subject\":\"危机航线\",\"relation\":\"制片公司\",\"object\":\"天津猫眼\"},{\"subject\":\"危机航线\",\"relation\":\"制片公司\",\"object\":\"映艺娱乐有限公司\"},{\"subject\":\"危机航线\",\"relation\":\"类型\",\"object\":\"动作\"},{\"subject\":\"危机航线\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"危机航线\",\"relation\":\"上映日期\",\"object\":\"2024年9月30日\"},{\"subject\":\"危机航线\",\"relation\":\"上映地区\",\"object\":\"中国大陆\"},{\"subject\":\"危机航线\",\"relation\":\"上映日期\",\"object\":\"2024年10月3日\"},{\"subject\":\"危机航线\",\"relation\":\"上映地区\",\"object\":\"马来西亚\"},{\"subject\":\"危机航线\",\"relation\":\"上映日期\",\"object\":\"2024年10月9日\"},{\"subject\":\"危机航线\",\"relation\":\"上映地区\",\"object\":\"台湾\"},{\"subject\":\"危机航线\",\"relation\":\"上映日期\",\"object\":\"2024年10月10日\"},{\"subject\":\"危机航线\",\"relation\":\"上映地区\",\"object\":\"香港\"},{\"subject\":\"危机航线\",\"relation\":\"上映日期\",\"object\":\"2024年10月10日\"},{\"subject\":\"危机航线\",\"relation\":\"上映地区\",\"object\":\"新加坡\"}]}",
+      "parsed_triples": 20
+    }
+  ]
+}

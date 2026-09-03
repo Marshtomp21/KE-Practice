@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q39571",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"龙猫\",\"relation\":\"导演\",\"object\":\"宫崎骏\"},{\"subject\":\"龙猫\",\"relation\":\"演员\",\"object\":\"日高范子\"},{\"subject\":\"龙猫\",\"relation\":\"演员\",\"object\":\"坂本千夏\"},{\"subject\":\"龙猫\",\"relation\":\"演员\",\"object\":\"糸井重里\"},{\"subject\":\"龙猫\",\"relation\":\"演员\",\"object\":\"岛本须美\"},{\"subject\":\"龙猫\",\"relation\":\"演员\",\"object\":\"北林谷荣\"},{\"subject\":\"龙猫\",\"relation\":\"编剧\",\"object\":\"宫崎骏\"},{\"subject\":\"龙猫\",\"relation\":\"制片公司\",\"object\":\"吉卜力工作室\"},{\"subject\":\"龙猫\",\"relation\":\"类型\",\"object\":\"动画\"},{\"subject\":\"龙猫\",\"relation\":\"类型\",\"object\":\"奇幻\"},{\"subject\":\"龙猫\",\"relation\":\"类型\",\"object\":\"家庭\"},{\"subject\":\"龙猫\",\"relation\":\"获奖\",\"object\":\"每日电影奖日本电影大奖\"},{\"subject\":\"龙猫\",\"relation\":\"获奖\",\"object\":\"电影旬报十佳奖最佳日本影片\"},{\"subject\":\"龙猫\",\"relation\":\"首映日期\",\"object\":\"1988年4月16日\"},{\"subject\":\"龙猫\",\"relation\":\"制作公司\",\"object\":\"吉卜力工作室\"},{\"subject\":\"龙猫\",\"relation\":\"制作公司\",\"object\":\"德间书店\"},{\"subject\":\"龙猫\",\"relation\":\"背景年代\",\"object\":\"1958年的日本\"},{\"subject\":\"龙猫\",\"relation\":\"公映观影人次\",\"object\":\"约80万\"},{\"subject\":\"龙猫\",\"relation\":\"全球票房收入\",\"object\":\"超过4100万美元\"},{\"subject\":\"龙猫\",\"relation\":\"家庭影响销售收入\",\"object\":\"估计为2.77亿美元\"},{\"subject\":\"龙猫\",\"relation\":\"授权商品销售收入\",\"object\":\"11.42亿美元\"},{\"subject\":\"龙猫\",\"relation\":\"总收入\",\"object\":\"约14.6亿美元\"},{\"subject\":\"龙猫\",\"relation\":\"获奖\",\"object\":\"Animage动漫大奖\"},{\"subject\":\"龙猫\",\"relation\":\"获奖\",\"object\":\"蓝丝带奖特别奖\"},{\"subject\":\"龙猫\",\"relation\":\"帝国杂志排名\",\"object\":\"世界100部最佳电影第41位\"},{\"subject\":\"龙猫\",\"relation\":\"角色\",\"object\":\"龙猫\"},{\"subject\":\"龙猫\",\"relation\":\"吉祥物\",\"object\":\"吉卜力工作室\"}]}",
+      "parsed_triples": 27
+    }
+  ]
+}

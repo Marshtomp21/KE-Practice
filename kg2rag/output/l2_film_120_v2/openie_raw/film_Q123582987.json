@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q123582987",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"狂人法则\",\"relation\":\"导演\",\"object\":\"阿里·阿巴西\"},{\"subject\":\"狂人法则\",\"relation\":\"演员\",\"object\":\"赛巴斯汀·史坦\"},{\"subject\":\"狂人法则\",\"relation\":\"演员\",\"object\":\"杰瑞米·史壮\"},{\"subject\":\"狂人法则\",\"relation\":\"演员\",\"object\":\"玛丽亚·巴卡洛娃\"},{\"subject\":\"狂人法则\",\"relation\":\"演员\",\"object\":\"马丁·唐纳文\"},{\"subject\":\"狂人法则\",\"relation\":\"制片公司\",\"object\":\"Profile Pictures\"},{\"subject\":\"狂人法则\",\"relation\":\"制片公司\",\"object\":\"Kinematics\"},{\"subject\":\"狂人法则\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"狂人法则\",\"relation\":\"类型\",\"object\":\"传记\"},{\"subject\":\"狂人法则\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"狂人法则\",\"relation\":\"合拍国家\",\"object\":\"加拿大\"},{\"subject\":\"狂人法则\",\"relation\":\"合拍国家\",\"object\":\"丹麦\"},{\"subject\":\"狂人法则\",\"relation\":\"合拍国家\",\"object\":\"爱尔兰\"},{\"subject\":\"狂人法则\",\"relation\":\"编剧\",\"object\":\"加布里埃尔·谢尔曼\"},{\"subject\":\"狂人法则\",\"relation\":\"剧情背景\",\"object\":\"1970年代到1980年代的纽约\"},{\"subject\":\"狂人法则\",\"relation\":\"讲述人物\",\"object\":\"唐纳·川普\"},{\"subject\":\"狂人法则\",\"relation\":\"首映地点\",\"object\":\"第77届坎城影展\"},{\"subject\":\"狂人法则\",\"relation\":\"首映日期\",\"object\":\"2024年5月20日\"},{\"subject\":\"狂人法则\",\"relation\":\"美国上映日期\",\"object\":\"2024年10月11日\"}]}",
+      "parsed_triples": 19
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q115778970",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"市民德熙\",\"relation\":\"导演\",\"object\":\"朴荣珠\"},{\"subject\":\"市民德熙\",\"relation\":\"演员\",\"object\":\"罗美兰\"},{\"subject\":\"市民德熙\",\"relation\":\"演员\",\"object\":\"孔明\"},{\"subject\":\"市民德熙\",\"relation\":\"演员\",\"object\":\"廉惠兰\"},{\"subject\":\"市民德熙\",\"relation\":\"演员\",\"object\":\"朴丙垠\"},{\"subject\":\"市民德熙\",\"relation\":\"演员\",\"object\":\"张允柱\"},{\"subject\":\"市民德熙\",\"relation\":\"演员\",\"object\":\"李茂生\"},{\"subject\":\"市民德熙\",\"relation\":\"演员\",\"object\":\"安恩真\"},{\"subject\":\"市民德熙\",\"relation\":\"编剧\",\"object\":\"朴荣珠\"},{\"subject\":\"市民德熙\",\"relation\":\"类型\",\"object\":\"剧情\"},{\"subject\":\"市民德熙\",\"relation\":\"类型\",\"object\":\"喜剧\"},{\"subject\":\"市民德熙\",\"relation\":\"类型\",\"object\":\"犯罪\"},{\"subject\":\"市民德熙\",\"relation\":\"上映时间\",\"object\":\"2024年1月24日\"},{\"subject\":\"市民德熙\",\"relation\":\"上映地区\",\"object\":\"韩国\"},{\"subject\":\"市民德熙\",\"relation\":\"改编自\",\"object\":\"真实事件\"},{\"subject\":\"市民德熙\",\"relation\":\"导演首部商业电影\",\"object\":\"朴荣珠\"}]}",
+      "parsed_triples": 16
+    }
+  ]
+}

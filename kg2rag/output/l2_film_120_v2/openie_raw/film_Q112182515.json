@@ -1,0 +1,11 @@
+{
+  "doc_id": "film_Q112182515",
+  "status": "parsed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "response": "{\"triples\":[{\"subject\":\"母亲的直觉\",\"relation\":\"上映年份\",\"object\":\"2024年\"},{\"subject\":\"母亲的直觉\",\"relation\":\"类型\",\"object\":\"心理惊悚片\"},{\"subject\":\"母亲的直觉\",\"relation\":\"国家\",\"object\":\"美国\"},{\"subject\":\"母亲的直觉\",\"relation\":\"导演\",\"object\":\"伯努瓦·德洛姆\"},{\"subject\":\"母亲的直觉\",\"relation\":\"主演\",\"object\":\"杰西卡·查斯坦\"},{\"subject\":\"母亲的直觉\",\"relation\":\"主演\",\"object\":\"安妮·海瑟薇\"},{\"subject\":\"母亲的直觉\",\"relation\":\"主演\",\"object\":\"乔西·查尔斯\"},{\"subject\":\"母亲的直觉\",\"relation\":\"主演\",\"object\":\"安德斯·丹尼尔森·李\"},{\"subject\":\"母亲的直觉\",\"relation\":\"改编自\",\"object\":\"芭芭拉·阿贝尔的小说《母亲的直觉》\"},{\"subject\":\"母亲的直觉\",\"relation\":\"上映地点\",\"object\":\"立陶宛\"},{\"subject\":\"母亲的直觉\",\"relation\":\"上映日期\",\"object\":\"2024年3月8日\"},{\"subject\":\"母亲的直觉\",\"relation\":\"上映地点\",\"object\":\"英国\"},{\"subject\":\"母亲的直觉\",\"relation\":\"上映日期\",\"object\":\"2024年3月27日\"},{\"subject\":\"母亲的直觉\",\"relation\":\"上映地点\",\"object\":\"爱尔兰\"}]}",
+      "parsed_triples": 14
+    }
+  ]
+}
