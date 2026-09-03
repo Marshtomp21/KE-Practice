@@ -258,14 +258,6 @@ def main() -> None:
                 }
             )
     (out_dir / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (out_dir / "README.txt").write_text(
-        "films.jsonl: one valid film per line, including full source text and rough Schema extraction.\n"
-        "relations.jsonl: flattened graph edges with evidence URL and raw source fragment.\n"
-        "collaborations.jsonl: derived person-to-person collaborations with counts and shared films.\n"
-        "Structured extraction is intentionally rough; raw_wikitext is retained for later cleaning.\n"
-        "Chinese Wikipedia text is CC BY-SA 4.0; retain page URL and revision attribution.\n",
-        encoding="utf-8",
-    )
     print(json.dumps(stats, ensure_ascii=False, indent=2), flush=True)
 
 

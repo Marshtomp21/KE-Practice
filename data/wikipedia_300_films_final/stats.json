@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-03T03:13:53+00:00",
+  "generated_at": "2026-09-03T03:45:48+00:00",
   "film_records": 361,
   "full_wikitext_records": 361,
   "intro_records": 361,
   "relation_rows": 4941,
-  "collaboration_pairs": 14542,
+  "collaboration_pairs": 14610,
   "field_coverage": {
     "directors": 289,
     "actors": 339,
@@ -40,5 +40,15 @@
     "前作",
     "续作",
     "合作"
-  ]
+  ],
+  "language_variant": "简体中文（OpenCC t2s）",
+  "actor_records": 1784,
+  "actor_records_with_wikipedia_text": 1164,
+  "director_records": 274,
+  "director_records_with_wikipedia_text": 194,
+  "entity_files": {
+    "影片": "films.jsonl",
+    "演员": "actors.jsonl",
+    "导演": "directors.jsonl"
+  }
 }

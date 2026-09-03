@@ -393,13 +393,6 @@ def main() -> None:
     write_jsonl(out_dir / "collaborations.jsonl", collaborations)
     write_jsonl(out_dir / "catalog.jsonl", catalog)
     (out_dir / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (out_dir / "README.txt").write_text(
-        "films.jsonl: one film per line, including rough Schema extraction and the full raw Wikipedia wikitext.\n"
-        "relations.jsonl: flattened graph edges with raw evidence.\n"
-        "collaborations.jsonl: collaboration counts and shared films.\n"
-        "Wikipedia text is CC BY-SA 4.0. Keep each row's URL and revision metadata for attribution.\n",
-        encoding="utf-8",
-    )
     print(json.dumps(stats, ensure_ascii=False, indent=2), flush=True)
 
 
