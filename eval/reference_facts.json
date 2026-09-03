@@ -1,0 +1,10458 @@
+{
+  "note": "来自数据集自带的粗抽取字段，仅作参照，不是人工标注的绝对真值",
+  "films": [
+    {
+      "id": "Q65234882",
+      "title": "再见了，唇",
+      "year_category": "2019年电影",
+      "directors": [
+        "盐田明彦"
+      ],
+      "actors": [
+        "小松菜奈",
+        "门脇麦",
+        "成田凌",
+        "松本真理香",
+        "青柳尊哉"
+      ],
+      "screenwriters": [
+        "盐田明彦"
+      ],
+      "companies": [
+        "Match Point"
+      ],
+      "genres": [
+        "音乐"
+      ],
+      "awards": [
+        "报知电影奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q48764045",
+      "title": "托马斯大电影之世界探险记",
+      "year_category": "2018年电影",
+      "directors": [
+        "大卫·史托顿 David Stoten"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "安德鲁·布伦纳"
+      ],
+      "companies": [
+        "美泰儿创制"
+      ],
+      "genres": [
+        "喜剧",
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "WP:9457481",
+      "title": "我们的故事2",
+      "year_category": "2016年电影",
+      "directors": [
+        "梁智强"
+      ],
+      "actors": [
+        "陈丽贞",
+        "李国煌",
+        "王雷 (新加坡)",
+        "陈俊铭"
+      ],
+      "screenwriters": [
+        "梁智强"
+      ],
+      "companies": [
+        "J Team Productions"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "WP:9583695",
+      "title": "私刑母亲",
+      "year_category": "2013年电影",
+      "directors": [
+        "李芝胜"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "李芝胜",
+        "金贤宇"
+      ],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": [
+        "大钟奖"
+      ]
+    },
+    {
+      "id": "Q115773472",
+      "title": "2024年Netflix原创电影列表",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118119104",
+      "title": "12怪盗",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "何国敏"
+      ],
+      "actors": [
+        "MIRROR (组合)"
+      ],
+      "screenwriters": [
+        "张丽思"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q109345157",
+      "title": "749局",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "陆川 (导演)"
+      ],
+      "actors": [
+        "王俊凯",
+        "苗苗 (演员)",
+        "郑恺",
+        "任敏",
+        "辛柏青",
+        "张钧宁"
+      ],
+      "screenwriters": [
+        "陆川"
+      ],
+      "companies": [
+        "华谊兄弟电影有限公司",
+        "腾讯影业文化传播有限公司"
+      ],
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123823141",
+      "title": "从今以后",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杨曜恺"
+      ],
+      "actors": [
+        "区嘉雯",
+        "张嘉年",
+        "许素莹",
+        "梁仲恒",
+        "廖子妤",
+        "梁雍婷",
+        "李琳琳",
+        "太 保",
+        "黎济铭",
+        "岑乐怡",
+        "丁 羽",
+        "梁 爱"
+      ],
+      "screenwriters": [
+        "杨曜恺"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118387582",
+      "title": "借借妳人生",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "埃德文·雷丁",
+        "莎拉·拉尔森"
+      ],
+      "screenwriters": [
+        "米凯拉·汉密尔顿（Michaela Hamilton）"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q120758628",
+      "title": "噬血芭蕾",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "马特·贝蒂内利-奥尔平"
+      ],
+      "actors": [
+        "丹·史蒂文斯",
+        "凯瑟琳·纽顿",
+        "凯文·杜兰",
+        "安格斯·克劳德",
+        "吉安卡洛·伊坡托"
+      ],
+      "screenwriters": [
+        "斯蒂芬·希尔兹（Stephen Shields）"
+      ],
+      "companies": [
+        "X计划娱乐（Project X Entertainment）",
+        "维森影业（Vinson Films）"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115859045",
+      "title": "致命AI",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "克里斯·魏兹"
+      ],
+      "actors": [
+        "赵约翰",
+        "凯萨琳·华特斯顿",
+        "卢琪塔·麦斯威尔",
+        "大卫·达斯马齐连",
+        "凯斯·卡拉定"
+      ],
+      "screenwriters": [
+        "克里斯·魏兹"
+      ],
+      "companies": [
+        "哥伦比亚影业",
+        "布伦屋制片公司"
+      ],
+      "genres": [
+        "科幻",
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354197",
+      "title": "超烦特工",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "王崇霖"
+      ],
+      "actors": [
+        "黄冠智",
+        "廖钦亮",
+        "萧永裕",
+        "何裕天"
+      ],
+      "screenwriters": [
+        "游智杰"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124262351",
+      "title": "我仍在此",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "华特·萨勒斯"
+      ],
+      "actors": [
+        "费尔南达·托雷斯",
+        "费尔兰德·蒙特纳哥",
+        "马乔里·德奥利维拉"
+      ],
+      "screenwriters": [
+        "穆里洛·豪瑟（Murilo Hauser）",
+        "赫克托·洛雷加（Heitor Lorega）"
+      ],
+      "companies": [
+        "Arte France Cinéma"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [
+        "奥斯卡最佳国际影片获奖电影",
+        "金球奖最佳戏剧类女主角获奖电影",
+        "第82届金球奖",
+        "金球奖",
+        "第78届英国电影学院奖",
+        "第97届奥斯卡金像奖",
+        "奥斯卡最佳影片奖",
+        "奥斯卡最佳女主角奖"
+      ],
+      "nominations": [
+        "第82届金球奖",
+        "金球奖",
+        "第78届英国电影学院奖",
+        "第97届奥斯卡金像奖",
+        "奥斯卡最佳影片奖",
+        "奥斯卡最佳女主角奖"
+      ]
+    },
+    {
+      "id": "Q115932544",
+      "title": "异形：罗穆路斯",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "费德·阿瓦雷兹"
+      ],
+      "actors": [
+        "卡莉·史派妮",
+        "大卫·荣松",
+        "阿奇·雷诺斯",
+        "伊莎贝拉·莫娜",
+        "史派克·费恩",
+        "异形",
+        "罗伯特·博布罗茨基"
+      ],
+      "screenwriters": [
+        "费德·阿瓦雷兹"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "科幻",
+        "恐怖",
+        "惊悚",
+        "灾难"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125422662",
+      "title": "你是我眼中的那道光",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "帕亚尔·卡帕迪亚"
+      ],
+      "actors": [
+        "赫里杜·哈龙（Hridhu Haroon）"
+      ],
+      "screenwriters": [
+        "帕亚尔·卡帕迪亚"
+      ],
+      "companies": [
+        "Arte France Cinéma"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q123354222",
+      "title": "亚马逊活命水",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "柳承龙",
+        "陈善圭"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131375186",
+      "title": "得宠先生",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "李志伟 (导演)",
+        "何英毅"
+      ],
+      "actors": [
+        "郑丹瑞",
+        "卢慧敏",
+        "冯允谦",
+        "黄正宜"
+      ],
+      "screenwriters": [
+        "李志伟",
+        "何英毅"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125188483",
+      "title": "狂蟒之灾 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "项秋良",
+        "项河生"
+      ],
+      "actors": [
+        "尹子维",
+        "雷瑟琳",
+        "王星辰",
+        "骆达华",
+        "车保罗"
+      ],
+      "screenwriters": [
+        "项秋良",
+        "项河生"
+      ],
+      "companies": [
+        "项氏兄弟电影"
+      ],
+      "genres": [
+        "惊悚",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123185887",
+      "title": "阿诺拉",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "西恩·贝克"
+      ],
+      "actors": [
+        "麦琪·麦迪逊",
+        "尤里·亚历山德罗维奇·鲍里索夫",
+        "亚历克赛·席列布瑞亚柯夫",
+        "尤里·亚历山德罗维奇·鲍里索夫",
+        "阿琳娜·古列维奇"
+      ],
+      "screenwriters": [
+        "肖恩·贝克"
+      ],
+      "companies": [
+        "Cre Film"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [
+        "奥斯卡最佳剪辑奖得主",
+        "奥斯卡最佳原创剧本获奖电影",
+        "奥斯卡最佳女主角获奖电影",
+        "奥斯卡最佳导演获奖电影",
+        "奥斯卡最佳影片获奖电影",
+        "独立精神奖最佳导演获奖电影",
+        "独立精神奖最佳影片",
+        "英国电影学院奖最佳女主角获奖电影",
+        "金棕榈奖获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q123582987",
+      "title": "狂人法则",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "阿里·阿巴西"
+      ],
+      "actors": [
+        "赛巴斯汀·史坦",
+        "杰瑞米·史壮",
+        "玛丽亚·巴卡洛娃",
+        "马丁·唐纳文"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "Profile Pictures",
+        "Kinematics"
+      ],
+      "genres": [
+        "剧情",
+        "传记"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q107460063",
+      "title": "机密特务：阿盖尔",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "马修·沃恩"
+      ],
+      "actors": [
+        "亨利·卡维尔",
+        "布莱斯·达拉斯·霍华德",
+        "山姆·洛克威尔",
+        "布莱恩·科兰斯顿",
+        "凯瑟琳·奥哈拉",
+        "杜娃·黎波",
+        "亚莉安娜·黛博塞",
+        "约翰·希南",
+        "森姆·积逊",
+        "苏菲亚·波提拉",
+        "理查·E·格兰特",
+        "陆思敬",
+        "罗伯·德莱尼",
+        "The Escapist",
+        "路易·帕特里奇"
+      ],
+      "screenwriters": [
+        "杰森·福克斯"
+      ],
+      "companies": [
+        "苹果制片室"
+      ],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124098393",
+      "title": "浴血劫案",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "贾斯汀·鲁特（）"
+      ],
+      "actors": [
+        "席维斯·史特龙",
+        "达什·米霍克"
+      ],
+      "screenwriters": [
+        "柯瑞·托德·休斯（）",
+        "阿德里安·斯佩克特（）"
+      ],
+      "companies": [
+        "磨石娱乐集团"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q110938009",
+      "title": "极限长征",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "刘思慕 (演员)",
+        "娜塔莉·伊曼纽尔",
+        "阿里·苏利曼",
+        "迈克·兰德斯",
+        "贝尔·吉罗斯",
+        "保罗·加法叶"
+      ],
+      "screenwriters": [
+        "麦可·布蓝特"
+      ],
+      "companies": [
+        "Entertainment One"
+      ],
+      "genres": [
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124570438",
+      "title": "第二十条",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "张艺谋"
+      ],
+      "actors": [
+        "雷佳音",
+        "马丽",
+        "赵丽颖",
+        "高叶",
+        "刘耀文"
+      ],
+      "screenwriters": [
+        "李萌"
+      ],
+      "companies": [
+        "光线影业",
+        "最高人民检察院影视中心",
+        "儒意影视",
+        "中国电影股份有限公司"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [
+        "百花奖最佳女主角获奖电影",
+        "百花奖最佳女配角获奖电影",
+        "百花奖最佳导演获奖电影",
+        "金鸡奖最佳故事片",
+        "金鸡奖最佳男主角获奖电影",
+        "中国长春电影节"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q115474889",
+      "title": "异星战境",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "布拉德·佩顿"
+      ],
+      "actors": [
+        "詹妮弗·洛佩兹",
+        "刘思慕 (演员)",
+        "斯特林·K·布朗",
+        "马克·史壮"
+      ],
+      "screenwriters": [
+        "里欧·萨达里安（Leo Sardarian）"
+      ],
+      "companies": [
+        "安全屋影业",
+        "ASAP娱乐"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123861757",
+      "title": "小心肝儿",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "妮可·基嫚",
+        "哈里斯·迪金森",
+        "安东尼奥·班德拉斯",
+        "亚努皮·迪赛"
+      ],
+      "screenwriters": [
+        "哈琳娜·雷金"
+      ],
+      "companies": [
+        "A24"
+      ],
+      "genres": [
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q31271357",
+      "title": "绝地战警：生死与共",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "阿迪尔·艾尔·阿比和毕拉尔·法拉"
+      ],
+      "actors": [
+        "马汀·劳伦斯",
+        "凡妮莎·哈金斯",
+        "亚历山大·路德韦格",
+        "葆拉·努涅斯",
+        "埃里克·迪恩",
+        "威尔·史密斯",
+        "伊恩·葛鲁佛",
+        "雅各布·西皮奥",
+        "乔·潘托利亚诺",
+        "蒂芬妮·哈戴许",
+        "约翰·萨利",
+        "DJ卡利",
+        "蕾亚·塞洪",
+        "乔伊纳·卢卡斯",
+        "麦可·贝",
+        "卡比·莱姆"
+      ],
+      "screenwriters": [
+        "威尔·比尔"
+      ],
+      "companies": [
+        "哥伦比亚影业",
+        "唐·辛普森／杰瑞·布洛克海默影业"
+      ],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118067937",
+      "title": "救世双雄",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "阿克夏·库马",
+        "泰格·史洛夫",
+        "玛努希·奇希拉",
+        "索纳丝·辛哈"
+      ],
+      "screenwriters": [
+        "阿迪亚·巴苏（）",
+        "阿里·阿巴斯·萨法尔"
+      ],
+      "companies": [
+        "AAZ电影（）"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123469290",
+      "title": "乌有之地",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "许明行"
+      ],
+      "actors": [
+        "马东石",
+        "李熙俊",
+        "李濬荣",
+        "卢正义 (演员)",
+        "安芝慧"
+      ],
+      "screenwriters": [
+        "金宝通",
+        "郭在民"
+      ],
+      "companies": [],
+      "genres": [
+        "动作"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118329914",
+      "title": "BanG Dream! It's MyGO!!!!!",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动画",
+        "音乐"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130397318",
+      "title": "爆款好人",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "宁浩",
+        "徐磊 (导演)"
+      ],
+      "actors": [
+        "葛优",
+        "李雪琴",
+        "杨皓宇 (1974年)"
+      ],
+      "screenwriters": [
+        "王昂",
+        "刘晓丹"
+      ],
+      "companies": [
+        "坏猴子影业",
+        "如日方升影视文化"
+      ],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942881",
+      "title": "我才不要和你做朋友呢 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "何念"
+      ],
+      "actors": [
+        "庄达菲",
+        "陈昊宇",
+        "王皓"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q128738602",
+      "title": "当爱被遗忘时",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "李英国"
+      ],
+      "actors": [
+        "金正兰",
+        "朴志训",
+        "金宝英"
+      ],
+      "screenwriters": [
+        "李英国"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115766625",
+      "title": "蜂刑者",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "大卫·阿耶"
+      ],
+      "actors": [
+        "乔许·哈却森",
+        "蜜妮·卓芙",
+        "菲莉西亚·拉沙德",
+        "杰瑞米·艾朗"
+      ],
+      "screenwriters": [
+        "寇特·威默"
+      ],
+      "companies": [
+        "米高梅",
+        "米拉麦克斯影业"
+      ],
+      "genres": [
+        "动作",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q112865900",
+      "title": "阴间大法师 Beetlejuice",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "蒂姆·伯顿"
+      ],
+      "actors": [
+        "米高·基顿",
+        "薇诺娜·瑞德",
+        "凯瑟琳·奥哈拉",
+        "贾斯汀·塞洛克斯",
+        "蒙妮卡·贝露琪",
+        "珍娜·奥特嘉",
+        "威廉·达佛",
+        "伯恩·戈曼"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "B计划娱乐"
+      ],
+      "genres": [
+        "喜剧",
+        "恐怖",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q136599519",
+      "title": "漂亮朋友 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "耿军"
+      ],
+      "actors": [
+        "徐刚",
+        "张志勇 (演员)",
+        "薛宝鹤",
+        "王梓行",
+        "张迅"
+      ],
+      "screenwriters": [
+        "耿军"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [
+        "金马奖最佳剪辑获奖电影",
+        "金马奖最佳摄影获奖电影",
+        "金马奖最佳男主角获奖电影",
+        "金马奖观众票选最佳影片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q123597250",
+      "title": "史上最棒的圣诞剧",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "茱蒂·葛瑞儿",
+        "皮特·福尔摩斯"
+      ],
+      "screenwriters": [
+        "莱恩·史旺森（）",
+        "普拉特·克拉克（）",
+        "达林·麦丹尼尔"
+      ],
+      "companies": [
+        "流明纳斯制片室（）",
+        "传媒资本技术（）",
+        "弗莱切特娱乐（）"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q106261265",
+      "title": "更好的人",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "麦可·格雷希"
+      ],
+      "actors": [
+        "罗比·威廉姆斯",
+        "史蒂夫·佩姆伯顿",
+        "达蒙·海瑞曼"
+      ],
+      "screenwriters": [
+        "奥利佛·科尔（Oliver Cole）",
+        "麦可·格雷西（Michael Gracey）"
+      ],
+      "companies": [
+        "Sina Studios",
+        "Facing East Entertainment",
+        "Rocket Science",
+        "Lost Bandits",
+        "Footloose Productions"
+      ],
+      "genres": [
+        "传记",
+        "音乐"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113650759",
+      "title": "比佛利山超级警探：艾索·福里",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "乔瑟夫·高登-李维",
+        "祖德·莱茵霍尔德",
+        "约翰·亚西顿",
+        "保罗·莱瑟",
+        "马克·佩雷格里诺",
+        "凯文·贝肯",
+        "凯文·贝肯",
+        "路易·古兹曼"
+      ],
+      "screenwriters": [
+        "威尔·比尔"
+      ],
+      "companies": [
+        "派拉蒙影业",
+        "唐·辛普森与杰瑞·布洛克海默影业"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131708466",
+      "title": "小小的我 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杨荔钠"
+      ],
+      "actors": [
+        "易烊千玺",
+        "林晓杰",
+        "蒋勤勤",
+        "周雨彤",
+        "李庚酉",
+        "张加丽",
+        "廖学秋"
+      ],
+      "screenwriters": [
+        "游晓颖"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "家庭"
+      ],
+      "awards": [
+        "百花奖最佳男主角获奖电影",
+        "金鸡奖最佳男主角获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q126074918",
+      "title": "狗阵",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "管虎"
+      ],
+      "actors": [
+        "彭于晏",
+        "佟丽娅"
+      ],
+      "screenwriters": [
+        "葛瑞",
+        "管虎",
+        "吴兵"
+      ],
+      "companies": [
+        "华谊兄弟电影有限公司",
+        "北京博纳影业集团有限公司"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q112341432",
+      "title": "音乐传奇卜马利：人生爱与梦",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "金斯利·本-阿迪尔",
+        "拉沙娜·林奇",
+        "詹姆士·诺顿"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "传记",
+        "音乐",
+        "历史"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q111946850",
+      "title": "波哥大：最后的机会之地",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "金成济"
+      ],
+      "actors": [
+        "宋仲基",
+        "李熙俊",
+        "权海骁"
+      ],
+      "screenwriters": [
+        "黄成九"
+      ],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125411917",
+      "title": "我的阳光",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "奥山大史"
+      ],
+      "actors": [
+        "越山敬达",
+        "若叶龙也",
+        "池松壮亮"
+      ],
+      "screenwriters": [
+        "奥山大史"
+      ],
+      "companies": [
+        "《我的阳光》制作委员会",
+        "如影随行影业"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "体育"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124650330",
+      "title": "熊出没·逆转时空",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "林汇达"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "徐芸",
+        "万秦",
+        "蒋琳"
+      ],
+      "companies": [
+        "华强方特"
+      ],
+      "genres": [
+        "喜剧",
+        "科幻",
+        "动画",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q106329715",
+      "title": "边缘禁地 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "艾利·罗斯"
+      ],
+      "actors": [
+        "凯特·布兰切特",
+        "凯文·哈特",
+        "杰克·布莱克",
+        "雅瑞安娜·葛林布雷",
+        "佛洛里安·蒙特亚努",
+        "洁美·李·寇蒂斯",
+        "艾格·拉米瑞兹",
+        "海莉·班奈特",
+        "奥利维尔·里希特斯",
+        "詹妮娜·加万卡",
+        "夏恩·杰克逊",
+        "班杰明·拜伦·戴维斯"
+      ],
+      "screenwriters": [
+        "艾利·罗斯"
+      ],
+      "companies": [
+        "2K"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "科幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q128153011",
+      "title": "捆绑上天堂",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "霍昕"
+      ],
+      "actors": [
+        "倪妮",
+        "周游 (1991年)"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942901",
+      "title": "胜券在握 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "刘循子墨"
+      ],
+      "actors": [
+        "邓超",
+        "邓家佳",
+        "郑云龙",
+        "喻恩泰"
+      ],
+      "screenwriters": [
+        "张本煜"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q128559322",
+      "title": "还钱",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "王鼎霖"
+      ],
+      "actors": [
+        "陈柏霖",
+        "蔡思韵",
+        "李铭忠",
+        "蔡凡熙",
+        "林哲熹",
+        "吴慷仁",
+        "许时豪",
+        "高英轩",
+        "吴志庆",
+        "何思静",
+        "刘昌翰",
+        "郭安妮",
+        "澎恰恰"
+      ],
+      "screenwriters": [
+        "王卉竺",
+        "温郁芳"
+      ],
+      "companies": [
+        "华能国际娱乐股份有限公司",
+        "华文创股份有限公司",
+        "乐到家国际娱乐股份有限公司"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q120001910",
+      "title": "叛谍档案",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "雷尼·哈林"
+      ],
+      "actors": [
+        "艾伦·艾克哈特",
+        "妮娜·杜波夫",
+        "提姆·布雷克·尼尔森",
+        "小克利夫顿·柯林斯"
+      ],
+      "screenwriters": [
+        "汉娜·韦格（）",
+        "马特·约翰逊（）"
+      ],
+      "companies": [
+        "不拘一格影业（）"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q101112656",
+      "title": "粗野派",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "布拉迪·科贝特"
+      ],
+      "actors": [
+        "阿德里安·布罗迪",
+        "菲丽希缇·琼斯",
+        "盖·皮尔斯",
+        "乔·欧文",
+        "斯塔西·马汀",
+        "伊萨赫·德·班克尔",
+        "亚历桑德罗·尼沃拉",
+        "阿丽安·拉蓓",
+        "乔纳森·海德"
+      ],
+      "screenwriters": [
+        "布拉迪·科贝特"
+      ],
+      "companies": [
+        "卡普兰·莫里森（）"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [
+        "奥斯卡最佳原创配乐获奖电影",
+        "奥斯卡最佳摄影获奖电影",
+        "奥斯卡最佳男主角获奖电影",
+        "纽约影评人协会奖最佳影片",
+        "芝加哥影评人协会奖最佳影片",
+        "英国电影学院奖最佳原创配乐获奖电影",
+        "英国电影学院奖最佳导演获奖电影",
+        "英国电影学院奖最佳摄影获奖电影",
+        "英国电影学院奖最佳男主角获奖电影",
+        "金球奖最佳剧情片",
+        "金球奖最佳导演获奖电影",
+        "金球奖最佳戏剧类男主角获奖电影"
+      ],
+      "nominations": [
+        "第78届英国电影学院奖",
+        "第97届奥斯卡金像奖"
+      ]
+    },
+    {
+      "id": "Q115917655",
+      "title": "随身危机",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "赞美·哥勒-施拉"
+      ],
+      "actors": [
+        "泰隆·艾奇顿",
+        "索菲娅·卡森",
+        "丹妮尔·戴德维勒",
+        "杰森·贝特曼",
+        "罗根·马歇尔-格林",
+        "迪奥·罗西",
+        "狄恩·诺里斯"
+      ],
+      "screenwriters": [
+        "托德·菲克斯曼（T.J. Fixman）"
+      ],
+      "companies": [
+        "安培林娱乐"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115707860",
+      "title": "要命劫案",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "蓝道尔·艾米特"
+      ],
+      "actors": [
+        "约翰·特拉沃尔塔",
+        "克莉丝汀·戴维斯",
+        "卢卡斯·哈斯",
+        "Quavo"
+      ],
+      "screenwriters": [
+        "迪波·奥塞尼（）"
+      ],
+      "companies": [
+        "融合娱乐集团（）",
+        "高地电影集团（）",
+        "透明传媒（）"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q127697922",
+      "title": "焚城",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "潘耀明 (电影摄影师)"
+      ],
+      "actors": [
+        "莫文蔚",
+        "白宇"
+      ],
+      "screenwriters": [
+        "麦天枢"
+      ],
+      "companies": [],
+      "genres": [
+        "灾难"
+      ],
+      "awards": [
+        "第43届香港电影金像奖"
+      ],
+      "nominations": [
+        "华鼎奖",
+        "第43届香港电影金像奖"
+      ]
+    },
+    {
+      "id": "Q111458251",
+      "title": "挑战者 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "卢卡·格达戈尼诺"
+      ],
+      "actors": [
+        "乔许·欧康纳",
+        "麦克·费斯"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "米高梅"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "体育"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124485988",
+      "title": "童心列车",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "克里斯蒂娜·科门奇尼"
+      ],
+      "actors": [
+        "巴巴拉·龙基",
+        "塞雷娜·罗西",
+        "斯特凡诺·阿科尔西",
+        "弗朗切斯科·迪莱瓦",
+        "安托尼娅·特鲁波"
+      ],
+      "screenwriters": [
+        "富里奥·安德烈奥蒂",
+        "朱莉娅·卡伦达",
+        "克里斯蒂娜·科门奇尼",
+        "卡米耶·迪盖"
+      ],
+      "companies": [
+        "Palomar"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "WP:9380493",
+      "title": "唐人街恰恰",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "贾图隆·摩乔克"
+      ],
+      "actors": [
+        "提拉达·迈特瓦拉育",
+        "兰拉薇·俄衮瓦拉瓦",
+        "朱塔吾·帕塔拉刚普",
+        "贾图隆·摩乔克"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "Vela Entertainment"
+      ],
+      "genres": [
+        "喜剧",
+        "动作",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115778970",
+      "title": "市民德熙",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "朴荣珠"
+      ],
+      "actors": [
+        "罗美兰",
+        "孔明 (艺人)",
+        "廉惠兰",
+        "朴丙垠",
+        "张允柱",
+        "李茂生 (演员)",
+        "安恩真 (1991年)"
+      ],
+      "screenwriters": [
+        "朴荣珠"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115727176",
+      "title": "城市猎人 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "铃木亮平",
+        "森田望智",
+        "安藤政信",
+        "水崎绫女",
+        "片山萌美",
+        "杉本哲太",
+        "木村文乃",
+        "铃木亮平",
+        "神谷明"
+      ],
+      "screenwriters": [
+        "三嶋龙朗"
+      ],
+      "companies": [
+        "Horipro"
+      ],
+      "genres": [
+        "动作",
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [
+        "亚洲影艺创意大奖最佳剧情片获奖作品"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q111538862",
+      "title": "帝国浩劫：美国内战",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "亚历克斯·加兰"
+      ],
+      "actors": [
+        "克丝汀·邓斯特",
+        "华格纳·莫拉",
+        "卡莉·史派妮",
+        "水野索诺亚",
+        "尼克·奥佛曼",
+        "卡尔·葛鲁斯曼",
+        "杰西·普莱蒙"
+      ],
+      "screenwriters": [
+        "亚力克斯·嘉兰"
+      ],
+      "companies": [],
+      "genres": [
+        "惊悚",
+        "战争"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118175825",
+      "title": "巴布狄伦：摇滚诗人",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "詹姆斯·曼高德"
+      ],
+      "actors": [
+        "爱德华·诺顿",
+        "艾丽·范宁",
+        "莫妮卡·巴巴罗",
+        "提摩西·夏勒梅",
+        "波伊德·霍布鲁克",
+        "诺伯特·李奥·巴茨",
+        "史考特·麦奈利",
+        "初音映莉子"
+      ],
+      "screenwriters": [
+        "詹姆斯·曼高德"
+      ],
+      "companies": [
+        "探照灯影业",
+        "Moviefone",
+        "Deadline Hollywood"
+      ],
+      "genres": [
+        "剧情",
+        "传记",
+        "音乐",
+        "历史"
+      ],
+      "awards": [
+        "美国演员工会奖电影类最佳男主角获奖作品"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q116701124",
+      "title": "教宗选战",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "爱德华·贝尔格"
+      ],
+      "actors": [
+        "雷夫·范恩斯",
+        "史丹利·特治",
+        "约翰·利思戈",
+        "伊莎贝拉·罗塞里尼",
+        "卡洛斯·迪耶斯"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "房子制片公司（）"
+      ],
+      "genres": [
+        "惊悚",
+        "悬疑"
+      ],
+      "awards": [
+        "奥斯卡最佳改编剧本获奖电影",
+        "日本电影学院奖最佳外语片",
+        "英国电影学院奖最佳剪辑获奖电影",
+        "英国电影学院奖最佳影片",
+        "英国电影学院奖最佳改编剧本获奖电影",
+        "英国电影学院奖最佳英国电影",
+        "蓝丝带奖最佳外语片",
+        "金球奖最佳剧本获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q123330656",
+      "title": "谈判专家 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "邱礼涛"
+      ],
+      "actors": [
+        "刘青云",
+        "吴镇宇",
+        "苗侨伟",
+        "姜皓文",
+        "韦罗莎",
+        "袁富华",
+        "何华超",
+        "彭秀慧"
+      ],
+      "screenwriters": [
+        "邱礼涛"
+      ],
+      "companies": [
+        "浙江横店影业有限公司",
+        "国家电影局"
+      ],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q108749226",
+      "title": "危机航线",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "彭氏兄弟"
+      ],
+      "actors": [
+        "刘德华",
+        "张子枫",
+        "屈楚萧",
+        "刘涛"
+      ],
+      "screenwriters": [
+        "陈迅"
+      ],
+      "companies": [
+        "寰宇电影",
+        "天津猫眼",
+        "映艺娱乐有限公司"
+      ],
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113300899",
+      "title": "龙族战神：重生",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "鲁伯特·桑德斯"
+      ],
+      "actors": [
+        "比尔·斯卡斯加德",
+        "FKA Twigs",
+        "丹尼·休斯顿",
+        "Collider"
+      ],
+      "screenwriters": [
+        "威廉·施奈德（）"
+      ],
+      "companies": [
+        "哈塞尔自由制片公司（）",
+        "电影子公司（）",
+        "普雷斯曼电影（）",
+        "阿什兰山媒体财经（）",
+        "媒体资本技术（）"
+      ],
+      "genres": [
+        "动作",
+        "惊悚",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124683089",
+      "title": "反贪风暴之加密危机",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "吴家伟"
+      ],
+      "actors": [
+        "吴卓羲",
+        "马志威",
+        "苏皓儿",
+        "张建声",
+        "吴家丽",
+        "栢天男",
+        "陈欣妍",
+        "朱晨丽",
+        "刘浩龙",
+        "黄祥兴",
+        "邹文正"
+      ],
+      "screenwriters": [
+        "黄浩华"
+      ],
+      "companies": [
+        "东方影业出品有限公司",
+        "香港01"
+      ],
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q111548226",
+      "title": "海关战线",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "邱礼涛"
+      ],
+      "actors": [
+        "谢霆锋",
+        "张学友",
+        "林嘉欣",
+        "刘雅瑟",
+        "吴镇宇"
+      ],
+      "screenwriters": [
+        "李敏",
+        "李升"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124319816",
+      "title": "达荷美 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [
+        "玛蒂·迪欧普"
+      ],
+      "companies": [],
+      "genres": [
+        "纪录"
+      ],
+      "awards": [
+        "卢米埃奖最佳纪录片奖获得者",
+        "金熊奖获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q112811482",
+      "title": "少女斗恶龙",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "米莉·芭比·布朗",
+        "安琪拉·贝瑟",
+        "罗苹·莱特",
+        "雷·温斯顿",
+        "尼克·罗宾森",
+        "索瑞·安达斯鲁"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "PMCA Productions"
+      ],
+      "genres": [
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124633025",
+      "title": "亡名之徒",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "河准元"
+      ],
+      "actors": [
+        "赵震雄",
+        "金喜爱",
+        "李秀敬"
+      ],
+      "screenwriters": [
+        "河准元"
+      ],
+      "companies": [],
+      "genres": [
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125458044",
+      "title": "鬼才之道",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "徐汉强"
+      ],
+      "actors": [
+        "陈柏霖",
+        "张榕容",
+        "王净",
+        "百白",
+        "曾威豪",
+        "姚以缇",
+        "眼肉芽",
+        "葛凡",
+        "江澄瑄",
+        "那维勋",
+        "叶静涵",
+        "赖雨霏",
+        "黄迪扬",
+        "林鹤轩",
+        "龙龙",
+        "昶玮",
+        "尹宣方",
+        "张承贤",
+        "赖玟君",
+        "黄豪平",
+        "吴志庆",
+        "杨达敬",
+        "洪藜恩",
+        "罗香菱",
+        "曹瑜",
+        "李进中",
+        "陈葳",
+        "蔡邵桓",
+        "苏耀庭",
+        "舒伟杰",
+        "车昕",
+        "贺珑",
+        "董仔",
+        "云靖云",
+        "刘冠宏",
+        "陈怡桦",
+        "阳靓",
+        "竺定谊",
+        "林宴慈",
+        "谢章颖",
+        "张雅玲"
+      ],
+      "screenwriters": [
+        "徐汉强",
+        "蔡坤霖"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情",
+        "喜剧",
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [
+        "台北电影奖最佳导演得主",
+        "金马奖最佳原创电影歌曲获奖电影",
+        "金马奖最佳美术设计获奖电影",
+        "金马奖最佳视觉效果获奖电影",
+        "金马奖最佳造型设计获奖电影",
+        "金马奖最佳动作设计获奖电影",
+        "奇幻电影节",
+        "锡切斯电影节"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q102180106",
+      "title": "死侍与金钢狼",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "肖恩·利维"
+      ],
+      "actors": [
+        "休·杰克曼",
+        "艾玛·科林",
+        "莫雷纳·巴卡林",
+        "罗伯·德莱尼",
+        "莱斯莉·奥加姆斯",
+        "马修·麦费狄恩",
+        "恶棍英雄：死侍",
+        "珍妮佛·嘉纳",
+        "漫威电影宇宙",
+        "卫斯理·史奈普",
+        "罗布·麦克亨尼"
+      ],
+      "screenwriters": [
+        "雷特·瑞斯",
+        "保罗·韦尼克"
+      ],
+      "companies": [
+        "漫威影业"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "科幻",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942909",
+      "title": "解密 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "陈思诚"
+      ],
+      "actors": [
+        "刘昊然",
+        "约翰·库萨克"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "悬疑"
+      ],
+      "awards": [
+        "金鸡奖最佳美术获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q113373276",
+      "title": "神偷奶爸4",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "史提夫·加维",
+        "克莉丝汀·薇格",
+        "米兰达·蔻思葛芙",
+        "威尔·法洛",
+        "索菲娅·维加拉",
+        "乔伊·金",
+        "斯蒂芬·科拜尔",
+        "皮尔·柯芬",
+        "史提夫·库根"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "照明娱乐"
+      ],
+      "genres": [
+        "喜剧",
+        "动画",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354194",
+      "title": "三天 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "玄文燮"
+      ],
+      "actors": [
+        "朴新阳",
+        "李民基",
+        "李蕊 (韩国演员)"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "恐怖",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117272474",
+      "title": "不同的男人",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "赛巴斯汀·史坦",
+        "雷娜特·赖因斯夫",
+        "查理·科斯莫",
+        "迈克尔·珊农"
+      ],
+      "screenwriters": [
+        "亚伦·施密伯格"
+      ],
+      "companies": [
+        "A24"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116881172",
+      "title": "天使营救",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "马丁·坎贝尔"
+      ],
+      "actors": [
+        "伊娃·格莲",
+        "玛丽亚·巴卡洛娃",
+        "露比·萝丝",
+        "萝娜李·希蒙",
+        "乔尼卡·T·吉布斯",
+        "Gulf News"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124499929",
+      "title": "日日好狗日",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "金德敏"
+      ],
+      "actors": [
+        "尹汝贞",
+        "柳海真",
+        "金伦珍",
+        "金瑞亨",
+        "丹尼尔·海尼",
+        "李玹雨",
+        "陈俊翔 (演员)"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942916",
+      "title": "阳光俱乐部",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "魏书钧"
+      ],
+      "actors": [
+        "黄晓明",
+        "陆小芬",
+        "祖锋",
+        "杨采钰"
+      ],
+      "screenwriters": [
+        "魏书钧",
+        "翟义祥"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q136691861",
+      "title": "无间毒票",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "王筱刚",
+        "尔东"
+      ],
+      "actors": [
+        "陈龙 (演员)",
+        "吕良伟",
+        "曾志伟",
+        "童飞 (女演员)",
+        "姜永波",
+        "李砚",
+        "权友",
+        "斯力更",
+        "王文",
+        "宋词",
+        "毛凡",
+        "吕善婷",
+        "王涌澄",
+        "李胜",
+        "朱然"
+      ],
+      "screenwriters": [
+        "李鹤楠"
+      ],
+      "companies": [
+        "金影时代（北京）新媒体技术有限公司",
+        "华翰传媒（深圳）集团有限公司",
+        "中国电影科学技术研究所",
+        "青岛春山影业有限公司"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q129759798",
+      "title": "性梦爱三部曲：梦",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "达格·约翰·豪格鲁德"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "达格·约翰·豪格鲁德"
+      ],
+      "companies": [
+        "Motlys AS",
+        "Novemberfilm"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [
+        "金熊奖获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q109228991",
+      "title": "沙丘：第二部",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "丹尼斯·维勒弗"
+      ],
+      "actors": [
+        "提摩西·夏勒梅",
+        "赞达亚",
+        "丽贝卡·弗格森",
+        "乔许·布洛林",
+        "奥斯汀·巴特勒",
+        "佛萝伦丝·普伊",
+        "戴夫·巴帝斯塔",
+        "克里斯托弗·沃肯",
+        "蕾雅·瑟杜",
+        "斯特兰·斯卡斯加德",
+        "夏绿蒂·兰普琳",
+        "哈维尔·巴登",
+        "安雅·泰勒-乔伊"
+      ],
+      "screenwriters": [
+        "乔·斯派茨",
+        "艾瑞克·罗斯"
+      ],
+      "companies": [
+        "传奇影业"
+      ],
+      "genres": [
+        "科幻",
+        "冒险"
+      ],
+      "awards": [
+        "土星奖最佳科幻电影",
+        "奥斯卡最佳视觉效果获奖电影",
+        "奥斯卡最佳音响效果获奖电影",
+        "英国电影学院奖最佳视觉效果获奖电影",
+        "英国电影学院奖最佳音效获奖电影"
+      ],
+      "nominations": [
+        "第82届金球奖",
+        "第78届英国电影学院奖",
+        "第97届奥斯卡金像奖"
+      ]
+    },
+    {
+      "id": "Q123855936",
+      "title": "弟弟 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "王湘圣"
+      ],
+      "actors": [
+        "陈冲 (演员)"
+      ],
+      "screenwriters": [
+        "王湘圣"
+      ],
+      "companies": [
+        "Maiden Voyage Pictures"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [
+        "圣丹斯影展获奖者"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q123472177",
+      "title": "伊甸 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "朗·侯活"
+      ],
+      "actors": [
+        "裘德·洛",
+        "安娜·德哈玛斯",
+        "凡妮莎·寇比",
+        "席德妮·史威尼",
+        "丹尼尔·布尔",
+        "理查·罗森堡"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "Imagine Entertainment"
+      ],
+      "genres": [
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130396871",
+      "title": "余烬 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "钟孟宏"
+      ],
+      "actors": [
+        "张震 (演员)",
+        "莫子仪",
+        "许玮宁",
+        "金士杰",
+        "刘冠廷",
+        "鲍起静",
+        "陈以文",
+        "王柏杰",
+        "李铭忠",
+        "黄瀞怡",
+        "邹暟沄",
+        "马志翔",
+        "侯彦西",
+        "杨谨华",
+        "郑平君",
+        "巫建和",
+        "刘亮佐",
+        "张少怀",
+        "张志勇",
+        "李国强"
+      ],
+      "screenwriters": [
+        "钟孟宏",
+        "朱嘉汉"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "恐怖",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123928072",
+      "title": "璀璨女人梦",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "贾克·欧迪亚"
+      ],
+      "actors": [
+        "佐伊·索尔达娜",
+        "卡拉·索菲亚·贾斯康",
+        "赛琳娜·戈麦斯",
+        "艾格·拉米瑞兹"
+      ],
+      "screenwriters": [
+        "贾克·欧迪亚"
+      ],
+      "companies": [
+        "法国电视二台",
+        "圣罗兰"
+      ],
+      "genres": [
+        "喜剧",
+        "犯罪",
+        "音乐"
+      ],
+      "awards": [
+        "凯撒电影奖最佳影片",
+        "奥斯卡最佳原创歌曲奖获奖电影",
+        "奥斯卡最佳女配角奖获奖演员",
+        "欧洲电影奖最佳女主角获奖电影",
+        "欧洲电影奖最佳导演获奖电影",
+        "欧洲电影奖最佳影片",
+        "欧洲电影奖最佳编剧获奖电影",
+        "卢米埃奖最佳女演员奖获奖电影",
+        "卢米埃奖最佳影片奖获得者",
+        "美国演员工会奖电影类最佳女配角获奖作品",
+        "英国电影学院奖最佳外语片",
+        "英国电影学院奖最佳女配角获奖电影",
+        "金球奖最佳外语片",
+        "金球奖最佳音乐或喜剧片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q112054990",
+      "title": "艾曼纽2024",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "奥黛丽·迪万"
+      ],
+      "actors": [
+        "诺耶米·梅兰特",
+        "杰米·坎贝尔·鲍尔",
+        "黄恰恰",
+        "黄秋生",
+        "娜奥米·沃茨",
+        "威尔·夏普"
+      ],
+      "screenwriters": [
+        "蕾贝卡·斯洛托维斯基"
+      ],
+      "companies": [
+        "Goodfellas"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354205",
+      "title": "逃脱 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "李帝勋",
+        "具教焕",
+        "洪思彬"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942870",
+      "title": "从21世纪安全撤离",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "李阳"
+      ],
+      "actors": [
+        "张若昀",
+        "钟楚曦",
+        "宋洋",
+        "吴晓亮"
+      ],
+      "screenwriters": [
+        "李阳"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "科幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q119680224",
+      "title": "老手2",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "柳承完"
+      ],
+      "actors": [
+        "黄晸珉",
+        "丁海寅"
+      ],
+      "screenwriters": [
+        "柳承完",
+        "李元宰"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117322466",
+      "title": "破墓",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "崔岷植",
+        "金高银",
+        "柳海真",
+        "李到𬀪"
+      ],
+      "screenwriters": [
+        "张在现"
+      ],
+      "companies": [],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳造型设计获奖电影",
+        "亚洲电影大奖最佳视觉效果获奖电影",
+        "黄金摄影奖获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q73792046",
+      "title": "驱魔 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "罗素·高尔",
+        "山姆·沃辛顿",
+        "克萝伊·贝莉",
+        "亚当·戈德堡",
+        "大卫·海德·皮尔斯"
+      ],
+      "screenwriters": [
+        "乔舒亚·约翰·米勒"
+      ],
+      "companies": [
+        "米拉麦克斯影业"
+      ],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113671585",
+      "title": "特技玩家",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "大卫·雷奇"
+      ],
+      "actors": [
+        "艾美莉·宾特",
+        "温斯顿·杜克",
+        "亚伦·泰勒-强森",
+        "汉娜·沃丁厄姆",
+        "史蒂芬妮·许",
+        "雷恩·葛斯林",
+        "亚伦·强森",
+        "汉娜·沃丁厄姆",
+        "泰瑞莎·帕玛"
+      ],
+      "screenwriters": [
+        "德鲁·皮尔斯"
+      ],
+      "companies": [
+        "87North制片公司"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q138015702",
+      "title": "木送",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "韩洁瑶"
+      ],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "纪录"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116599963",
+      "title": "非常家务事",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "妮可·基嫚",
+        "柴克·艾弗隆",
+        "乔伊·金",
+        "莱莎·寇希",
+        "凯西·贝兹"
+      ],
+      "screenwriters": [
+        "凯莉·所罗门（Carrie Solomon）"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125422899",
+      "title": "风流一代",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "贾樟柯"
+      ],
+      "actors": [
+        "赵涛 (演员)",
+        "周游 (1991年)",
+        "仁科 (音乐人)"
+      ],
+      "screenwriters": [
+        "贾樟柯",
+        "万佳欢"
+      ],
+      "companies": [
+        "北京欢十喜文化有限公司",
+        "福建泉州市无限自在文化传媒有限公司",
+        "陌陌影业"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q114889877",
+      "title": "凌云战士",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "悉达·阿南德"
+      ],
+      "actors": [
+        "赫利希克·罗桑",
+        "荻皮卡·帕都恭",
+        "安尼·卡浦尔"
+      ],
+      "screenwriters": [
+        "拉蒙·奇伯"
+      ],
+      "companies": [
+        "马夫利克斯影业（）"
+      ],
+      "genres": [
+        "动作",
+        "战争"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117842576",
+      "title": "天魔：恶之初",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "索尼娅·布拉加",
+        "拉尔夫·伊尼森",
+        "比尔·奈伊"
+      ],
+      "screenwriters": [
+        "提姆·史密斯（）",
+        "阿卡夏·史蒂文森"
+      ],
+      "companies": [
+        "幻四影业（）"
+      ],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115057826",
+      "title": "飞月情海",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "葛瑞格·贝兰提"
+      ],
+      "actors": [
+        "查宁·塔图",
+        "柯林·伍德尔",
+        "雷·罗曼诺",
+        "伍迪·哈里森",
+        "史嘉蕾·乔韩森",
+        "科林·约斯特",
+        "彼得·雅各布森"
+      ],
+      "screenwriters": [
+        "萝丝·吉洛伊（）"
+      ],
+      "companies": [
+        "苹果制片室"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q136691862",
+      "title": "动物园里有什么？",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "安小满"
+      ],
+      "actors": [
+        "包贝尔",
+        "宋晓峰",
+        "潘斌龙",
+        "贾冰",
+        "梁颂晴",
+        "常远",
+        "魏翔",
+        "徐志胜",
+        "王千源",
+        "吴云飞",
+        "何雪晴"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125943204",
+      "title": "她死了",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "金世辉"
+      ],
+      "actors": [
+        "卞约汉",
+        "申惠善",
+        "李伊"
+      ],
+      "screenwriters": [
+        "金世辉"
+      ],
+      "companies": [],
+      "genres": [
+        "惊悚",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q109412657",
+      "title": "维和防暴队",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "李达超"
+      ],
+      "actors": [
+        "黄景瑜",
+        "王一博",
+        "钟楚曦",
+        "欧豪",
+        "朱亚文"
+      ],
+      "screenwriters": [
+        "吴孟璋",
+        "李晖",
+        "嘉莉安"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124365154",
+      "title": "弗里达 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "卡拉·古铁雷斯"
+      ],
+      "actors": [
+        "芙烈达·卡萝"
+      ],
+      "screenwriters": [
+        "卡拉·古铁雷斯"
+      ],
+      "companies": [],
+      "genres": [
+        "纪录"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q120143635",
+      "title": "爱你们的希尔德",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "安卓·爵森"
+      ],
+      "actors": [
+        "丽芙·丽莎·弗里斯"
+      ],
+      "screenwriters": [
+        "Laila Stieler"
+      ],
+      "companies": [
+        "德法公共电视台"
+      ],
+      "genres": [
+        "剧情",
+        "传记"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q100361125",
+      "title": "芙莉欧莎：疯狂麦斯传奇篇章",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "乔治·米勒"
+      ],
+      "actors": [
+        "安雅·泰勒-乔伊",
+        "克里斯·海姆斯沃斯",
+        "汤姆·伯克",
+        "漫画书资源网",
+        "乔许·赫尔曼",
+        "埃尔莎·帕塔奇",
+        "客串"
+      ],
+      "screenwriters": [
+        "迷雾追魂手"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "科幻",
+        "惊悚",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q102351060",
+      "title": "风都侦探",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "椛岛洋介"
+      ],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "科幻",
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113547547",
+      "title": "加菲猫：农场大冒险",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "克里斯·普瑞特",
+        "森姆·积逊",
+        "汉娜·沃丁厄姆",
+        "文·雷姆斯",
+        "尼古拉斯·霍尔特",
+        "布雷特·戈德斯坦",
+        "杨伯文",
+        "史努比狗狗"
+      ],
+      "screenwriters": [
+        "保罗·A·卡普兰",
+        "马克·托戈夫"
+      ],
+      "companies": [
+        "哥伦比亚影业",
+        "爱尔康娱乐",
+        "DNEG Animation",
+        "天下一集团",
+        "Wayfarer Studios",
+        "第六摄影棚电影"
+      ],
+      "genres": [
+        "喜剧",
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131411541",
+      "title": "角头—大桥头",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "姜瑞智"
+      ],
+      "actors": [
+        "蔡振南",
+        "龙天翔",
+        "喜翔",
+        "高捷 (演员)",
+        "张嘉年",
+        "夏靖庭",
+        "孙鹏 (艺人)",
+        "王识贤",
+        "王阳明 (演员)",
+        "张怀秋",
+        "施名帅",
+        "郑人硕",
+        "张再兴 (演员)",
+        "黄尚禾",
+        "吴震亚",
+        "唐振刚",
+        "李铭忠",
+        "草爷"
+      ],
+      "screenwriters": [
+        "刘蕊瑄"
+      ],
+      "companies": [
+        "巧克丽娱乐股份有限公司"
+      ],
+      "genres": [
+        "犯罪"
+      ],
+      "awards": [
+        "金马奖最佳男配角获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q113300586",
+      "title": "捉鬼敢死队：冰封魅来",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "吉尔·基能"
+      ],
+      "actors": [
+        "保罗·路德",
+        "凯莉·库恩",
+        "芬恩·伍法德",
+        "麦肯娜·葛瑞丝",
+        "库梅尔·南贾尼",
+        "派顿·奥斯瓦特",
+        "丹·艾克洛德",
+        "厄尼·哈德森",
+        "安妮·波茨",
+        "帕顿·奥斯瓦尔特",
+        "比尔·莫瑞",
+        "威廉·阿瑟顿",
+        "詹姆斯·阿卡斯特",
+        "艾蜜莉·艾琳·林德"
+      ],
+      "screenwriters": [
+        "杰森·瑞特曼",
+        "吉尔·基能"
+      ],
+      "companies": [
+        "哥伦比亚影业"
+      ],
+      "genres": [
+        "喜剧",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125422231",
+      "title": "拿针的女孩",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "崔娜·蒂虹"
+      ],
+      "screenwriters": [
+        "马格努斯·冯·霍恩",
+        "莉恩·兰格贝克（Line Langebek）"
+      ],
+      "companies": [
+        "北欧影业丹麦（Nordisk Film Denmark）",
+        "北欧影业瑞典（Nordisk Film Sweden）",
+        "熔岩影业（Lava Films）",
+        "EC1 Łódź"
+      ],
+      "genres": [
+        "剧情",
+        "恐怖",
+        "惊悚",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115789958",
+      "title": "神鬼战士II",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "雷利·史考特"
+      ],
+      "actors": [
+        "保罗·麦斯卡",
+        "佩德罗·帕斯卡",
+        "康妮·尼尔森",
+        "丹泽尔·华盛顿",
+        "前作"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情",
+        "冒险",
+        "历史"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q24905214",
+      "title": "玻璃工人 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "乌斯曼·里亚兹"
+      ],
+      "actors": [
+        "萨沙·达万",
+        "安吉丽·莫辛德拉"
+      ],
+      "screenwriters": [
+        "乌斯曼·里亚兹（Usman Riaz）",
+        "莫亚·奥谢（Moya O’Shea）"
+      ],
+      "companies": [],
+      "genres": [
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113360912",
+      "title": "哥吉拉与金刚：新帝国",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "亚当·温高德"
+      ],
+      "actors": [
+        "丽贝卡·豪尔",
+        "布莱恩·泰瑞·亨利",
+        "丹·史蒂文斯",
+        "陈法拉",
+        "凯莉·霍特尔"
+      ],
+      "screenwriters": [
+        "杰瑞米·史列特"
+      ],
+      "companies": [
+        "传奇影业"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q122921080",
+      "title": "GOAT：最强特务",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "维杰 (演员)",
+        "普拉部·地伐",
+        "约吉·巴布",
+        "特瑞莎·克莉希南",
+        "锡瓦卡席克扬"
+      ],
+      "screenwriters": [
+        "文卡特·普拉布",
+        "埃日拉拉苏·古纳塞卡兰（）",
+        "K·钱德鲁（）"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "科幻",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q114352426",
+      "title": "逃出抢钱镇",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "波西·彭西罗利（）"
+      ],
+      "actors": [
+        "希姆许·帕托",
+        "莉莉·詹姆斯",
+        "乔瑟夫·高登-李维",
+        "提姆·布雷克·尼尔森",
+        "裘伊·罗伦·亚当斯",
+        "乌佐·阿杜巴",
+        "赛门·雷克斯",
+        "妮娜·阿里安达"
+      ],
+      "screenwriters": [
+        "麦可·武凯丁诺维奇（）"
+      ],
+      "companies": [
+        "聚光灯（）",
+        "博伊斯席勒娱乐公司（）",
+        "藏身处影业（）"
+      ],
+      "genres": [
+        "喜剧",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117743008",
+      "title": "孤狼救援",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "路克·汉斯沃",
+        "摩根·弗里曼",
+        "约瑟夫·巴耶纳"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "120dB电影（）",
+        "艾克梅火箭燃料（）",
+        "魔城制片室（）"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126199462",
+      "title": "找死凶宅",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "南东协"
+      ],
+      "actors": [
+        "李星民",
+        "李熙俊",
+        "孔升妍",
+        "李奎炯",
+        "朴智焕"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131300512",
+      "title": "好东西",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "邵艺辉"
+      ],
+      "actors": [
+        "宋佳",
+        "钟楚曦",
+        "曾慕梅",
+        "章宇"
+      ],
+      "screenwriters": [
+        "邵艺辉"
+      ],
+      "companies": [
+        "上海电影（集团）有限公司",
+        "上海淘票票影视文化有限公司",
+        "中国电影股份有限公司",
+        "长影集团有限责任公司"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [
+        "乌甸尼远东电影节最受观众欢迎大奖得主",
+        "金鸡奖最佳女主角获奖电影",
+        "金鸡奖最佳女配角获奖电影",
+        "金鸡奖最佳故事片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q127510067",
+      "title": "哈尔滨 (韩国电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "禹民镐"
+      ],
+      "actors": [
+        "玄彬",
+        "朴正民",
+        "赵祐镇",
+        "全余赟",
+        "刘宰明",
+        "朴勋"
+      ],
+      "screenwriters": [
+        "金景灿",
+        "禹民镐",
+        "李基哲"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情",
+        "传记",
+        "历史"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳摄影获奖电影",
+        "百想艺术大奖获奖作品"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q131290723",
+      "title": "听说 (韩国电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "赵善浩"
+      ],
+      "actors": [
+        "红炅",
+        "卢允瑞",
+        "金玟周"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942918",
+      "title": "刺猬 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "顾长卫"
+      ],
+      "actors": [
+        "葛优",
+        "王俊凯"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118384193",
+      "title": "地狱怪客：歪曲人的诅咒",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "布莱恩·泰勒 (导演)"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "麦克·米格诺拉"
+      ],
+      "companies": [],
+      "genres": [
+        "恐怖",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q138874633",
+      "title": "诡屋 (小说)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "石川淳一"
+      ],
+      "actors": [
+        "间宫祥太朗",
+        "佐藤二朗",
+        "川荣李奈",
+        "长田成哉",
+        "DJ松永（Creepy Nuts）",
+        "泷本美织",
+        "根岸季衣",
+        "高岛政伸",
+        "齐藤由贵",
+        "石坂浩二",
+        "长井短",
+        "髙嶋政伸",
+        "斉藤由贵"
+      ],
+      "screenwriters": [
+        "丑尾健太郎"
+      ],
+      "companies": [],
+      "genres": [
+        "恐怖",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q112054756",
+      "title": "此心安处",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "罗拔·湛米基斯"
+      ],
+      "actors": [
+        "罗苹·莱特",
+        "保罗·彼特尼",
+        "凯莉·雷利",
+        "米歇尔·道克瑞",
+        "汤姆·汉克斯",
+        "米歇尔·道克瑞",
+        "奥菲利亚·拉维邦德"
+      ],
+      "screenwriters": [
+        "艾瑞克·罗斯"
+      ],
+      "companies": [
+        "米拉麦克斯影业"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q122933268",
+      "title": "异教诡屋",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "休·格兰特 (演员)",
+        "索菲·撒切尔",
+        "托弗·格雷斯",
+        "艾莉·麦金侬"
+      ],
+      "screenwriters": [
+        "史考特·贝克",
+        "布莱恩·伍兹"
+      ],
+      "companies": [
+        "贝克与伍兹（）",
+        "闪亮便士（）"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354204",
+      "title": "隐藏的面孔 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "宋承宪",
+        "曹汝贞",
+        "朴智贤"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "惊悚",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115396783",
+      "title": "卧底的退隐生活",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "高子彬"
+      ],
+      "actors": [
+        "谢安琪",
+        "邓月平",
+        "陈毅燊",
+        "唐诗咏",
+        "郑丹瑞"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "本地制作",
+        "天下一电影制作"
+      ],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354220",
+      "title": "劫机 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "金圣翰"
+      ],
+      "actors": [
+        "河正宇",
+        "吕珍九",
+        "成东镒",
+        "蔡秀彬"
+      ],
+      "screenwriters": [
+        "金景灿"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情",
+        "犯罪",
+        "灾难"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124670101",
+      "title": "地平线：美国传奇 第一部",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "凯文·科斯特纳"
+      ],
+      "actors": [
+        "施安娜·米勒",
+        "山姆·沃辛顿",
+        "吉娜·玛隆",
+        "艾比·丽·科肖",
+        "迈克尔·鲁克",
+        "丹尼·休斯顿",
+        "卢克·威尔逊",
+        "伊莎贝拉·弗尔曼",
+        "杰夫·法赫"
+      ],
+      "screenwriters": [
+        "凯文·科斯特纳",
+        "Jon Baird"
+      ],
+      "companies": [
+        "新线影业"
+      ],
+      "genres": [
+        "战争",
+        "西部"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124670100",
+      "title": "地平线：美国传奇 第二部",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "凯文·科斯特纳"
+      ],
+      "actors": [
+        "施安娜·米勒",
+        "山姆·沃辛顿",
+        "吉娜·玛隆",
+        "艾比·丽·科肖",
+        "迈克尔·鲁克",
+        "丹尼·休斯顿",
+        "卢克·威尔逊",
+        "伊莎贝拉·弗尔曼",
+        "杰夫·法赫",
+        "艾拉·亨特",
+        "杰米·坎贝尔·鲍尔"
+      ],
+      "screenwriters": [
+        "凯文·科斯特纳",
+        "Jon Baird"
+      ],
+      "companies": [
+        "新线影业"
+      ],
+      "genres": [
+        "战争",
+        "西部"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q136691873",
+      "title": "缉恶",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "霍穗强"
+      ],
+      "actors": [
+        "谢苗",
+        "安志杰",
+        "连凯",
+        "洪爽",
+        "尹聪",
+        "顾靖",
+        "李梓嘉",
+        "梁俊一",
+        "韩锐",
+        "吴靖萱",
+        "刘萨萨"
+      ],
+      "screenwriters": [
+        "老马"
+      ],
+      "companies": [
+        "北京爱奇艺科技有限公司",
+        "上海腾讯企鹅影视文化传播有限公司"
+      ],
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q133254432",
+      "title": "雄狮少年2",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "孙海鹏"
+      ],
+      "actors": [
+        "李昕",
+        "陈业雄",
+        "郭皓"
+      ],
+      "screenwriters": [
+        "孙海鹏",
+        "沈诚",
+        "张挺",
+        "史迈"
+      ],
+      "companies": [
+        "北京百纳千成影视股份有限公司"
+      ],
+      "genres": [
+        "动作",
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113903713",
+      "title": "怪奇粉红物语",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "贾斯特·史密斯",
+        "丹妮尔·戴德维勒"
+      ],
+      "screenwriters": [
+        "珍·桑恩布伦"
+      ],
+      "companies": [
+        "Smudge Films",
+        "Hypnic Jerk"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115010349",
+      "title": "关于你的想法",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "安妮·海瑟薇",
+        "尼可拉斯·葛拉辛",
+        "里德·斯科特"
+      ],
+      "screenwriters": [
+        "珍妮弗·韦斯特费尔特"
+      ],
+      "companies": [
+        "亚马逊米高梅工作室"
+      ],
+      "genres": [
+        "喜剧",
+        "爱情",
+        "音乐",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q111918059",
+      "title": "幻幻之交",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "约翰·卡拉辛斯基"
+      ],
+      "actors": [
+        "费欧娜·萧",
+        "菲比·沃勒-布里奇",
+        "艾伦·金",
+        "小路易斯·格塞特",
+        "史提夫·加维",
+        "莱恩·雷诺斯",
+        "约翰·卡拉辛斯基"
+      ],
+      "screenwriters": [
+        "约翰·卡拉辛斯基"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "动画",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q119170838",
+      "title": "异国日记",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "新垣结衣",
+        "夏帆",
+        "染谷将太",
+        "濑户康史"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q120986976",
+      "title": "伏栗熊",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杰夫·瓦德洛"
+      ],
+      "actors": [
+        "汤姆·佩恩"
+      ],
+      "screenwriters": [
+        "杰夫·瓦德洛",
+        "格雷格·厄布（）",
+        "杰森·奥伦兰（）"
+      ],
+      "companies": [
+        "布伦屋制片公司"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116980365",
+      "title": "鬼圣胎",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "艾华路·莫迪",
+        "席妮·史威尼"
+      ],
+      "screenwriters": [
+        "安德鲁·洛贝尔（）"
+      ],
+      "companies": [
+        "五五十电影（）",
+        "中童影业（）"
+      ],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q129497832",
+      "title": "她杀之心",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "犯罪",
+        "历史"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113877606",
+      "title": "脑筋急转弯2",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "凯尔西·曼恩"
+      ],
+      "actors": [
+        "艾米·波勒",
+        "刘易·布莱克",
+        "托尼·海尔",
+        "丽莎·拉琵拉",
+        "玛雅·霍克",
+        "阿黛尔·艾克阿切波洛斯",
+        "保罗·华特·豪泽"
+      ],
+      "screenwriters": [
+        "梅格·蕾法芙"
+      ],
+      "companies": [
+        "华特迪士尼影业",
+        "皮克斯动画工作室"
+      ],
+      "genres": [
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117279005",
+      "title": "闹事之徒",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "道格·李曼"
+      ],
+      "actors": [
+        "周洪 (演员)",
+        "保罗·华特·豪泽",
+        "麦可·斯图巴",
+        "文·雷姆斯",
+        "阿尔弗雷德·莫里纳",
+        "陶比·琼斯",
+        "杰克·哈洛",
+        "朗·普尔曼",
+        "麦特·戴蒙",
+        "凯西·艾佛列克",
+        "罗布·格隆考夫斯基"
+      ],
+      "screenwriters": [
+        "凯西·艾佛列克"
+      ],
+      "companies": [
+        "苹果制片室"
+      ],
+      "genres": [
+        "喜剧",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118641054",
+      "title": "爱情，到此为止",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "贾斯汀·巴尔多尼"
+      ],
+      "actors": [
+        "布蕾克·莱芙莉",
+        "珍妮·斯蕾特",
+        "贾斯汀·巴尔多尼",
+        "阿莱克斯·纽斯塔特",
+        "凯文·麦克基德"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "哥伦比亚影业",
+        "Wayfarer Studios"
+      ],
+      "genres": [
+        "爱情",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117312560",
+      "title": "头奖危机！",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "保罗·费格"
+      ],
+      "actors": [
+        "奥卡菲娜",
+        "约翰·希南",
+        "西恩·威廉·史考特",
+        "刘思慕",
+        "多莉·德·莱昂",
+        "机关枪凯利"
+      ],
+      "screenwriters": [
+        "罗布·耶斯康比（）"
+      ],
+      "companies": [
+        "费格可娱乐（）"
+      ],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q136691765",
+      "title": "金钱堡垒",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "彭氏兄弟"
+      ],
+      "actors": [
+        "王千源",
+        "冯绍峰",
+        "张俪",
+        "邵兵"
+      ],
+      "screenwriters": [
+        "刘斯可"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q136691745",
+      "title": "极限奇援",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "雪村"
+      ],
+      "actors": [
+        "王千源",
+        "黄圣依",
+        "魏晨"
+      ],
+      "screenwriters": [
+        "雪村",
+        "俞晴"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q108628759",
+      "title": "小丑：双重疯狂",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "陶德·菲利普斯"
+      ],
+      "actors": [
+        "华坚·冯力士",
+        "Lady Gaga",
+        "布兰顿·葛利森",
+        "凯瑟琳·基纳",
+        "萨琪·毕兹",
+        "史提夫·库根",
+        "哈里·劳提",
+        "雷伊·吉尔",
+        "梁肯",
+        "雅各布·洛夫兰"
+      ],
+      "screenwriters": [
+        "陶德·菲利普斯"
+      ],
+      "companies": [
+        "华纳兄弟",
+        "威秀电影",
+        "DC工作室"
+      ],
+      "genres": [
+        "剧情",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q122871547",
+      "title": "一个奇迹的诞生",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "班·泰勒（Ben Taylor）"
+      ],
+      "actors": [
+        "比尔·奈伊",
+        "汤玛逊·麦肯锡",
+        "詹姆士·诺顿"
+      ],
+      "screenwriters": [
+        "杰克·索恩"
+      ],
+      "companies": [
+        "百代电影"
+      ],
+      "genres": [
+        "剧情",
+        "传记"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q119549900",
+      "title": "二号陪审员",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "克林·伊斯威特"
+      ],
+      "actors": [
+        "尼古拉斯·霍尔特",
+        "东妮·克莉蒂",
+        "J·K·西蒙斯",
+        "克里斯·梅希纳",
+        "柔伊·德区",
+        "基夫·修打兰",
+        "盖布瑞尔·贝索"
+      ],
+      "screenwriters": [
+        "乔纳森·艾布拉姆斯（Jonathan Abrams）"
+      ],
+      "companies": [
+        "Dichotomy Films"
+      ],
+      "genres": [
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130309828",
+      "title": "杀机弥漫2",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "尚-克劳德·范达美",
+        "贾桂琳·费南迪斯",
+        "彼得·斯特曼"
+      ],
+      "screenwriters": [
+        "詹姆斯·阿格纽（）"
+      ],
+      "companies": [
+        "目的地影业"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q121091587",
+      "title": "杀手游戏 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "J·J·佩里"
+      ],
+      "actors": [
+        "戴夫·巴帝斯塔",
+        "苏菲亚·波提拉",
+        "泰瑞·克鲁斯",
+        "斯科特·阿金斯",
+        "庞·克莱门捷夫",
+        "本·金斯利",
+        "阿莉克丝·金斯顿",
+        "马尔科·扎瑞",
+        "祖鲁·麦金泰尔",
+        "丹尼尔·柏哈兹",
+        "李勋",
+        "迪伦·莫兰"
+      ],
+      "screenwriters": [
+        "詹姆斯·科因（）"
+      ],
+      "companies": [
+        "疯狂机会制片公司（）",
+        "耐力传媒（）"
+      ],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q127257393",
+      "title": "喋血双雄 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "吴宇森"
+      ],
+      "actors": [
+        "娜塔莉·伊曼纽尔",
+        "欧马·希",
+        "山姆·沃辛顿",
+        "黛安娜·席佛斯",
+        "埃里克·坎通纳",
+        "萨伊德·塔格马奥",
+        "杰奇·卡尤"
+      ],
+      "screenwriters": [
+        "布莱恩·海格兰"
+      ],
+      "companies": [
+        "环球影业",
+        "亚特拉斯娱乐"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q114345051",
+      "title": "怜悯的种类",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "尤格·蓝西莫"
+      ],
+      "actors": [
+        "艾玛·史东",
+        "杰西·普莱蒙",
+        "威廉·达佛",
+        "玛格丽特·库利",
+        "周洪 (演员)",
+        "乔·欧文",
+        "杭特·薛佛"
+      ],
+      "screenwriters": [
+        "尤格·蓝西莫"
+      ],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q114314695",
+      "title": "猩球崛起：王国诞生",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "韦斯·波尔"
+      ],
+      "actors": [
+        "欧文·提格",
+        "芙蕾雅·艾伦",
+        "凯文·杜兰",
+        "威廉·霍尔·梅西",
+        "Deadline Hollywood",
+        "尼尔·桑迪兰兹"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "Oddball Entertainment",
+        "Jason T. Reed Productions"
+      ],
+      "genres": [
+        "动作",
+        "科幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q107390449",
+      "title": "猎人克莱文 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "J·C·陈多尔"
+      ],
+      "actors": [
+        "亚伦·泰勒-强森",
+        "亚莉安娜·黛博塞",
+        "佛列德·海辛尔",
+        "亚历桑德罗·尼沃拉",
+        "克里斯托福·阿波特",
+        "罗素·高尔",
+        "莱维·米勒"
+      ],
+      "screenwriters": [
+        "李察·威克",
+        "阿特·马库姆、马特·霍洛威"
+      ],
+      "companies": [
+        "哥伦比亚影业",
+        "漫威娱乐"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q114707487",
+      "title": "功夫熊猫4",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "杰克·布莱克",
+        "奥卡菲娜",
+        "布莱恩·科兰斯顿",
+        "吴汉章 (演员)",
+        "伊恩·麦克夏恩",
+        "关继威",
+        "德斯汀·荷夫曼",
+        "维奥拉·戴维斯"
+      ],
+      "screenwriters": [
+        "PR Newswire"
+      ],
+      "companies": [
+        "梦工厂动画"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125294821",
+      "title": "姥姥的外孙",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "帕特·波尼蒂帕特（พัฒน์ บุญนิธิพัฒน์）"
+      ],
+      "actors": [
+        "普提蓬·阿萨拉塔纳功",
+        "乌萨·萨梅坎姆",
+        "东达婉·丹缇维贾坤",
+        "三亚·库纳空",
+        "莎琳拉·托马斯"
+      ],
+      "screenwriters": [
+        "汤萨蓬·逖提拿坎（ทศพล ทิพย์ทินกร）",
+        "帕特·波尼蒂帕特"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126686436",
+      "title": "来福大酒店",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "刘博文"
+      ],
+      "actors": [
+        "黄轩",
+        "柳岩",
+        "刘洋 (演员)",
+        "张哲华"
+      ],
+      "screenwriters": [
+        "姚冠辰",
+        "刘博文"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131911062",
+      "title": "来自汪星的你",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "陆可"
+      ],
+      "actors": [
+        "郭富城",
+        "蓝盈莹",
+        "王大陆",
+        "黄龄",
+        "戴军"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q109256895",
+      "title": "来都来了",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "刘奋斗"
+      ],
+      "actors": [
+        "廖凡",
+        "范伟",
+        "佟丽娅"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354202",
+      "title": "幸福的国家",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "秋昌民"
+      ],
+      "actors": [
+        "曹政奭",
+        "李善均",
+        "刘宰明"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "历史"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117176605",
+      "title": "天眼救援",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "连恩·汉斯沃",
+        "罗素·高尔",
+        "路克·汉斯沃",
+        "瑞奇·惠特尔",
+        "米洛·文提米利亚",
+        "乔治·伯吉斯"
+      ],
+      "screenwriters": [
+        "大卫·弗里杰里奥",
+        "威廉·尤班克"
+      ],
+      "companies": [
+        "意志媒体伙伴（）",
+        "RU机器人（）",
+        "高地电影集团（）",
+        "碎开影业（）"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124196410",
+      "title": "破·地狱",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "陈茂贤"
+      ],
+      "actors": [
+        "黄子华",
+        "许冠文",
+        "卫诗雅",
+        "朱栢康"
+      ],
+      "screenwriters": [
+        "郑纬机"
+      ],
+      "companies": [
+        "英皇电影",
+        "阿里影业",
+        "尚乘数科"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "音乐",
+        "家庭"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳原创音乐获奖电影",
+        "百花奖最佳女主角获奖电影",
+        "金鸡奖最佳编剧获奖电影",
+        "香港电影金像奖最佳原创电影歌曲获奖电影",
+        "香港电影金像奖最佳原创电影音乐获奖电影",
+        "香港电影金像奖最佳女主角获奖电影",
+        "香港电影金像奖最佳男配角获奖电影",
+        "香港电影金像奖最佳编剧获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q131418573",
+      "title": "久别重逢",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "梁礼彦"
+      ],
+      "actors": [
+        "郑伊健",
+        "陈卓贤",
+        "许恩怡",
+        "蔡思韵",
+        "周汉宁",
+        "朱栢康",
+        "林熙彤",
+        "黄文慧",
+        "朱栢谦",
+        "刘天欣",
+        "李凯贤",
+        "陈妍伶",
+        "陈伟雄",
+        "曾睿彤",
+        "吴启洋",
+        "黄正宜",
+        "李尚正",
+        "余达志",
+        "张志敏",
+        "钟柏豪",
+        "张兆康",
+        "郑培娜",
+        "李业辉",
+        "胡泳珊",
+        "李紫莹",
+        "梁卓美",
+        "梁浩朗",
+        "李耀堃",
+        "曾晓芬",
+        "莫永康",
+        "谢博文",
+        "甄展荣",
+        "蔡晓彤",
+        "欧逸远",
+        "彭梓烨",
+        "赖淑琪"
+      ],
+      "screenwriters": [
+        "梁礼彦"
+      ],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354214",
+      "title": "传说 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "唐季礼"
+      ],
+      "actors": [
+        "成龙",
+        "张艺兴",
+        "古力娜扎",
+        "李治廷"
+      ],
+      "screenwriters": [
+        "唐季礼"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123169098",
+      "title": "查克的一生",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "麦可·弗拉纳根"
+      ],
+      "actors": [
+        "汤姆·希德勒斯顿",
+        "切瓦特·艾乔福",
+        "凯伦·吉兰",
+        "雅各·特伦布雷",
+        "马克·汉米尔",
+        "马修·里沃德",
+        "欧琳卡·乔彻",
+        "大卫·达斯马齐连",
+        "安娜丽丝·巴索",
+        "迈克·特鲁科",
+        "莫莉·奎恩",
+        "希瑟·兰坚坎普",
+        "尼克·奥佛曼"
+      ],
+      "screenwriters": [
+        "麦可·弗拉纳根"
+      ],
+      "companies": [
+        "QWGmire",
+        "Red Room Pictures"
+      ],
+      "genres": [
+        "剧情",
+        "科幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116431968",
+      "title": "偷破天际线",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "F·加里·格雷"
+      ],
+      "actors": [
+        "文森·唐诺佛利欧",
+        "古古·玛芭塔-劳",
+        "乌苏拉·可贝萝",
+        "比利·马格努森",
+        "雅各布·贝塔隆",
+        "尚·连奴",
+        "山姆·沃辛顿"
+      ],
+      "screenwriters": [
+        "Writers Guild of America West"
+      ],
+      "companies": [
+        "Hartbeat Productions",
+        "6th & Idaho Productions"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116470610",
+      "title": "长腿",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "奥兹·柏金斯"
+      ],
+      "actors": [
+        "麦卡·门罗",
+        "艾莉西亚·维特",
+        "尼可拉斯·凯吉",
+        "Fangoria",
+        "琪兰·席普卡"
+      ],
+      "screenwriters": [
+        "奥兹·柏金斯"
+      ],
+      "companies": [
+        "Deadline Hollywood"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q121323115",
+      "title": "大都市的爱情法",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "金高银",
+        "鲁尚炫"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130288104",
+      "title": "我谈的那场恋爱",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "何妙祺"
+      ],
+      "actors": [
+        "吴君如",
+        "张天赋",
+        "陈辉虹",
+        "邓丽欣"
+      ],
+      "screenwriters": [
+        "何妙祺",
+        "陈庆嘉"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113488690",
+      "title": "血爱成河",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "克莉丝汀·史都华",
+        "凯蒂·奥布莱恩",
+        "吉娜·玛隆",
+        "戴夫·法兰科",
+        "艾德·哈里斯"
+      ],
+      "screenwriters": [
+        "萝斯·格拉斯",
+        "维罗妮卡·托菲尔斯卡（Weronika Tofilska）"
+      ],
+      "companies": [
+        "Escape Plan",
+        "Lobo Films"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117148881",
+      "title": "当男人恋爱时 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "瓦苏蒂克·特皮奇"
+      ],
+      "actors": [
+        "瓦奇拉维特·奇瓦雷",
+        "乌拉萨雅·斯帕邦德"
+      ],
+      "screenwriters": [
+        "Methus Sirinawin"
+      ],
+      "companies": [
+        "GMMTV"
+      ],
+      "genres": [
+        "动作",
+        "剧情",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124397989",
+      "title": "隔墙有情人",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "帕特莉夏·丰特（Patricia Font）"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "玛塔·桑切斯（Marta Sánchez）"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q111677117",
+      "title": "蜘蛛夫人 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "达珂塔·强生",
+        "席德妮·史威尼",
+        "伊莎贝拉·莫娜",
+        "塔哈·拉辛",
+        "迈克·艾普斯",
+        "艾玛·罗伯茨",
+        "亚当·斯科特 (演员)",
+        "柔夏·玛美德"
+      ],
+      "screenwriters": [
+        "麦特·萨札玛"
+      ],
+      "companies": [
+        "哥伦比亚影业",
+        "漫威娱乐"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126595889",
+      "title": "谁偷了垃圾桶？",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "尼瑟兰·史瓦米纳森"
+      ],
+      "actors": [
+        "维杰·西图帕提",
+        "巴拉蒂拉贾"
+      ],
+      "screenwriters": [
+        "尼瑟兰·史瓦米纳森"
+      ],
+      "companies": [
+        "线路（）",
+        "激情制片室（）"
+      ],
+      "genres": [
+        "动作",
+        "惊悚",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942936",
+      "title": "一个男人和一个女人 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "管虎"
+      ],
+      "actors": [
+        "黄渤",
+        "倪妮"
+      ],
+      "screenwriters": [
+        "王宇菁",
+        "何亮瑜"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q122203155",
+      "title": "美声歌后：玛丽亚",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "帕布罗·拉拉因"
+      ],
+      "actors": [
+        "安吉丽娜·朱莉",
+        "薇拉莉·葛琳诺",
+        "艾芭·罗尔瓦雀",
+        "皮耶法兰西斯柯·法维诺",
+        "寇帝·史密-麦菲"
+      ],
+      "screenwriters": [
+        "史蒂芬·奈特"
+      ],
+      "companies": [
+        "Fremantle"
+      ],
+      "genres": [
+        "剧情",
+        "传记"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130531369",
+      "title": "玛利亚 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "D·J·克鲁索"
+      ],
+      "actors": [
+        "安东尼·霍普金斯"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "Ludascripts",
+        "阿洛伊娱乐",
+        "露娜影业（Luna Film Productions）"
+      ],
+      "genres": [
+        "剧情",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q54893954",
+      "title": "大师与玛格丽特 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "迈克尔·洛克申"
+      ],
+      "actors": [
+        "叶夫根尼·齐加诺夫",
+        "尤利娅·斯尼吉尔",
+        "克莱斯·邦",
+        "奥古斯特·迪尔"
+      ],
+      "screenwriters": [
+        "罗曼·坎托尔"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116032682",
+      "title": "玛克辛",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "提·威斯特"
+      ],
+      "actors": [
+        "海尔希 (歌手)",
+        "莉莉·柯林斯",
+        "伊莉莎白·戴比基",
+        "巴比·卡纳佛",
+        "蜜雪儿·摩纳汉",
+        "凯文·贝肯",
+        "吉安卡洛·伊坡托",
+        "米亚·高斯",
+        "詹卡洛·埃斯波西托",
+        "苏菲·蔡彻"
+      ],
+      "screenwriters": [
+        "提·威斯特"
+      ],
+      "companies": [
+        "阿卡斯工业"
+      ],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117014906",
+      "title": "辣妹过招 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "莎曼珊·杰恩（）",
+        "小阿图罗·佩雷斯（）"
+      ],
+      "actors": [
+        "安格利·莱斯",
+        "奥莉伊·卡拉瓦尔侯",
+        "蒂娜·费",
+        "珍娜·费雪",
+        "乔·汉姆"
+      ],
+      "screenwriters": [
+        "蒂娜·费"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "音乐"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115175910",
+      "title": "大都会 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "弗朗西斯·福特·科波拉"
+      ],
+      "actors": [
+        "亚当·崔佛",
+        "吉安卡洛·伊坡托",
+        "娜塔莉·伊曼纽尔",
+        "奥布瑞·普拉扎",
+        "西亚·李毕福",
+        "强·沃特",
+        "詹森·舒瓦兹曼",
+        "塔利亚·夏尔",
+        "葛蕾丝范",
+        "劳伦斯·费许朋",
+        "德斯汀·荷夫曼",
+        "詹姆士·雷玛",
+        "巴萨扎·盖提"
+      ],
+      "screenwriters": [
+        "法兰西斯·柯波拉"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "科幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124656179",
+      "title": "蜗牛回忆录",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "莎拉·史努克",
+        "寇帝·史密-麦菲",
+        "艾瑞克·巴纳",
+        "玛格达·苏班斯基",
+        "尼克·凯夫",
+        "贾姬·威佛"
+      ],
+      "screenwriters": [
+        "亚当·艾略特"
+      ],
+      "companies": [
+        "墨尔本国际电影节首映基金"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "动画",
+        "家庭"
+      ],
+      "awards": [
+        "伦敦影展最佳影片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q136691870",
+      "title": "美人鱼的夏天",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "沈晓阳"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "沈晓阳"
+      ],
+      "companies": [],
+      "genres": [
+        "动画",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124098360",
+      "title": "米奇的捕鼠器",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杰米·贝利（）"
+      ],
+      "actors": [
+        "赛门·菲利普斯",
+        "尼克·比斯库佩克（）",
+        "詹姆斯·劳林（）",
+        "米蕾·加涅（）",
+        "达米尔·科维奇（）",
+        "卡勒姆·赛维克（）",
+        "阿莱格拉·诺西塔（）",
+        "洁西·纳斯史密斯（）",
+        "麦肯齐·米尔斯（）",
+        "玛德琳·凯尔曼（）",
+        "班·哈里斯（）"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "进入架构制片公司（）"
+      ],
+      "genres": [
+        "喜剧",
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116027468",
+      "title": "师情化欲",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杰德·哈雷·巴特利特"
+      ],
+      "actors": [
+        "马丁·费里曼",
+        "珍娜·奥特嘉",
+        "达格玛拉·多敏齐克",
+        "吉第安·阿德龙"
+      ],
+      "screenwriters": [
+        "杰德·哈雷·巴特利特"
+      ],
+      "companies": [],
+      "genres": [
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115860236",
+      "title": "非绅士特攻队",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "佳·烈治"
+      ],
+      "actors": [
+        "亨利·卡维尔",
+        "艾莎·冈萨雷",
+        "艾伦·瑞奇森",
+        "亚历克斯·帕蒂弗",
+        "希罗·范恩斯·提芬",
+        "蒂尔·施魏格尔",
+        "亨利·高汀",
+        "卡利·艾域士",
+        "罗里·金尼尔",
+        "弗雷迪·福克斯"
+      ],
+      "screenwriters": [
+        "保罗·汤玛西（）",
+        "艾瑞克·约翰逊（）",
+        "盖·瑞奇"
+      ],
+      "companies": [
+        "托夫盖伊电影（）",
+        "红海电影基金（）",
+        "C2电影集团（）",
+        "媒体资本技术（）"
+      ],
+      "genres": [
+        "动作",
+        "战争"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354206",
+      "title": "Cross：跨界任务",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "李明勋"
+      ],
+      "actors": [
+        "黄晸珉",
+        "廉晶雅",
+        "田慧振"
+      ],
+      "screenwriters": [
+        "李明勋"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124457266",
+      "title": "海洋奇缘2",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "华特迪士尼公司"
+      ],
+      "actors": [
+        "奥莉伊·卡拉瓦尔侯",
+        "巨石强森",
+        "特穆拉·莫里森",
+        "妮可·舒辛格",
+        "艾伦·图克"
+      ],
+      "screenwriters": [
+        "杰瑞·布希"
+      ],
+      "companies": [
+        "华特迪士尼动画工作室"
+      ],
+      "genres": [
+        "喜剧",
+        "动画",
+        "奇幻",
+        "冒险",
+        "音乐",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q122928724",
+      "title": "钱不够用3：全部够用",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "梁智强"
+      ],
+      "actors": [
+        "梁智强",
+        "李国煌",
+        "程旭辉",
+        "向云",
+        "林昀憓",
+        "杨惟杰",
+        "翁慧耘",
+        "冯凯忆"
+      ],
+      "screenwriters": [
+        "梁智强"
+      ],
+      "companies": [
+        "HiJack Pictures",
+        "MM2 Entertainment",
+        "J Team Productions",
+        "Clover Films",
+        "B-01 Films"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130396874",
+      "title": "白衣苍狗",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "曾威量",
+        "尹又巧"
+      ],
+      "actors": [
+        "万洛·隆甘迦",
+        "郭书玮",
+        "玖壹壹",
+        "陆弈静",
+        "阿查拉·苏万",
+        "陈文彬"
+      ],
+      "screenwriters": [
+        "曾威量"
+      ],
+      "companies": [
+        "小公园（Le Petit Jardin）",
+        "E&W Films",
+        "二线影业（Deuxième Ligne Films）"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [
+        "台北电影奖最佳男主角得主",
+        "台北电影奖最佳男主角获奖电影",
+        "金马奖最佳新导演获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q105952623",
+      "title": "怒火狂猴",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "戴夫·帕特尔"
+      ],
+      "actors": [
+        "沙托·卡普利",
+        "戴夫·帕托"
+      ],
+      "screenwriters": [
+        "戴夫·帕托",
+        "保罗·安古纳维拉"
+      ],
+      "companies": [
+        "环球影业"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354210",
+      "title": "盗月者",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "袁剑伟"
+      ],
+      "actors": [
+        "吕爵安",
+        "卢瀚霆",
+        "张继聪",
+        "白只"
+      ],
+      "screenwriters": [
+        "陈健鸿"
+      ],
+      "companies": [],
+      "genres": [
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124367117",
+      "title": "珍奇之物",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "米歇尔·阿扎纳维西于斯"
+      ],
+      "actors": [
+        "尚-路易·特罕狄酿",
+        "多明妮克·布兰"
+      ],
+      "screenwriters": [
+        "米歇尔·阿扎纳维西于斯"
+      ],
+      "companies": [
+        "映欧嘉纳"
+      ],
+      "genres": [
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124395546",
+      "title": "亲家遇到爱",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "马克·沃特斯"
+      ],
+      "actors": [
+        "波姬·小丝",
+        "米兰达·蔻思葛芙",
+        "本杰明·布拉特",
+        "查德·麦可·莫瑞"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q112182515",
+      "title": "母亲的直觉",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "杰西卡·查斯坦",
+        "安妮·海瑟薇",
+        "乔西·查尔斯",
+        "安德斯·丹尼尔森·李"
+      ],
+      "screenwriters": [
+        "萨拉·康拉特（Sarah Conradt）"
+      ],
+      "companies": [
+        "Anton",
+        "Versus Production"
+      ],
+      "genres": [
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q114242678",
+      "title": "狮子王：木法沙",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "巴里·杰金斯"
+      ],
+      "actors": [
+        "亚伦·皮埃尔",
+        "塞斯·罗根",
+        "唐纳·葛洛佛",
+        "麦斯·米科尔森",
+        "谭蒂·纽顿",
+        "碧昂丝"
+      ],
+      "screenwriters": [
+        "杰夫·内桑森"
+      ],
+      "companies": [
+        "华特迪士尼影业"
+      ],
+      "genres": [
+        "剧情",
+        "动画",
+        "奇幻",
+        "冒险",
+        "音乐"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q136691865",
+      "title": "变体 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "李麒麟"
+      ],
+      "actors": [
+        "谭耀文",
+        "代斯",
+        "吴孟达",
+        "张亚坤"
+      ],
+      "screenwriters": [
+        "李麒麟"
+      ],
+      "companies": [
+        "北京皓仙文化传媒有限公司"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "战争"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130044688",
+      "title": "我的鬼情人",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "梅拉达·苏斯丽",
+        "苏提拉·素维杰拉"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125619068",
+      "title": "再见，爷爷",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "沈炯俊",
+        "托马斯·高（）"
+      ],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [
+        "爱宝乐园"
+      ],
+      "genres": [
+        "动画",
+        "纪录"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q120487741",
+      "title": "我的间谍2：永恒之城",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "彼得·西格尔"
+      ],
+      "actors": [
+        "戴夫·巴帝斯塔",
+        "克里斯汀·沙尔",
+        "克雷格·罗宾森",
+        "安娜·法瑞丝",
+        "郑肯"
+      ],
+      "screenwriters": [
+        "彼得·西格尔"
+      ],
+      "companies": [
+        "胜图娱乐",
+        "卡拉汉电影公司"
+      ],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116700659",
+      "title": "路基完",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "金熙珍"
+      ],
+      "actors": [
+        "宋仲基",
+        "崔成恩"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124619782",
+      "title": "绝不放手",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "亚历山大·阿甲"
+      ],
+      "actors": [
+        "荷莉·贝瑞"
+      ],
+      "screenwriters": [
+        "凯文·考夫林（Kevin Coughlin）",
+        "莱恩·格拉斯比（Ryan Grassby）"
+      ],
+      "companies": [
+        "HalleHolly"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942941",
+      "title": "逆行人生",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "徐峥"
+      ],
+      "actors": [
+        "辛芷蕾"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116030637",
+      "title": "五分钱男孩",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "哈米什·林克莱特",
+        "佛列德·海辛尔",
+        "戴维德·迪格斯",
+        "安洁纽·艾莉丝"
+      ],
+      "screenwriters": [
+        "拉梅尔·罗斯"
+      ],
+      "companies": [
+        "猎户座影业",
+        "B计划娱乐"
+      ],
+      "genres": [
+        "剧情",
+        "历史"
+      ],
+      "awards": [
+        "国家影评人协会奖最佳影片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q132398945",
+      "title": "小倩 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "毛启超"
+      ],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117842595",
+      "title": "暗泳",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "布莱斯·麦奎尔（）"
+      ],
+      "actors": [
+        "怀亚特·罗素",
+        "凯瑞·康顿",
+        "祖蒂·龙"
+      ],
+      "screenwriters": [
+        "布莱斯·麦奎尔"
+      ],
+      "companies": [
+        "原子怪兽影业",
+        "布伦屋制片公司"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115475553",
+      "title": "夜母",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "玛丽艾·海勒"
+      ],
+      "actors": [
+        "艾美·亚当斯",
+        "史考特·麦奈利"
+      ],
+      "screenwriters": [
+        "玛丽艾·海勒"
+      ],
+      "companies": [
+        "安纳布尔纳影业"
+      ],
+      "genres": [
+        "喜剧",
+        "恐怖",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124440294",
+      "title": "唯一的家园",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "哈姆丹·比拉勒（Hamdan Ballal）",
+        "拉谢尔·瑟尔（Rachel Szor）"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "巴西勒·阿德拉",
+        "哈姆丹·比拉勒",
+        "尤瓦尔·亚伯拉罕",
+        "拉谢尔·瑟尔"
+      ],
+      "companies": [
+        "Yabayay Media",
+        "Antipode Films"
+      ],
+      "genres": [
+        "纪录"
+      ],
+      "awards": [
+        "奥斯卡最佳纪录片获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q116361132",
+      "title": "吸血鬼：诺斯费拉图",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "罗柏·艾格斯"
+      ],
+      "actors": [
+        "比尔·斯卡斯加德",
+        "尼古拉斯·霍尔特",
+        "莉莉-萝丝·戴普",
+        "亚伦·泰勒-强森",
+        "艾玛·科林",
+        "威廉·达佛",
+        "赛门·麦克伯尼",
+        "拉尔夫·尹爱森"
+      ],
+      "screenwriters": [
+        "罗柏·艾格斯"
+      ],
+      "companies": [],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123943308",
+      "title": "胡桃夹子们",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "大卫·戈登·格林"
+      ],
+      "actors": [
+        "班·史提勒",
+        "琳达·卡德里尼",
+        "托比·哈斯"
+      ],
+      "screenwriters": [
+        "利兰·道格拉斯（Leland Douglas）"
+      ],
+      "companies": [
+        "溪流影业（Rivulet Films）"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131611336",
+      "title": "误杀3",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "甘剑宇"
+      ],
+      "actors": [
+        "肖央",
+        "佟丽娅",
+        "段奕宏",
+        "刘雅瑟"
+      ],
+      "screenwriters": [
+        "陈思诚",
+        "武皮皮",
+        "李鹏",
+        "胡小楠"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "犯罪",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354234",
+      "title": "黑带出勤中",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "金宇彬",
+        "金成均"
+      ],
+      "screenwriters": [
+        "金周焕"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q122781655",
+      "title": "噢，加拿大",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "保罗·许瑞德"
+      ],
+      "actors": [
+        "李察·基尔",
+        "雅各·艾洛迪",
+        "乌玛·瑟曼",
+        "米高·伊派里奥里",
+        "克莉丝汀·弗洛赛斯"
+      ],
+      "screenwriters": [
+        "保罗·许瑞德"
+      ],
+      "companies": [
+        "Foregone Film PSC",
+        "Fit Via Vi Film Productions",
+        "Lucky 13 Productions",
+        "Ottocento Films",
+        "SIPUR",
+        "Vested Interest"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q129333360",
+      "title": "公开试当真",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "梁奕豪"
+      ],
+      "actors": [
+        "许贤",
+        "滕毅康"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "试当真"
+      ],
+      "genres": [
+        "纪录"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123565704",
+      "title": "绝命杀机",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "詹姆斯·努恩（）"
+      ],
+      "actors": [
+        "斯科特·阿金斯",
+        "迈克·贾·怀特",
+        "艾莉西斯·奈普",
+        "汤姆·贝林杰",
+        "汉娜·雅特顿"
+      ],
+      "screenwriters": [
+        "詹姆斯·罗素（）"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q128626219",
+      "title": "复活之战",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "罗宁·提姆"
+      ],
+      "actors": [
+        "查农·桑提纳同库"
+      ],
+      "screenwriters": [
+        "นฤทธิ์ ปาเฉย",
+        "ก้องเกียรติ โขมศิริ",
+        "ภาส พัฒนกำจร",
+        "สืบพงศ์ ศรีหะไตร"
+      ],
+      "companies": [
+        "Kongkiat Productions Co., Ltd."
+      ],
+      "genres": [
+        "动作"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118287624",
+      "title": "秩序 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "贾斯汀·克佐"
+      ],
+      "actors": [
+        "尼古拉斯·霍尔特",
+        "泰·谢里丹",
+        "朱妮·丝莫利特",
+        "裘德·洛",
+        "奥黛莎·杨"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "Riff Raff Entertainment"
+      ],
+      "genres": [
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q112124784",
+      "title": "普通天使",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "希拉里·斯旺克",
+        "艾伦·瑞奇森",
+        "艾美·艾克"
+      ],
+      "screenwriters": [
+        "梅格·蒂莉"
+      ],
+      "companies": [
+        "踩踏创投公司",
+        "Variety"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q119455303",
+      "title": "我的好朋友黑漆漆",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "西恩·查尔马兹"
+      ],
+      "actors": [
+        "雅各·特伦布雷",
+        "保罗·华特·豪泽"
+      ],
+      "screenwriters": [
+        "查理·考夫曼"
+      ],
+      "companies": [
+        "梦工厂动画"
+      ],
+      "genres": [
+        "喜剧",
+        "动画",
+        "奇幻",
+        "冒险",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q135207630",
+      "title": "【我推的孩子】 (真人版)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124337179",
+      "title": "我瞒的圣诞",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "琳赛·萝涵",
+        "伊恩·哈丁",
+        "克莉丝汀·钱诺维斯",
+        "丹·布卡廷斯基"
+      ],
+      "screenwriters": [
+        "海莉·德多米尼西斯（Hailey DeDominicis）"
+      ],
+      "companies": [
+        "好娱乐公司"
+      ],
+      "genres": [
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q121076570",
+      "title": "柏灵顿：熊熊去秘鲁",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "休·博内威利",
+        "艾蜜莉·摩提默",
+        "茱莉·华特丝",
+        "吉姆·布劳德本特",
+        "奥莉薇雅·柯尔曼",
+        "安东尼奥·班德拉斯",
+        "本·惠肖",
+        "海莉·阿特维尔",
+        "本·米勒"
+      ],
+      "screenwriters": [
+        "强·福斯特（）"
+      ],
+      "companies": [
+        "映欧嘉纳",
+        "哥伦比亚影业",
+        "第六摄影棚电影",
+        "盛日影业"
+      ],
+      "genres": [
+        "喜剧",
+        "动画",
+        "冒险",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131690947",
+      "title": "熊猫计划",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "张栾"
+      ],
+      "actors": [
+        "成龙",
+        "魏翔",
+        "史策",
+        "韩彦博"
+      ],
+      "screenwriters": [
+        "孟易达",
+        "徐伟",
+        "张栾"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131160726",
+      "title": "爸爸 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "翁子光",
+        "区焯文"
+      ],
+      "actors": [
+        "刘青云",
+        "谷祖琳",
+        "苏文涛",
+        "熊诺颐"
+      ],
+      "screenwriters": [
+        "翁子光"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳男主角获奖电影",
+        "香港电影金像奖最佳女配角获奖电影",
+        "香港电影金像奖最佳新演员获奖电影",
+        "香港电影金像奖最佳男主角获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q123330555",
+      "title": "赎梦",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "张家辉"
+      ],
+      "actors": [
+        "陈法拉",
+        "刘俊谦 (香港)",
+        "袁富华",
+        "朱晨丽",
+        "张家辉",
+        "孔德贤",
+        "李凯贤",
+        "许恩怡",
+        "黄子雄",
+        "张松枝",
+        "黎彼得",
+        "刘德华",
+        "张文杰"
+      ],
+      "screenwriters": [
+        "凌伟骏"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124326642",
+      "title": "飞驰人生2",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "韩寒"
+      ],
+      "actors": [
+        "沈腾",
+        "范丞丞",
+        "尹正",
+        "张本煜",
+        "孙艺洲",
+        "魏翔",
+        "贾冰",
+        "郑恺",
+        "冯绍峰",
+        "黄景瑜",
+        "刘昊然",
+        "于适",
+        "胡先煦",
+        "阎鹤祥",
+        "高华阳",
+        "郝瀚"
+      ],
+      "screenwriters": [
+        "韩寒",
+        "周运海"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [
+        "金鸡奖最佳录音获奖电影",
+        "金鸡奖最佳美术获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q112135884",
+      "title": "仇谜小镇追缉令",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "迈克尔·仔哥·霍尔"
+      ],
+      "actors": [
+        "凯文·史贝西",
+        "瑞贝卡·德·莫妮",
+        "杰克·韦伯",
+        "丽贝卡·德·莫妮",
+        "Deadline Hollywood"
+      ],
+      "screenwriters": [
+        "迈克尔·仔哥·霍尔"
+      ],
+      "companies": [],
+      "genres": [
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117842630",
+      "title": "钢琴课 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "马尔科姆·华盛顿（）"
+      ],
+      "actors": [
+        "森姆·积逊",
+        "约翰·大卫·华盛顿",
+        "雷·费雪",
+        "丹妮尔·戴德维勒",
+        "柯瑞·霍金斯",
+        "史帝芬·詹姆士"
+      ],
+      "screenwriters": [
+        "马尔科姆·华盛顿"
+      ],
+      "companies": [
+        "蒙迪莱恩娱乐（）"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354224",
+      "title": "飞行员 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "曹政奭",
+        "李宙明",
+        "韩善伙",
+        "申承浩"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126943018",
+      "title": "默杀",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "柯汶利"
+      ],
+      "actors": [
+        "王传君",
+        "张钧宁",
+        "吴镇宇"
+      ],
+      "screenwriters": [
+        "柯汶利",
+        "王吱吱",
+        "王祎梦"
+      ],
+      "companies": [],
+      "genres": [
+        "犯罪",
+        "悬疑"
+      ],
+      "awards": [
+        "中国长春电影节"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q124651039",
+      "title": "绝命大平台2",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [
+        "佩德罗·里维罗（Pedro Rivero）",
+        "加尔德·加兹特鲁-乌鲁蒂亚",
+        "艾戈伊兹·莫雷诺（Egoitz Moreno）"
+      ],
+      "companies": [
+        "Basque Films"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126209959",
+      "title": "意外 (韩国电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "李耀燮"
+      ],
+      "actors": [
+        "姜栋元",
+        "李茂生 (演员)",
+        "李美淑",
+        "金弘波",
+        "金新绿",
+        "李贤旭",
+        "李东辉 (演员)",
+        "郑恩彩",
+        "陈俊翔 (演员)"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动作",
+        "犯罪",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123690382",
+      "title": "感应 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "史蒂文·索德伯格"
+      ],
+      "actors": [
+        "刘玉玲",
+        "克里斯·苏利文 (演员)",
+        "卡莉娜·梁",
+        "茱莉亚·福克斯"
+      ],
+      "screenwriters": [
+        "大卫·柯普"
+      ],
+      "companies": [
+        "分机765（）"
+      ],
+      "genres": [
+        "剧情",
+        "惊悚",
+        "悬疑",
+        "家庭"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130272144",
+      "title": "误判 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "甄子丹"
+      ],
+      "actors": [
+        "张智霖",
+        "许冠文",
+        "吴镇宇",
+        "张天赋"
+      ],
+      "screenwriters": [
+        "黄子桓"
+      ],
+      "companies": [
+        "广州猫眼影业有限公司",
+        "上海华策电影有限公司",
+        "东方影业出品有限公司",
+        "最高人民检察院影视中心"
+      ],
+      "genres": [
+        "动作",
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126943012",
+      "title": "乔妍的心事",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "赵德胤"
+      ],
+      "actors": [
+        "赵丽颖",
+        "辛芷蕾",
+        "黄觉"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116771681",
+      "title": "酷儿 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "卢卡·格达戈尼诺"
+      ],
+      "actors": [
+        "丹尼尔·克雷格",
+        "德鲁·斯塔基",
+        "莱斯莉·曼维尔",
+        "詹森·舒瓦兹曼",
+        "阿里尔·舒曼",
+        "大卫·罗利",
+        "李桑德罗·阿隆索"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "The Apartment Pictures"
+      ],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q112183404",
+      "title": "噤界：入侵日",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "露琵塔·尼咏欧",
+        "约瑟夫·奎因",
+        "艾力克斯·沃尔夫",
+        "杰曼·翰苏"
+      ],
+      "screenwriters": [
+        "麦可·萨诺斯基"
+      ],
+      "companies": [
+        "派拉蒙影业",
+        "白金沙丘"
+      ],
+      "genres": [
+        "科幻",
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123690368",
+      "title": "真正的痛苦",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杰西·艾森柏格"
+      ],
+      "actors": [
+        "基伦·克金",
+        "杰西·艾森柏格"
+      ],
+      "screenwriters": [
+        "杰西·艾森伯格"
+      ],
+      "companies": [
+        "Variety",
+        "The Hollywood Reporter"
+      ],
+      "genres": [
+        "喜剧",
+        "家庭"
+      ],
+      "awards": [
+        "奥斯卡最佳男配角获奖电影",
+        "美国演员工会奖电影类最佳男配角获奖作品",
+        "英国电影学院奖最佳原创剧本获奖电影",
+        "英国电影学院奖最佳男配角获奖电影",
+        "金球奖最佳男配角获奖电影",
+        "第82届金球奖",
+        "最佳音乐及喜剧电影奖",
+        "最佳电影男配角奖",
+        "第30届评论家选择奖",
+        "最佳喜剧电影奖",
+        "最佳男配角奖",
+        "第78届英国电影学院奖",
+        "最佳男配角奖",
+        "最佳原创剧本奖",
+        "第40届独立精神奖",
+        "第34届哥谭奖",
+        "2024年美国电影学会奖",
+        "2024年美国国家评论协会奖"
+      ],
+      "nominations": [
+        "第82届金球奖",
+        "最佳音乐及喜剧电影奖",
+        "最佳电影男配角奖",
+        "第30届评论家选择奖",
+        "最佳喜剧电影奖",
+        "最佳男配角奖",
+        "第78届英国电影学院奖",
+        "最佳男配角奖",
+        "最佳原创剧本奖",
+        "第40届独立精神奖",
+        "第34届哥谭奖",
+        "2024年美国电影学会奖",
+        "2024年美国国家评论协会奖"
+      ]
+    },
+    {
+      "id": "Q121741971",
+      "title": "Rebel Moon—第2部：烙印之人",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "查克·史奈德"
+      ],
+      "actors": [
+        "苏菲亚·波提拉",
+        "查理·杭南",
+        "雷·费雪",
+        "杰曼·翰苏",
+        "吉娜·玛隆",
+        "科里·斯托尔",
+        "艾德·斯克林",
+        "卡利·艾域士",
+        "安东尼·霍普金斯",
+        "麦可·俞斯曼",
+        "裴斗娜",
+        "寇瑞·斯托尔",
+        "史都华·马汀"
+      ],
+      "screenwriters": [
+        "沙伊·哈顿"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "科幻",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q96334877",
+      "title": "逆岭",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杰瑞米·索尼耶"
+      ],
+      "actors": [
+        "亚伦·皮埃尔",
+        "唐·强生",
+        "安娜苏菲亚·罗伯",
+        "大卫·丹曼",
+        "艾莫瑞·柯恩",
+        "詹姆斯·克伦威尔"
+      ],
+      "screenwriters": [
+        "杰瑞米·索尼耶"
+      ],
+      "companies": [
+        "电影科学（）",
+        "博纳维尔影业（）"
+      ],
+      "genres": [
+        "动作",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q114876737",
+      "title": "红色一号",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杰克·卡斯丹"
+      ],
+      "actors": [
+        "克里斯·埃文斯",
+        "琪兰·席普卡",
+        "刘玉玲",
+        "J·K·西蒙斯",
+        "克里斯多佛·希夫哲",
+        "邦妮·亨特"
+      ],
+      "screenwriters": [
+        "克里斯·摩根"
+      ],
+      "companies": [
+        "亚马逊工作室",
+        "侦探社公司",
+        "克里斯·摩根制片公司"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117742969",
+      "title": "传话人",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "大卫·麦肯齐 (导演)"
+      ],
+      "actors": [
+        "里兹·阿迈德",
+        "莉莉·詹姆斯",
+        "山姆·沃辛顿",
+        "IndieWire",
+        "维克多·贾博"
+      ],
+      "screenwriters": [
+        "贾斯汀·皮亚塞茨基（Justin Piasecki）"
+      ],
+      "companies": [],
+      "genres": [
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126921922",
+      "title": "左轮手枪 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "吴胜旭"
+      ],
+      "actors": [
+        "全道嬿",
+        "池昌旭",
+        "林智妍"
+      ],
+      "screenwriters": [
+        "吴胜旭",
+        "周星"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [
+        "釜山电影评论家协会奖获得者",
+        "釜日电影奖获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q113630174",
+      "title": "威龙杀阵 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "道格·李曼"
+      ],
+      "actors": [
+        "杰克·吉林哈尔",
+        "丹妮拉·梅尔基奥",
+        "比利·马格努森",
+        "杰西卡·威廉姆斯",
+        "若阿金·德阿尔梅达",
+        "波兹·马龙",
+        "康纳·麦格雷戈",
+        "达伦·巴奈特",
+        "J·D·帕尔多",
+        "卢卡斯·盖奇",
+        "特拉维斯·范文克",
+        "博·纳普"
+      ],
+      "screenwriters": [
+        "安东尼·巴加罗齐（Anthony Bagarozzi）"
+      ],
+      "companies": [
+        "米高梅"
+      ],
+      "genres": [
+        "动作"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q110269321",
+      "title": "临时劫案",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "麦启光"
+      ],
+      "actors": [
+        "请参阅演员章节",
+        "郭富城",
+        "林家栋",
+        "任贤齐",
+        "张可颐",
+        "林雪",
+        "梁仲恒",
+        "卢海鹏",
+        "鲍起静",
+        "孙佳君",
+        "曾比特",
+        "陈毅燊",
+        "符家浚",
+        "张松枝",
+        "姜卓文",
+        "王颂茵",
+        "姜大衞",
+        "王敏德",
+        "胡定欣"
+      ],
+      "screenwriters": [
+        "陈伟斌",
+        "万芫澄"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "喜剧",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124359261",
+      "title": "隔壁房间",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "佩德罗·阿尔莫多瓦尔"
+      ],
+      "actors": [
+        "蒂达·史云顿",
+        "茱莉安·摩尔",
+        "约翰·特托罗",
+        "亚历桑德罗·尼沃拉"
+      ],
+      "screenwriters": [
+        "佩德罗·阿尔莫多瓦尔"
+      ],
+      "companies": [],
+      "genres": [],
+      "awards": [
+        "金狮奖获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q115283311",
+      "title": "犯罪都市4",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "许明行"
+      ],
+      "actors": [
+        "马东石",
+        "金武烈",
+        "朴智焕",
+        "李东辉 (演员)",
+        "李凡秀",
+        "金珉才",
+        "金到建",
+        "李主傧",
+        "金伸比",
+        "玄奉植",
+        "金英雄"
+      ],
+      "screenwriters": [
+        "吴尚浩"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q109051190",
+      "title": "鲁斯特 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "乔许·霍普金斯",
+        "法兰西丝·费雪",
+        "崔维斯·费米尔",
+        "亚历·鲍德温",
+        "戴文·沃克海瑟",
+        "USA Today"
+      ],
+      "screenwriters": [
+        "乔尔·苏扎"
+      ],
+      "companies": [
+        "埃尔多拉多影业（）",
+        "骑兵传媒（）",
+        "托马斯维尔影业（）",
+        "四月制片公司（）"
+      ],
+      "genres": [
+        "西部"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q108552200",
+      "title": "撒冷镇 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "盖瑞·道柏曼"
+      ],
+      "actors": [
+        "路易斯·普曼",
+        "艾尔弗丽·伍达德",
+        "斯潘塞·特里特·克拉克",
+        "威廉·托马斯·桑德勒",
+        "皮鲁·艾斯贝克"
+      ],
+      "screenwriters": [
+        "盖瑞·道柏曼"
+      ],
+      "companies": [
+        "华纳兄弟影业",
+        "新线影业",
+        "原子怪兽影业"
+      ],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126943004",
+      "title": "沙海之门",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "吴有音"
+      ],
+      "actors": [
+        "邓超",
+        "荣梓杉",
+        "杨子姗"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动作",
+        "战争"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q118196554",
+      "title": "珊迪大电影：拯救比奇堡",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "卡罗琳·劳伦斯",
+        "汤姆·肯尼",
+        "克兰西·布朗",
+        "比尔·法格巴克",
+        "罗杰·邦帕斯",
+        "旺达·塞克丝"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动作",
+        "喜剧",
+        "动画",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124472773",
+      "title": "第二幕",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "昆汀·杜皮尔"
+      ],
+      "actors": [
+        "蕾雅·瑟杜",
+        "万桑·蓝东",
+        "路易·卡瑞"
+      ],
+      "screenwriters": [
+        "昆汀·杜皮尔"
+      ],
+      "companies": [
+        "法国艺术影业"
+      ],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125563776",
+      "title": "神圣无花果之种",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "穆罕默德·拉素罗夫"
+      ],
+      "actors": [
+        "米萨赫·扎勒（Missagh Zareh）",
+        "玛莎·罗斯塔米（Mahsa Rostami）",
+        "赛塔蕾·马莱基（Setareh Maleki）",
+        "妮乌沙·阿赫希（Niousha Akhshi）",
+        "阿米内·阿拉尼（Amineh Arani）"
+      ],
+      "screenwriters": [
+        "穆罕默德·拉素罗夫"
+      ],
+      "companies": [
+        "法国艺术电影"
+      ],
+      "genres": [
+        "剧情",
+        "惊悚"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳编剧获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q127688495",
+      "title": "九月五日 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "彼得·赛斯嘉",
+        "莱奥妮·贝内施",
+        "班杰明·沃克"
+      ],
+      "screenwriters": [
+        "蒂姆·菲尔巴姆"
+      ],
+      "companies": [
+        "康斯坦丁影业"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130191924",
+      "title": "叛影浪客",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "Timo Tjahjanto"
+      ],
+      "actors": [
+        "Aurora Ribero",
+        "Chew Kin Wah"
+      ],
+      "screenwriters": [
+        "Timo Tjahjanto"
+      ],
+      "companies": [
+        "Netflix Studios"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124334509",
+      "title": "香巴拉 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "天列拉姆",
+        "索南多登",
+        "丹增达拉"
+      ],
+      "screenwriters": [
+        "明·巴哈杜尔·巴姆"
+      ],
+      "companies": [
+        "Shooney Films",
+        "CDP",
+        "Ape&Bjørn",
+        "Aaru Production",
+        "ZK Film",
+        "Istanbul",
+        "一条龙虎豹",
+        "Bangdel & Shakya Production"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q112039665",
+      "title": "厄灵镇",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "布伦丹·塞克斯顿三世",
+        "凯斯·大卫",
+        "麦可·贝奇"
+      ],
+      "screenwriters": [
+        "克里斯·斯塔克曼"
+      ],
+      "companies": [
+        "纸街影业（）"
+      ],
+      "genres": [
+        "恐怖",
+        "悬疑"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125361171",
+      "title": "警长：正义的化身",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "祖尔·阿里芬"
+      ],
+      "screenwriters": [
+        "Yusof Haslam"
+      ],
+      "companies": [
+        "Skop Productions",
+        "Astro Shaw"
+      ],
+      "genres": [
+        "动作",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q109256899",
+      "title": "涉过愤怒的海",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "曹保平"
+      ],
+      "actors": [
+        "黄渤",
+        "周迅",
+        "祖锋",
+        "张宥浩",
+        "周依然",
+        "颜北"
+      ],
+      "screenwriters": [
+        "曹保平",
+        "武皮皮",
+        "焦华静"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": [
+        "中国长春电影节"
+      ]
+    },
+    {
+      "id": "Q22126305",
+      "title": "进击的巨人 (动画)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动画"
+      ],
+      "awards": [
+        "Crunchyroll动画奖得主",
+        "Newtype动画奖",
+        "神户动画奖",
+        "东京动画奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q123528206",
+      "title": "雄狮归来",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "罗希特·谢蒂"
+      ],
+      "actors": [
+        "阿克夏·库马",
+        "兰威尔·辛格",
+        "泰格·史洛夫",
+        "卡琳娜·卡浦尔",
+        "舒维塔·蒂瓦里",
+        "荻皮卡·帕都恭",
+        "阿葰·卡浦尔",
+        "杰基·史洛夫",
+        "阿杰·德乌根",
+        "沙曼·罕"
+      ],
+      "screenwriters": [
+        "The Times of India"
+      ],
+      "companies": [
+        "Jio制片室",
+        "罗希特·谢蒂影业"
+      ],
+      "genres": [
+        "动作"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130276120",
+      "title": "怪奇宝贝",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "达茜·卡尔登",
+        "托尼·海尔"
+      ],
+      "screenwriters": [
+        "赛斯·沃利"
+      ],
+      "companies": [
+        "Morphan Time"
+      ],
+      "genres": [
+        "喜剧",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123472063",
+      "title": "微笑2",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "娜欧蜜·史考特",
+        "卢卡斯·盖奇",
+        "罗丝玛丽·德威特",
+        "凯尔·加纳",
+        "劳尔·卡斯提洛",
+        "彼得·雅各布森",
+        "茱儿·芭莉摩"
+      ],
+      "screenwriters": [
+        "帕克·菲恩"
+      ],
+      "companies": [
+        "Bad Feeling"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q115859490",
+      "title": "音速小子3 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杰夫·福勒"
+      ],
+      "actors": [
+        "本·施瓦茨",
+        "詹姆斯·马斯登",
+        "蒂卡·桑普特",
+        "克莱斯汀·瑞特",
+        "娜塔莎·罗斯威尔",
+        "亚当·帕利",
+        "伊德瑞斯·艾尔巴",
+        "基努·里维斯",
+        "占·基利",
+        "薛马·摩尔",
+        "苏菲亚·潘娜丝"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "Original Film"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "动画",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q107175474",
+      "title": "太空孤航",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "亚当·山德勒",
+        "保罗·迪诺",
+        "嘉莉·慕莱根",
+        "昆瑙·纳亚尔",
+        "莉娜·欧琳",
+        "伊莎贝拉·罗塞里尼"
+      ],
+      "screenwriters": [
+        "科比·戴（）"
+      ],
+      "companies": [
+        "自由结社（）"
+      ],
+      "genres": [
+        "剧情",
+        "科幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q119064873",
+      "title": "邪恶勿语",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "詹姆斯·瓦特金斯"
+      ],
+      "actors": [
+        "詹姆斯·麦艾维",
+        "麦坎西·黛维斯",
+        "史考特·麦奈利"
+      ],
+      "screenwriters": [
+        "詹姆斯·瓦特金斯"
+      ],
+      "companies": [
+        "布伦屋制片公司"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q112131932",
+      "title": "取精急转弯",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "汤米·维尔柯拉"
+      ],
+      "actors": [
+        "艾赛儿·汉宁"
+      ],
+      "screenwriters": [
+        "汤米·维尔柯拉",
+        "杰斯珀·桑德斯",
+        "维加·荷伊"
+      ],
+      "companies": [
+        "Qvisten Animation",
+        "74 Entertainment"
+      ],
+      "genres": [
+        "喜剧",
+        "动画",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942999",
+      "title": "野孩子 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "殷若昕"
+      ],
+      "actors": [
+        "王俊凯",
+        "邓家佳",
+        "陈永胜",
+        "潘斌龙"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q130650062",
+      "title": "国有器官",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "章勇进"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "Cindy Song"
+      ],
+      "companies": [],
+      "genres": [
+        "犯罪",
+        "纪录"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q127713636",
+      "title": "默视录",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "杨修华"
+      ],
+      "actors": [
+        "李康生",
+        "巫建和"
+      ],
+      "screenwriters": [
+        "杨修华"
+      ],
+      "companies": [
+        "Akanga Film Asia",
+        "Volos Films",
+        "Films de Force Majeure",
+        "Cinema Inutile"
+      ],
+      "genres": [
+        "惊悚",
+        "音乐",
+        "家庭"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳音响获奖电影",
+        "亚洲电影大奖最佳男配角获奖电影",
+        "金马奖最佳原创电影音乐获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q114073140",
+      "title": "嗜杀路人甲",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "雷尼·哈林"
+      ],
+      "actors": [
+        "盖布瑞尔·贝索",
+        "艾玛·霍瓦特",
+        "李察·布雷克"
+      ],
+      "screenwriters": [
+        "艾伦·R·科恩（）",
+        "艾伦·弗里德兰（）"
+      ],
+      "companies": [
+        "狮门影视公司"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125622088",
+      "title": "喵的奇幻漂流",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "金兹·斯巴洛迪斯",
+        "戛纳电影节"
+      ],
+      "actors": [],
+      "screenwriters": [
+        "金兹·斯巴洛迪斯"
+      ],
+      "companies": [
+        "Dream Well Studio",
+        "Sacrebleu Productions",
+        "Take Five"
+      ],
+      "genres": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [
+        "奥斯卡最佳动画片获奖电影",
+        "欧洲电影奖最佳动画片",
+        "洛杉矶影评人协会奖最佳动画片",
+        "独立精神奖最佳国际影片获奖电影",
+        "芝加哥影评人协会奖最佳动画片",
+        "金球奖最佳动画长片",
+        "国家评论协会奖",
+        "英国电影学院奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q128822029",
+      "title": "武替道",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "梁冠尧",
+        "梁冠舜"
+      ],
+      "actors": [
+        "刘俊谦 (香港)",
+        "董玮",
+        "伍允龙",
+        "蔡思韵",
+        "林耀声",
+        "梁雍婷",
+        "张达伦",
+        "车婉婉",
+        "杜燕歌",
+        "吴瑞庭"
+      ],
+      "screenwriters": [
+        "曾宪宁",
+        "叶伟平"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113380226",
+      "title": "惧裂",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "歌拉莉·花洁"
+      ],
+      "actors": [
+        "黛米·摩尔",
+        "玛格丽特·库利",
+        "丹尼斯·奎德"
+      ],
+      "screenwriters": [
+        "柯洛里·法吉特"
+      ],
+      "companies": [
+        "沃克泰托电影公司"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [
+        "美国演员工会奖电影类最佳女主角获奖作品"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q126942991",
+      "title": "抓娃娃 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "闫非",
+        "彭大魔"
+      ],
+      "actors": [
+        "沈腾",
+        "马丽"
+      ],
+      "screenwriters": [
+        "闫非",
+        "彭大魔",
+        "林炳宝"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [
+        "百花奖最佳女配角获奖电影",
+        "中国长春电影节"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q108003049",
+      "title": "饭戏攻心",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "陈咏燊"
+      ],
+      "actors": [
+        "黄子华",
+        "邓丽欣",
+        "张继聪",
+        "王菀之",
+        "林明祯",
+        "陈湛文"
+      ],
+      "screenwriters": [
+        "陈咏燊"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [
+        "香港电影金像奖最佳女配角获奖电影",
+        "Yahoo! 搜寻人气大奖2022",
+        "金榆花奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q123330658",
+      "title": "饭戏攻心2",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "陈咏燊"
+      ],
+      "actors": [
+        "邓丽欣",
+        "张继聪",
+        "王菀之",
+        "林明祯",
+        "陈湛文",
+        "谢君豪",
+        "魏浚笙",
+        "何启华"
+      ],
+      "screenwriters": [
+        "陈咏燊"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123910753",
+      "title": "绝命塔罗牌",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "安娜·哈贝格（）"
+      ],
+      "actors": [
+        "雅各布·贝塔隆"
+      ],
+      "screenwriters": [
+        "史宾赛·柯恩",
+        "安娜·哈贝格"
+      ],
+      "companies": [
+        "幕宝电影公司"
+      ],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q122879312",
+      "title": "眼泪工匠",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "卡特琳娜·费雷欧利",
+        "（Caterina Ferioli）"
+      ],
+      "screenwriters": [
+        "伊莱奥诺拉·菲奥里尼",
+        "（Eleonora Fiorini）",
+        "亚历山德罗·杰诺韦西"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124748407",
+      "title": "噬魂灵声2",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "塔提瓦·皖他（Thaweewat Wanta）"
+      ],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [
+        "Major Join Film"
+      ],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q119821866",
+      "title": "刽乐小丑3",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "达米安·里安"
+      ],
+      "actors": [
+        "布莱斯·约翰逊",
+        "克里斯·杰利可",
+        "大卫·霍华德·桑顿",
+        "丹尼尔·罗布克",
+        "汤姆·萨维尼",
+        "乔·阿布拉汉姆斯"
+      ],
+      "screenwriters": [
+        "戴米恩·李昂尼"
+      ],
+      "companies": [
+        "Filmaffinity"
+      ],
+      "genres": [
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123207136",
+      "title": "寸金不让",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "帕·兰基斯"
+      ],
+      "actors": [
+        "维克拉姆",
+        "马拉维卡·莫汉南"
+      ],
+      "screenwriters": [
+        "帕·兰基斯"
+      ],
+      "companies": [
+        "尼拉姆制片公司（）"
+      ],
+      "genres": [
+        "动作",
+        "奇幻",
+        "冒险",
+        "历史"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q107210110",
+      "title": "魔戒：洛汗人之战",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "神山健治"
+      ],
+      "actors": [
+        "布莱恩·考克斯 (演员)",
+        "米兰达·奥图"
+      ],
+      "screenwriters": [
+        "杰佛瑞·阿迪斯",
+        "威尔·马修斯",
+        "菲比·吉廷斯",
+        "阿提·帕帕乔治"
+      ],
+      "companies": [
+        "新线影业",
+        "华纳兄弟动画公司"
+      ],
+      "genres": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123690673",
+      "title": "老嘢时速",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "佐殊·麦高连（Josh Margolin）"
+      ],
+      "actors": [
+        "朱恩·斯奎布",
+        "佛列德·海辛尔",
+        "理察·朗崔",
+        "克拉克·格雷格",
+        "帕克·波西",
+        "马尔科姆·麦克道威尔",
+        "琼·史桂布",
+        "李察·朗次",
+        "马尔科姆·麦克道威尔",
+        "妮可·拜尔"
+      ],
+      "screenwriters": [
+        "佐殊·麦高连"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126948777",
+      "title": "假如，我是这世上最爱你的人",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "佟丽娅",
+        "黄明昊",
+        "刘丹 (1973年)"
+      ],
+      "screenwriters": [
+        "刘奋斗",
+        "刘天钧"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q116638627",
+      "title": "变形金刚初始篇",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "克里斯·海姆斯沃斯",
+        "布莱恩·泰瑞·亨利",
+        "史嘉蕾·乔韩森",
+        "基根-麦可·奇",
+        "史蒂夫·布西密",
+        "劳伦斯·费许朋",
+        "乔·汉姆"
+      ],
+      "screenwriters": [
+        "安德鲁·巴勒",
+        "盖布瑞尔·法拉利"
+      ],
+      "companies": [
+        "Entertainment One"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124077893",
+      "title": "陷阱 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "奈特·沙马兰"
+      ],
+      "actors": [
+        "乔许·哈奈特",
+        "海莉·米尔斯",
+        "艾莉森·皮尔",
+        "卡迪小子"
+      ],
+      "screenwriters": [
+        "奈特·沙马兰"
+      ],
+      "companies": [],
+      "genres": [
+        "惊悚",
+        "悬疑",
+        "音乐"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354208",
+      "title": "网军部队",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "孙锡求",
+        "金圣喆",
+        "金东辉",
+        "红炅"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q109984826",
+      "title": "九龙城寨之围城",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "郑保瑞"
+      ],
+      "actors": [
+        "古天乐",
+        "洪金宝",
+        "任贤齐",
+        "林峰",
+        "刘俊谦 (香港)",
+        "黄德斌",
+        "胡子彤",
+        "伍允龙",
+        "张文杰",
+        "郭富城"
+      ],
+      "screenwriters": [
+        "欧健儿",
+        "陈大利",
+        "岑君茜"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳剪接获奖电影",
+        "亚洲电影大奖最佳美术指导获奖电影",
+        "香港电影导演会年度大奖最佳电影",
+        "香港电影评论学会大奖最佳电影",
+        "香港电影金像奖最佳剪接获奖电影",
+        "香港电影金像奖最佳动作设计获奖电影",
+        "香港电影金像奖最佳导演得主",
+        "香港电影金像奖最佳导演获奖电影",
+        "香港电影金像奖最佳摄影获奖电影",
+        "香港电影金像奖最佳服装造型设计得主",
+        "香港电影金像奖最佳服装造型设计获奖电影",
+        "香港电影金像奖最佳美术指导得主",
+        "香港电影金像奖最佳美术指导获奖电影",
+        "香港电影金像奖最佳视觉效果获奖电影",
+        "香港电影金像奖最佳电影",
+        "香港电影金像奖最佳音响效果获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q115932556",
+      "title": "龙卷风暴 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "郑李烁"
+      ],
+      "actors": [
+        "黛西·埃德加-琼斯",
+        "葛伦·鲍威尔",
+        "安东尼·拉莫斯",
+        "哈利·海登-帕顿",
+        "琪兰·席普卡",
+        "大卫·科伦斯韦",
+        "凯蒂·奥布莱恩"
+      ],
+      "screenwriters": [
+        "马克·L·史密斯"
+      ],
+      "companies": [
+        "环球影业",
+        "华纳兄弟",
+        "安培林娱乐公司"
+      ],
+      "genres": [
+        "灾难"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q111945633",
+      "title": "丑人儿 (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "乔瑟夫·麦克吉帝·尼克尔"
+      ],
+      "actors": [
+        "乔伊·金",
+        "切斯·史多克斯",
+        "拉薇安·考克斯"
+      ],
+      "screenwriters": [
+        "凡妮莎·泰勒"
+      ],
+      "companies": [
+        "仙境影视"
+      ],
+      "genres": [
+        "动作",
+        "科幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q124291916",
+      "title": "巴黎深渊",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "哈维尔·根斯"
+      ],
+      "actors": [
+        "贝热尼丝·贝乔"
+      ],
+      "screenwriters": [
+        "雅尼克·达汉（Yannick Dahan）",
+        "哈维尔·根斯",
+        "莫德·海杨格（Maud Heywang）",
+        "雅尔·朗曼（Yaël Langmann）"
+      ],
+      "companies": [
+        "Let Me Be"
+      ],
+      "genres": [
+        "动作",
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q125806353",
+      "title": "一部未完成的电影",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "娄烨"
+      ],
+      "actors": [
+        "秦昊",
+        "梁鸣",
+        "毛小睿",
+        "齐溪",
+        "黄轩",
+        "张颂文"
+      ],
+      "screenwriters": [
+        "马英力"
+      ],
+      "companies": [
+        "德国电视二台",
+        "德法公共电视台"
+      ],
+      "genres": [
+        "剧情",
+        "纪录"
+      ],
+      "awards": [
+        "金马奖最佳剧情片",
+        "金马奖最佳导演获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q130210913",
+      "title": "逆鳞 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "大庆"
+      ],
+      "actors": [
+        "沈腾",
+        "张雨绮",
+        "高捷 (演员)",
+        "蔡文静",
+        "曲哲明",
+        "魏翔",
+        "刘欢"
+      ],
+      "screenwriters": [
+        "尚可"
+      ],
+      "companies": [
+        "天津猫眼微影文化传媒有限公司"
+      ],
+      "genres": [
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123760976",
+      "title": "战，乱",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "姜栋元",
+        "朴正民",
+        "车胜元",
+        "金新绿",
+        "陈善圭",
+        "郑星一"
+      ],
+      "screenwriters": [
+        "朴赞郁",
+        "申哲"
+      ],
+      "companies": [],
+      "genres": [
+        "动作"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q123354209",
+      "title": "Victory (电影)",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "朴范秀"
+      ],
+      "actors": [
+        "惠利",
+        "朴世阮",
+        "李正河"
+      ],
+      "screenwriters": [
+        "朴范秀",
+        "朴圣勋",
+        "姜敏善"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "体育"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q113371337",
+      "title": "猛毒最终章：最后一舞",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "切瓦特·艾乔福",
+        "朱诺·谭波儿",
+        "瑞斯·伊凡斯",
+        "佩吉·陆",
+        "阿兰娜·乌瓦奇",
+        "史提芬·格拉汉姆"
+      ],
+      "screenwriters": [
+        "凯莉·马修"
+      ],
+      "companies": [
+        "哥伦比亚影业",
+        "漫威娱乐"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "恐怖"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q127699542",
+      "title": "山区新娘",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [
+        "莫拉·德尔佩罗"
+      ],
+      "companies": [
+        "Rai Cinema"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q117743095",
+      "title": "恐惧的代价 (2024年电影)",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [
+        "朱利安·勒克莱尔",
+        "哈米·利伍亚（Hamid Hlioua）"
+      ],
+      "companies": [
+        "TF1"
+      ],
+      "genres": [
+        "动作",
+        "剧情",
+        "惊悚",
+        "冒险"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126390903",
+      "title": "酷狗宝贝之复仇企鹅",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "尼克·帕克"
+      ],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [
+        "阿德曼动画"
+      ],
+      "genres": [
+        "动作",
+        "动画",
+        "冒险"
+      ],
+      "awards": [
+        "卫星奖最佳动画或混合媒体",
+        "英国电影学院奖最佳动画片"
+      ],
+      "nominations": [
+        "第82届金球奖",
+        "第52届安妮奖",
+        "第78届英国电影学院奖",
+        "第97届奥斯卡金像奖"
+      ]
+    },
+    {
+      "id": "Q126901041",
+      "title": "美妙宠物 光之美少女电影： 心跳加速♡游戏世界大冒险！",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "宫原直树"
+      ],
+      "actors": [
+        "长绳麻理亚",
+        "种崎敦美",
+        "松田飒水",
+        "上田丽奈",
+        "关根明良",
+        "加隈亚衣",
+        "村濑步",
+        "七濑彩夏",
+        "古贺葵",
+        "高桥李依",
+        "堀江由衣",
+        "早见沙织",
+        "斋藤彩夏",
+        "寺岛拓笃",
+        "立花慎之介",
+        "中村悠一",
+        "花泽香菜",
+        "三宅健太"
+      ],
+      "screenwriters": [
+        "加藤阳一"
+      ],
+      "companies": [
+        "东映动画"
+      ],
+      "genres": [
+        "动画"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q121547814",
+      "title": "窥探者",
+      "year_category": "2024年电影作品",
+      "directors": [],
+      "actors": [
+        "达科塔·芬妮",
+        "乔吉娜·坎贝尔"
+      ],
+      "screenwriters": [
+        "伊莎娜·奈·沙马兰"
+      ],
+      "companies": [
+        "新线影业"
+      ],
+      "genres": [
+        "恐怖",
+        "惊悚"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q131311712",
+      "title": "看我今天怎么说",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "黄修平"
+      ],
+      "actors": [
+        "游学修",
+        "钟雪莹",
+        "吴祉昊"
+      ],
+      "screenwriters": [
+        "思言"
+      ],
+      "companies": [
+        "天下一工作室有限公司"
+      ],
+      "genres": [],
+      "awards": [
+        "金马奖最佳女主角获奖电影",
+        "第61届金马奖",
+        "第43届香港电影金像奖",
+        "香港电影金像奖",
+        "香港电影评论学会大奖",
+        "台北金马影展"
+      ],
+      "nominations": [
+        "第61届金马奖",
+        "第43届香港电影金像奖",
+        "香港电影金像奖",
+        "香港电影评论学会大奖"
+      ]
+    },
+    {
+      "id": "Q128307093",
+      "title": "台北追缉令",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "黄嘉智 (导演)"
+      ],
+      "actors": [
+        "卢克·伊云斯",
+        "桂纶镁",
+        "姜成镐",
+        "庹宗华",
+        "陆弈静",
+        "李沛旭",
+        "谢怡芬"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "欧罗巴影业"
+      ],
+      "genres": [
+        "动作"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q126942958",
+      "title": "欢迎来到我身边",
+      "year_category": "2024年电影作品",
+      "directors": [
+        "宋灏霖"
+      ],
+      "actors": [
+        "于适",
+        "王影璐",
+        "黄炎"
+      ],
+      "screenwriters": [
+        "缪倩",
+        "宋灏霖"
+      ],
+      "companies": [],
+      "genres": [
+        "喜剧",
+        "爱情",
+        "奇幻"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q13417189",
+      "title": "星际穿越",
+      "year_category": "精选经典影片",
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "actors": [
+        "马修·麦康纳",
+        "安妮·海瑟薇",
+        "杰西卡·查斯坦",
+        "比尔·欧文",
+        "艾伦·鲍丝汀",
+        "米高·肯恩",
+        "马特·达蒙",
+        "安妮·海瑟薇",
+        "麦肯基·弗依",
+        "麦特·戴蒙",
+        "凯西·艾佛列克",
+        "堤摩西·柴勒梅德",
+        "约翰·利思戈",
+        "托弗·格雷斯",
+        "韦斯·宾尼",
+        "比尔·欧文",
+        "大卫·盖亚西",
+        "乔许·史都华",
+        "大卫·奥耶罗沃",
+        "伊莱耶斯·加贝尔"
+      ],
+      "screenwriters": [
+        "克里斯托弗·诺兰",
+        "强纳森·诺兰"
+      ],
+      "companies": [
+        "传奇电影公司"
+      ],
+      "genres": [
+        "科幻",
+        "冒险",
+        "灾难"
+      ],
+      "awards": [
+        "土星奖最佳科幻电影",
+        "奥斯卡最佳视觉效果获奖电影",
+        "第68届英国电影学院奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q44578",
+      "title": "泰坦尼克号 (1997年电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "詹姆斯·卡梅隆"
+      ],
+      "actors": [
+        "莱昂纳多·迪卡普里奥",
+        "凯特·温丝蕾",
+        "比利·赞恩",
+        "凯西·贝兹",
+        "乔纳森·海德",
+        "丹尼·努奇",
+        "大卫·华纳",
+        "比尔·派斯顿"
+      ],
+      "screenwriters": [
+        "詹姆斯·卡麦隆"
+      ],
+      "companies": [
+        "派拉蒙影业",
+        "British Film Institute",
+        "AFI Catalog of Feature Films",
+        "American Film Institute",
+        "二十世纪福斯",
+        "光风暴娱乐"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "冒险",
+        "灾难"
+      ],
+      "awards": [
+        "MTV电影大奖得主",
+        "奥斯卡最佳剪辑获奖电影",
+        "奥斯卡最佳原创歌曲奖获奖电影",
+        "奥斯卡最佳服装设计奖获奖电影",
+        "奥斯卡最佳视觉效果获奖电影",
+        "奥斯卡最佳音响效果获奖电影",
+        "奥斯卡最佳音效剪辑奖获奖电影",
+        "奥斯卡最佳原创配乐获奖电影",
+        "奥斯卡最佳导演获奖电影",
+        "奥斯卡最佳影片",
+        "奥斯卡最佳影片获奖电影",
+        "奥斯卡最佳摄影获奖电影",
+        "奥斯卡最佳美术指导获奖电影",
+        "帝国奖最佳电影获奖电影",
+        "日本电影学院奖最佳外语片",
+        "美国演员工会奖电影类最佳女配角获奖作品",
+        "金球奖最佳剧情片",
+        "金球奖最佳导演获奖电影",
+        "金球奖",
+        "美国电影摄影师协会奖",
+        "艺术指导工会奖",
+        "美国演员工会奖",
+        "美国导演工会奖",
+        "广播影评人协会奖",
+        "美国制片人协会奖",
+        "奥斯卡金像奖",
+        "第70届奥斯卡金像奖",
+        "葛莱美奖",
+        "MTV影视大奖最佳电影演员",
+        "MTV影视大奖最佳电影",
+        "全美民选奖最佳电影",
+        "日本电影学院奖"
+      ],
+      "nominations": [
+        "金球奖",
+        "美国电影摄影师协会奖",
+        "艺术指导工会奖",
+        "美国演员工会奖",
+        "美国导演工会奖",
+        "广播影评人协会奖",
+        "美国制片人协会奖",
+        "奥斯卡金像奖",
+        "第70届奥斯卡金像奖",
+        "葛莱美奖",
+        "MTV影视大奖最佳电影演员",
+        "MTV影视大奖最佳电影",
+        "全美民选奖最佳电影",
+        "日本电影学院奖"
+      ]
+    },
+    {
+      "id": "Q170564",
+      "title": "终结者2：审判日",
+      "year_category": "精选经典影片",
+      "directors": [
+        "詹姆斯·卡梅隆"
+      ],
+      "actors": [
+        "阿诺·施瓦辛格",
+        "琳达·汉弥顿",
+        "爱德华·费朗",
+        "罗伯特·帕特里克"
+      ],
+      "screenwriters": [
+        "詹姆斯·卡梅隆"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "科幻",
+        "动画"
+      ],
+      "awards": [
+        "土星奖最佳科幻电影",
+        "奥斯卡最佳剪辑获奖电影",
+        "奥斯卡最佳化妆与发型设计奖获奖电影",
+        "奥斯卡最佳视觉效果获奖电影",
+        "奥斯卡最佳音响效果获奖电影",
+        "奥斯卡最佳音效剪辑奖获奖电影",
+        "雨果奖最佳戏剧表现获奖作品"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q685817",
+      "title": "追随",
+      "year_category": "精选经典影片",
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "actors": [
+        "杰里米·西奥伯德",
+        "亚历克斯·霍（）"
+      ],
+      "screenwriters": [
+        "克里斯托弗·诺兰"
+      ],
+      "companies": [
+        "后浪影业（）"
+      ],
+      "genres": [
+        "惊悚",
+        "犯罪",
+        "悬疑"
+      ],
+      "awards": [
+        "鹿特丹影展"
+      ],
+      "nominations": [
+        "鹿特丹影展"
+      ]
+    },
+    {
+      "id": "Q25188",
+      "title": "全面启动",
+      "year_category": "精选经典影片",
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "actors": [
+        "莱昂纳多·迪卡普里奥",
+        "渡边谦",
+        "乔瑟夫·高登-李维",
+        "玛莉安·歌迪雅",
+        "艾略特·佩吉",
+        "性别过渡",
+        "艾略特·佩吉",
+        "弃名错称",
+        "汤姆·哈迪",
+        "基利安·墨菲",
+        "汤姆·贝林杰",
+        "米高·肯恩",
+        "乔瑟夫·高登·拉维特",
+        "艾伦·佩姬",
+        "彼得·普斯特李威"
+      ],
+      "screenwriters": [
+        "克里斯多福·诺兰"
+      ],
+      "companies": [
+        "传奇影业"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "惊悚",
+        "冒险"
+      ],
+      "awards": [
+        "土星奖最佳科幻电影",
+        "奥斯卡最佳视觉效果获奖电影",
+        "奥斯卡最佳音响效果获奖电影",
+        "奥斯卡最佳音效剪辑奖获奖电影",
+        "奥斯卡最佳摄影获奖电影",
+        "帝国奖最佳电影获奖电影",
+        "第83届奥斯卡金像奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q190525",
+      "title": "凶心人",
+      "year_category": "精选经典影片",
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "actors": [
+        "盖·皮尔斯",
+        "凯莉-安·摩丝",
+        "乔·潘托利亚诺",
+        "乔雅·福克斯",
+        "托马斯·列侬",
+        "卡伦·基斯·雷尼"
+      ],
+      "screenwriters": [
+        "克里斯托弗·诺兰"
+      ],
+      "companies": [
+        "顶峰娱乐"
+      ],
+      "genres": [
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [
+        "独立精神奖最佳影片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q108839994",
+      "title": "奥本海默 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "actors": [
+        "基利安·墨菲",
+        "艾美莉·宾特",
+        "马特·达蒙",
+        "小劳勃·道尼",
+        "佛萝伦丝·普伊",
+        "基利安·墨菲",
+        "乔许·哈奈特",
+        "凯西·艾佛列克",
+        "雷米·马利克",
+        "肯尼斯·布莱纳",
+        "班尼·沙夫戴",
+        "杰森·克拉克",
+        "狄伦·阿诺",
+        "汤姆·孔蒂",
+        "詹姆士·达西",
+        "大卫·达斯马齐连",
+        "丹恩·德翰",
+        "杰克·奎德",
+        "马修·莫汀",
+        "奥利·哈斯基维",
+        "艾登·艾伦瑞克",
+        "大卫·克伦荷茨",
+        "迈克·安格拉诺",
+        "露易丝·隆巴德",
+        "史考特·格瑞恩斯",
+        "克里斯多福·邓汉",
+        "大卫·里斯达尔",
+        "盖伊·布瑞特",
+        "乔西·佩克",
+        "哈里森·吉尔伯特森",
+        "艾玛·杜蒙",
+        "马提亚斯·史维克福",
+        "古斯塔夫·史柯斯嘉",
+        "戴文·博斯蒂克",
+        "艾力克斯·沃尔夫",
+        "托尼·戈德温",
+        "斯荣德·福斯·奥瓦格",
+        "盖瑞·欧德曼",
+        "乔许·祖克曼",
+        "奥莉薇·瑟尔比",
+        "杰佛逊·霍尔",
+        "梅肯·布莱尔",
+        "哈利·格罗纳",
+        "杰克·卡特莫-史考特",
+        "詹姆士·雷玛",
+        "格雷戈利·贾巴拉",
+        "提姆·德凯",
+        "詹姆斯·厄尔巴尼亚克"
+      ],
+      "screenwriters": [
+        "克里斯多福·诺兰"
+      ],
+      "companies": [
+        "亚特拉斯娱乐"
+      ],
+      "genres": [
+        "剧情",
+        "惊悚",
+        "战争",
+        "传记"
+      ],
+      "awards": [
+        "奥斯卡最佳剪辑获奖电影",
+        "奥斯卡最佳原创配乐获奖电影",
+        "奥斯卡最佳导演获奖电影",
+        "奥斯卡最佳影片获奖电影",
+        "奥斯卡最佳摄影获奖电影",
+        "奥斯卡最佳男主角获奖电影",
+        "奥斯卡最佳男配角获奖电影",
+        "日本电影学院奖最佳外语片",
+        "美国演员工会奖电影类最佳男主角获奖作品",
+        "美国演员工会奖电影类最佳男配角获奖作品",
+        "英国电影学院奖最佳剪辑获奖电影",
+        "英国电影学院奖最佳原创配乐获奖电影",
+        "英国电影学院奖最佳导演获奖电影",
+        "英国电影学院奖最佳影片",
+        "英国电影学院奖最佳摄影获奖电影",
+        "英国电影学院奖最佳男主角获奖电影",
+        "英国电影学院奖最佳男配角获奖电影",
+        "金球奖最佳剧情片",
+        "金球奖最佳导演获奖电影",
+        "金球奖最佳戏剧类男主角获奖电影",
+        "金球奖最佳男配角获奖电影",
+        "金鸡奖最佳外语片",
+        "电影旬报十佳奖最佳外语片",
+        "《奥本海默》获奖列表"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q21935651",
+      "title": "敦克尔克大行动",
+      "year_category": "精选经典影片",
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "actors": [
+        "菲昂·怀海德",
+        "汤姆·格林-卡尼",
+        "杰克·洛登",
+        "哈利·斯泰尔斯",
+        "阿奈林·巴纳德",
+        "詹姆士·达西",
+        "贝瑞·科汉",
+        "简尼夫·班纳",
+        "基利安·墨菲",
+        "马克·里朗斯",
+        "汤姆·哈迪"
+      ],
+      "screenwriters": [
+        "克里斯多福·诺兰"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "惊悚",
+        "战争",
+        "历史"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q46551",
+      "title": "顶尖对决",
+      "year_category": "精选经典影片",
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "actors": [
+        "休·杰克曼",
+        "克里斯汀·贝尔",
+        "米高·肯恩",
+        "史嘉蕾·乔韩森",
+        "大卫·鲍伊"
+      ],
+      "screenwriters": [
+        "强纳森·诺兰"
+      ],
+      "companies": [
+        "华纳兄弟",
+        "试金石影片"
+      ],
+      "genres": [
+        "科幻",
+        "惊悚",
+        "历史"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q189330",
+      "title": "黑暗骑士：黎明升起",
+      "year_category": "精选经典影片",
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "actors": [
+        "克里斯汀·贝尔",
+        "米高·肯恩",
+        "加里·奥德曼",
+        "安妮·海瑟薇",
+        "汤姆·哈迪",
+        "玛莉安·歌迪雅",
+        "乔瑟夫·高登-李维",
+        "摩根·弗里曼",
+        "乔伊·金",
+        "摩根·弗里曼",
+        "马修·莫汀",
+        "希里安·墨菲"
+      ],
+      "screenwriters": [
+        "强纳森·诺兰"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "恐怖",
+        "惊悚",
+        "犯罪",
+        "战争"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q104123",
+      "title": "低俗小说",
+      "year_category": "精选经典影片",
+      "directors": [
+        "昆汀·塔伦蒂诺"
+      ],
+      "actors": [
+        "约翰·特拉沃尔塔",
+        "森姆·积逊",
+        "布鲁斯·威利斯",
+        "乌玛·瑟曼",
+        "哈维·凯特尔",
+        "蒂姆·罗斯",
+        "阿曼达·普卢默",
+        "玛丽亚·德·梅黛洛",
+        "文·雷姆斯",
+        "埃里克·斯托尔兹",
+        "罗珊娜·艾奎特",
+        "克里斯托弗·沃肯",
+        "约翰·屈伏塔",
+        "霸道横行",
+        "山缪·杰克森",
+        "奥斯卡最佳男配角奖",
+        "荷莉·杭特",
+        "布斯·韦利士",
+        "哈维·凯托",
+        "提姆·罗斯",
+        "强尼·戴普",
+        "亚曼达·普拉玛",
+        "第三情",
+        "艾瑞克·史托兹",
+        "寇特妮·洛芙",
+        "克里斯多夫·华肯"
+      ],
+      "screenwriters": [
+        "罗杰·艾弗瑞"
+      ],
+      "companies": [
+        "法外之徒制片公司",
+        "泽西电影公司"
+      ],
+      "genres": [
+        "喜剧",
+        "犯罪"
+      ],
+      "awards": [
+        "国家影评人协会奖最佳影片",
+        "奥斯卡最佳原创剧本获奖电影",
+        "独立精神奖最佳影片",
+        "金棕榈奖获奖电影",
+        "金球奖最佳剧本获奖电影"
+      ],
+      "nominations": [
+        "国家影评人协会"
+      ]
+    },
+    {
+      "id": "Q1392744",
+      "title": "华尔街之狼",
+      "year_category": "精选经典影片",
+      "directors": [
+        "马丁·斯科塞斯"
+      ],
+      "actors": [
+        "乔纳·希尔",
+        "玛歌·罗比",
+        "马修·麦康纳",
+        "强·法夫洛",
+        "罗伯·雷纳",
+        "让·杜雅尔丹",
+        "李奥纳多·狄卡皮欧",
+        "凯尔·钱德勒",
+        "强·柏恩瑟",
+        "马修·麦康纳",
+        "克莉丝汀·米利欧提",
+        "克里斯蒂娜·埃伯索尔",
+        "乔安娜·拉姆利",
+        "斯派克·琼斯",
+        "伊森·索普",
+        "P. J.拜恩",
+        "乔丹·贝尔福特"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "红岩影片公司",
+        "亚壁古道影业",
+        "Sikelia Productions"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "传记"
+      ],
+      "awards": [
+        "第86届奥斯卡",
+        "第67届英国电影学院奖",
+        "第71届金球奖",
+        "美国导演工会奖",
+        "美国编剧工会奖"
+      ],
+      "nominations": [
+        "第86届奥斯卡",
+        "第67届英国电影学院奖",
+        "第71届金球奖",
+        "美国导演工会奖",
+        "美国编剧工会奖"
+      ]
+    },
+    {
+      "id": "Q244604",
+      "title": "少数派报告 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "斯蒂芬·斯皮尔伯格"
+      ],
+      "actors": [
+        "汤姆·克鲁斯",
+        "科林·法雷尔",
+        "珊曼莎·摩顿",
+        "麦斯·冯·西度",
+        "尼尔·麦克唐纳",
+        "凯萨琳·莫莉丝"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "安培林娱乐公司",
+        "克鲁斯-华格纳制片"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [
+        "土星奖最佳科幻电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q165325",
+      "title": "杀死比尔",
+      "year_category": "精选经典影片",
+      "directors": [
+        "昆汀·塔伦蒂诺"
+      ],
+      "actors": [
+        "乌玛·瑟曼",
+        "刘玉玲",
+        "薇薇卡·A·福克斯",
+        "戴露·汉娜",
+        "迈克尔·马德森",
+        "大卫·卡拉定",
+        "千叶真一",
+        "栗山千明"
+      ],
+      "screenwriters": [
+        "昆汀·塔伦提诺"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "犯罪"
+      ],
+      "awards": [],
+      "nominations": [
+        "金球奖最佳女主角",
+        "英国电影学院奖最佳女主角",
+        "英国电影学院奖",
+        "奥斯卡金像奖"
+      ]
+    },
+    {
+      "id": "Q571032",
+      "title": "被解救的姜戈",
+      "year_category": "精选经典影片",
+      "directors": [
+        "昆汀·塔伦蒂诺"
+      ],
+      "actors": [
+        "杰米·福克斯",
+        "克里斯托弗·瓦尔兹",
+        "莱昂纳多·迪卡普里奥",
+        "凯莉·华盛顿",
+        "森姆·积逊"
+      ],
+      "screenwriters": [
+        "昆汀·塔伦提诺"
+      ],
+      "companies": [
+        "温斯坦影业",
+        "哥伦比亚电影公司"
+      ],
+      "genres": [
+        "动作",
+        "喜剧",
+        "西部"
+      ],
+      "awards": [
+        "奥斯卡最佳原创剧本获奖电影",
+        "奥斯卡最佳男配角获奖电影",
+        "英国电影学院奖最佳原创剧本获奖电影",
+        "英国电影学院奖最佳男配角获奖电影",
+        "金球奖最佳剧本获奖电影",
+        "金球奖最佳男配角获奖电影"
+      ],
+      "nominations": [
+        "第70届金球奖",
+        "第85届奥斯卡金像奖"
+      ]
+    },
+    {
+      "id": "Q483941",
+      "title": "辛德勒的名单",
+      "year_category": "精选经典影片",
+      "directors": [
+        "斯蒂芬·斯皮尔伯格"
+      ],
+      "actors": [
+        "连恩·尼逊",
+        "本·金斯利",
+        "雷夫·范恩斯",
+        "卡罗琳·古道",
+        "Jonathan Sagall",
+        "艾伯丝·戴维兹"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "Amblin Entertainment"
+      ],
+      "genres": [
+        "剧情",
+        "传记"
+      ],
+      "awards": [
+        "国家影评人协会奖最佳影片",
+        "奥斯卡最佳剪辑获奖电影",
+        "奥斯卡最佳原创配乐获奖电影",
+        "奥斯卡最佳导演获奖电影",
+        "奥斯卡最佳影片",
+        "奥斯卡最佳影片获奖电影",
+        "奥斯卡最佳摄影获奖电影",
+        "奥斯卡最佳改编剧本获奖电影",
+        "奥斯卡最佳美术指导获奖电影",
+        "日本电影学院奖最佳外语片",
+        "纽约影评人协会奖最佳影片",
+        "英国电影学院奖最佳影片",
+        "英国电影学院奖最佳摄影获奖电影",
+        "金球奖最佳剧本获奖电影",
+        "金球奖最佳剧情片",
+        "金球奖最佳导演获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q167726",
+      "title": "侏罗纪公园",
+      "year_category": "精选经典影片",
+      "directors": [
+        "斯蒂芬·斯皮尔伯格"
+      ],
+      "actors": [
+        "森·尼尔",
+        "萝拉·邓恩",
+        "杰夫·高布伦",
+        "李察·艾登堡"
+      ],
+      "screenwriters": [
+        "大卫·柯普",
+        "麦可·克莱顿"
+      ],
+      "companies": [
+        "安培林娱乐"
+      ],
+      "genres": [
+        "科幻",
+        "惊悚"
+      ],
+      "awards": [
+        "土星奖最佳科幻电影",
+        "奥斯卡最佳视觉效果获奖电影",
+        "奥斯卡最佳音响效果获奖电影",
+        "奥斯卡最佳音效剪辑奖获奖电影",
+        "日本电影学院奖最佳外语片",
+        "雨果奖最佳戏剧表现获奖作品"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q153723",
+      "title": "恶棍特工",
+      "year_category": "精选经典影片",
+      "directors": [
+        "昆汀·塔伦蒂诺"
+      ],
+      "actors": [
+        "毕·彼特",
+        "梅兰妮·萝伦",
+        "克里斯托弗·瓦尔兹",
+        "麦可·法斯宾达",
+        "艾利·罗斯",
+        "黛安·克鲁格",
+        "丹尼尔·布尔",
+        "蒂尔·施魏格尔"
+      ],
+      "screenwriters": [
+        "昆廷·塔伦蒂诺"
+      ],
+      "companies": [
+        "巴贝尔堡摄影棚"
+      ],
+      "genres": [
+        "动作",
+        "剧情",
+        "惊悚",
+        "冒险",
+        "战争",
+        "历史"
+      ],
+      "awards": [
+        "奥斯卡最佳男配角获奖电影",
+        "美国演员工会奖电影类最佳男配角获奖作品",
+        "金球奖最佳男配角获奖电影",
+        "坎城影展",
+        "最佳男演员奖",
+        "金球奖",
+        "美国演员工会奖",
+        "最佳男配角奖",
+        "英国电影学院奖",
+        "第82届奥斯卡奖",
+        "奥斯卡最佳男配角奖"
+      ],
+      "nominations": [
+        "坎城影展",
+        "最佳男演员奖",
+        "金球奖",
+        "美国演员工会奖",
+        "最佳男配角奖",
+        "英国电影学院奖",
+        "第82届奥斯卡奖",
+        "奥斯卡最佳男配角奖"
+      ]
+    },
+    {
+      "id": "Q165817",
+      "title": "抢救雷恩大兵",
+      "year_category": "精选经典影片",
+      "directors": [],
+      "actors": [
+        "汤姆·汉克斯",
+        "爱德华·伯恩斯",
+        "汤姆·塞兹摩尔",
+        "杰里米·戴维斯",
+        "范·迪塞尔",
+        "亚当·戈德堡",
+        "巴里·佩珀",
+        "乔瓦尼·瑞比西",
+        "马特·达蒙",
+        "丹尼斯·法里纳",
+        "泰德·丹森",
+        "哈维·普雷斯内尔",
+        "布莱恩·科兰斯顿",
+        "大卫·沃尔",
+        "内森·菲利安",
+        "保罗·吉亚玛提",
+        "瑞安·赫斯特",
+        "马克斯·马蒂尼",
+        "利兰·奥瑟"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情",
+        "战争"
+      ],
+      "awards": [
+        "奥斯卡最佳剪辑获奖电影",
+        "奥斯卡最佳音响效果获奖电影",
+        "奥斯卡最佳音效剪辑奖获奖电影",
+        "奥斯卡最佳导演获奖电影",
+        "奥斯卡最佳摄影获奖电影",
+        "纽约影评人协会奖最佳影片",
+        "金球奖最佳剧情片",
+        "金球奖最佳导演获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q42047",
+      "title": "盗亦有道",
+      "year_category": "精选经典影片",
+      "directors": [
+        "马丁·斯科塞斯"
+      ],
+      "actors": [
+        "雷·利奥塔",
+        "罗伯特·德尼罗",
+        "乔·佩西",
+        "罗林·布兰考",
+        "保罗·索维诺"
+      ],
+      "screenwriters": [
+        "尼古拉斯·派勒吉",
+        "马丁·史柯西斯"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "犯罪",
+        "传记"
+      ],
+      "awards": [
+        "奥斯卡最佳男配角",
+        "国家影评人协会奖最佳影片",
+        "奥斯卡最佳男配角获奖电影",
+        "纽约影评人协会奖最佳影片",
+        "英国电影学院奖最佳影片",
+        "英国电影学院奖最佳改编剧本获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q190050",
+      "title": "斗阵俱乐部",
+      "year_category": "精选经典影片",
+      "directors": [
+        "大卫·芬奇"
+      ],
+      "actors": [
+        "毕·彼特",
+        "爱德华·诺顿",
+        "海伦娜·博纳姆·卡特",
+        "肉卷 (歌手)",
+        "杰瑞德·莱托",
+        "布莱德·彼特",
+        "杰瑞德·莱托"
+      ],
+      "screenwriters": [],
+      "companies": [
+        "福斯2000 电影公司",
+        "摄政企业"
+      ],
+      "genres": [
+        "剧情",
+        "恐怖",
+        "惊悚",
+        "犯罪"
+      ],
+      "awards": [
+        "奥斯卡最佳音效剪辑奖",
+        "线上影评人协会",
+        "全英音乐奖"
+      ],
+      "nominations": [
+        "奥斯卡最佳音效剪辑奖",
+        "线上影评人协会",
+        "全英音乐奖"
+      ]
+    },
+    {
+      "id": "Q3521099",
+      "title": "布达佩斯大饭店",
+      "year_category": "精选经典影片",
+      "directors": [
+        "魏斯·安德森"
+      ],
+      "actors": [
+        "雷夫·范恩斯",
+        "东尼·雷佛罗里",
+        "F·莫瑞·亚伯拉罕",
+        "马修·亚玛希",
+        "阿德里安·布罗迪",
+        "威廉·达佛",
+        "杰夫·高布伦",
+        "哈维·凯特尔",
+        "裘德·洛",
+        "比尔·莫瑞",
+        "爱德华·诺顿",
+        "瑟夏·罗南",
+        "詹森·舒瓦兹曼",
+        "蕾雅·瑟杜",
+        "蒂达·史云顿",
+        "汤姆·威金森",
+        "欧文·威尔森"
+      ],
+      "screenwriters": [
+        "魏斯·安德森"
+      ],
+      "companies": [
+        "福斯探照灯影业",
+        "巴贝尔斯堡摄影棚"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "音乐"
+      ],
+      "awards": [
+        "奥斯卡最佳化妆与发型设计奖获奖电影",
+        "奥斯卡最佳服装设计奖获奖电影",
+        "奥斯卡最佳原创配乐获奖电影",
+        "奥斯卡最佳美术指导获奖电影",
+        "英国电影学院奖最佳原创剧本获奖电影",
+        "金球奖最佳音乐或喜剧片",
+        "美国演员工会奖",
+        "评论家选择电影奖",
+        "英国电影学院奖",
+        "金球奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q217112",
+      "title": "月升王国",
+      "year_category": "精选经典影片",
+      "directors": [
+        "魏斯·安德森"
+      ],
+      "actors": [
+        "布鲁斯·威利斯",
+        "爱德华·诺顿",
+        "比尔·莫瑞",
+        "法兰丝·麦杜雯",
+        "蒂达·史云顿",
+        "积逊·舒华沙曼",
+        "卜·巴拉宾"
+      ],
+      "screenwriters": [
+        "罗曼·柯波拉"
+      ],
+      "companies": [
+        "American Empirical Pictures",
+        "Indian Paintbrush",
+        "Scott Rudin Productions"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q128518",
+      "title": "角斗士 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "雷利·史考特"
+      ],
+      "actors": [
+        "罗素·高尔",
+        "华坚·冯力士",
+        "康妮·尼尔森",
+        "奥利弗·里德",
+        "德雷克·雅可比",
+        "杰曼·翰苏",
+        "李察·哈里斯",
+        "戴维·海明斯"
+      ],
+      "screenwriters": [
+        "David Franzoni",
+        "约翰·洛根",
+        "威廉·尼克尔森"
+      ],
+      "companies": [
+        "Scott Free Productions",
+        "Red Wagon Entertainmen"
+      ],
+      "genres": [
+        "动作",
+        "剧情",
+        "历史"
+      ],
+      "awards": [
+        "奥斯卡最佳服装设计奖获奖电影",
+        "奥斯卡最佳视觉效果获奖电影",
+        "奥斯卡最佳音响效果获奖电影",
+        "奥斯卡最佳影片",
+        "奥斯卡最佳影片获奖电影",
+        "奥斯卡最佳男主角获奖电影",
+        "帝国奖最佳电影获奖电影",
+        "英国电影学院奖最佳影片",
+        "英国电影学院奖最佳摄影获奖电影",
+        "金球奖最佳剧情片"
+      ],
+      "nominations": [
+        "最佳导演奖",
+        "最佳男配角奖",
+        "最佳原著剧本奖",
+        "最佳摄影奖",
+        "最佳原创配乐奖",
+        "最佳影片剪辑奖",
+        "最佳艺术指导奖"
+      ]
+    },
+    {
+      "id": "Q184843",
+      "title": "银翼杀手",
+      "year_category": "精选经典影片",
+      "directors": [
+        "雷利·史考特"
+      ],
+      "actors": [
+        "哈里森·福特",
+        "鲁格·豪尔",
+        "辛·杨",
+        "爱德华·詹姆斯·奥莫斯",
+        "黛瑞·汉娜",
+        "乔安娜·卡西迪",
+        "布瑞恩·詹姆斯",
+        "乔·特科尔",
+        "吴汉章"
+      ],
+      "screenwriters": [
+        "汉普敦·芬奇"
+      ],
+      "companies": [
+        "邵氏兄弟"
+      ],
+      "genres": [
+        "动作",
+        "科幻",
+        "惊悚",
+        "悬疑"
+      ],
+      "awards": [
+        "英国电影学院奖最佳摄影获奖电影",
+        "英国电影学院奖最佳服装设计获奖电影",
+        "英国电影学院奖最佳美术指导获奖电影",
+        "雨果奖最佳戏剧表现获奖作品"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q20382729",
+      "title": "降临 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "丹尼斯·维勒弗"
+      ],
+      "actors": [
+        "艾美·亚当斯",
+        "杰瑞米·雷纳",
+        "科力士·韦德加",
+        "麦可·斯图巴",
+        "马泰 (华裔演员)"
+      ],
+      "screenwriters": [
+        "艾瑞克·赫瑟勒"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "科幻",
+        "惊悚"
+      ],
+      "awards": [
+        "奥斯卡最佳音效剪辑奖获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q190908",
+      "title": "七宗罪 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "大卫·芬奇"
+      ],
+      "actors": [
+        "毕·彼特",
+        "摩根·弗里曼",
+        "格温妮丝·帕特罗",
+        "凯文·史贝西",
+        "罗纳德·李·艾尔米",
+        "凯文·史贝西"
+      ],
+      "screenwriters": [
+        "安德鲁·凯文·沃克"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "惊悚",
+        "犯罪",
+        "悬疑"
+      ],
+      "awards": [
+        "帝国奖最佳电影获奖电影"
+      ],
+      "nominations": [
+        "第68届奥斯卡金像奖",
+        "英国电影学院奖"
+      ]
+    },
+    {
+      "id": "Q61448040",
+      "title": "寄生上流",
+      "year_category": "精选经典影片",
+      "directors": [
+        "奉俊昊"
+      ],
+      "actors": [
+        "宋康昊",
+        "李善均",
+        "曹汝贞",
+        "崔宇植",
+        "朴素淡",
+        "张慧珍"
+      ],
+      "screenwriters": [
+        "奉俊昊"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "家庭"
+      ],
+      "awards": [
+        "国家影评人协会奖最佳影片",
+        "多伦多影评人协会奖最佳影片",
+        "奥斯卡最佳原创剧本获奖电影",
+        "奥斯卡最佳国际影片获奖电影",
+        "奥斯卡最佳导演获奖电影",
+        "奥斯卡最佳影片",
+        "奥斯卡最佳影片获奖电影",
+        "日本电影学院奖最佳外语片",
+        "洛杉矶影评人协会奖最佳影片",
+        "独立精神奖最佳国际影片获奖电影",
+        "百想艺术大奖获奖作品",
+        "纽约在线影评人协会奖最佳影片",
+        "纽约影评人协会奖最佳外语片",
+        "英国电影学院奖最佳原创剧本获奖电影",
+        "英国电影学院奖最佳外语片",
+        "蓝丝带奖最佳外语片",
+        "金棕榈奖获奖电影",
+        "金球奖最佳外语片",
+        "釜日电影奖获奖电影",
+        "青龙电影奖获奖电影",
+        "韩国电影评论家协会奖获奖电影",
+        "黄金摄影奖获奖电影",
+        "第77届金球奖",
+        "金球奖最佳外语片奖",
+        "第73届英国电影学院奖",
+        "最佳国际影片奖",
+        "奥斯卡历史",
+        "第95届奥斯卡"
+      ],
+      "nominations": [
+        "第77届金球奖",
+        "金球奖最佳外语片奖",
+        "第73届英国电影学院奖",
+        "最佳国际影片奖",
+        "奥斯卡历史",
+        "第56届大钟奖"
+      ]
+    },
+    {
+      "id": "Q596631",
+      "title": "沙丘II 新王朝",
+      "year_category": "精选经典影片",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q185888",
+      "title": "社群网战",
+      "year_category": "精选经典影片",
+      "directors": [
+        "大卫·芬奇"
+      ],
+      "actors": [
+        "杰西·艾森柏格",
+        "安德鲁·加菲尔德",
+        "贾斯汀·提姆布莱克",
+        "布兰达·宋",
+        "鲁妮·玛拉",
+        "艾米·汉莫",
+        "麦克思·明格拉",
+        "乔希·潘斯",
+        "达珂塔·强生"
+      ],
+      "screenwriters": [
+        "艾伦·索金"
+      ],
+      "companies": [
+        "相对论传媒"
+      ],
+      "genres": [
+        "剧情",
+        "传记"
+      ],
+      "awards": [
+        "凯撒电影奖最佳外语片",
+        "国家影评人协会奖最佳影片",
+        "奥斯卡最佳剪辑获奖电影",
+        "奥斯卡最佳原创配乐获奖电影",
+        "奥斯卡最佳改编剧本获奖电影",
+        "洛杉矶影评人协会奖最佳影片",
+        "纽约影评人协会奖最佳影片",
+        "英国电影学院奖最佳剪辑获奖电影",
+        "英国电影学院奖最佳导演获奖电影",
+        "英国电影学院奖最佳改编剧本获奖电影",
+        "金球奖最佳剧本获奖电影",
+        "金球奖最佳剧情片",
+        "金球奖最佳导演获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q189540",
+      "title": "七武士",
+      "year_category": "精选经典影片",
+      "directors": [
+        "黑泽明"
+      ],
+      "actors": [
+        "三船敏郎",
+        "志村乔",
+        "津岛惠子",
+        "千秋实",
+        "土屋嘉男"
+      ],
+      "screenwriters": [
+        "桥本忍"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情"
+      ],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q155653",
+      "title": "千与千寻",
+      "year_category": "精选经典影片",
+      "directors": [
+        "宫崎骏"
+      ],
+      "actors": [
+        "柊瑠美",
+        "入野自由",
+        "夏木麻里",
+        "神木隆之介",
+        "泽口靖子",
+        "大泉洋",
+        "安田显"
+      ],
+      "screenwriters": [
+        "宫崎骏"
+      ],
+      "companies": [
+        "吉卜力工作室"
+      ],
+      "genres": [
+        "剧情",
+        "动画",
+        "奇幻",
+        "冒险",
+        "体育"
+      ],
+      "awards": [
+        "JASRAC奖金奖获奖作品",
+        "卫星奖最佳动画或混合媒体",
+        "安妮奖最佳动画片",
+        "日刊体育电影大奖最佳影片",
+        "日本电影学院奖最佳影片",
+        "每日电影奖日本电影大奖获奖作品",
+        "蓝丝带奖最佳影片",
+        "金熊奖获奖电影",
+        "香港电影金像奖最佳亚洲影片",
+        "奥斯卡最佳动画片奖",
+        "香港电影金像奖",
+        "安妮奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q29011",
+      "title": "哈尔的移动城堡",
+      "year_category": "精选经典影片",
+      "directors": [
+        "宫崎骏"
+      ],
+      "actors": [
+        "倍赏千惠子",
+        "木村拓哉",
+        "美轮明宏",
+        "神木隆之介",
+        "我修院达也"
+      ],
+      "screenwriters": [
+        "宫崎骏"
+      ],
+      "companies": [
+        "吉卜力工作室"
+      ],
+      "genres": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [
+        "JASRAC奖金奖获奖作品"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q766263",
+      "title": "重庆森林",
+      "year_category": "精选经典影片",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "awards": [
+        "金马奖最佳男主角获奖电影",
+        "香港电影金像奖最佳剪接获奖电影",
+        "香港电影金像奖最佳导演得主",
+        "香港电影金像奖最佳导演获奖电影",
+        "香港电影金像奖最佳男主角获奖电影",
+        "香港电影金像奖最佳电影",
+        "独立精神奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q39571",
+      "title": "龙猫",
+      "year_category": "精选经典影片",
+      "directors": [
+        "宫崎骏"
+      ],
+      "actors": [
+        "日高范子",
+        "坂本千夏",
+        "糸井重里",
+        "岛本须美",
+        "北林谷荣"
+      ],
+      "screenwriters": [
+        "宫崎骏"
+      ],
+      "companies": [
+        "吉卜力工作室"
+      ],
+      "genres": [
+        "动画",
+        "奇幻",
+        "家庭"
+      ],
+      "awards": [
+        "每日电影奖日本电影大奖获奖作品",
+        "电影旬报十佳奖最佳日本影片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q164702",
+      "title": "2046 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "王家卫"
+      ],
+      "actors": [
+        "梁朝伟",
+        "王菲",
+        "巩俐",
+        "木村拓哉",
+        "章子怡",
+        "刘嘉玲",
+        "张震 (演员)",
+        "通猜·麦金泰",
+        "董洁",
+        "张曼玉",
+        "巩俐",
+        "刘嘉玲",
+        "张震",
+        "董洁",
+        "吴廷烨",
+        "张曼玉"
+      ],
+      "screenwriters": [
+        "王家卫"
+      ],
+      "companies": [
+        "上海电影",
+        "德法公共电视台",
+        "法国电视三台",
+        "德国电视二台"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "科幻",
+        "音乐"
+      ],
+      "awards": [
+        "纽约影评人协会奖最佳外语片",
+        "金马奖最佳原创电影音乐获奖电影",
+        "金马奖最佳原著剧本获奖电影",
+        "香港电影金像奖最佳女主角获奖电影",
+        "香港电影金像奖最佳摄影获奖电影",
+        "香港电影金像奖最佳服装造型设计得主",
+        "香港电影金像奖最佳服装造型设计获奖电影",
+        "香港电影金像奖最佳男主角获奖电影",
+        "香港电影金像奖最佳美术指导得主",
+        "香港电影金像奖最佳美术指导获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q475693",
+      "title": "原罪犯",
+      "year_category": "精选经典影片",
+      "directors": [
+        "朴赞郁"
+      ],
+      "actors": [
+        "崔岷植",
+        "刘智泰",
+        "姜惠贞"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [
+        "釜山电影评论家协会奖获得者",
+        "韩国电影评论家协会奖获奖电影",
+        "香港电影金像奖最佳亚洲影片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q152780",
+      "title": "少年Pi的奇幻漂流 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "李安"
+      ],
+      "actors": [
+        "苏拉·沙玛"
+      ],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [
+        "奥斯卡最佳视觉效果获奖电影",
+        "奥斯卡最佳原创配乐获奖电影",
+        "奥斯卡最佳导演获奖电影",
+        "奥斯卡最佳摄影获奖电影",
+        "英国电影学院奖最佳摄影获奖电影",
+        "第66届英国电影学院奖",
+        "美国制片公会奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q160618",
+      "title": "断背山",
+      "year_category": "精选经典影片",
+      "directors": [
+        "李安"
+      ],
+      "actors": [
+        "希斯·莱杰",
+        "杰克·吉林哈尔",
+        "蜜雪儿·威廉丝",
+        "安妮·海瑟薇"
+      ],
+      "screenwriters": [
+        "赖瑞·麦可莫特瑞"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "awards": [
+        "奥斯卡最佳原创配乐获奖电影",
+        "奥斯卡最佳导演获奖电影",
+        "奥斯卡最佳改编剧本获奖电影",
+        "洛杉矶影评人协会奖最佳影片",
+        "独立精神奖最佳影片",
+        "纽约影评人协会奖最佳影片",
+        "英国电影学院奖最佳导演获奖电影",
+        "英国电影学院奖最佳影片",
+        "金狮奖获奖电影",
+        "金球奖最佳剧本获奖电影",
+        "金球奖最佳剧情片",
+        "金球奖最佳导演获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q843234",
+      "title": "卧虎藏龙",
+      "year_category": "精选经典影片",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q1056853",
+      "title": "花样年华",
+      "year_category": "精选经典影片",
+      "directors": [
+        "王家卫"
+      ],
+      "actors": [
+        "张曼玉",
+        "梁朝伟",
+        "潘迪华",
+        "雷震",
+        "孙佳君",
+        "张同祖",
+        "钱似莺"
+      ],
+      "screenwriters": [
+        "王家卫"
+      ],
+      "companies": [],
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "awards": [
+        "凯撒电影奖最佳外语片",
+        "华语电影传媒大奖最佳女主角获奖电影",
+        "华语电影传媒大奖最佳男主角获奖电影",
+        "金马奖最佳女主角获奖电影",
+        "金马奖最佳摄影获奖电影",
+        "金马奖最佳造型设计获奖电影",
+        "香港电影金像奖最佳剪接获奖电影",
+        "香港电影金像奖最佳女主角获奖电影",
+        "香港电影金像奖最佳服装造型设计得主",
+        "香港电影金像奖最佳服装造型设计获奖电影",
+        "香港电影金像奖最佳男主角获奖电影",
+        "香港电影金像奖最佳美术指导得主",
+        "香港电影金像奖最佳美术指导获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q186572",
+      "title": "魔法公主",
+      "year_category": "精选经典影片",
+      "directors": [
+        "宫崎骏"
+      ],
+      "actors": [
+        "松田洋治",
+        "石田百合子",
+        "田中裕子",
+        "美轮明宏",
+        "小林薰"
+      ],
+      "screenwriters": [
+        "宫崎骏"
+      ],
+      "companies": [
+        "吉卜力工作室"
+      ],
+      "genres": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "awards": [
+        "日本电影学院奖最佳影片",
+        "每日电影奖日本电影大奖获奖作品",
+        "石原裕次郎奖获奖作品"
+      ],
+      "nominations": [
+        "日本电影金像奖",
+        "第70届奥斯卡金像奖",
+        "奥斯卡金像奖"
+      ]
+    },
+    {
+      "id": "Q300622",
+      "title": "天下无贼",
+      "year_category": "精选经典影片",
+      "directors": [
+        "冯小刚"
+      ],
+      "actors": [
+        "刘德华",
+        "刘若英",
+        "葛优",
+        "王宝强",
+        "李冰冰",
+        "张涵予"
+      ],
+      "screenwriters": [
+        "王刚",
+        "林黎胜",
+        "张家鲁",
+        "冯小刚"
+      ],
+      "companies": [
+        "华谊兄弟"
+      ],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [
+        "华语电影传媒大奖最佳女主角获奖电影",
+        "金马奖最佳改编剧本获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q133461",
+      "title": "悲情城市",
+      "year_category": "精选经典影片",
+      "directors": [
+        "侯孝贤"
+      ],
+      "actors": [
+        "梁朝伟",
+        "辛树芬",
+        "陈松勇",
+        "高捷 (演员)",
+        "李天禄",
+        "何瑷芸"
+      ],
+      "screenwriters": [
+        "吴念真",
+        "朱天文"
+      ],
+      "companies": [
+        "年代有限公司"
+      ],
+      "genres": [
+        "剧情",
+        "战争",
+        "家庭"
+      ],
+      "awards": [
+        "金狮奖获奖电影",
+        "金马奖最佳导演获奖电影",
+        "金马奖最佳男主角获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q11085495",
+      "title": "无人区 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "宁浩"
+      ],
+      "actors": [
+        "徐峥",
+        "黄渤",
+        "余男",
+        "多布杰"
+      ],
+      "screenwriters": [
+        "述平",
+        "邢爱娜",
+        "崔斯韦",
+        "王红卫",
+        "尚可",
+        "宁浩"
+      ],
+      "companies": [
+        "中国电影股份有限公司",
+        "北京橙天嘉禾影视制作有限公司",
+        "北京小马奔腾影业有限公司"
+      ],
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳男配角获奖电影"
+      ],
+      "nominations": [
+        "长春电影节"
+      ]
+    },
+    {
+      "id": "Q855284",
+      "title": "疯狂的石头",
+      "year_category": "精选经典影片",
+      "directors": [
+        "宁浩"
+      ],
+      "actors": [
+        "郭涛 (演员)",
+        "刘桦",
+        "连伟健",
+        "徐峥",
+        "黄渤",
+        "王迅 (演员)",
+        "彭波 (演员)"
+      ],
+      "screenwriters": [
+        "岳小军",
+        "张承"
+      ],
+      "companies": [
+        "映艺娱乐有限公司"
+      ],
+      "genres": [
+        "剧情",
+        "喜剧",
+        "犯罪"
+      ],
+      "awards": [
+        "华语电影传媒大奖最佳导演获奖电影",
+        "华语电影传媒大奖最佳电影",
+        "华语电影传媒大奖最佳编剧获奖电影",
+        "金马奖最佳原著剧本获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q166588",
+      "title": "红高粱 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "张艺谋"
+      ],
+      "actors": [
+        "巩俐",
+        "姜文",
+        "滕汝骏",
+        "计春华",
+        "钱明"
+      ],
+      "screenwriters": [
+        "陈剑雨",
+        "朱伟",
+        "莫言"
+      ],
+      "companies": [
+        "西安电影制片厂"
+      ],
+      "genres": [
+        "剧情",
+        "战争"
+      ],
+      "awards": [
+        "百花奖最佳故事片",
+        "金熊奖获奖电影",
+        "金鸡奖最佳摄影获奖电影",
+        "金鸡奖最佳故事片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q6705257",
+      "title": "色，戒",
+      "year_category": "精选经典影片",
+      "directors": [],
+      "actors": [],
+      "screenwriters": [],
+      "companies": [],
+      "genres": [],
+      "awards": [],
+      "nominations": []
+    },
+    {
+      "id": "Q2633399",
+      "title": "让子弹飞",
+      "year_category": "精选经典影片",
+      "directors": [
+        "姜文"
+      ],
+      "actors": [
+        "姜文",
+        "周润发",
+        "葛优"
+      ],
+      "screenwriters": [
+        "马识途",
+        "朱苏进",
+        "述平",
+        "危笑"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳造型设计获奖电影",
+        "华语电影传媒大奖最佳导演获奖电影",
+        "华语电影传媒大奖最佳男主角获奖电影",
+        "金马奖最佳摄影获奖电影",
+        "金马奖最佳改编剧本获奖电影",
+        "香港电影导演会年度大奖最佳电影",
+        "香港电影金像奖最佳服装造型设计得主",
+        "香港电影金像奖最佳服装造型设计获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q3765957",
+      "title": "阳光灿烂的日子",
+      "year_category": "精选经典影片",
+      "directors": [
+        "姜文"
+      ],
+      "actors": [
+        "夏雨 (中国大陆)",
+        "宁静",
+        "陶虹",
+        "耿乐",
+        "斯琴高娃",
+        "王学圻",
+        "冯小刚",
+        "王朔",
+        "姜文",
+        "刘小宁",
+        "尚楠",
+        "刘斌",
+        "代少波",
+        "左小青",
+        "姚二嘎",
+        "吴淑琨",
+        "刘金山",
+        "张华",
+        "方化",
+        "殷芳",
+        "杨瑾"
+      ],
+      "screenwriters": [
+        "王朔"
+      ],
+      "companies": [
+        "中国电影合作制片公司"
+      ],
+      "genres": [
+        "剧情"
+      ],
+      "awards": [
+        "金马奖最佳剧情片",
+        "金马奖最佳导演获奖电影",
+        "金马奖最佳摄影获奖电影",
+        "金马奖最佳改编剧本获奖电影",
+        "金马奖最佳男主角获奖电影",
+        "金马奖最佳音效获奖电影"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q1155695",
+      "title": "一代宗师",
+      "year_category": "精选经典影片",
+      "directors": [
+        "王家卫"
+      ],
+      "actors": [
+        "梁朝伟",
+        "章子怡",
+        "张震",
+        "赵本山"
+      ],
+      "screenwriters": [
+        "邹静之",
+        "徐浩峰"
+      ],
+      "companies": [],
+      "genres": [
+        "动作",
+        "剧情",
+        "传记"
+      ],
+      "awards": [
+        "亚洲电影大奖最佳摄影获奖电影",
+        "亚洲电影大奖最佳美术指导获奖电影",
+        "亚洲电影大奖最佳女主角获奖电影",
+        "亚洲电影大奖最佳导演获奖电影",
+        "亚洲电影大奖最佳电影",
+        "金马奖最佳女主角获奖电影",
+        "金马奖最佳摄影获奖电影",
+        "金马奖最佳美术设计获奖电影",
+        "金马奖最佳视觉效果获奖电影",
+        "金马奖观众票选最佳影片",
+        "香港电影评论学会大奖最佳电影",
+        "香港电影金像奖最佳动作设计获奖电影",
+        "香港电影金像奖最佳导演得主",
+        "香港电影金像奖最佳摄影获奖电影",
+        "香港电影金像奖最佳服装造型设计得主",
+        "香港电影金像奖最佳编剧得主",
+        "香港电影金像奖最佳编剧获奖电影",
+        "香港电影金像奖最佳美术指导得主",
+        "香港电影金像奖最佳美术指导获奖电影",
+        "香港电影金像奖最佳电影",
+        "北京大学生电影节"
+      ],
+      "nominations": [
+        "北京大学生电影节"
+      ]
+    },
+    {
+      "id": "Q714057",
+      "title": "无间道",
+      "year_category": "精选经典影片",
+      "directors": [
+        "刘伟强",
+        "麦兆辉"
+      ],
+      "actors": [
+        "刘德华",
+        "梁朝伟",
+        "黄秋生",
+        "曾志伟"
+      ],
+      "screenwriters": [
+        "麦兆辉",
+        "庄文强"
+      ],
+      "companies": [
+        "寰亚电影"
+      ],
+      "genres": [
+        "剧情",
+        "悬疑"
+      ],
+      "awards": [
+        "乌甸尼远东电影节最受观众欢迎大奖得主",
+        "蓝丝带奖最佳外语片",
+        "金马奖最佳剧情片",
+        "金马奖最佳导演获奖电影",
+        "金马奖最佳男主角获奖电影",
+        "金马奖最佳男配角获奖电影",
+        "金马奖最佳音效获奖电影",
+        "金马奖观众票选最佳影片",
+        "香港电影金像奖最佳剪接获奖电影",
+        "香港电影金像奖最佳原创电影歌曲获奖电影",
+        "香港电影金像奖最佳导演得主",
+        "香港电影金像奖最佳导演获奖电影",
+        "香港电影金像奖最佳男主角获奖电影",
+        "香港电影金像奖最佳男配角获奖电影",
+        "香港电影金像奖最佳编剧得主",
+        "香港电影金像奖最佳编剧获奖电影",
+        "香港电影金像奖最佳电影",
+        "香港电影金紫荆奖最佳影片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q696413",
+      "title": "霸王别姬 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "陈凯歌"
+      ],
+      "actors": [
+        "张国荣",
+        "巩俐",
+        "张丰毅"
+      ],
+      "screenwriters": [
+        "李碧华"
+      ],
+      "companies": [
+        "北京电影制片厂"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "战争"
+      ],
+      "awards": [
+        "波士顿影评人协会奖最佳外语片",
+        "英国电影学院奖最佳外语片",
+        "金棕榈奖获奖电影",
+        "金球奖最佳外语片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q536299",
+      "title": "少林足球",
+      "year_category": "精选经典影片",
+      "directors": [
+        "周星驰",
+        "李力持"
+      ],
+      "actors": [
+        "赵薇",
+        "吴孟达",
+        "谢贤"
+      ],
+      "screenwriters": [
+        "曾谨昌",
+        "冯勉恒",
+        "冯志强",
+        "卢薇"
+      ],
+      "companies": [
+        "星辉海外有限公司",
+        "寰宇娱乐文化"
+      ],
+      "genres": [
+        "动作",
+        "剧情",
+        "喜剧"
+      ],
+      "awards": [
+        "蓝丝带奖最佳外语片",
+        "金马奖最佳视觉效果获奖电影",
+        "香港电影评论学会大奖最佳电影",
+        "香港电影金像奖最佳导演获奖电影",
+        "香港电影金像奖最佳男主角获奖电影",
+        "香港电影金像奖最佳男配角获奖电影",
+        "香港电影金像奖最佳视觉效果获奖电影",
+        "香港电影金像奖最佳电影",
+        "香港电影金像奖最佳音响效果获奖电影",
+        "香港电影金紫荆奖最佳影片"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q708888",
+      "title": "甜蜜蜜 (电影)",
+      "year_category": "精选经典影片",
+      "directors": [
+        "陈可辛"
+      ],
+      "actors": [
+        "黎明",
+        "张曼玉"
+      ],
+      "screenwriters": [
+        "岸西"
+      ],
+      "companies": [
+        "嘉禾娱乐事业有限公司"
+      ],
+      "genres": [
+        "剧情",
+        "爱情",
+        "音乐"
+      ],
+      "awards": [
+        "金马奖最佳剧情片",
+        "金马奖最佳女主角获奖电影",
+        "香港电影评论学会大奖最佳电影",
+        "香港电影金像奖最佳原创电影音乐获奖电影",
+        "香港电影金像奖最佳女主角获奖电影",
+        "香港电影金像奖最佳导演得主",
+        "香港电影金像奖最佳导演获奖电影",
+        "香港电影金像奖最佳摄影获奖电影",
+        "香港电影金像奖最佳服装造型设计得主",
+        "香港电影金像奖最佳服装造型设计获奖电影",
+        "香港电影金像奖最佳男配角获奖电影",
+        "香港电影金像奖最佳编剧得主",
+        "香港电影金像奖最佳编剧获奖电影",
+        "香港电影金像奖最佳美术指导得主",
+        "香港电影金像奖最佳美术指导获奖电影",
+        "香港电影金像奖最佳电影",
+        "香港电影金紫荆奖最佳影片",
+        "香港电影评论学会大奖"
+      ],
+      "nominations": []
+    },
+    {
+      "id": "Q85883356",
+      "title": "她和他的恋爱花期",
+      "year_category": "精选经典影片",
+      "directors": [
+        "土井裕泰"
+      ],
+      "actors": [
+        "菅田将晖",
+        "有村架纯",
+        "清原果耶",
+        "细田佳央太",
+        "小田切让",
+        "户田惠子",
+        "岩松了",
+        "小林薰"
+      ],
+      "screenwriters": [
+        "坂元裕二"
+      ],
+      "companies": [
+        "Filmmakers",
+        "Little More"
+      ],
+      "genres": [
+        "爱情"
+      ],
+      "awards": [],
+      "nominations": []
+    }
+  ]
+}

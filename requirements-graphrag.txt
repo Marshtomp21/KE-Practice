@@ -1,0 +1,3 @@
+# 官方库 GraphRAG 基线；先安装 requirements.txt，再安装本文件。
+neo4j>=6.0
+neo4j-graphrag[openai]>=1.19,<2

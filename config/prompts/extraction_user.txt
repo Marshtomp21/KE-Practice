@@ -1,0 +1,37 @@
+条目标题：{doc_title}
+条目类型：{doc_type}
+
+可用实体类型：
+{entity_types}
+
+可用关系类型（写法为 关系名(头实体类型 -> 尾实体类型)）：
+{relation_types}
+
+待处理文本：
+<<<
+{chunk_text}
+>>>
+
+请按下面的结构输出：
+
+{{
+  "entities": [
+    {{"name": "实体名", "type": "实体类型", "aliases": ["别名，可为空数组"]}}
+  ],
+  "relations": [
+    {{
+      "head": "头实体名",
+      "head_type": "头实体类型",
+      "relation": "关系名",
+      "tail": "尾实体名",
+      "tail_type": "尾实体类型",
+      "start_year": 年份或 null,
+      "end_year": 年份或 null,
+      "quote": "文本中支持这条关系的原句",
+      "confidence": 0 到 1 之间的小数
+    }}
+  ]
+}}
+
+注意：relations 中出现的实体必须同时出现在 entities 中；若本段文本没有可抽取的
+关系，relations 返回空数组。

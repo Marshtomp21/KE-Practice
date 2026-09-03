@@ -1,0 +1,93 @@
+# 影视领域本体定义。代码不得硬编码任何实体/关系名称，一律从此文件读取。
+version: 1
+
+entity_types:
+  Movie:
+    label: 影片
+    key_attributes: [release_year, region, runtime_minutes]
+  Person:
+    label: 影人
+    key_attributes: [birth_year, nationality, profession]
+  Company:
+    label: 机构
+    key_attributes: [founded_year, region]
+  Award:
+    label: 奖项
+    key_attributes: [category, host]
+  Genre:
+    label: 类型
+    key_attributes: []
+  Character:
+    label: 角色
+    key_attributes: [gender]
+
+# temporal: 该关系语义上是否带时间属性。
+# 本项目实现的是通用 GraphRAG，start_year/end_year 仅作为边的常驻字段保留，
+# 抽取不到时填 None，检索不依赖时间推理。
+relation_types:
+  directed:
+    label: 执导
+    domain: [Person]
+    range: [Movie]
+    temporal: true
+    symmetric: false
+  acted_in:
+    label: 出演
+    domain: [Person]
+    range: [Movie]
+    temporal: true
+    symmetric: false
+  wrote:
+    label: 编剧
+    domain: [Person]
+    range: [Movie]
+    temporal: true
+    symmetric: false
+  produced:
+    label: 出品
+    domain: [Company]
+    range: [Movie]
+    temporal: true
+    symmetric: false
+  won:
+    label: 获奖
+    domain: [Person, Movie]
+    range: [Award]
+    temporal: true
+    symmetric: false
+  nominated:
+    label: 提名
+    domain: [Person, Movie]
+    range: [Award]
+    temporal: true
+    symmetric: false
+  plays:
+    label: 饰演
+    domain: [Person]
+    range: [Character]
+    temporal: true
+    symmetric: false
+  appears_in:
+    label: 角色出现于
+    domain: [Character]
+    range: [Movie]
+    temporal: false
+    symmetric: false
+  adapted_from:
+    label: 改编自
+    domain: [Movie]
+    range: [Movie]
+    temporal: false
+    symmetric: false
+  sequel_of:
+    label: 续作
+    domain: [Movie]
+    range: [Movie]
+    temporal: false
+    symmetric: false
+  has_genre:
+    label: 类型
+    domain: [Movie]
+    range: [Genre]
+    temporal: false
+    symmetric: false

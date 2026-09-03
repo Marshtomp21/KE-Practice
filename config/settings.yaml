@@ -1,0 +1,101 @@
+# 全局运行参数。所有路径、阈值、模型参数集中于此，代码中不写死。
+paths:
+  raw_dir: data/raw
+  dataset_dir: data/source/wikipedia_300_films_final
+  interim_dir: data/interim
+  processed_dir: data/processed
+  graph_file: data/processed/graph_snapshot.json
+  chunk_file: data/interim/chunks.jsonl
+  embedding_file: data/processed/chunk_vectors.npz
+  extraction_cache: data/interim/extraction_cache
+  gazetteer: data/interim/wiki_gazetteer.txt   # 语料自带的实体名清单，留空则不启用
+  schema_file: config/schema.yaml
+  variant_table: config/zh_variants.txt   # 繁简单字对照表，留空则不折叠
+  prompt_dir: config/prompts
+  extraction_reject_log: data/interim/rejected_triples.jsonl
+
+ingest:
+  fold_variants: true             # 把繁体折成简体，统一实体名与规则用词
+  target_chunk_chars: 400        # 目标片段长度，非硬切
+  max_chunk_chars: 700           # 超过则按句读二次切分
+  min_chunk_chars: 60            # 过短片段并入前一片段
+  drop_patterns:                 # 清洗时整体删除的噪声模式（正则）
+    - '\[\d+\]'
+    - '\[编辑\]'
+    - '\[来源请求\]'
+    - '\{\{[^}]*\}\}'
+
+llm:
+  enabled: true
+  endpoint: "https://api.siliconflow.cn/v1/chat/completions"
+  model: "THUDM/GLM-Z1-9B-0414"
+  api_key_env: "GRAPHRAG_LLM_KEY"
+  temperature: 0.0
+  max_tokens: 4096
+  timeout_seconds: 120
+  max_retries: 3
+  retry_backoff_seconds: 2.0
+  trust_env_proxy: false          # 默认直连，避免失效的 HTTP_PROXY 干扰模型调用
+
+embedding:
+  # provider: remote | hashing
+  # hashing 为零依赖的本地字符 n-gram 哈希向量，保证无网络时全流程可跑通
+  provider: remote
+  endpoint: "https://api.siliconflow.cn/v1/embeddings"
+  model: "BAAI/bge-m3"
+  api_key_env: "GRAPHRAG_LLM_KEY"
+  dimension: 1024
+  batch_size: 32
+  trust_env_proxy: false
+
+extraction:
+  # 语境影片的作用范围：sentence 只在句内生效（影片条目推荐），
+  # document 允许跨句沿用（影人条目这类以人为主语的语料更合适）
+  movie_context_scope: sentence
+  # 候选名不在链接词表里时，是否允许按「名字形状」放行（音译名 / 2-4 字中文名）
+  name_shape_fallback: true
+  use_llm: true
+  fallback_to_rules: true
+  min_confidence: 0.35
+  max_chars_per_call: 1800
+
+normalize:
+  # 名称相似度合并阈值
+  merge_threshold: 0.86
+  # 同名不同人：类型不同一律不合并；类型相同时若共享邻居为 0 且属性冲突则拆分
+  disambiguate_by_type: true
+
+qa:
+  # 当前研究主线：本地向量基线，或调用 neo4j-graphrag 的完整库实现
+  default_method: vector
+
+retrieval:
+  top_k_chunks: 6
+  max_context_chars: 6000
+
+# 官方 neo4j-graphrag 库基线。Neo4j 内应已有 Chunk 节点、FROM_CHUNK 关系，
+# 且向量索引维度必须与上方 embedding.dimension 一致。
+library_graphrag:
+  index_name: text_embeddings
+  # 每个命中片段最多带回多少条图关系，防止热门实体的邻域过大。
+  max_relations_per_chunk: 20
+  neo4j:
+    uri_env: NEO4J_URI
+    user_env: NEO4J_USER
+    password_env: NEO4J_PASSWORD
+    database: ""                 # Aura 使用服务端默认数据库
+
+generation:
+  temperature: 0.0
+  max_tokens: 1200
+  cite_required: true
+  refuse_when_empty: true
+
+api:
+  host: "127.0.0.1"
+  port: 8000
+  cors_origins: ["*"]
+
+runtime:
+  random_seed: 20260903
+  log_level: INFO

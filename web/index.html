@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>影视 GraphRAG 问答</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="18" height="18">
+          <circle cx="6" cy="7" r="2.6" fill="currentColor" />
+          <circle cx="18" cy="6" r="2" fill="currentColor" opacity=".65" />
+          <circle cx="12" cy="17" r="2.3" fill="currentColor" opacity=".85" />
+          <path d="M6 7 L12 17 M18 6 L12 17 M6 7 L18 6" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".55" />
+        </svg>
+      </span>
+      <div>
+        <h1>影视 GraphRAG 问答</h1>
+        <p class="brand-sub">向量 RAG · Neo4j GraphRAG · 方法复现基座</p>
+      </div>
+    </div>
+    <div class="chips" id="graphStats">
+      <span class="chip chip-loading">正在连接后端…</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <!-- 左栏：提问 / 检索方式 / 历史 -->
+    <aside class="pane pane-left">
+      <section class="block">
+        <h2 class="block-title">提问</h2>
+        <form id="askForm" autocomplete="off">
+          <div class="textarea-wrap">
+            <textarea id="questionInput" rows="3"
+              placeholder="例如：某位导演执导过哪些影片？两位演员通过哪些影片产生关联？"></textarea>
+            <span class="counter" id="charCounter">0</span>
+          </div>
+          <button type="submit" id="askButton" class="primary">
+            <span class="spinner" aria-hidden="true"></span>
+            <span class="label">提问</span>
+          </button>
+        </form>
+      </section>
+
+      <section class="block">
+        <h2 class="block-title">问答方法
+          <span class="block-hint">现场切换即可对比</span>
+        </h2>
+        <div class="segmented" id="retrieverGroup" role="radiogroup" aria-label="问答方法"></div>
+        <p class="hint" id="retrieverHint"></p>
+        <label class="field">
+          <span>返回片段数 <b id="topKValue">6</b></span>
+          <input id="topKInput" type="range" min="1" max="16" value="6" />
+        </label>
+      </section>
+
+      <section class="block" id="exampleBlock" hidden>
+        <h2 class="block-title">示例问题</h2>
+        <div class="examples" id="exampleList"></div>
+      </section>
+
+      <section class="block">
+        <h2 class="block-title">历史记录
+          <button type="button" class="ghost tiny" id="clearHistory" hidden>清空</button>
+        </h2>
+        <ul class="history" id="historyList">
+          <li class="empty">还没有提问记录</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- 中栏：答案与引用原文 -->
+    <section class="pane pane-center">
+      <div class="pane-head">
+        <h2 class="block-title">答案</h2>
+        <div class="meta-row" id="answerMeta"></div>
+      </div>
+
+      <div id="answerBox" class="answer">
+        <div class="placeholder">
+          <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+            <path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          </svg>
+          <p>在左侧输入问题，或点一个示例开始。</p>
+          <p class="sub">答案会逐条给出图谱依据，并在下方列出引用原文。</p>
+        </div>
+      </div>
+
+      <div class="pane-head">
+        <h2 class="block-title">引用原文</h2>
+        <span class="count-badge" id="citationCount" hidden></span>
+      </div>
+      <div id="citationBox" class="citations">
+        <div class="placeholder small">
+          <p>答案产生后，这里会列出被引用的原文片段并高亮命中区间。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 右栏：本次检索命中的子图 -->
+    <section class="pane pane-right">
+      <div class="pane-head">
+        <h2 class="block-title">关联子图</h2>
+        <div class="meta-row">
+          <span class="count-badge" id="graphMeta" hidden></span>
+          <button type="button" class="ghost tiny" id="resetView" hidden>重排</button>
+        </div>
+      </div>
+
+      <div class="graph-wrap">
+        <div id="graphCanvas" role="img" aria-label="检索命中的关系子图"></div>
+        <div class="graph-empty" id="graphEmpty">
+          <p>暂无子图</p>
+          <p class="sub">向量基线不查图，因此不返回子图。</p>
+        </div>
+        <div class="zoom-controls" id="zoomControls" hidden>
+          <button type="button" class="zoom-btn" id="zoomIn" title="放大" aria-label="放大">+</button>
+          <button type="button" class="zoom-btn" id="zoomFit" title="适应画布" aria-label="适应画布">◎</button>
+          <button type="button" class="zoom-btn" id="zoomOut" title="缩小" aria-label="缩小">−</button>
+        </div>
+        <div class="graph-tools">
+          <span class="tool-hint">滚轮缩放 · 拖拽平移 · 悬停聚焦 · 点击看证据</span>
+        </div>
+      </div>
+
+      <div class="legend" id="graphLegend"></div>
+
+      <div id="nodeDetail" class="node-detail">
+        <div class="placeholder small">
+          <p>点击节点可查看它的证据来源。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <!-- 图可视化库随仓库分发，不走 CDN，断网也能演示 -->
+  <script src="/static/vendor/cytoscape.min.js"></script>
+  <script src="/static/graph.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

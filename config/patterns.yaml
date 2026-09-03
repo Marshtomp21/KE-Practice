@@ -1,0 +1,299 @@
+# 规则抽取的模式表。规则不写进 Python 源码，换语料时只改这个文件。
+#
+# 本表针对中文维基影片条目正文编写。条目本身就是一部影片，因此绝大多数关系的
+# 尾实体用 subject（条目自身）或 context_movie（本句书名号内的片名）即可确定，
+# 只需要从谓词左右把人名、公司名捕获出来。
+#
+# 语料里没有影人条目，人名不在词表中，所以人物类规则一律开 allow_new_head，
+# 由 rule_extractor 的 looks_like_name / strip_particles 兜住捕获边界。
+#
+# 每条规则字段：
+#   relation        : schema.yaml 中的关系名
+#   pattern         : 正则，命名组 head / tail；{E} 是一段实体候选文字
+#   head / tail     : capture | context_movie | subject | subject_or_person
+#   head_types      : 候选实体类型，用于在词表中消歧，也是新建实体时的类型
+#   split_head/tail : 捕获内容按顿号/逗号切成多个实体
+#   allow_new_head/tail : 允许新建不在词表中的实体
+#   confidence      : 该规则产出的置信度
+
+placeholders:
+  # 中文名、外文译名（含间隔号）、拉丁字母名都要能匹配
+  E: "[一-龥A-Za-z][一-龥A-Za-z0-9·\\.\\- ]{1,13}"
+  # 可以按顿号并列的一串名字。**不允许跨越逗号**：
+  # 「由加拿大、丹麦、爱尔兰合拍，阿里·阿巴西执导」里若允许跨逗号，
+  # 三个国家名就会被当成导演。顿号保留，因为并列导演确实用顿号连接。
+  LIST: "[^，。；！？\\n]{2,40}?"
+  # 影片类型的封闭词表。缺了某个类型只会漏抽，多写一个不认识的词则会误抽，
+  # 所以宁可列得保守一些。
+  GENRE: "剧情|喜剧|爱情|动作|冒险|科幻|奇幻|恐怖|惊悚|悬疑|犯罪|战争|历史|传记|音乐|歌舞|动画|纪录|武侠|西部|家庭|青春|校园|运动|灾难|黑色|超级英雄|默片|短|文艺|警匪|谍战|公路|伦理|魔幻|奇情"
+
+rules:
+  # ---- 执导 ----------------------------------------------------------
+  - relation: directed
+    pattern: "由(?P<head>{LIST})执导"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.92
+
+  - relation: directed
+    pattern: "(?P<head>{LIST})(?:执导|导演)(?:的)?(?:电影|影片|作品)"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.8
+
+  - relation: directed
+    pattern: "(?P<head>{LIST})(?:共同|联合|一同)执导"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.85
+
+  - relation: directed
+    pattern: "(?P<head>{E})导演(?:的)(?:第[0-9一二三四五六七八九十]+部)?(?:电影|影片|作品|长片)"
+    head: capture
+    head_types: [Person]
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.78
+
+  - relation: directed
+    pattern: "为(?P<head>{LIST})执导"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.85
+
+  - relation: directed
+    pattern: "导演[:：是为](?P<head>{LIST})(?:[。，；\\n]|$)"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: subject
+    tail_types: [Movie]
+    confidence: 0.85
+
+  # ---- 编剧 ----------------------------------------------------------
+  - relation: wrote
+    pattern: "由(?P<head>{LIST})(?:担任)?编剧"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.88
+
+  - relation: wrote
+    pattern: "(?P<head>{LIST})(?:共同)?(?:担任编剧|编写剧本|撰写剧本)"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.82
+
+  - relation: wrote
+    pattern: "(?P<head>{LIST})(?:共同|联合|一同)?编剧"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.8
+
+  - relation: wrote
+    pattern: "(?P<head>{LIST})(?:执笔|操刀)(?:改编)?(?:剧本)?"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.72
+
+  - relation: wrote
+    pattern: "(?P<head>{LIST})执导(?:并|兼)(?:担任)?编剧"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.85
+
+  - relation: wrote
+    pattern: "(?:编剧|剧本|脚本)[:：](?P<head>{LIST})(?:[。，；\\n]|$)"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: subject
+    tail_types: [Movie]
+    confidence: 0.85
+
+  # ---- 出演 ----------------------------------------------------------
+  - relation: acted_in
+    pattern: "(?P<head>{LIST})(?:等人)?(?:领衔)?主演"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.85
+
+  - relation: acted_in
+    pattern: "由(?P<head>{LIST})(?:等)?(?:主|出|参)演"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.85
+
+  - relation: acted_in
+    pattern: "(?P<head>{E})(?:饰演|饰|扮演|声演|配音)"
+    head: capture
+    head_types: [Person]
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.8
+
+  - relation: acted_in
+    pattern: "(?:主演|演员|演出)[:：](?P<head>{LIST})(?:[。，；\\n]|$)"
+    head: capture
+    head_types: [Person]
+    split_head: true
+    allow_new_head: true
+    tail: subject
+    tail_types: [Movie]
+    confidence: 0.82
+
+  # ---- 饰演角色 ------------------------------------------------------
+  - relation: plays
+    pattern: "(?P<head>{E})(?:饰演|饰|扮演|声演)[「『\"]?(?P<tail>{E})"
+    head: capture
+    head_types: [Person]
+    allow_new_head: true
+    tail: capture
+    tail_types: [Character]
+    allow_new_tail: true
+    confidence: 0.72
+
+  # ---- 出品与发行 ----------------------------------------------------
+  - relation: produced
+    pattern: "由(?P<head>{LIST})(?:制作|製作|出品|投资制作)"
+    head: capture
+    head_types: [Company]
+    split_head: true
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.8
+
+  - relation: produced
+    pattern: "(?:制作公司|出品公司|制片公司|发行商|制作)[:：](?P<head>{LIST})(?:[。，；\\n]|$)"
+    head: capture
+    head_types: [Company]
+    split_head: true
+    allow_new_head: true
+    tail: subject
+    tail_types: [Movie]
+    confidence: 0.82
+
+  - relation: produced
+    pattern: "(?P<head>{E})(?:发行|出品|制作发行)(?:的)?(?:电影|影片|本片)"
+    head: capture
+    head_types: [Company]
+    allow_new_head: true
+    tail: context_movie
+    tail_types: [Movie]
+    confidence: 0.7
+
+  # ---- 类型 ----------------------------------------------------------
+  # 影片类型是一个封闭词表：不枚举的话，「2024年美国电影」里的「美国」、
+  # 「宁浩执导的电影」里的「宁浩」都会被当成类型。词表放配置里，代码不感知。
+  - relation: has_genre
+    pattern: "(?P<tail>{GENRE})(?:电影|影片|片|剧)"
+    head: context_movie
+    head_types: [Movie]
+    tail: capture
+    tail_types: [Genre]
+    allow_new_tail: true
+    confidence: 0.75
+
+  - relation: has_genre
+    pattern: "(?:类型|類型)[:：]\\s*(?P<tail>{GENRE})"
+    head: subject
+    head_types: [Movie]
+    tail: capture
+    tail_types: [Genre]
+    allow_new_tail: true
+    confidence: 0.8
+
+  # ---- 奖项 ----------------------------------------------------------
+  - relation: won
+    pattern: "(?:获得|荣获|夺得|赢得)(?:了)?(?:第[0-9一二三四五六七八九十]+届)?(?P<tail>{E})(?:奖|奖项)"
+    head: subject
+    head_types: [Movie]
+    tail: capture
+    tail_types: [Award]
+    allow_new_tail: true
+    confidence: 0.65
+
+  - relation: nominated
+    pattern: "(?:入围|提名)(?:了)?(?:第[0-9一二三四五六七八九十]+届)?(?P<tail>{E})(?:奖|奖项)"
+    head: subject
+    head_types: [Movie]
+    tail: capture
+    tail_types: [Award]
+    allow_new_tail: true
+    confidence: 0.65
+
+  # ---- 影片之间 ------------------------------------------------------
+  - relation: adapted_from
+    pattern: "改编自(?:同名)?(?:小说|漫画|游戏|电影|剧集|舞台剧)?《(?P<tail>[^《》]{1,30})》"
+    head: subject
+    head_types: [Movie]
+    tail: capture
+    tail_types: [Movie]
+    allow_new_tail: true
+    confidence: 0.75
+
+  - relation: sequel_of
+    pattern: "(?:是|为)《(?P<tail>[^《》]{1,30})》(?:的)?(?:续集|续作|第二部|后传)"
+    head: subject
+    head_types: [Movie]
+    tail: capture
+    tail_types: [Movie]
+    allow_new_tail: true
+    confidence: 0.75
+
+  - relation: sequel_of
+    pattern: "《(?P<tail>[^《》]{1,30})》(?:的)?(?:直接)?(?:续集|续作)"
+    head: subject
+    head_types: [Movie]
+    tail: capture
+    tail_types: [Movie]
+    allow_new_tail: true
+    confidence: 0.65

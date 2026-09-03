@@ -1,0 +1,9 @@
+# 本地向量基线与 Web 服务的核心依赖。GraphRAG 可选依赖见 requirements-graphrag.txt。
+fastapi>=0.141.1
+uvicorn>=0.52.4
+networkx>=3.5
+numpy>=2.3.5
+PyYAML>=6.0.3
+httpx>=0.28.1
+pydantic>=2.12.4
+python-dotenv>=1.0

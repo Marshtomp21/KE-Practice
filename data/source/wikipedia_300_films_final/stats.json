@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-09-03T03:45:48+00:00",
+  "film_records": 361,
+  "full_wikitext_records": 361,
+  "intro_records": 361,
+  "relation_rows": 4941,
+  "collaboration_pairs": 14610,
+  "field_coverage": {
+    "directors": 289,
+    "actors": 339,
+    "screenwriters": 297,
+    "production_companies": 234,
+    "awards_received": 91,
+    "nominations": 23,
+    "genres": 341,
+    "adapted_from": 94,
+    "previous_works": 47,
+    "sequels": 40
+  },
+  "films_with_character_roles": 169,
+  "meets_300_film_requirement": true,
+  "schema": [
+    "影片",
+    "导演",
+    "演员",
+    "编剧",
+    "制片公司",
+    "奖项",
+    "类型",
+    "角色"
+  ],
+  "relations": [
+    "执导",
+    "出演",
+    "编剧",
+    "出品",
+    "获奖",
+    "提名",
+    "改编自",
+    "前作",
+    "续作",
+    "合作"
+  ],
+  "language_variant": "简体中文（OpenCC t2s）",
+  "actor_records": 1784,
+  "actor_records_with_wikipedia_text": 1164,
+  "director_records": 274,
+  "director_records_with_wikipedia_text": 194,
+  "entity_files": {
+    "影片": "films.jsonl",
+    "演员": "actors.jsonl",
+    "导演": "directors.jsonl"
+  }
+}
