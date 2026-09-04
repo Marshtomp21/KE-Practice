@@ -1,8 +1,12 @@
 # 影视领域 GraphRAG 方法实验基座
 
-项目当前聚焦检索问答方法本身，只保留两个可运行基线：
+项目当前聚焦检索问答方法本身，提供两个基线和两个相关工作方法：
 
 - `vector`：项目内的本地向量 RAG。使用 NumPy 向量索引召回文本，由统一生成器回答。
+- `kg2rag`：KG²RAG-style 方法。语义检索产生种子 Chunk，执行有界知识图扩展，
+  再用语义相关度与图证据支持度联合重排。
+- `hipporag2`：HippoRAG 2-style 方法。以问题实体作为重启分布，在实体关系图上
+  执行带高度节点惩罚的 Personalized PageRank，并保留查询实体间的桥接路径。
 - `library_graphrag`：调用官方 `neo4j-graphrag` 包的 `VectorCypherRetriever` 和
   `GraphRAG`。先从 Neo4j 向量索引命中 Chunk，再扩展两跳子图并生成答案。
 
@@ -13,10 +17,11 @@
 ## 当前架构
 
 ```text
-                         ┌─ vector ─ 本地 NPZ 向量索引 ─ 统一生成器
+                         ┌─ vector ─ 本地 NPZ 向量索引 ──────────────┐
+                         ├─ kg2rag ─ 语义种子 ─ 图扩展 ─ 重排 ──────┤
 问题 ─ QAService ─ 方法注册表
-                         └─ library_graphrag ─ Neo4j VectorCypherRetriever
-                                                └─ GraphRAG.search()
+                         ├─ hipporag2 ─ 实体种子 ─ PPR ─ 路径证据 ─┤─ 回答
+                         └─ library_graphrag ─ Neo4j GraphRAG ──────┘
 ```
 
 主要代码：
@@ -25,9 +30,13 @@
 src/methods/
   registry.py             完整问答方法注册表
   vector.py               本地向量 RAG 基线
+  kg2rag.py               KG²RAG-style 方法适配器
+  hipporag2.py            HippoRAG 2-style 方法适配器
   library_graphrag.py     官方库 GraphRAG 适配器
 src/generate/service.py   CLI / API / 评测共用入口
-src/retrieve/             底层向量工具及暂不启用的旧实验检索器
+src/retrieve/kg2rag.py     种子、扩展与候选重排
+src/retrieve/hipporag2.py  高度惩罚 PPR 与桥接路径
+src/retrieve/dataset_graph.py  结构化电影关系到本地图的只读适配
 scripts/build_index.py    只构建本地向量基线
 scripts/sync_neo4j.py     一次性同步现有数据到 Neo4j
 ```
@@ -119,13 +128,33 @@ python scripts/ask.py "梁朝伟与章子怡通过哪些影片产生关联？" -
 这里确实调用 `neo4j_graphrag.generation.GraphRAG.search()`；库负责检索、上下文增强
 和答案生成，本项目只负责配置以及把库结果转换成统一的 `Answer`。
 
-## 4. Web 与评测
+## 4. KG²RAG 与 HippoRAG 2
+
+两个方法共享 `vector` 的 Chunk、Embedding 和生成器，以保证方法对比时只改变检索
+过程。知识图在方法首次使用时从 `data/source/wikipedia_300_films_final/` 的结构化
+关系只读构建到内存，不修改 Neo4j，也不写入其他方法的索引。
+
+完成第 2 节的数据导入和向量索引构建后即可运行：
+
+```bash
+python scripts/ask.py "王俊凯与苗苗通过哪部影片产生关联？" \
+  --retriever kg2rag --show-debug
+
+python scripts/ask.py "哪些演员多次出现在宫崎骏执导的影片中？" \
+  --retriever hipporag2 --show-debug
+```
+
+两种方法的参数分别位于 `config/settings.yaml` 的 `kg2rag` 和 `hipporag2` 配置块。
+调试结果包含语义种子、图种子、扩展规模、PPR 排名、桥接路径、候选分项得分和
+最终重排结果，便于前端展示与消融实验。
+
+## 5. Web 与评测
 
 ```bash
 python scripts/serve.py
 ```
 
-浏览器访问 `http://127.0.0.1:8000/`，可以切换两个方法。
+浏览器访问 `http://127.0.0.1:8000/`，可以切换四种问答方法。
 
 只测试本地向量基线：
 
@@ -133,13 +162,15 @@ python scripts/serve.py
 python eval/run_compare.py
 ```
 
-Neo4j 和 LLM 均已配置时比较两个方法：
+比较本地基线和两个相关工作方法：
 
 ```bash
-python eval/run_compare.py --retrievers vector,library_graphrag
+python eval/run_compare.py --retrievers vector,kg2rag,hipporag2
 ```
 
-## 5. 添加后续 GraphRAG 方法
+Neo4j 和 LLM 均已配置时，可在列表中追加 `library_graphrag`。
+
+## 6. 添加后续 GraphRAG 方法
 
 新方法实现：
 
@@ -159,7 +190,7 @@ class MyMethod(QAMethod):
 然后在 `src/methods/__init__.py` 导入模块触发注册。方法可以复用当前的 Chunk、
 Neo4j 图、自己的索引，或者调用第三方实现；上层始终只接收统一 `Answer`。
 
-## 6. 测试
+## 7. 测试
 
 ```bash
 python -m pytest -q

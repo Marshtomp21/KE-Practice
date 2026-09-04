@@ -7,7 +7,7 @@
   eval/results/compare_table.md   按题型分组的对比表，可直接贴进报告
   eval/results/compare_rows.csv   逐题逐检索器的明细
   eval/results/evidence.md        每题各检索器实际检索到的证据内容
-用法：python eval/run_compare.py [--retrievers vector,library_graphrag] [--top-k 6]
+用法：python eval/run_compare.py [--retrievers vector,kg2rag,hipporag2] [--top-k 6]
 """
 from __future__ import annotations
 
@@ -186,7 +186,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--retrievers", default="vector",
-        help="逗号分隔；库方法已配置时可传 vector,library_graphrag",
+        help="逗号分隔，例如 vector,kg2rag,hipporag2；Neo4j 已配置时也可加入 library_graphrag",
     )
     parser.add_argument("--top-k", type=int, default=None)
     parser.add_argument("--questions", default=str(QUESTION_FILE))

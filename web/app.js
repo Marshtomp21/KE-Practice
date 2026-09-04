@@ -12,6 +12,8 @@
  */
 const RETRIEVER_META = {
   vector: { title: '向量 RAG', hint: '使用本地向量索引召回文本片段，再由统一生成器回答。' },
+  kg2rag: { title: 'KG²RAG', hint: '从语义种子片段扩展有界知识图邻域，再联合图证据与语义相关度重排。' },
+  hipporag2: { title: 'HippoRAG 2', hint: '以问题实体为重启种子执行带高度节点惩罚的 PPR，聚合跨文档证据。' },
   library_graphrag: { title: '库 GraphRAG', hint: '调用 neo4j-graphrag：向量命中 Neo4j Chunk 后扩展有界实体邻域，再由 GraphRAG 生成。' },
 };
 
@@ -115,6 +117,7 @@ async function loadHealth() {
     const resources = health.graph || {};
     dom.stats.innerHTML = [
       ['本地向量索引', resources.local_vector_index ? '就绪' : '未构建'],
+      ['本地电影关系图', resources.dataset_graph_source ? '就绪' : '缺失'],
       ['库 GraphRAG', 'Neo4j'],
     ].map(([label, value]) => `<span class="chip">${label} <b>${value}</b></span>`).join('');
   } catch (error) {

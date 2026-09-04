@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import List, Optional, Sequence, Tuple
+from typing import Dict, List, Optional, Sequence, Tuple
 
 import numpy as np
 
@@ -72,6 +72,26 @@ class ChunkVectorIndex:
         order = np.argpartition(-scores, top_k - 1)[:top_k]
         order = order[np.argsort(-scores[order])]
         return [(self._chunks[i], float(scores[i])) for i in order if scores[i] > 0]
+
+    def score_chunks(self, query: str, chunk_ids: Sequence[str]) -> Dict[str, float]:
+        """Score an explicit candidate set with the same query encoder as search.
+
+        Graph methods first discover candidates structurally and then need a
+        comparable semantic score.  Keeping this operation in the index avoids
+        duplicating or reaching into its private matrix representation.
+        """
+        if self._matrix is None or not self._chunks or not chunk_ids:
+            return {}
+        query_vector = self.embedder.encode([query])
+        if query_vector.shape[1] != self._matrix.shape[1]:
+            raise ValueError("查询向量维度与索引不一致，请重建索引")
+        positions = {chunk.id: index for index, chunk in enumerate(self._chunks)}
+        result: Dict[str, float] = {}
+        for chunk_id in dict.fromkeys(chunk_ids):
+            position = positions.get(chunk_id)
+            if position is not None:
+                result[chunk_id] = float(self._matrix[position] @ query_vector[0])
+        return result
 
     def chunks_by_id(self, chunk_ids: Sequence[str]) -> List[Chunk]:
         wanted = set(chunk_ids)
