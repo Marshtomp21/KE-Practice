@@ -72,6 +72,31 @@ qa:
 retrieval:
   top_k_chunks: 6
   max_context_chars: 6000
+  anchor_min_score: 0.55
+
+# KG²RAG-style：向量种子片段 -> 有界知识图扩展 -> 图/语义联合重排。
+# 参数独立于其它方法，修改这些值不会改变 vector 或 library_graphrag。
+kg2rag:
+  seed_chunks: 5
+  anchor_top_n: 5
+  max_hops: 2
+  max_nodes: 80
+  candidate_chunks: 30
+  semantic_weight: 0.65
+  graph_weight: 0.35
+  hop_decay: 0.70
+
+# HippoRAG 2-style：查询实体作为重启分布，在本地图上执行带高度节点惩罚的 PPR。
+hipporag2:
+  anchor_top_n: 5
+  alpha: 0.85
+  max_iter: 200
+  tolerance: 1.0e-8
+  top_nodes: 50
+  degree_penalty: 0.50
+  max_path_hops: 4
+  graph_weight: 0.85
+  semantic_weight: 0.15
 
 # 官方 neo4j-graphrag 库基线。Neo4j 内应已有 Chunk 节点、FROM_CHUNK 关系，
 # 且向量索引维度必须与上方 embedding.dimension 一致。

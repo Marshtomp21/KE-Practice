@@ -23,7 +23,7 @@ def main() -> int:
     parser.add_argument("question", help="要问的问题")
     parser.add_argument(
         "--retriever", default=None,
-        help="问答方法：vector / library_graphrag（默认读取 settings.yaml）",
+        help="问答方法：vector / kg2rag / hipporag2 / library_graphrag（默认读取 settings.yaml）",
     )
     parser.add_argument("--top-k", type=int, default=None)
     parser.add_argument("--show-debug", action="store_true", help="打印检索过程信息")

@@ -1,8 +1,9 @@
-"""构建本地向量基线：导入 -> 清洗切分 -> 建向量索引。
+"""构建 vector、KG²RAG 和 HippoRAG 2 共用的 Chunk 向量索引。
 
 用法：
   python scripts/build_index.py --skip-ingest  # 复用已落盘的切分结果
 
+KG²RAG/HippoRAG 2 的本地图在首次问答时从结构化电影数据只读构建；
 neo4j-graphrag 使用 Neo4j 内已有的图与向量索引，不由本脚本构建。
 """
 from __future__ import annotations
@@ -62,7 +63,7 @@ def main() -> int:
     section("完成")
     print("接下来可以运行：")
     print("  python scripts/ask.py \"某位导演执导过哪些影片\"")
-    print("  python eval/run_compare.py --retrievers vector")
+    print("  python eval/run_compare.py --retrievers vector,kg2rag,hipporag2")
     print("  python scripts/serve.py")
     return 0
 

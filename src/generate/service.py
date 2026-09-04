@@ -1,7 +1,7 @@
 """统一问答服务。
 
-当前只暴露两个研究基线：本地向量 RAG 与 neo4j-graphrag 官方库实现。调用方
-面向 QAMethod，因此后续复现新的 GraphRAG 方法时无需修改 CLI、API 或前端。
+暴露本地向量基线、两个相关工作方法和 neo4j-graphrag 官方库实现。调用方始终
+面向 QAMethod，因此各方法的资源与检索过程互相隔离。
 """
 from __future__ import annotations
 
@@ -39,7 +39,7 @@ class QAService:
         top_k: Optional[int] = None,
         year_range=None,
     ) -> Answer:
-        # year_range 仅为兼容旧调用签名；当前两个基线均不实现时间过滤。
+        # year_range 仅为兼容旧调用签名；当前完整方法不实现时间过滤。
         return self.method(retriever_name).ask(question, top_k=top_k)
 
     def graph_stats(self) -> Dict[str, object]:
@@ -49,6 +49,7 @@ class QAService:
             "local_vector_index": embedding_file.exists(),
             "local_vector_index_path": str(embedding_file),
             "local_graph_snapshot": graph_file.exists(),
+            "dataset_graph_source": self.settings.path("paths.dataset_dir").exists(),
             "note": "library_graphrag 的图谱与向量索引位于 Neo4j",
         }
 
