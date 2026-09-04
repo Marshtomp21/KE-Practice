@@ -3,7 +3,9 @@ from __future__ import annotations
 import json
 from types import SimpleNamespace
 
-from src.core.types import Answer, Chunk, Entity, Evidence, Relation, RetrievalResult
+from src.core.types import (
+    Answer, Chunk, EdgeMask, Entity, Evidence, Relation, RetrievalConstraints, RetrievalResult,
+)
 from src.graph.networkx_store import NetworkxGraphStore
 from src.methods.hipporag2 import HippoRAG2Method
 from src.methods.kg2rag import KG2RAGMethod
@@ -148,7 +150,9 @@ def test_library_method_calls_full_rag_search_and_returns_context():
     class FakeRag:
         def search(self, **kwargs):
             assert kwargs["query_text"] == "图问题"
-            assert kwargs["retriever_config"] == {"top_k": 4}
+            assert kwargs["retriever_config"] == {
+                "top_k": 4, "query_params": {"masked_edge_keys": []}
+            }
             assert kwargs["return_context"] is True
             return SimpleNamespace(
                 answer="库生成答案",
@@ -161,6 +165,21 @@ def test_library_method_calls_full_rag_search_and_returns_context():
     assert answer.text == "库生成答案"
     assert answer.retriever_name == "library_graphrag"
     assert answer.citations[0].snippet == "上下文"
+
+
+def test_library_method_passes_query_local_edge_masks():
+    class FakeRag:
+        def search(self, **kwargs):
+            keys = kwargs["retriever_config"]["query_params"]["masked_edge_keys"]
+            assert "actor|acted_in|film" in keys
+            assert "film|出演|actor" in keys
+            return SimpleNamespace(answer="答案", retriever_result=SimpleNamespace(items=[]))
+
+    method = LibraryGraphRAGMethod(FakeSettings())
+    method._rag = FakeRag()
+    method.ask(
+        "图问题", constraints=RetrievalConstraints((EdgeMask("actor", "acted_in", "film"),))
+    )
 
 
 def test_kg2rag_expands_vector_seed_and_reranks_graph_evidence():
@@ -178,6 +197,18 @@ def test_hipporag2_keeps_bridge_path_between_query_entities():
     assert ["actor-b", "film-1", "actor-c"] in result.debug_info["bridge_paths"]
     assert result.debug_info["converged"] is True
     assert result.chunks[0].id == "c-film-1"
+
+
+def test_local_graph_retrievers_hide_masked_edge_without_mutating_store():
+    context = graph_context()
+    constraints = RetrievalConstraints((EdgeMask("actor-c", "acted_in", "film-1"),))
+    for retriever in (KG2RAGRetriever(context), HippoRAG2Retriever(context)):
+        result = retriever.retrieve(
+            "演员乙与演员丙通过什么影片关联？", top_k=2, constraints=constraints
+        )
+        assert not any(relation.id == "r5" for relation in result.relations)
+        assert result.debug_info["masked_edge_count"] == 1
+    assert any(relation.id == "r5" for relation in context.store.all_relations())
 
 
 def test_new_methods_are_isolated_qamethod_wrappers():

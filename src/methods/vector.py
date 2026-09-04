@@ -6,7 +6,7 @@ from typing import Optional
 
 from ..core.config import Settings
 from ..core.interfaces import AnswerGenerator, QAMethod
-from ..core.types import Answer, RetrievalResult
+from ..core.types import Answer, RetrievalConstraints, RetrievalResult
 from ..generate.answer import build_generator
 from ..retrieve.vector_index import ChunkVectorIndex
 from .registry import register
@@ -27,7 +27,12 @@ class VectorQAMethod(QAMethod):
         self.generator = generator or build_generator(settings)
         self.default_top_k = int(settings.get("retrieval.top_k_chunks", 6))
 
-    def ask(self, question: str, top_k: Optional[int] = None) -> Answer:
+    def ask(
+        self,
+        question: str,
+        top_k: Optional[int] = None,
+        constraints: Optional[RetrievalConstraints] = None,
+    ) -> Answer:
         started = time.perf_counter()
         limit = top_k or self.default_top_k
         hits = self.index.search(question, top_k=limit)

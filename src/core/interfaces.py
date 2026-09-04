@@ -16,6 +16,7 @@ from .types import (
     Entity,
     RawDocument,
     Relation,
+    RetrievalConstraints,
     RetrievalResult,
 )
 
@@ -117,6 +118,7 @@ class Retriever(ABC):
         question: str,
         top_k: Optional[int] = None,
         year_range: Optional[Tuple[Optional[int], Optional[int]]] = None,
+        constraints: Optional[RetrievalConstraints] = None,
     ) -> RetrievalResult:
         """year_range 为可选的年份窗口；通用检索器可以忽略它。"""
 
@@ -140,7 +142,12 @@ class QAMethod(ABC):
     name: str = "method"
 
     @abstractmethod
-    def ask(self, question: str, top_k: Optional[int] = None) -> Answer:
+    def ask(
+        self,
+        question: str,
+        top_k: Optional[int] = None,
+        constraints: Optional[RetrievalConstraints] = None,
+    ) -> Answer:
         ...
 
     def close(self) -> None:

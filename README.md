@@ -170,6 +170,25 @@ python eval/run_compare.py --retrievers vector,kg2rag,hipporag2
 
 Neo4j 和 LLM 均已配置时，可在列表中追加 `library_graphrag`。
 
+面向“不完备知识图谱检索”的 40 题 benchmark 位于
+`eval/benchmark_v2/questions.yaml`。其中 30 题会在单次查询的只读图视图中隐藏
+关键关系，但保留原始 Chunk 证据；另有 4 题完整图校准和 6 题困难负例。题集包含
+8 道 dev 与 32 道冻结 test，详细设计和评分口径见 `eval/benchmark_v2/README.md`。
+
+benchmark 还提供两个仅用于实验的对照：`naive_hybrid` 每题无条件合并图与向量
+检索，`oracle_repair` 使用 gold 补偿查询作为性能上界。它们不会注册到 Web 或正式
+方法列表，不影响其他成员继续开发方法。
+
+本轮 6 种方法在 Complete/Masked 图视图上的正式结果、分析和后续方法计划见
+[`docs/知识图谱缺边补偿Benchmark实验报告.md`](docs/知识图谱缺边补偿Benchmark实验报告.md)。
+
+建议先对 dev 集运行完整图/缺边图配对实验：
+
+```bash
+python eval/run_benchmark_v2.py --split dev --graph-view complete
+python eval/run_benchmark_v2.py --split dev --graph-view masked
+```
+
 ## 6. 添加后续 GraphRAG 方法
 
 新方法实现：

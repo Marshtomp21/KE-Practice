@@ -13,7 +13,7 @@ import httpx
 
 from ..core.config import Settings
 from ..core.interfaces import QAMethod
-from ..core.types import Answer, Citation, Entity, Relation, Subgraph
+from ..core.types import Answer, Citation, Entity, Relation, RetrievalConstraints, Subgraph
 from ..generate.answer import EMPTY_REPLY
 from ..retrieve.embedding import build_embedder
 from .registry import register
@@ -88,7 +88,8 @@ class LibraryGraphRAGMethod(QAMethod):
                 neo4j_database=self.settings.get("library_graphrag.neo4j.database") or None,
             )
             self._http_client = httpx.Client(
-                trust_env=bool(self.settings.get("llm.trust_env_proxy", False))
+                trust_env=bool(self.settings.get("llm.trust_env_proxy", False)),
+                timeout=float(self.settings.get("llm.timeout_seconds", 120)),
             )
             llm = OpenAILLM(
                 model_name=str(self.settings.get("llm.model", "")),
@@ -96,6 +97,8 @@ class LibraryGraphRAGMethod(QAMethod):
                 base_url=_api_base_url(str(self.settings.get("llm.endpoint", ""))),
                 model_params={"temperature": float(self.settings.get("generation.temperature", 0.0))},
                 http_client=self._http_client,
+                # benchmark runner 负责逐题断点续跑；禁用 SDK 隐式多次长超时重试。
+                max_retries=int(self.settings.get("library_graphrag.max_retries", 0)),
             )
             template = RagTemplate(
                 template=(
@@ -118,6 +121,11 @@ class LibraryGraphRAGMethod(QAMethod):
         OPTIONAL MATCH (chunk)<-[:FROM_CHUNK]-(seed:Entity)
         CALL (seed) {{
             OPTIONAL MATCH (seed)-[relation:KG_RELATION]-(neighbor:Entity)
+            WHERE relation IS NULL OR NOT (
+                coalesce(startNode(relation).id, '') + '|' +
+                coalesce(relation.type, type(relation)) + '|' +
+                coalesce(endNode(relation).id, '') IN $masked_edge_keys
+            )
             WITH relation, neighbor
             ORDER BY coalesce(relation.collaboration_count, 0) DESC,
                      elementId(relation)
@@ -127,16 +135,19 @@ class LibraryGraphRAGMethod(QAMethod):
         }}
         WITH chunk, score,
              [n IN [seed] + neighbor_list WHERE n IS NOT NULL |
-                {{id: elementId(n), name: coalesce(n.name, n.title, ''),
+                {{id: coalesce(n.id, elementId(n)), name: coalesce(n.name, n.title, ''),
                  type: coalesce(n.type, head(labels(n)))}}
              ] AS nodes,
              [r IN relation_list WHERE r IS NOT NULL |
-                {{id: elementId(r), source: elementId(startNode(r)),
-                 target: elementId(endNode(r)), type: coalesce(r.type, type(r))}}
+                {{id: coalesce(r.id, elementId(r)),
+                 source: coalesce(startNode(r).id, elementId(startNode(r))),
+                 target: coalesce(endNode(r).id, elementId(endNode(r))),
+                 type: coalesce(r.type, type(r))}}
              ] AS edges
         RETURN {{
             text: coalesce(chunk.text, ''),
             chunk_id: coalesce(chunk.id, elementId(chunk)),
+            doc_id: coalesce(chunk.doc_id, ''),
             score: score,
             nodes: nodes,
             edges: edges
@@ -164,13 +175,25 @@ class LibraryGraphRAGMethod(QAMethod):
 
         return format_record
 
-    def ask(self, question: str, top_k: Optional[int] = None) -> Answer:
+    def ask(
+        self,
+        question: str,
+        top_k: Optional[int] = None,
+        constraints: Optional[RetrievalConstraints] = None,
+    ) -> Answer:
         started = time.perf_counter()
         self._ensure_runtime()
         limit = top_k or self.default_top_k
+        retriever_config: Dict[str, Any] = {
+            "top_k": limit,
+            # Cypher 始终引用该参数；完整图视图传空列表。
+            "query_params": {
+                "masked_edge_keys": (constraints or RetrievalConstraints()).neo4j_mask_keys()
+            },
+        }
         response = self._rag.search(
             query_text=question,
-            retriever_config={"top_k": limit},
+            retriever_config=retriever_config,
             return_context=True,
             response_fallback=EMPTY_REPLY,
         )
@@ -200,8 +223,9 @@ class LibraryGraphRAGMethod(QAMethod):
             metadata: Dict[str, Any] = dict(getattr(item, "metadata", {}) or {})
             text = str(metadata.get("text") or getattr(item, "content", ""))
             chunk_id = str(metadata.get("chunk_id") or f"neo4j-context-{index}")
+            doc_id = str(metadata.get("doc_id") or "neo4j")
             citations.append(Citation(
-                marker=f"S{index}", doc_id="neo4j", chunk_id=chunk_id,
+                marker=f"S{index}", doc_id=doc_id, chunk_id=chunk_id,
                 char_start=0, char_end=len(text), snippet=text,
             ))
             score = float(metadata.get("score") or 0.0)

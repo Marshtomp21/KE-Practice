@@ -6,7 +6,7 @@ from collections import defaultdict
 from typing import Dict, List, Optional, Sequence, Tuple
 
 from ..core.interfaces import Retriever
-from ..core.types import Chunk, Entity, Relation, RetrievalResult
+from ..core.types import Chunk, Entity, Relation, RetrievalConstraints, RetrievalResult
 from .anchors import anchors_to_debug
 from .registry import RetrievalContext
 from .research_utils import evidence_chunk_ids, normalize_scores, relation_adjacency, semantic_scores
@@ -32,13 +32,13 @@ class KG2RAGRetriever(Retriever):
         self._chunks = context.chunk_lookup()
         self._entities = {entity.id: entity for entity in context.store.all_entities()}
         self._relations = context.store.all_relations()
-        self._adjacency = relation_adjacency(self._relations)
 
     def retrieve(
         self,
         question: str,
         top_k: Optional[int] = None,
         year_range: Optional[Tuple[Optional[int], Optional[int]]] = None,
+        constraints: Optional[RetrievalConstraints] = None,
     ) -> RetrievalResult:
         limit = top_k or self.default_top_k
         seed_hits = self.context.index.search(question, top_k=max(self.seed_chunks, limit))
@@ -52,11 +52,17 @@ class KG2RAGRetriever(Retriever):
             if any(evidence.chunk_id in seed_set for evidence in entity.evidences):
                 seed_scores[entity.id] = max(seed_scores.get(entity.id, 0.0), 0.65)
 
-        node_scores, distances = self._bounded_expand(seed_scores)
+        constraints = constraints or RetrievalConstraints()
+        active_relations = [
+            relation for relation in self._relations
+            if not constraints.masks(relation.head_id, relation.type, relation.tail_id)
+        ]
+        adjacency = relation_adjacency(active_relations)
+        node_scores, distances = self._bounded_expand(seed_scores, adjacency)
         kept_ids = set(node_scores)
         entities = [self._entities[node] for node in node_scores if node in self._entities]
         relations = [
-            relation for relation in self._relations
+            relation for relation in active_relations
             if relation.head_id in kept_ids and relation.tail_id in kept_ids
         ]
 
@@ -103,6 +109,7 @@ class KG2RAGRetriever(Retriever):
                 "expanded_relations": len(relations),
                 "hop_distance": distances,
                 "candidate_chunks": len(candidate_ids),
+                "masked_edge_count": len(constraints.masked_edges),
                 "reranked_chunks": [
                     {
                         "chunk_id": chunk_id,
@@ -115,7 +122,9 @@ class KG2RAGRetriever(Retriever):
             },
         )
 
-    def _bounded_expand(self, seeds: Dict[str, float]) -> Tuple[Dict[str, float], Dict[str, int]]:
+    def _bounded_expand(
+        self, seeds: Dict[str, float], adjacency: Dict[str, list]
+    ) -> Tuple[Dict[str, float], Dict[str, int]]:
         scores: Dict[str, float] = {}
         distances: Dict[str, int] = {}
         queue: List[Tuple[float, int, str]] = []
@@ -131,7 +140,7 @@ class KG2RAGRetriever(Retriever):
             current = -negative_score
             if depth >= self.max_hops or current + 1e-12 < scores.get(node, 0.0):
                 continue
-            neighbors = sorted(self._adjacency.get(node, []), key=lambda pair: pair[0])
+            neighbors = sorted(adjacency.get(node, []), key=lambda pair: pair[0])
             for neighbor, relation in neighbors:
                 if neighbor not in self._entities:
                     continue
