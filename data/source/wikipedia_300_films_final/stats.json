@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-09-04T11:41:28.858798+00:00",
+  "film_records": 661,
+  "actor_records": 3020,
+  "director_records": 426,
+  "relation_rows": 9628,
+  "collaboration_pairs": 25957,
+  "imdb_films_added": 300,
+  "field_coverage": {
+    "directors": 589,
+    "actors": 639,
+    "screenwriters": 597,
+    "production_companies": 234,
+    "awards_received": 91,
+    "nominations": 23,
+    "genres": 641,
+    "adapted_from": 94,
+    "previous_works": 47,
+    "sequels": 40
+  },
+  "films_with_character_roles": 169,
+  "meets_300_film_requirement": true,
+  "schema": [
+    "影片",
+    "导演",
+    "演员",
+    "编剧",
+    "制片公司",
+    "奖项",
+    "类型",
+    "角色"
+  ],
+  "relations": [
+    "出品",
+    "出演",
+    "前作",
+    "合作",
+    "执导",
+    "提名",
+    "改编自",
+    "类型",
+    "续作",
+    "编剧",
+    "获奖"
+  ],
+  "language_variant": "简体中文（逐字段强制转换并校验）",
+  "sources": [
+    "Chinese Wikipedia",
+    "IMDb Non-Commercial Datasets"
+  ],
+  "entity_files": {
+    "影片": "films.jsonl",
+    "演员": "actors.jsonl",
+    "导演": "directors.jsonl"
+  },
+  "deduplication": {
+    "method": "相同ID合并；Q/IMDb用P345确认；NAME实体仅凭共同影片或Wikidata演职声明合并",
+    "verified_id_mappings": 341,
+    "unresolved_same_name_entities_preserved": 21,
+    "removed": {
+      "films.jsonl": 0,
+      "actors.jsonl": 296,
+      "directors.jsonl": 23,
+      "relations.jsonl": 20,
+      "collaborations.jsonl": 1432
+    }
+  }
+}
