@@ -6,7 +6,7 @@ from typing import Optional
 
 from ..core.config import Settings
 from ..core.interfaces import AnswerGenerator, QAMethod, Retriever
-from ..core.types import Answer
+from ..core.types import Answer, RetrievalConstraints
 from ..generate.answer import build_generator
 from ..retrieve.anchors import AnchorResolver
 from ..retrieve.dataset_graph import DatasetGraphLoader
@@ -44,10 +44,18 @@ class LocalGraphQAMethod(QAMethod):
     def _build_retriever(self, context: RetrievalContext) -> Retriever:
         raise NotImplementedError
 
-    def ask(self, question: str, top_k: Optional[int] = None) -> Answer:
+    def ask(
+        self,
+        question: str,
+        top_k: Optional[int] = None,
+        constraints: Optional[RetrievalConstraints] = None,
+    ) -> Answer:
         started = time.perf_counter()
         limit = top_k or self.default_top_k
-        result = self.retriever.retrieve(question, top_k=limit)
+        if constraints is None:
+            result = self.retriever.retrieve(question, top_k=limit)
+        else:
+            result = self.retriever.retrieve(question, top_k=limit, constraints=constraints)
         answer = self.generator.generate(question, result)
         answer.retriever_name = self.name
         answer.latency = time.perf_counter() - started

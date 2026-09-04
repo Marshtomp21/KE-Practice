@@ -102,6 +102,7 @@ hipporag2:
 # 且向量索引维度必须与上方 embedding.dimension 一致。
 library_graphrag:
   index_name: text_embeddings
+  max_retries: 0                 # 失败题由评测 runner 续跑，避免 SDK 单题重复长超时
   # 每个命中片段最多带回多少条图关系，防止热门实体的邻域过大。
   max_relations_per_chunk: 20
   neo4j:

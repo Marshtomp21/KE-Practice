@@ -13,6 +13,48 @@ from dataclasses import dataclass, field, asdict
 from typing import Any, Dict, List, Optional, Tuple
 
 
+@dataclass(frozen=True)
+class EdgeMask:
+    """评测时隐藏的一条规范化关系；只改变查询视图，不修改持久图。"""
+
+    head_id: str
+    relation: str
+    tail_id: str
+
+    @classmethod
+    def from_dict(cls, payload: Dict[str, Any]) -> "EdgeMask":
+        return cls(str(payload["head_id"]), str(payload["relation"]), str(payload["tail_id"]))
+
+
+@dataclass(frozen=True)
+class RetrievalConstraints:
+    """一次查询的只读图视图；supplemental_query 仅供 oracle 对照使用。"""
+
+    masked_edges: Tuple[EdgeMask, ...] = ()
+    supplemental_queries: Tuple[str, ...] = ()
+
+    def masks(self, head_id: str, relation: str, tail_id: str) -> bool:
+        aliases = {"出演": "acted_in", "执导": "directed"}
+        kind = aliases.get(relation, relation)
+        endpoints = frozenset((head_id, tail_id))
+        return any(
+            aliases.get(mask.relation, mask.relation) == kind
+            and frozenset((mask.head_id, mask.tail_id)) == endpoints
+            for mask in self.masked_edges
+        )
+
+    def neo4j_mask_keys(self) -> List[str]:
+        aliases = {"出演": "acted_in", "执导": "directed"}
+        reverse = {"acted_in": "出演", "directed": "执导"}
+        keys: set[str] = set()
+        for mask in self.masked_edges:
+            canonical = aliases.get(mask.relation, mask.relation)
+            for relation in {canonical, reverse.get(canonical, canonical)}:
+                keys.add(f"{mask.head_id}|{relation}|{mask.tail_id}")
+                keys.add(f"{mask.tail_id}|{relation}|{mask.head_id}")
+        return sorted(keys)
+
+
 @dataclass
 class Evidence:
     """一条溯源记录：某个断言来自哪个文档的哪一段字符。"""

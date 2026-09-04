@@ -9,7 +9,7 @@ from typing import Dict, List, Optional
 
 from ..core.config import Settings, load_settings
 from ..core.interfaces import QAMethod
-from ..core.types import Answer
+from ..core.types import Answer, RetrievalConstraints
 from ..methods import available, build_method
 
 
@@ -38,9 +38,12 @@ class QAService:
         retriever_name: Optional[str] = None,
         top_k: Optional[int] = None,
         year_range=None,
+        constraints: Optional[RetrievalConstraints] = None,
     ) -> Answer:
         # year_range 仅为兼容旧调用签名；当前完整方法不实现时间过滤。
-        return self.method(retriever_name).ask(question, top_k=top_k)
+        return self.method(retriever_name).ask(
+            question, top_k=top_k, constraints=constraints
+        )
 
     def graph_stats(self) -> Dict[str, object]:
         embedding_file = self.settings.path("paths.embedding_file")

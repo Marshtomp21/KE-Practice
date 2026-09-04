@@ -5,7 +5,7 @@ from collections import defaultdict, deque
 from typing import Dict, List, Optional, Sequence, Tuple
 
 from ..core.interfaces import Retriever
-from ..core.types import Entity, Relation, RetrievalResult
+from ..core.types import Entity, Relation, RetrievalConstraints, RetrievalResult
 from .anchors import anchors_to_debug
 from .registry import RetrievalContext
 from .research_utils import evidence_chunk_ids, normalize_scores, relation_adjacency, semantic_scores
@@ -32,20 +32,26 @@ class HippoRAG2Retriever(Retriever):
         self._chunks = context.chunk_lookup()
         self._entities = {entity.id: entity for entity in context.store.all_entities()}
         self._relations = context.store.all_relations()
-        self._relation_adjacency = relation_adjacency(self._relations)
-        self._walk = self._weighted_adjacency(self._relations)
 
     def retrieve(
         self,
         question: str,
         top_k: Optional[int] = None,
         year_range: Optional[Tuple[Optional[int], Optional[int]]] = None,
+        constraints: Optional[RetrievalConstraints] = None,
     ) -> RetrievalResult:
         limit = top_k or self.default_top_k
+        constraints = constraints or RetrievalConstraints()
+        active_relations = [
+            relation for relation in self._relations
+            if not constraints.masks(relation.head_id, relation.type, relation.tail_id)
+        ]
+        graph_adjacency = relation_adjacency(active_relations)
+        walk = self._weighted_adjacency(active_relations)
         anchors = self.context.anchors.resolve(question, top_n=self.anchor_top_n)
         personalization = {
             anchor.entity.id: anchor.score
-            for anchor in anchors if anchor.entity.id in self._walk
+            for anchor in anchors if anchor.entity.id in walk
         }
         fallback_chunks = []
         if not personalization:
@@ -68,16 +74,16 @@ class HippoRAG2Retriever(Retriever):
                 },
             )
 
-        ranks, iterations, converged = self._pagerank(personalization)
+        ranks, iterations, converged = self._pagerank(personalization, walk)
         ranked = sorted(ranks.items(), key=lambda item: (-item[1], item[0]))
         keep = {node for node, score in ranked[: self.top_nodes] if score > 0}
-        bridge_paths = self._bridge_paths(list(personalization))
+        bridge_paths = self._bridge_paths(list(personalization), graph_adjacency)
         for path in bridge_paths:
             keep.update(path)
 
         entities = [self._entities[node] for node in keep if node in self._entities]
         relations = [
-            relation for relation in self._relations
+            relation for relation in active_relations
             if relation.head_id in keep and relation.tail_id in keep
         ]
         candidate_ids = evidence_chunk_ids(relations, entities)
@@ -113,6 +119,7 @@ class HippoRAG2Retriever(Retriever):
                 ],
                 "alpha": self.alpha,
                 "degree_penalty": self.degree_penalty,
+                "masked_edge_count": len(constraints.masked_edges),
                 "iterations": iterations,
                 "converged": converged,
                 "ranked_nodes": len(ranks),
@@ -152,11 +159,13 @@ class HippoRAG2Retriever(Retriever):
             weighted[right][left] = weighted[right].get(left, 0.0) + weight
         return weighted
 
-    def _pagerank(self, personalization: Dict[str, float]) -> Tuple[Dict[str, float], int, bool]:
+    def _pagerank(
+        self, personalization: Dict[str, float], walk: Dict[str, Dict[str, float]]
+    ) -> Tuple[Dict[str, float], int, bool]:
         total = sum(personalization.values()) or 1.0
         restart = {node: value / total for node, value in personalization.items()}
-        ranks = {node: restart.get(node, 0.0) for node in self._walk}
-        nodes = list(self._walk)
+        ranks = {node: restart.get(node, 0.0) for node in walk}
+        nodes = list(walk)
         if not nodes:
             return {}, 0, True
 
@@ -164,7 +173,7 @@ class HippoRAG2Retriever(Retriever):
             updated = {node: (1.0 - self.alpha) * restart.get(node, 0.0) for node in nodes}
             dangling = 0.0
             for node, score in ranks.items():
-                outgoing = self._walk.get(node, {})
+                outgoing = walk.get(node, {})
                 weight_sum = sum(outgoing.values())
                 if weight_sum <= 0:
                     dangling += score
@@ -180,23 +189,27 @@ class HippoRAG2Retriever(Retriever):
                 return ranks, iteration, True
         return ranks, self.max_iter, False
 
-    def _bridge_paths(self, seeds: Sequence[str]) -> List[List[str]]:
+    def _bridge_paths(
+        self, seeds: Sequence[str], adjacency: Dict[str, list]
+    ) -> List[List[str]]:
         paths: List[List[str]] = []
         for index, source in enumerate(seeds):
             for target in seeds[index + 1 :]:
-                path = self._shortest_path(source, target)
+                path = self._shortest_path(source, target, adjacency)
                 if path:
                     paths.append(path)
         return paths
 
-    def _shortest_path(self, source: str, target: str) -> List[str]:
+    def _shortest_path(
+        self, source: str, target: str, adjacency: Dict[str, list]
+    ) -> List[str]:
         queue = deque([(source, [source])])
         seen = {source}
         while queue:
             node, path = queue.popleft()
             if len(path) - 1 >= self.max_path_hops:
                 continue
-            for neighbor, _ in sorted(self._relation_adjacency.get(node, []), key=lambda pair: pair[0]):
+            for neighbor, _ in sorted(adjacency.get(node, []), key=lambda pair: pair[0]):
                 if neighbor == target:
                     return [*path, neighbor]
                 if neighbor not in seen:
