@@ -1,6 +1,8 @@
 # 影视领域 GraphRAG 方法实验基座
 
-项目当前聚焦检索问答方法本身，提供两个基线和两个相关工作方法：
+GapRepair 使用影视领域定制的查询计划与证据验证规则，保留片单补偿、查询级临时 EvidenceNode，以及确定性输出或共享 LLM 输出。详见 [方法说明](eval/gap_repair/README.md)。
+
+项目当前聚焦检索问答方法本身，提供两个基线、两个相关工作方法和查询级缺边补偿方法：
 
 - `vector`：项目内的本地向量 RAG。使用 NumPy 向量索引召回文本，由统一生成器回答。
 - `kg2rag`：KG²RAG-style 方法。语义检索产生种子 Chunk，执行有界知识图扩展，
@@ -9,8 +11,12 @@
   执行带高度节点惩罚的 Personalized PageRank，并保留查询实体间的桥接路径。
 - `library_graphrag`：调用官方 `neo4j-graphrag` 包的 `VectorCypherRetriever` 和
   `GraphRAG`。先从 Neo4j 向量索引命中 Chunk，再扩展两跳子图并生成答案。
+- `gap_repair`：将影视问题转为关系约束，在可见图上检查证据缺口，定向检索 Chunk，
+  校验原文关系后构建临时 EvidenceNode，并在引用预算内执行集合交集和去重计数。
+  不训练模型、不写回知识图谱。参见 [方法说明与实验](eval/gap_repair/README.md)。
 
-文档清洗、知识抽取和图谱构建代码仍保留为离线基础设施，但不再进入默认运行主线。
+保留文档导入、清洗、切分和索引构建；本地图由结构化电影数据只读加载。
+旧检索器、离线知识抽取、合成语料及旧评测流程已移除。
 后续复现新的 GraphRAG 方法时，实现 `QAMethod` 并注册即可，CLI、API、前端和评测
 入口都不需要改。
 
@@ -21,6 +27,7 @@
                          ├─ kg2rag ─ 语义种子 ─ 图扩展 ─ 重排 ──────┤
 问题 ─ QAService ─ 方法注册表
                          ├─ hipporag2 ─ 实体种子 ─ PPR ─ 路径证据 ─┤─ 回答
+                         ├─ gap_repair ─ 缺口检测 ─ 临时证据补偿 ────┤
                          └─ library_graphrag ─ Neo4j GraphRAG ──────┘
 ```
 
@@ -29,6 +36,7 @@
 ```text
 src/methods/
   registry.py             完整问答方法注册表
+  gap_repair.py           电影领域缺边补偿方法适配器
   vector.py               本地向量 RAG 基线
   kg2rag.py               KG²RAG-style 方法适配器
   hipporag2.py            HippoRAG 2-style 方法适配器
@@ -37,7 +45,7 @@ src/generate/service.py   CLI / API / 评测共用入口
 src/retrieve/kg2rag.py     种子、扩展与候选重排
 src/retrieve/hipporag2.py  高度惩罚 PPR 与桥接路径
 src/retrieve/dataset_graph.py  结构化电影关系到本地图的只读适配
-scripts/build_index.py    只构建本地向量基线
+scripts/build_index.py    构建本地方法共用的 Chunk 向量索引
 scripts/sync_neo4j.py     一次性同步现有数据到 Neo4j
 ```
 
@@ -61,7 +69,6 @@ pip install -r requirements-graphrag.txt
 
 ```bash
 python scripts/import_wikipedia_films.py --clean
-python scripts/make_questions.py
 ```
 
 构建本地索引：
@@ -154,21 +161,9 @@ python scripts/ask.py "哪些演员多次出现在宫崎骏执导的影片中？
 python scripts/serve.py
 ```
 
-浏览器访问 `http://127.0.0.1:8000/`，可以切换四种问答方法。
-
-只测试本地向量基线：
-
-```bash
-python eval/run_compare.py
-```
-
-比较本地基线和两个相关工作方法：
-
-```bash
-python eval/run_compare.py --retrievers vector,kg2rag,hipporag2
-```
-
-Neo4j 和 LLM 均已配置时，可在列表中追加 `library_graphrag`。
+浏览器访问 `http://127.0.0.1:8000/`，可以切换五种问答方法。
+示例问题读取 Benchmark v2 开发集；页面仅做交互演示，不会应用评测缺边掩码。
+正式方法比较使用下方的 Benchmark v2 与 [GapRepair 评测入口](eval/gap_repair/README.md)。
 
 面向“不完备知识图谱检索”的 40 题 benchmark 位于
 `eval/benchmark_v2/questions.yaml`。其中 30 题会在单次查询的只读图视图中隐藏
@@ -176,11 +171,8 @@ Neo4j 和 LLM 均已配置时，可在列表中追加 `library_graphrag`。
 8 道 dev 与 32 道冻结 test，详细设计和评分口径见 `eval/benchmark_v2/README.md`。
 
 benchmark 还提供两个仅用于实验的对照：`naive_hybrid` 每题无条件合并图与向量
-检索，`oracle_repair` 使用 gold 补偿查询作为性能上界。它们不会注册到 Web 或正式
+检索，`oracle_repair` 使用 gold 补偿查询作为理想信息对照，而非数学意义的性能上界。它们不会注册到 Web 或正式
 方法列表，不影响其他成员继续开发方法。
-
-本轮 6 种方法在 Complete/Masked 图视图上的正式结果、分析和后续方法计划见
-[`docs/知识图谱缺边补偿Benchmark实验报告.md`](docs/知识图谱缺边补偿Benchmark实验报告.md)。
 
 建议先对 dev 集运行完整图/缺边图配对实验：
 
@@ -214,5 +206,3 @@ Neo4j 图、自己的索引，或者调用第三方实现；上层始终只接�
 ```bash
 python -m pytest -q
 ```
-
-`legacy/` 仅作为历史参考，不参与测试收集或当前运行。

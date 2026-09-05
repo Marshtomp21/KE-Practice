@@ -62,6 +62,27 @@ def _graph_payload(answer) -> Dict[str, Any]:
         }
         for relation in answer.subgraph.relations
     ]
+    for evidence in answer.subgraph.evidence_nodes:
+        chunk = evidence.chunk
+        confidences = [float(span.get("confidence", 1.0))
+                       for relation in evidence.supported_relations
+                       for span in relation.get("evidences", [])]
+        weak_record = any(relation.get("attributes", {}).get("evidence_tier") == "dataset_assertion"
+                          for relation in evidence.supported_relations)
+        nodes.append({
+            "id": evidence.id, "label": "临时证据：" + str(chunk.metadata.get("title", chunk.doc_id)),
+            "type": "EvidenceNode", "type_label": "片单推断证据" if weak_record else "本次问答证据", "temporary": True,
+            "score": 1.0, "highlight": True, "aliases": [],
+            "evidences": [{"doc_id": chunk.doc_id, "chunk_id": chunk.id,
+                           "char_start": chunk.char_offset, "char_end": chunk.char_end,
+                           "raw_text": chunk.text, "confidence": min(confidences, default=0.0)}],
+        })
+        for entity_id in evidence.entity_ids:
+            edges.append({"id": evidence.id + "|" + entity_id,
+                          "source": evidence.id, "target": entity_id,
+                          "type": "supports", "label": "文本支持（临时）",
+                          "temporary": True, "highlight": True,
+                          "evidences": nodes[-1]["evidences"]})
     return {"nodes": nodes, "edges": edges}
 
 
@@ -108,11 +129,10 @@ def create_app() -> FastAPI:
 
     @app.get("/api/examples")
     def examples(limit: int = 6) -> Dict[str, Any]:
-        """从评测问题集里挑几道题当作示例，界面空态直接可点。
-
-        问题集是依据真实语料生成的，因此示例一定落在图里，不会点了没结果。
-        """
-        question_file = PROJECT_ROOT / "eval" / "questions.yaml"
+        """从 Benchmark v2 开发集选择示例；不应用评测掩码或暴露 gold。"""
+        if limit <= 0:
+            return {"examples": []}
+        question_file = PROJECT_ROOT / "eval" / "benchmark_v2" / "questions.yaml"
         if not question_file.exists():
             return {"examples": []}
         try:
@@ -121,16 +141,19 @@ def create_app() -> FastAPI:
             return {"examples": []}
 
         labels = {
-            "single_hop": "单跳事实",
-            "path": "路径关联",
-            "aggregate": "聚合计数",
-            "year_range": "年份范围",
-            "negation": "反事实否定",
+            "cofilm_set": "共同出演",
+            "director_overlap": "共同演员",
+            "repeated_cast": "重复合作",
+            "multi_director": "多导演影片",
+            "director_actor_films": "导演与演员交集",
+            "hard_negative": "困难负例",
         }
         picked: List[Dict[str, str]] = []
         seen_kinds: set = set()
-        # 每种题型先各取一道，保证示例覆盖到全部五类
+        # 开发集每种题型选一道；冻结测试集不用于日常调试
         for question in payload.get("questions", []):
+            if question.get("split") != "dev":
+                continue
             kind = question.get("kind", "")
             if kind in seen_kinds:
                 continue

@@ -1,9 +1,4 @@
-"""五个抽象基类，模块之间只依赖这些接口，不依赖具体实现。
-
-Retriever 是本项目最重要的抽象：四种检索方式（向量 / 图遍历 / 个性化 PageRank /
-混合）实现同一个 retrieve 方法，由工厂按配置装配。业务代码拿到的永远是
-Retriever，因此调用侧不允许出现 `if retriever_type == ...` 这类分支。
-"""
+"""数据来源、图存储、检索、答案生成与完整问答方法的抽象接口。"""
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
@@ -12,7 +7,6 @@ from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 from .types import (
     Answer,
     Chunk,
-    CleanedDocument,
     Entity,
     RawDocument,
     Relation,
@@ -31,22 +25,6 @@ class DocumentSource(ABC):
     @abstractmethod
     def describe(self) -> Dict[str, Any]:
         """返回来源的可读描述，用于导入报告。"""
-
-
-class TripleExtractor(ABC):
-    """抽取层：把一个文本片段变成实体与关系。
-
-    实现者必须为每个产出物填好 Evidence，且不得自行放宽 schema 约束——
-    合法性判定统一交给 SchemaRegistry。
-    """
-
-    name: str = "extractor"
-
-    @abstractmethod
-    def extract(
-        self, chunk: Chunk, document: CleanedDocument
-    ) -> Tuple[List[Entity], List[Relation]]:
-        ...
 
 
 class GraphStore(ABC):

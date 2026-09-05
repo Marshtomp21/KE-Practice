@@ -18,6 +18,7 @@ from src.evaluation import BenchmarkScorer, load_benchmark
 from src.core.config import load_settings
 from src.core.types import EdgeMask, RetrievalConstraints
 from src.generate.service import QAService
+from src.methods import available
 from eval.benchmark_methods import BenchmarkHybridMethod
 
 DEFAULT_QUESTIONS = PROJECT_ROOT / "eval" / "benchmark_v2" / "questions.yaml"
@@ -25,11 +26,11 @@ DEFAULT_RESULT_DIR = PROJECT_ROOT / "eval" / "results" / "benchmark_v2"
 SOURCE_DIR = PROJECT_ROOT / "data" / "source" / "wikipedia_300_films_final"
 
 
-def source_digest() -> str:
+def source_digest(source_dir: Path = SOURCE_DIR) -> str:
     digest = hashlib.sha256()
     for name in ("films.jsonl", "actors.jsonl", "directors.jsonl", "relations.jsonl"):
         digest.update(name.encode())
-        digest.update((SOURCE_DIR / name).read_bytes())
+        digest.update((source_dir / name).read_bytes())
     return digest.hexdigest()
 
 
@@ -83,6 +84,13 @@ def summarize(rows: List[dict], metadata: dict) -> dict:
                 for kind, items in sorted(kinds.items())
             },
         }
+        positives = [r for r in subset if r["metrics"]["gap"]["expected_gap"]]
+        negatives = [r for r in subset if not r["metrics"]["gap"]["expected_gap"]]
+        result["methods"][method]["overall"].update({
+            "gap_recall": mean(positives, "metrics.gap.gap_detected"),
+            "gap_false_positive_rate": mean(negatives, "metrics.gap.gap_detected"),
+            "compensation_false_positive_rate": mean(negatives, "metrics.gap.compensation_triggered"),
+        })
     return result
 
 
@@ -137,6 +145,7 @@ def read_rows(path: Path) -> List[dict]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--questions", default=str(DEFAULT_QUESTIONS))
+    parser.add_argument("--settings", default=None, help="独立实验配置文件")
     parser.add_argument(
         "--methods",
         default="vector,library_graphrag,kg2rag,hipporag2,naive_hybrid,oracle_repair",
@@ -155,7 +164,8 @@ def main() -> int:
 
     payload = load_benchmark(args.questions)
     expected_digest = str(payload["benchmark"].get("source_sha256") or "")
-    actual_digest = source_digest()
+    settings = load_settings(args.settings)
+    actual_digest = source_digest(settings.path("paths.dataset_dir"))
     if expected_digest != actual_digest and not args.allow_source_drift:
         raise SystemExit(
             "源语料与冻结 benchmark 的 source_sha256 不一致；请先检查变更并重新标注，"
@@ -167,12 +177,10 @@ def main() -> int:
     if args.limit:
         questions = questions[: args.limit]
     methods = [item.strip() for item in args.methods.split(",") if item.strip()]
-    supported = {"vector", "library_graphrag", "kg2rag", "hipporag2",
-                 "naive_hybrid", "oracle_repair"}
+    supported = set(available()) | {"naive_hybrid", "oracle_repair"}
     unknown = sorted(set(methods) - supported)
     if unknown:
         raise SystemExit(f"未知 benchmark 方法：{unknown}；可用方法：{sorted(supported)}")
-    settings = load_settings()
     run_config = {
         "llm_endpoint": settings.get("llm.endpoint"),
         "llm_model": settings.get("llm.model"),
@@ -180,6 +188,11 @@ def main() -> int:
         "embedding_model": settings.get("embedding.model"),
         "generation_temperature": settings.get("generation.temperature"),
         "top_k": args.top_k,
+        "actual_source_sha256": actual_digest,
+        "benchmark_sha256": hashlib.sha256(Path(args.questions).read_bytes()).hexdigest(),
+        "retrieval": settings.get("retrieval"),
+        "gap_repair": settings.get("gap_repair"),
+        "embedding_sha256": hashlib.sha256(settings.path("paths.embedding_file").read_bytes()).hexdigest(),
     }
     run_signature = hashlib.sha256(
         json.dumps(run_config, ensure_ascii=False, sort_keys=True).encode("utf-8")

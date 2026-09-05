@@ -1,6 +1,6 @@
 """配置与本体加载。
 
-settings.yaml 用点号路径读取（settings.get("retrieval.ppr.alpha")），
+settings.yaml 用点号路径读取（settings.get("hipporag2.alpha")），
 schema.yaml 加载为 SchemaRegistry，负责关系头尾类型的合法性判定。
 两者都在进程内缓存，避免重复读盘。
 """

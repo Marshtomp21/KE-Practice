@@ -1,6 +1,6 @@
 """把 loader / cleaner / chunker 串成一条可复用的数据管线。
 
-产物落盘为 jsonl，后续抽取阶段据此断点续跑，无需重跑清洗与切分。
+产物落盘为 jsonl，后续向量索引构建可直接复用，无需重跑清洗与切分。
 """
 from __future__ import annotations
 

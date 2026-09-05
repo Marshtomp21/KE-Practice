@@ -47,11 +47,9 @@ class QAService:
 
     def graph_stats(self) -> Dict[str, object]:
         embedding_file = self.settings.path("paths.embedding_file")
-        graph_file = self.settings.path("paths.graph_file")
         return {
             "local_vector_index": embedding_file.exists(),
             "local_vector_index_path": str(embedding_file),
-            "local_graph_snapshot": graph_file.exists(),
             "dataset_graph_source": self.settings.path("paths.dataset_dir").exists(),
             "note": "library_graphrag 的图谱与向量索引位于 Neo4j",
         }

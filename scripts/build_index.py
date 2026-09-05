@@ -47,7 +47,7 @@ def main() -> int:
         print(f"文档 {len(documents)}，片段 {len(chunks)} -> {written['chunks']}")
 
     if not chunks:
-        print("没有可处理的片段，请先运行 scripts/make_sample_corpus.py 准备语料")
+        print("没有可处理的片段，请先运行 scripts/import_wikipedia_films.py 准备语料")
         return 1
     if args.limit:
         chunks = chunks[: args.limit]
@@ -63,7 +63,7 @@ def main() -> int:
     section("完成")
     print("接下来可以运行：")
     print("  python scripts/ask.py \"某位导演执导过哪些影片\"")
-    print("  python eval/run_compare.py --retrievers vector,kg2rag,hipporag2")
+    print("  python eval/run_benchmark_v2.py --split dev --graph-view masked")
     print("  python scripts/serve.py")
     return 0
 

@@ -35,6 +35,7 @@ def _subgraph_of(result: RetrievalResult) -> Subgraph:
         relations=list(result.relations),
         node_scores=node_scores,
         highlight_path=highlight,
+        evidence_nodes=list(result.evidence_nodes),
     )
 
 

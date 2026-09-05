@@ -260,6 +260,9 @@ def test_dataset_graph_uses_schema_direction_and_chunk_provenance(tmp_path):
     )
 
     class LoaderSettings:
+        def get(self, key, default=None):
+            return default
+
         def path(self, key):
             assert key == "paths.dataset_dir"
             return dataset

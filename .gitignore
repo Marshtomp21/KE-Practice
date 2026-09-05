@@ -12,8 +12,12 @@ __pycache__/
 *.tmp
 *.bak
 CLAUDE.md
+.acknowledge/
+.rollback/
+/*.pdf
 # web/vendor/ 是随仓库分发的第三方库，必须提交，不要忽略
-data/raw/
-data/interim/
-data/processed/
+/data/
 eval/results/
+eval/gap_repair/RESULTS*.md
+eval/gap_repair/results_summary*.json
+eval/gap_repair/expanded/

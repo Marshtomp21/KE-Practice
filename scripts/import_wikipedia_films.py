@@ -1,10 +1,10 @@
-"""把中文维基影片、演员和导演数据集导入 data/raw，并导出评测参照。
+"""把中文维基影片、演员和导演数据集导入 data/raw。
 
 输入是 KE-Practice-main/data/wikipedia_300_films_final/ 下的 films.jsonl：
 每条记录含条目导语（intro）、完整 wikitext，以及数据集自带的一份粗抽取结果。
 
 本脚本只负责**数据准备**：把 wikitext 还原成自然语言正文段落，写成本项目统一的
-raw JSON。下游的清洗、切分、抽取、建图一律不改。
+raw JSON。下游的清洗、切分与索引构建由各自模块负责。
 
 为什么正文要在这里处理而不是丢给 TextCleaner：
 wikitext 的模板、表格、脚注是**结构**噪声，去掉它们会大幅改变文本长度与内容；
@@ -27,7 +27,7 @@ import re
 import sys
 from collections import Counter
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -293,48 +293,6 @@ def build_person_document(record: Dict[str, Any], role: str) -> Optional[Dict[st
 NOISE_NAME = re.compile(r"[{}\[\]|=<>]|^\s*$")
 
 
-def clean_name(name: str) -> str:
-    """数据集自带的抽取比较粗，名字里混进过模板残片，这里过滤掉。"""
-    token = (name or "").strip().strip("·，,、；;")
-    if not token or len(token) > 30 or NOISE_NAME.search(token):
-        return ""
-    return token
-
-
-def build_reference(records: Iterable[Dict[str, Any]]) -> Dict[str, Any]:
-    """把数据集自带的结构化字段整理成评测参照。
-
-    数据集 README 明说这份抽取是 rough 的，所以它只作为**参照**而非绝对真值，
-    用于估算召回、生成问题集，报告里需要注明这一点。
-    """
-    films: List[Dict[str, Any]] = []
-    for record in records:
-        film = record.get("film") or {}
-        title = clean_name(film.get("name"))
-        if not title:
-            continue
-        pick = lambda key: [
-            n for n in (clean_name(x.get("name")) for x in (record.get(key) or [])) if n
-        ]
-        films.append(
-            {
-                "id": film.get("id"),
-                "title": title,
-                "year_category": film.get("year_category", ""),
-                "directors": pick("directors"),
-                "actors": pick("actors"),
-                "screenwriters": pick("screenwriters"),
-                "companies": pick("production_companies"),
-                "genres": pick("genres"),
-                "awards": pick("awards_received"),
-                "nominations": pick("nominations"),
-            }
-        )
-    return {
-        "note": "来自数据集自带的粗抽取字段，仅作参照，不是人工标注的绝对真值",
-        "films": films,
-    }
-
 
 def load_jsonl(path: Path, limit: int = 0) -> Tuple[List[Dict[str, Any]], int]:
     records: List[Dict[str, Any]] = []
@@ -433,11 +391,6 @@ def main() -> int:
         "\n".join(name for name, _ in gazetteer.most_common()) + "\n", encoding="utf-8"
     )
 
-    reference_file = PROJECT_ROOT / "eval" / "reference_facts.json"
-    reference_file.parent.mkdir(parents=True, exist_ok=True)
-    reference_file.write_text(
-        json.dumps(build_reference(records), ensure_ascii=False, indent=2), encoding="utf-8"
-    )
 
     lengths.sort()
     median = lengths[len(lengths) // 2] if lengths else 0
@@ -450,7 +403,6 @@ def main() -> int:
     print(f"JSON 解析失败 {invalid} 行；输出 -> {out_dir}")
     print(f"正文长度：中位 {median} 字，最短 {lengths[0] if lengths else 0}，最长 {lengths[-1] if lengths else 0}")
     print(f"链接词表 {len(gazetteer)} 个名称 -> {gazetteer_file}")
-    print(f"评测参照 -> {reference_file}")
     return 0
 
 

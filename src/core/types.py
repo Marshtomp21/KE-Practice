@@ -217,6 +217,19 @@ class CleanedDocument:
 
 
 @dataclass
+class EvidenceNode:
+    """A query-local text node; never persisted into the knowledge graph."""
+
+    id: str
+    chunk: Chunk
+    entity_ids: List[str] = field(default_factory=list)
+    supported_relations: List[Dict[str, Any]] = field(default_factory=list)
+
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
 class RetrievalResult:
     """任何检索器的统一返回体。"""
 
@@ -226,6 +239,8 @@ class RetrievalResult:
     relations: List[Relation] = field(default_factory=list)
     scores: Dict[str, float] = field(default_factory=dict)
     debug_info: Dict[str, Any] = field(default_factory=dict)
+
+    evidence_nodes: List[EvidenceNode] = field(default_factory=list)
 
     def is_empty(self) -> bool:
         return not self.chunks and not self.entities and not self.relations
@@ -238,6 +253,7 @@ class RetrievalResult:
             "relations": [r.to_dict() for r in self.relations],
             "scores": self.scores,
             "debug_info": self.debug_info,
+            "evidence_nodes": [node.to_dict() for node in self.evidence_nodes],
         }
 
 
@@ -264,6 +280,7 @@ class Subgraph:
     relations: List[Relation] = field(default_factory=list)
     node_scores: Dict[str, float] = field(default_factory=dict)
     highlight_path: List[str] = field(default_factory=list)
+    evidence_nodes: List[EvidenceNode] = field(default_factory=list)
 
     def to_dict(self) -> Dict[str, Any]:
         return {
@@ -271,6 +288,7 @@ class Subgraph:
             "relations": [r.to_dict() for r in self.relations],
             "node_scores": self.node_scores,
             "highlight_path": self.highlight_path,
+            "evidence_nodes": [node.to_dict() for node in self.evidence_nodes],
         }
 
 

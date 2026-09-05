@@ -14,6 +14,7 @@ const RETRIEVER_META = {
   vector: { title: '向量 RAG', hint: '使用本地向量索引召回文本片段，再由统一生成器回答。' },
   kg2rag: { title: 'KG²RAG', hint: '从语义种子片段扩展有界知识图邻域，再联合图证据与语义相关度重排。' },
   hipporag2: { title: 'HippoRAG 2', hint: '以问题实体为重启种子执行带高度节点惩罚的 PPR，聚合跨文档证据。' },
+  gap_repair: { title: 'GapRepair', hint: '核查缺失路径，用原文证据构建本次问答的临时关系，并执行集合推理。' },
   library_graphrag: { title: '库 GraphRAG', hint: '调用 neo4j-graphrag：向量命中 Neo4j Chunk 后扩展有界实体邻域，再由 GraphRAG 生成。' },
 };
 

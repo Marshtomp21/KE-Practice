@@ -4,15 +4,12 @@ paths:
   dataset_dir: data/source/wikipedia_300_films_final
   interim_dir: data/interim
   processed_dir: data/processed
-  graph_file: data/processed/graph_snapshot.json
   chunk_file: data/interim/chunks.jsonl
   embedding_file: data/processed/chunk_vectors.npz
-  extraction_cache: data/interim/extraction_cache
   gazetteer: data/interim/wiki_gazetteer.txt   # 语料自带的实体名清单，留空则不启用
   schema_file: config/schema.yaml
   variant_table: config/zh_variants.txt   # 繁简单字对照表，留空则不折叠
   prompt_dir: config/prompts
-  extraction_reject_log: data/interim/rejected_triples.jsonl
 
 ingest:
   fold_variants: true             # 把繁体折成简体，统一实体名与规则用词
@@ -48,22 +45,6 @@ embedding:
   batch_size: 32
   trust_env_proxy: false
 
-extraction:
-  # 语境影片的作用范围：sentence 只在句内生效（影片条目推荐），
-  # document 允许跨句沿用（影人条目这类以人为主语的语料更合适）
-  movie_context_scope: sentence
-  # 候选名不在链接词表里时，是否允许按「名字形状」放行（音译名 / 2-4 字中文名）
-  name_shape_fallback: true
-  use_llm: true
-  fallback_to_rules: true
-  min_confidence: 0.35
-  max_chars_per_call: 1800
-
-normalize:
-  # 名称相似度合并阈值
-  merge_threshold: 0.86
-  # 同名不同人：类型不同一律不合并；类型相同时若共享邻居为 0 且属性冲突则拆分
-  disambiguate_by_type: true
 
 qa:
   # 当前研究主线：本地向量基线，或调用 neo4j-graphrag 的完整库实现
@@ -97,6 +78,18 @@ hipporag2:
   max_path_hops: 4
   graph_weight: 0.85
   semantic_weight: 0.15
+
+gap_repair:
+  search_top_k: 20
+  max_queries: 32
+  max_rounds: 2
+  audit_chunks: 40
+  compensation: adaptive       # adaptive | always | off（消融）
+  temporary_edges: true        # false：仅检索，不恢复关系
+  prune: true                  # 贪心选择预算内的完整证据路径，不声称全局最优
+  answer_mode: deterministic   # deterministic | llm（共享生成器对照）
+  frontier_queries: true       # 缺一侧支持的候选实体优先检索 + 命中文档局部扩展
+  corpus_records: true         # 使用语料角色片单补偿影视关系
 
 # 官方 neo4j-graphrag 库基线。Neo4j 内应已有 Chunk 节点、FROM_CHUNK 关系，
 # 且向量索引维度必须与上方 embedding.dimension 一致。
